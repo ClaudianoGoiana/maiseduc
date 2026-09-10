@@ -1,0 +1,4808 @@
+{
+  "id": "kotlin",
+  "name": "Kotlin",
+  "icon": "🟠",
+  "color": "from-orange-500 to-pink-500",
+  "modules": [
+    {
+      "id": "kotlin_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Base do Kotlin (Kotlin)",
+      "subtitle": "10 missoes de base do kotlin em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=1",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Base do Kotlin",
+          "objective": "Entender a base de base do kotlin em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como base do kotlin aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar base do kotlin com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar base do kotlin.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre base do kotlin.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar base do kotlin em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "main",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "fun",
+                "println",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "println",
+              "distractors": [
+                "fun",
+                "main",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Variaveis e Tipos (Kotlin)",
+      "subtitle": "10 missoes de variaveis e tipos em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=2",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Variaveis e Tipos",
+          "objective": "Entender a base de variaveis e tipos em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como variaveis e tipos aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar variaveis e tipos com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar variaveis e tipos.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre variaveis e tipos.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar variaveis e tipos em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "val",
+              "distractors": [
+                "var",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "val",
+                "String",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "val",
+                "var",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (Kotlin)",
+      "subtitle": "10 missoes de condicionais em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=3",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Condicionais",
+          "objective": "Entender a base de condicionais em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como condicionais aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar condicionais com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar condicionais.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre condicionais.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar condicionais em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "when",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "when",
+              "distractors": [
+                "if",
+                "else",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "when",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (Kotlin)",
+      "subtitle": "10 missoes de loops em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=4",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Loops",
+          "objective": "Entender a base de loops em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como loops aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar loops com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar loops.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre loops.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar loops em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Colecoes (Kotlin)",
+      "subtitle": "10 missoes de colecoes em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=5",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Colecoes",
+          "objective": "Entender a base de colecoes em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como colecoes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar colecoes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar colecoes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre colecoes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar colecoes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "listOf",
+              "distractors": [
+                "mutableList",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "mutableList",
+              "distractors": [
+                "listOf",
+                "mapOf",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mapOf",
+              "distractors": [
+                "listOf",
+                "mutableList",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Funcoes (Kotlin)",
+      "subtitle": "10 missoes de funcoes em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=6",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Funcoes",
+          "objective": "Entender a base de funcoes em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como funcoes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar funcoes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar funcoes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre funcoes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar funcoes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "fun",
+              "distractors": [
+                "lambda",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "lambda",
+              "distractors": [
+                "fun",
+                "return",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "fun",
+                "lambda",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Classes (Kotlin)",
+      "subtitle": "10 missoes de classes em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=7",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Classes",
+          "objective": "Entender a base de classes em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como classes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar classes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar classes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre classes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar classes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "data class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "data class",
+              "distractors": [
+                "class",
+                "constructor",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "data class",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Objetos e Companion (Kotlin)",
+      "subtitle": "10 missoes de objetos e companion em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=8",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Objetos e Companion",
+          "objective": "Entender a base de objetos e companion em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como objetos e companion aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar objetos e companion com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar objetos e companion.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre objetos e companion.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar objetos e companion em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "object",
+              "distractors": [
+                "companion",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "companion",
+              "distractors": [
+                "object",
+                "instancia",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "object",
+                "companion",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Heranca e Interfaces (Kotlin)",
+      "subtitle": "10 missoes de heranca e interfaces em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=9",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Heranca e Interfaces",
+          "objective": "Entender a base de heranca e interfaces em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como heranca e interfaces aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar heranca e interfaces com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar heranca e interfaces.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre heranca e interfaces.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar heranca e interfaces em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "open",
+              "distractors": [
+                "override",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "open",
+                "interface",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "open",
+                "override",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Null Safety (Kotlin)",
+      "subtitle": "10 missoes de null safety em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=10",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Null Safety",
+          "objective": "Entender a base de null safety em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como null safety aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar null safety com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar null safety.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre null safety.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar null safety em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "?.",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "?.",
+              "distractors": [
+                "nullable",
+                "?:",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "?:",
+              "distractors": [
+                "nullable",
+                "?.",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Coroutines (Kotlin)",
+      "subtitle": "10 missoes de coroutines em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=11",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Coroutines",
+          "objective": "Entender a base de coroutines em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como coroutines aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar coroutines com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar coroutines.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre coroutines.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar coroutines em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "coroutine",
+              "distractors": [
+                "suspend",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "suspend",
+              "distractors": [
+                "coroutine",
+                "launch",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "launch",
+              "distractors": [
+                "coroutine",
+                "suspend",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kotlin_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Kotlin (Kotlin)",
+      "subtitle": "10 missoes de projeto kotlin em Kotlin",
+      "file": "lang-module?lang=kotlin&mod=12",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Projeto Kotlin",
+          "objective": "Entender a base de projeto kotlin em Kotlin.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como projeto kotlin aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar projeto kotlin com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar projeto kotlin.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre projeto kotlin.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar projeto kotlin em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "android",
+              "distractors": [
+                "state",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "state",
+              "distractors": [
+                "android",
+                "viewmodel",
+                "Kotlin"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "viewmodel",
+              "distractors": [
+                "android",
+                "state",
+                "Kotlin"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    }
+  ]
+}

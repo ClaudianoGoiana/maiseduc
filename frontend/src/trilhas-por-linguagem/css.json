@@ -1,0 +1,4688 @@
+{
+  "id": "css",
+  "name": "CSS",
+  "icon": "🎨",
+  "color": "from-sky-500 to-blue-600",
+  "modules": [
+    {
+      "id": "css_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Sintaxe CSS (CSS)",
+      "subtitle": "10 missoes de sintaxe css em CSS",
+      "file": "lang-module?lang=css&mod=1",
+      "missions": [
+        {
+          "title": "O Seletor de Elementos",
+          "objective": "Escolher qual elemento HTML será estilizado.",
+          "teaching": "O seletor é a primeira parte da regra CSS. Ele aponta para o elemento que você quer modificar.",
+          "challenges": [
+            {
+              "keyword": "h1",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: Use o nome da tag diretamente para selecionar todos os elementos desse tipo. Ex: ____ { color: red; }"
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "seletor",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Seletores de tag aplicam estilos a todos os elementos iguais na página."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Definindo a Propriedade",
+          "objective": "Identificar o que será alterado no estilo.",
+          "teaching": "A propriedade é o aspecto que você quer mudar, como a cor ou o tamanho da fonte.",
+          "challenges": [
+            {
+              "keyword": "color",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: A propriedade para mudar a cor do texto é simplesmente ____."
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "seletor",
+              "distractors": [
+                "propriedade",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Existem centenas de propriedades CSS para controlar quase tudo no layout."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Atribuindo um Valor",
+          "objective": "Definir como a propriedade deve se comportar.",
+          "teaching": "O valor vem após os dois-pontos e define a configuração da propriedade.",
+          "challenges": [
+            {
+              "keyword": "blue",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: O valor pode ser uma cor, um número ou uma palavra-chave. Ex: color: ____;"
+            },
+            {
+              "keyword": "seletor",
+              "distractors": [
+                "propriedade",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "seletor",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre termine a declaração com um ponto-e-vírgula."
+          ],
+          "number": 3
+        },
+        {
+          "title": "As Chaves de Bloco",
+          "objective": "Agrupar declarações de estilo.",
+          "teaching": "Tudo o que pertence a um seletor deve ficar dentro de chaves { }.",
+          "challenges": [
+            {
+              "keyword": "{",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: A chave de abertura ____ inicia o bloco de estilos do seletor."
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "seletor",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Um bloco pode conter múltiplas propriedades para o mesmo seletor."
+          ],
+          "number": 4
+        },
+        {
+          "title": "O Separador de Valor",
+          "objective": "Usar o símbolo correto para separar propriedade e valor.",
+          "teaching": "O símbolo de dois-pontos (:) é essencial para o CSS entender a atribuição.",
+          "challenges": [
+            {
+              "keyword": ":",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: No CSS não usamos \"=\", usamos ____ para atribuir valores."
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "seletor",
+              "distractors": [
+                "propriedade",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A falta de dois-pontos invalida toda a regra CSS."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Encerrando Declarações",
+          "objective": "Indicar o fim de uma linha de estilo.",
+          "teaching": "O ponto-e-vírgula (;) separa uma declaração da próxima dentro do mesmo bloco.",
+          "challenges": [
+            {
+              "keyword": ";",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: Sempre coloque um ____ ao final de cada linha de estilo."
+            },
+            {
+              "keyword": "seletor",
+              "distractors": [
+                "propriedade",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "seletor",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Embora opcional na última linha, é uma boa prática sempre usar ponto-e-vírgula."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Seletores de Classe",
+          "objective": "Estilizar múltiplos elementos específicos.",
+          "teaching": "Classes permitem agrupar elementos diferentes sob o mesmo estilo usando um ponto.",
+          "challenges": [
+            {
+              "keyword": ".",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: Para selecionar uma classe no CSS, usamos o prefixo ____ antes do nome."
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "seletor",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes são reutilizáveis e podem ser aplicadas a quantos elementos você quiser."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Seletores de ID",
+          "objective": "Estilizar um elemento único.",
+          "teaching": "O ID identifica um único elemento na página e tem prioridade sobre as classes.",
+          "challenges": [
+            {
+              "keyword": "#",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: O símbolo de \"hashtag\" ou sustenido ____ seleciona um ID único."
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "seletor",
+              "distractors": [
+                "propriedade",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "IDs devem ser usados apenas uma vez por página para manter a unicidade."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Seletores Universais",
+          "objective": "Aplicar estilos a todos os elementos da página.",
+          "teaching": "O asterisco (*) é o seletor universal que reseta ou define bases para tudo.",
+          "challenges": [
+            {
+              "keyword": "*",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: O símbolo ____ atinge todos os elementos do DOM simultaneamente."
+            },
+            {
+              "keyword": "seletor",
+              "distractors": [
+                "propriedade",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "seletor",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito usado para resets de margem e preenchimento inicial."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Comentários em CSS",
+          "objective": "Adicionar notas que não afetam o código.",
+          "teaching": "Comentários ajudam a organizar o código e são ignorados pelo navegador.",
+          "challenges": [
+            {
+              "keyword": "/*",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "valor"
+              ],
+              "hint": "Dica do mestre: Comentários CSS começam com ____ e terminam com a inversão desses símbolos."
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "seletor",
+                "valor",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "seletor",
+                "propriedade",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Diferente do JS, o CSS não aceita // para comentários de linha única."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Cores e Fontes (CSS)",
+      "subtitle": "10 missoes de cores e fontes em CSS",
+      "file": "lang-module?lang=css&mod=2",
+      "missions": [
+        {
+          "title": "Colorindo o Texto",
+          "objective": "Mudar a cor frontal das fontes.",
+          "teaching": "A propriedade color define a cor do texto dentro do elemento.",
+          "challenges": [
+            {
+              "keyword": "color",
+              "distractors": [
+                "font-size",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Use ____: red; para mudar a cor das letras."
+            },
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você pode usar nomes de cores, hexadecimais ou RGB."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Cor de Fundo",
+          "objective": "Preencher o fundo de um elemento.",
+          "teaching": "background-color define o preenchimento sólido atrás do conteúdo.",
+          "challenges": [
+            {
+              "keyword": "background-color",
+              "distractors": [
+                "color",
+                "font-size",
+                "font-family"
+              ],
+              "hint": "Dica do mestre: Para mudar o fundo da página inteira, usamos ____ no seletor body."
+            },
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "color",
+              "distractors": [
+                "font-size",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O fundo não afeta o tamanho do elemento, apenas sua aparência."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Tamanho da Letra",
+          "objective": "Controlar a escala das fontes.",
+          "teaching": "font-size define quão grandes ou pequenas as letras serão.",
+          "challenges": [
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: A unidade px é a mais comum, ex: ____: 16px;"
+            },
+            {
+              "keyword": "color",
+              "distractors": [
+                "font-size",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use unidades relativas como rem ou em para melhor acessibilidade."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Família Tipográfica",
+          "objective": "Escolher a fonte (estilo de letra) desejada.",
+          "teaching": "font-family permite definir uma lista de fontes, da preferida para a de reserva.",
+          "challenges": [
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Sempre coloque fontes com nomes compostos entre aspas em ____."
+            },
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre inclua uma fonte genérica (serif, sans-serif) ao final da lista."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Peso da Fonte",
+          "objective": "Deixar o texto em negrito.",
+          "teaching": "font-weight controla a espessura dos traços das letras.",
+          "challenges": [
+            {
+              "keyword": "bold",
+              "distractors": [
+                "color",
+                "font-size",
+                "font-family"
+              ],
+              "hint": "Dica do mestre: Para um negrito padrão, usamos font-weight: ____;"
+            },
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "color",
+              "distractors": [
+                "font-size",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você também pode usar valores numéricos como 400 (normal) ou 700 (bold)."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Alinhamento de Texto",
+          "objective": "Posicionar o texto horizontalmente.",
+          "teaching": "text-align funciona como nos editores de texto (esquerda, direita, centro).",
+          "challenges": [
+            {
+              "keyword": "center",
+              "distractors": [
+                "color",
+                "font-size",
+                "font-family"
+              ],
+              "hint": "Dica do mestre: Para centralizar um título h1, usamos text-align: ____;"
+            },
+            {
+              "keyword": "color",
+              "distractors": [
+                "font-size",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso só funciona em elementos de bloco que possuem largura definida."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Decoração de Texto",
+          "objective": "Remover ou adicionar sublinhados.",
+          "teaching": "text-decoration é muito usado para tirar o risco padrão dos links (a).",
+          "challenges": [
+            {
+              "keyword": "none",
+              "distractors": [
+                "color",
+                "font-size",
+                "font-family"
+              ],
+              "hint": "Dica do mestre: Para tirar o sublinhado azul do link, use text-decoration: ____;"
+            },
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Também serve para colocar tachado ou sublinhado em qualquer texto."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Altura da Linha",
+          "objective": "Controlar o espaçamento vertical entre frases.",
+          "teaching": "line-height define a \"respirabilidade\" de um parágrafo.",
+          "challenges": [
+            {
+              "keyword": "line-height",
+              "distractors": [
+                "color",
+                "font-size",
+                "font-family"
+              ],
+              "hint": "Dica do mestre: Um valor comum para boa leitura é ____: 1.5;"
+            },
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "color",
+              "distractors": [
+                "font-size",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Valores sem unidade são multiplicadores do tamanho da fonte atual."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Cores Hexadecimais",
+          "objective": "Usar códigos precisos para cores.",
+          "teaching": "O formato #RRGGBB usa números e letras para definir milhões de cores.",
+          "challenges": [
+            {
+              "keyword": "#",
+              "distractors": [
+                "color",
+                "font-size",
+                "font-family"
+              ],
+              "hint": "Dica do mestre: Toda cor hexadecimal em CSS deve começar com o símbolo ____."
+            },
+            {
+              "keyword": "color",
+              "distractors": [
+                "font-size",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "#000000 é preto e #FFFFFF é branco absoluto."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Cores com Transparência",
+          "objective": "Criar cores que deixam ver o fundo.",
+          "teaching": "O formato rgba adiciona o canal Alpha (transparência) às cores RGB.",
+          "challenges": [
+            {
+              "keyword": "rgba",
+              "distractors": [
+                "color",
+                "font-size",
+                "font-family"
+              ],
+              "hint": "Dica do mestre: Para um fundo preto com 50% de opacidade, usamos ____(0,0,0,0.5)."
+            },
+            {
+              "keyword": "font-size",
+              "distractors": [
+                "color",
+                "font-family",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "font-family",
+              "distractors": [
+                "color",
+                "font-size",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O valor alpha vai de 0 (invisível) até 1 (opaco)."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Box Model (CSS)",
+      "subtitle": "10 missoes de box model em CSS",
+      "file": "lang-module?lang=css&mod=3",
+      "missions": [
+        {
+          "title": "Espaçamento Interno (Padding)",
+          "objective": "Criar espaço entre o conteúdo e a borda.",
+          "teaching": "Padding empurra o conteúdo para dentro do elemento, aumentando sua área interna.",
+          "challenges": [
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Use ____ para desgrudar o texto das bordas de um botão."
+            },
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O padding conta para o tamanho total do elemento se não usar box-sizing."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Espaçamento Externo (Margin)",
+          "objective": "Criar distância entre elementos vizinhos.",
+          "teaching": "Margin cria uma \"zona de exclusão\" em volta do elemento, empurrando os outros.",
+          "challenges": [
+            {
+              "keyword": "margin",
+              "distractors": [
+                "padding",
+                "border",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Para centralizar um bloco horizontalmente, use ____: auto;"
+            },
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "margin",
+              "distractors": [
+                "padding",
+                "border",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Margens podem ter valores negativos, o padding nunca."
+          ],
+          "number": 2
+        },
+        {
+          "title": "A Moldura (Border)",
+          "objective": "Adicionar uma linha em volta do elemento.",
+          "teaching": "A borda fica exatamente entre o padding e a margin.",
+          "challenges": [
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: A sintaxe curta é ____: 1px solid black;"
+            },
+            {
+              "keyword": "margin",
+              "distractors": [
+                "padding",
+                "border",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você pode estilizar apenas um lado com border-top, border-left, etc."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Ajuste de Cálculo (Box Sizing)",
+          "objective": "Controlar como o tamanho total é calculado.",
+          "teaching": "Por padrão, padding e border aumentam a largura. border-box corrige isso.",
+          "challenges": [
+            {
+              "keyword": "border-box",
+              "distractors": [
+                "margin",
+                "padding",
+                "border"
+              ],
+              "hint": "Dica do mestre: Use box-sizing: ____; para manter o tamanho fixo independente do padding."
+            },
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Quase todos os layouts modernos usam border-box globalmente."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Largura Fixa ou Relativa",
+          "objective": "Definir o espaço horizontal do elemento.",
+          "teaching": "A propriedade width define a largura do conteúdo.",
+          "challenges": [
+            {
+              "keyword": "width",
+              "distractors": [
+                "margin",
+                "padding",
+                "border"
+              ],
+              "hint": "Dica do mestre: Use ____: 100%; para que o elemento ocupe toda a largura disponível."
+            },
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "margin",
+              "distractors": [
+                "padding",
+                "border",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Width em porcentagem ajuda muito em layouts responsivos."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Altura do Elemento",
+          "objective": "Definir a dimensão vertical.",
+          "teaching": "height define quão alto o elemento deve ser.",
+          "challenges": [
+            {
+              "keyword": "height",
+              "distractors": [
+                "margin",
+                "padding",
+                "border"
+              ],
+              "hint": "Dica do mestre: Para um cabeçalho fixo, podemos usar ____: 60px;"
+            },
+            {
+              "keyword": "margin",
+              "distractors": [
+                "padding",
+                "border",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evite alturas fixas em blocos de texto para não cortar o conteúdo."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Bordas Arredondadas",
+          "objective": "Suavizar os cantos de um elemento.",
+          "teaching": "border-radius permite criar desde cantos suaves até círculos perfeitos.",
+          "challenges": [
+            {
+              "keyword": "border-radius",
+              "distractors": [
+                "margin",
+                "padding",
+                "border"
+              ],
+              "hint": "Dica do mestre: Para fazer uma imagem circular, use ____: 50%;"
+            },
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você pode arredondar cada canto individualmente se desejar."
+          ],
+          "number": 7
+        },
+        {
+          "title": "O Contorno (Outline)",
+          "objective": "Adicionar uma linha externa sem ocupar espaço.",
+          "teaching": "Diferente da borda, o outline não altera o tamanho do Box Model.",
+          "challenges": [
+            {
+              "keyword": "outline",
+              "distractors": [
+                "margin",
+                "padding",
+                "border"
+              ],
+              "hint": "Dica do mestre: Muito usado para indicar foco em acessibilidade: ____: 2px solid blue;"
+            },
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "margin",
+              "distractors": [
+                "padding",
+                "border",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Outline fica sempre \"por cima\" do layout, fora do fluxo de cálculo."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Largura Máxima (Max-Width)",
+          "objective": "Impedir que um elemento cresça demais.",
+          "teaching": "max-width limita o crescimento, permitindo que o elemento diminua se necessário.",
+          "challenges": [
+            {
+              "keyword": "max-width",
+              "distractors": [
+                "margin",
+                "padding",
+                "border"
+              ],
+              "hint": "Dica do mestre: Fundamental para imagens responsivas: ____: 100%;"
+            },
+            {
+              "keyword": "margin",
+              "distractors": [
+                "padding",
+                "border",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Garante que o elemento nunca transborde a tela do celular."
+          ],
+          "number": 9
+        },
+        {
+          "title": "O Miolo (Content)",
+          "objective": "Entender a parte central do Box Model.",
+          "teaching": "O Box Model é composto por Margin -> Border -> Padding -> ____.",
+          "challenges": [
+            {
+              "keyword": "content",
+              "distractors": [
+                "margin",
+                "padding",
+                "border"
+              ],
+              "hint": "Dica do mestre: Onde ficam seus textos e imagens é a área de ____."
+            },
+            {
+              "keyword": "padding",
+              "distractors": [
+                "margin",
+                "border",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "border",
+              "distractors": [
+                "margin",
+                "padding",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Todas as outras camadas existem para proteger ou afastar o conteúdo."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Display e Position (CSS)",
+      "subtitle": "10 missoes de display e position em CSS",
+      "file": "lang-module?lang=css&mod=4",
+      "missions": [
+        {
+          "title": "Elemento em Bloco",
+          "objective": "Ocupar toda a linha disponível.",
+          "teaching": "display: block faz o elemento começar em uma nova linha e ocupar 100% da largura.",
+          "challenges": [
+            {
+              "keyword": "block",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Divs e Parágrafos são elementos do tipo ____ por padrão."
+            },
+            {
+              "keyword": "position",
+              "distractors": [
+                "display",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Elementos de bloco respeitam propriedades de largura e altura."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Elemento em Linha",
+          "objective": "Ficar um ao lado do outro.",
+          "teaching": "display: inline faz os elementos fluírem como palavras em um texto.",
+          "challenges": [
+            {
+              "keyword": "inline",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Spans e Links (a) são do tipo ____ e não aceitam largura fixa."
+            },
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "display",
+              "distractors": [
+                "position",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Elementos inline só ocupam o espaço necessário para seu conteúdo."
+          ],
+          "number": 2
+        },
+        {
+          "title": "O Meio-Termo (Inline-Block)",
+          "objective": "Lado a lado, mas aceitando dimensões.",
+          "teaching": "inline-block permite que elementos fiquem na mesma linha, mas respeitem largura e altura.",
+          "challenges": [
+            {
+              "keyword": "inline-block",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Ideal para botões que precisam de tamanho fixo: display: ____;"
+            },
+            {
+              "keyword": "display",
+              "distractors": [
+                "position",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "position",
+              "distractors": [
+                "display",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Combina a fluidez do inline com o controle do block."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Esconder Elementos",
+          "objective": "Remover o elemento do layout completamente.",
+          "teaching": "display: none faz o elemento desaparecer e não ocupar nenhum espaço na página.",
+          "challenges": [
+            {
+              "keyword": "none",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Para sumir com um menu no mobile, use display: ____;"
+            },
+            {
+              "keyword": "position",
+              "distractors": [
+                "display",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Diferente de visibility: hidden, o display: none remove o espaço ocupado."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Posição Relativa",
+          "objective": "Mover o elemento sem tirar do fluxo.",
+          "teaching": "position: relative permite mover o elemento a partir de onde ele estaria originalmente.",
+          "challenges": [
+            {
+              "keyword": "relative",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Use ____ para criar um ponto de referência para filhos absolutos."
+            },
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "display",
+              "distractors": [
+                "position",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O espaço original do elemento continua reservado na página."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Posição Absoluta",
+          "objective": "Posicionar livremente sobre o layout.",
+          "teaching": "position: absolute tira o elemento do fluxo e o posiciona em relação ao pai relativo mais próximo.",
+          "challenges": [
+            {
+              "keyword": "absolute",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Para colocar um ícone no canto superior de um card, use position: ____;"
+            },
+            {
+              "keyword": "display",
+              "distractors": [
+                "position",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "position",
+              "distractors": [
+                "display",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Elementos absolutos não empurram os vizinhos, eles flutuam."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Posição Fixa",
+          "objective": "Travar o elemento na tela do navegador.",
+          "teaching": "position: fixed mantém o elemento no mesmo lugar mesmo ao rolar a página.",
+          "challenges": [
+            {
+              "keyword": "fixed",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Perfeito para barras de navegação superiores: position: ____;"
+            },
+            {
+              "keyword": "position",
+              "distractors": [
+                "display",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O elemento é posicionado em relação à janela (viewport)."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Posição \"Grudenta\" (Sticky)",
+          "objective": "Fixar ao atingir o topo durante o scroll.",
+          "teaching": "position: sticky alterna entre relativo e fixo dependendo da rolagem.",
+          "challenges": [
+            {
+              "keyword": "sticky",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Útil para cabeçalhos de tabelas: position: ____; top: 0;"
+            },
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "display",
+              "distractors": [
+                "position",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Precisa de uma propriedade auxiliar (como top ou bottom) para funcionar."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Ordem de Empilhamento",
+          "objective": "Controlar quem fica por cima de quem.",
+          "teaching": "z-index define a profundidade dos elementos posicionados.",
+          "challenges": [
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Para garantir que um Modal fique por cima de tudo, use ____: 999;"
+            },
+            {
+              "keyword": "display",
+              "distractors": [
+                "position",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "position",
+              "distractors": [
+                "display",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Só funciona em elementos que possuem position (diferente de static)."
+          ],
+          "number": 9
+        },
+        {
+          "title": "O Padrão (Static)",
+          "objective": "Retornar ao comportamento normal do navegador.",
+          "teaching": "position: static é o valor padrão onde os elementos seguem a ordem natural do HTML.",
+          "challenges": [
+            {
+              "keyword": "static",
+              "distractors": [
+                "display",
+                "position",
+                "z-index"
+              ],
+              "hint": "Dica do mestre: Se quiser cancelar uma posição absoluta de um elemento, volte para ____."
+            },
+            {
+              "keyword": "position",
+              "distractors": [
+                "display",
+                "z-index",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "z-index",
+              "distractors": [
+                "display",
+                "position",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Elementos estáticos ignoram propriedades como top, left e z-index."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Flexbox (CSS)",
+      "subtitle": "10 missoes de flexbox em CSS",
+      "file": "lang-module?lang=css&mod=5",
+      "missions": [
+        {
+          "title": "Iniciando o Flexbox",
+          "objective": "Transformar um container em flexível.",
+          "teaching": "Ao definir display: flex, todos os filhos diretos tornam-se flex-items.",
+          "challenges": [
+            {
+              "keyword": "flex",
+              "distractors": [
+                "justify-content",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: O primeiro passo para alinhar itens lado a lado é display: ____;"
+            },
+            {
+              "keyword": "justify-content",
+              "distractors": [
+                "flex",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "align-items",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Flexbox é unidimensional: lida com linhas OU colunas por vez."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Direção do Fluxo",
+          "objective": "Definir se os itens seguem em linha ou coluna.",
+          "teaching": "flex-direction controla o eixo principal do container.",
+          "challenges": [
+            {
+              "keyword": "column",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Para empilhar itens verticalmente no flexbox, use flex-direction: ____;"
+            },
+            {
+              "keyword": "align-items",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "flex",
+              "distractors": [
+                "justify-content",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O valor padrão é \"row\" (linha horizontal)."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Alinhamento no Eixo Principal",
+          "objective": "Posicionar itens horizontalmente (no modo row).",
+          "teaching": "justify-content distribui o espaço extra entre ou ao redor dos itens.",
+          "challenges": [
+            {
+              "keyword": "space-between",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Para colocar a logo na esquerda e o menu na direita, use justify-content: ____;"
+            },
+            {
+              "keyword": "flex",
+              "distractors": [
+                "justify-content",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "justify-content",
+              "distractors": [
+                "flex",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Distribui os itens do início ao fim do container."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Alinhamento no Eixo Transversal",
+          "objective": "Posicionar itens verticalmente (no modo row).",
+          "teaching": "align-items controla como os itens se alinham no eixo oposto ao principal.",
+          "challenges": [
+            {
+              "keyword": "center",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Para centralizar ícones e textos na mesma linha verticalmente, use align-items: ____;"
+            },
+            {
+              "keyword": "justify-content",
+              "distractors": [
+                "flex",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "align-items",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "\"stretch\" é o valor padrão, fazendo os itens ocuparem toda a altura."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Quebra de Linha (Wrap)",
+          "objective": "Permitir que itens pulem para a próxima linha.",
+          "teaching": "Por padrão, o flex tenta colocar tudo em uma linha só. flex-wrap permite a quebra.",
+          "challenges": [
+            {
+              "keyword": "wrap",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Para fazer uma galeria de fotos flexível, use flex-wrap: ____;"
+            },
+            {
+              "keyword": "align-items",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "flex",
+              "distractors": [
+                "justify-content",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evita que os itens fiquem espremidos ou transbordem o container."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Crescimento Proporcional",
+          "objective": "Fazer um item ocupar o espaço disponível.",
+          "teaching": "flex-grow define a habilidade de um item crescer se houver espaço.",
+          "challenges": [
+            {
+              "keyword": "flex-grow",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Para um campo de busca ocupar todo o resto da barra, use ____: 1;"
+            },
+            {
+              "keyword": "flex",
+              "distractors": [
+                "justify-content",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "justify-content",
+              "distractors": [
+                "flex",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O valor 0 (padrão) impede o crescimento automático."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Encolhimento (Shrink)",
+          "objective": "Controlar como itens diminuem sob pressão.",
+          "teaching": "flex-shrink define se o item pode diminuir caso o container fique pequeno demais.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Para impedir que um ícone seja \"esmagado\", use flex-shrink: ____;"
+            },
+            {
+              "keyword": "justify-content",
+              "distractors": [
+                "flex",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "align-items",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Valores maiores encolhem mais rápido que valores menores."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Tamanho Base (Basis)",
+          "objective": "Definir o tamanho inicial antes da distribuição.",
+          "teaching": "flex-basis é similar ao width, mas específico para o contexto flex.",
+          "challenges": [
+            {
+              "keyword": "flex-basis",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Defina ____: 200px; para um item começar com esse tamanho."
+            },
+            {
+              "keyword": "align-items",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "flex",
+              "distractors": [
+                "justify-content",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Substitui o width/height dependendo da flex-direction."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Alinhamento Individual",
+          "objective": "Mover apenas um item fora da regra geral.",
+          "teaching": "align-self permite que um item ignore o align-items do pai.",
+          "challenges": [
+            {
+              "keyword": "align-self",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Use ____: flex-end; para jogar apenas um botão para o rodapé."
+            },
+            {
+              "keyword": "flex",
+              "distractors": [
+                "justify-content",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "justify-content",
+              "distractors": [
+                "flex",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito poderoso para layouts assimétricos."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Espaçamento (Gap)",
+          "objective": "Definir o espaço entre os itens.",
+          "teaching": "A propriedade gap cria um distanciamento uniforme entre os elementos sem usar margin.",
+          "challenges": [
+            {
+              "keyword": "gap",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "align-items"
+              ],
+              "hint": "Dica do mestre: Use ____: 20px; para separar os itens do flexbox de forma limpa."
+            },
+            {
+              "keyword": "justify-content",
+              "distractors": [
+                "flex",
+                "align-items",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "align-items",
+              "distractors": [
+                "flex",
+                "justify-content",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Recentemente adicionado ao Flexbox, antes era exclusivo do Grid."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Grid (CSS)",
+      "subtitle": "10 missoes de grid em CSS",
+      "file": "lang-module?lang=css&mod=6",
+      "missions": [
+        {
+          "title": "Iniciando o Grid",
+          "objective": "Criar um sistema de coordenadas bidimensional.",
+          "teaching": "display: grid transforma o container em uma malha de linhas e colunas.",
+          "challenges": [
+            {
+              "keyword": "grid",
+              "distractors": [
+                "column",
+                "row",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: O CSS ____ é a ferramenta mais poderosa para layouts de página inteira."
+            },
+            {
+              "keyword": "column",
+              "distractors": [
+                "grid",
+                "row",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "row",
+              "distractors": [
+                "grid",
+                "column",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Diferente do Flex, o Grid controla linhas e colunas simultaneamente."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Definindo Colunas",
+          "objective": "Criar as divisões verticais da malha.",
+          "teaching": "grid-template-columns define quantas colunas e qual o tamanho de cada uma.",
+          "challenges": [
+            {
+              "keyword": "grid-template-columns",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Use ____: 1fr 1fr 1fr; para criar 3 colunas iguais."
+            },
+            {
+              "keyword": "row",
+              "distractors": [
+                "grid",
+                "column",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "grid",
+              "distractors": [
+                "column",
+                "row",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A unidade \"fr\" representa uma fração do espaço livre."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Definindo Linhas",
+          "objective": "Criar as divisões horizontais.",
+          "teaching": "grid-template-rows define a altura das faixas horizontais.",
+          "challenges": [
+            {
+              "keyword": "grid-template-rows",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Use ____: 100px auto; para um topo fixo e corpo flexível."
+            },
+            {
+              "keyword": "grid",
+              "distractors": [
+                "column",
+                "row",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "column",
+              "distractors": [
+                "grid",
+                "row",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "\"auto\" faz a linha crescer conforme o conteúdo."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Ocupando Espaço (Column)",
+          "objective": "Fazer um item atravessar várias colunas.",
+          "teaching": "grid-column define onde o item começa e termina horizontalmente.",
+          "challenges": [
+            {
+              "keyword": "span",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Para ocupar 2 colunas, use grid-column: ____ 2;"
+            },
+            {
+              "keyword": "column",
+              "distractors": [
+                "grid",
+                "row",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "row",
+              "distractors": [
+                "grid",
+                "column",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você também pode usar números de linhas da malha (ex: 1 / 3)."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Ocupando Linhas (Row)",
+          "objective": "Fazer um item atravessar várias linhas.",
+          "teaching": "grid-row permite que um item (como uma barra lateral) desça por várias linhas.",
+          "challenges": [
+            {
+              "keyword": "grid-row",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Use ____: 1 / 4; para o item ocupar da linha 1 até a 4."
+            },
+            {
+              "keyword": "row",
+              "distractors": [
+                "grid",
+                "column",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "grid",
+              "distractors": [
+                "column",
+                "row",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Permite criar layouts de jornal ou magazine complexos."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Áreas Nomeadas",
+          "objective": "Desenhar o layout usando nomes de áreas.",
+          "teaching": "grid-template-areas permite visualizar o layout como um mapa de texto.",
+          "challenges": [
+            {
+              "keyword": "grid-template-areas",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Você desenha o layout assim: \"header header\" \"main side\". Use ____."
+            },
+            {
+              "keyword": "grid",
+              "distractors": [
+                "column",
+                "row",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "column",
+              "distractors": [
+                "grid",
+                "row",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "É a forma mais intuitiva de organizar grandes layouts."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Espaçamento da Malha",
+          "objective": "Separar as células do grid.",
+          "teaching": "gap (ou grid-gap) define a distância entre linhas e colunas.",
+          "challenges": [
+            {
+              "keyword": "gap",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Use ____: 10px; para dar um respiro entre as áreas do site."
+            },
+            {
+              "keyword": "column",
+              "distractors": [
+                "grid",
+                "row",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "row",
+              "distractors": [
+                "grid",
+                "column",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Não adiciona espaço nas bordas externas do container."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Repetição Inteligente",
+          "objective": "Evitar escrever tamanhos repetidos.",
+          "teaching": "A função repeat() automatiza a criação de múltiplas colunas iguais.",
+          "challenges": [
+            {
+              "keyword": "repeat",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Para 12 colunas iguais: grid-template-columns: ____(12, 1fr);"
+            },
+            {
+              "keyword": "row",
+              "distractors": [
+                "grid",
+                "column",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "grid",
+              "distractors": [
+                "column",
+                "row",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Pode ser combinado com auto-fill para grids ultra responsivos."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Unidade Fracional (fr)",
+          "objective": "Trabalhar com proporções flexíveis.",
+          "teaching": "1fr representa uma parte de um todo, dividindo o espaço disponível.",
+          "challenges": [
+            {
+              "keyword": "fr",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: A unidade de fração exclusiva do grid é ____."
+            },
+            {
+              "keyword": "grid",
+              "distractors": [
+                "column",
+                "row",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "column",
+              "distractors": [
+                "grid",
+                "row",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Mais eficiente que porcentagem pois lida automaticamente com os gaps."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Alinhamento de Conteúdo",
+          "objective": "Posicionar toda a malha dentro do container.",
+          "teaching": "align-content funciona quando o grid é menor que o container pai.",
+          "challenges": [
+            {
+              "keyword": "align-content",
+              "distractors": [
+                "grid",
+                "column",
+                "row"
+              ],
+              "hint": "Dica do mestre: Para jogar todo o grid para o final do container verticalmente, use ____: end;"
+            },
+            {
+              "keyword": "column",
+              "distractors": [
+                "grid",
+                "row",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "row",
+              "distractors": [
+                "grid",
+                "column",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Similar ao justify-content, mas para o eixo vertical do container."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Responsivo (CSS)",
+      "subtitle": "10 missoes de responsivo em CSS",
+      "file": "lang-module?lang=css&mod=7",
+      "missions": [
+        {
+          "title": "Media Queries",
+          "objective": "Aplicar estilos apenas em certas condições.",
+          "teaching": "As @media queries são a base do design responsivo (Web Mobile).",
+          "challenges": [
+            {
+              "keyword": "@media",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: A regra que inicia uma condição de tela é ____."
+            },
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "breakpoint",
+              "distractors": [
+                "media query",
+                "vw",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Permite mudar o CSS baseado na largura da tela, orientação, etc."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Largura Mínima",
+          "objective": "Ativar estilos acima de um certo tamanho.",
+          "teaching": "min-width é usado para abordagens \"Mobile First\".",
+          "challenges": [
+            {
+              "keyword": "min-width",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: Para telas maiores que 768px: @media (____: 768px) { ... }"
+            },
+            {
+              "keyword": "breakpoint",
+              "distractors": [
+                "media query",
+                "vw",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "media query",
+              "distractors": [
+                "vw",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O código fora da query é para celular, e dentro é para Desktop."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Largura Máxima",
+          "objective": "Ativar estilos abaixo de um certo tamanho.",
+          "teaching": "max-width limita o alcance do estilo para telas pequenas.",
+          "challenges": [
+            {
+              "keyword": "max-width",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: Para esconder algo apenas no mobile: @media (____: 480px) { display: none; }"
+            },
+            {
+              "keyword": "media query",
+              "distractors": [
+                "vw",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito comum para fazer ajustes rápidos em tablets e celulares."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Orientação da Tela",
+          "objective": "Detectar se o celular está deitado ou em pé.",
+          "teaching": "orientation permite estilos específicos para Landscape (deitado) ou Portrait (em pé).",
+          "challenges": [
+            {
+              "keyword": "landscape",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: Para detectar celular deitado, use orientation: ____."
+            },
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "breakpoint",
+              "distractors": [
+                "media query",
+                "vw",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Útil para jogos web ou visualização de vídeos."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Largura da Janela (vw)",
+          "objective": "Usar unidades baseadas no tamanho do navegador.",
+          "teaching": "1vw é igual a 1% da largura total da janela visível.",
+          "challenges": [
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Para um título que cresce com a janela, use font-size: 5____;"
+            },
+            {
+              "keyword": "breakpoint",
+              "distractors": [
+                "media query",
+                "vw",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "media query",
+              "distractors": [
+                "vw",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Diferente de %, o vw ignora o tamanho do elemento pai."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Altura da Janela (vh)",
+          "objective": "Usar unidades baseadas na altura do navegador.",
+          "teaching": "1vh é igual a 1% da altura total da janela visível.",
+          "challenges": [
+            {
+              "keyword": "vh",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: Para uma seção que ocupa a tela cheia: height: 100____;"
+            },
+            {
+              "keyword": "media query",
+              "distractors": [
+                "vw",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ideal para landing pages com impacto visual de tela cheia."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Rem vs Em",
+          "objective": "Usar unidades relativas escaláveis.",
+          "teaching": "rem baseia-se no tamanho da fonte da raiz (html), em baseia-se no pai.",
+          "challenges": [
+            {
+              "keyword": "rem",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: Para manter a proporção global, prefira usar ____ para tamanhos de fonte."
+            },
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "breakpoint",
+              "distractors": [
+                "media query",
+                "vw",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Facilita a acessibilidade quando o usuário aumenta o zoom do navegador."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Porcentagem (%)",
+          "objective": "Trabalhar com tamanhos fluidos.",
+          "teaching": "Porcentagem define o tamanho em relação ao elemento pai direto.",
+          "challenges": [
+            {
+              "keyword": "%",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: Use width: 50____ para ocupar metade do espaço do container pai."
+            },
+            {
+              "keyword": "breakpoint",
+              "distractors": [
+                "media query",
+                "vw",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "media query",
+              "distractors": [
+                "vw",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A unidade clássica para colunas flexíveis antes do Flexbox."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Mobile-First",
+          "objective": "Priorizar o código para dispositivos pequenos.",
+          "teaching": "A estratégia Mobile-First escreve o CSS base para celular e usa queries para aumentar.",
+          "challenges": [
+            {
+              "keyword": "Mobile",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: Começar pelo celular é chamado de ____-First."
+            },
+            {
+              "keyword": "media query",
+              "distractors": [
+                "vw",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Gera um código mais limpo e melhor performance em conexões lentas."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Breakpoints",
+          "objective": "Definir os pontos de quebra do layout.",
+          "teaching": "Breakpoints são as larguras onde o design muda drasticamente (ex: 768px, 1024px).",
+          "challenges": [
+            {
+              "keyword": "breakpoints",
+              "distractors": [
+                "media query",
+                "vw",
+                "breakpoint"
+              ],
+              "hint": "Dica do mestre: As larguras escolhidas nas media queries são os ____ do projeto."
+            },
+            {
+              "keyword": "vw",
+              "distractors": [
+                "media query",
+                "breakpoint",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "breakpoint",
+              "distractors": [
+                "media query",
+                "vw",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Baseie os breakpoints no seu conteúdo, não apenas em modelos de celular."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Transicoes (CSS)",
+      "subtitle": "10 missoes de transicoes em CSS",
+      "file": "lang-module?lang=css&mod=8",
+      "missions": [
+        {
+          "title": "Transição Suave",
+          "objective": "Animar a mudança de uma propriedade.",
+          "teaching": "transition permite que mudanças (como cor no hover) ocorram gradualmente.",
+          "challenges": [
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Para suavizar a mudança de cor, use ____: color 0.3s;"
+            },
+            {
+              "keyword": "duration",
+              "distractors": [
+                "transition",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ease",
+              "distractors": [
+                "transition",
+                "duration",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sem transição, a mudança é instantânea e \"seca\"."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Duração da Transição",
+          "objective": "Controlar a velocidade da mudança.",
+          "teaching": "transition-duration define quanto tempo (s ou ms) a animação leva.",
+          "challenges": [
+            {
+              "keyword": "s",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: Para uma transição de meio segundo, use 0.5____."
+            },
+            {
+              "keyword": "ease",
+              "distractors": [
+                "transition",
+                "duration",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Valores entre 0.2s e 0.5s são os melhores para UX."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Função de Tempo (Easing)",
+          "objective": "Definir o ritmo da animação.",
+          "teaching": "transition-timing-function controla se o movimento é constante ou acelerado.",
+          "challenges": [
+            {
+              "keyword": "ease-in-out",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: Para um movimento que começa e termina lento, use ____."
+            },
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "duration",
+              "distractors": [
+                "transition",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "\"linear\" mantém a mesma velocidade do início ao fim."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Atraso (Delay)",
+          "objective": "Esperar antes de começar a transição.",
+          "teaching": "transition-delay define uma pausa antes do movimento iniciar.",
+          "challenges": [
+            {
+              "keyword": "delay",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: Para a animação começar após 1 segundo: transition-____: 1s;"
+            },
+            {
+              "keyword": "duration",
+              "distractors": [
+                "transition",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ease",
+              "distractors": [
+                "transition",
+                "duration",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito usado em menus cascata ou efeitos sequenciais."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Efeito de Hover",
+          "objective": "Ativar estilos ao passar o mouse.",
+          "teaching": "A pseudo-classe :hover é o gatilho mais comum para transições.",
+          "challenges": [
+            {
+              "keyword": ":hover",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: O seletor que detecta o ponteiro do mouse é ____."
+            },
+            {
+              "keyword": "ease",
+              "distractors": [
+                "transition",
+                "duration",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Lembre-se de colocar a transição no elemento base, não no :hover."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Estado Ativo",
+          "objective": "Ativar estilos ao clicar no elemento.",
+          "teaching": "A pseudo-classe :active representa o momento em que o botão está pressionado.",
+          "challenges": [
+            {
+              "keyword": ":active",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: Para simular um botão sendo \"apertado\", use the selector ____."
+            },
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "duration",
+              "distractors": [
+                "transition",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Dá um feedback tátil importante para o usuário."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Estado de Foco",
+          "objective": "Estilizar elementos selecionados pelo teclado.",
+          "teaching": ":focus é essencial para acessibilidade e navegação via tecla TAB.",
+          "challenges": [
+            {
+              "keyword": ":focus",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: Use ____ para destacar campos de formulário selecionados."
+            },
+            {
+              "keyword": "duration",
+              "distractors": [
+                "transition",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ease",
+              "distractors": [
+                "transition",
+                "duration",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Nunca remova o outline sem colocar um estilo de focus alternativo."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Propriedade Animável",
+          "objective": "Escolher o que será transicionado.",
+          "teaching": "Você pode escolher animar \"all\" (tudo) ou apenas propriedades específicas.",
+          "challenges": [
+            {
+              "keyword": "all",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: transition: ____ 0.3s; anima qualquer mudança no elemento."
+            },
+            {
+              "keyword": "ease",
+              "distractors": [
+                "transition",
+                "duration",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Animar apenas propriedades específicas (como opacity) é melhor para performance."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Movimento Constante",
+          "objective": "Criar uma transição sem aceleração.",
+          "teaching": "O valor linear mantém a velocidade idêntica durante todo o tempo.",
+          "challenges": [
+            {
+              "keyword": "linear",
+              "distractors": [
+                "transition",
+                "duration",
+                "ease"
+              ],
+              "hint": "Dica do mestre: Use o timing function ____ para rotações contínuas."
+            },
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "duration",
+              "distractors": [
+                "transition",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Parece mais mecânico, enquanto o ease parece mais natural/orgânico."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Sintaxe Curta (Shortcut)",
+          "objective": "Escrever tudo em uma única linha.",
+          "teaching": "A propriedade transition aceita: propriedade, duração, timing e delay.",
+          "challenges": [
+            {
+              "keyword": "transition",
+              "distractors": [
+                "duration",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: ____: opacity 0.5s ease-in;"
+            },
+            {
+              "keyword": "duration",
+              "distractors": [
+                "transition",
+                "ease",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ease",
+              "distractors": [
+                "transition",
+                "duration",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A ordem recomendada ajuda a manter o código legível."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Animacoes (CSS)",
+      "subtitle": "10 missoes de animacoes em CSS",
+      "file": "lang-module?lang=css&mod=9",
+      "missions": [
+        {
+          "title": "Quadros-Chave (@keyframes)",
+          "objective": "Definir os passos da animação.",
+          "teaching": "@keyframes descreve as mudanças de estilo em cada estágio da animação.",
+          "challenges": [
+            {
+              "keyword": "@keyframes",
+              "distractors": [
+                "animation",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: A regra para criar uma nova animação é ____ seguida de um nome."
+            },
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "transform",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use 0% (from) e 100% (to) para definir o início e o fim."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Nome da Animação",
+          "objective": "Vincular o @keyframes ao elemento.",
+          "teaching": "animation-name indica qual conjunto de regras o elemento deve seguir.",
+          "challenges": [
+            {
+              "keyword": "animation-name",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Use ____: flutuar; para aplicar a animação chamada flutuar."
+            },
+            {
+              "keyword": "transform",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "@keyframes",
+              "distractors": [
+                "animation",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O nome deve ser idêntico ao definido no @keyframes."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Contagem de Repetições",
+          "objective": "Definir quantas vezes a animação roda.",
+          "teaching": "animation-iteration-count controla se a animação para ou continua.",
+          "challenges": [
+            {
+              "keyword": "infinite",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Para uma animação que nunca para de rodar, use o valor ____."
+            },
+            {
+              "keyword": "@keyframes",
+              "distractors": [
+                "animation",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você também pode usar números específicos como 1, 2 ou 5."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Direção da Animação",
+          "objective": "Fazer a animação ir e voltar.",
+          "teaching": "animation-direction: alternate faz a animação inverter o caminho ao chegar no fim.",
+          "challenges": [
+            {
+              "keyword": "alternate",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Para um efeito de \"pulsação\" suave, use animation-direction: ____;"
+            },
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "transform",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evita saltos bruscos quando a animação recomeça."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Rotação (Rotate)",
+          "objective": "Girar elementos no próprio eixo.",
+          "teaching": "transform: rotate permite girar elementos em graus (deg).",
+          "challenges": [
+            {
+              "keyword": "deg",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Para girar 45 graus: transform: rotate(45____);"
+            },
+            {
+              "keyword": "transform",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "@keyframes",
+              "distractors": [
+                "animation",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito usado em ícones de engrenagem ou carregamento."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Escala (Scale)",
+          "objective": "Aumentar ou diminuir elementos.",
+          "teaching": "transform: scale muda o tamanho sem afetar o layout ao redor.",
+          "challenges": [
+            {
+              "keyword": "scale",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Para dobrar o tamanho de um elemento: transform: ____(2);"
+            },
+            {
+              "keyword": "@keyframes",
+              "distractors": [
+                "animation",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Valores menores que 1 (ex: 0.5) diminuem o elemento."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Translação (Translate)",
+          "objective": "Mover o elemento no espaço X e Y.",
+          "teaching": "transform: translate é a forma mais performática de mover elementos na tela.",
+          "challenges": [
+            {
+              "keyword": "translate",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Para mover 50px para a direita: transform: ____X(50px);"
+            },
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "transform",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Diferente de top/left, o translate usa a GPU para suavidade total."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Transparência (Opacity)",
+          "objective": "Controlar a visibilidade gradual.",
+          "teaching": "A propriedade opacity define quão transparente o elemento é.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Para fazer um elemento desaparecer totalmente na animação, use opacity: ____;"
+            },
+            {
+              "keyword": "transform",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "@keyframes",
+              "distractors": [
+                "animation",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "0 é totalmente invisível, 1 é totalmente opaco."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Estado Final (Fill Mode)",
+          "objective": "Manter os estilos após o fim da animação.",
+          "teaching": "animation-fill-mode: forwards impede que o elemento \"volte\" ao estado inicial.",
+          "challenges": [
+            {
+              "keyword": "forwards",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "transform"
+              ],
+              "hint": "Dica do mestre: Para a animação parar no último quadro, use animation-fill-mode: ____;"
+            },
+            {
+              "keyword": "@keyframes",
+              "distractors": [
+                "animation",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Essencial para animações de entrada que devem permanecer na tela."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Iniciando o Movimento",
+          "objective": "Aplicar a regra completa de animação.",
+          "teaching": "A propriedade animation combina nome, duração e comportamento.",
+          "challenges": [
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: ____: rodar 2s infinite linear;"
+            },
+            {
+              "keyword": "animation",
+              "distractors": [
+                "@keyframes",
+                "transform",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "transform",
+              "distractors": [
+                "@keyframes",
+                "animation",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Assim como transition, possui uma sintaxe curta muito útil."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Variáveis CSS (CSS)",
+      "subtitle": "10 missoes de variáveis css em CSS",
+      "file": "lang-module?lang=css&mod=10",
+      "missions": [
+        {
+          "title": "Declarando Variáveis",
+          "objective": "Criar uma cor ou valor reutilizável.",
+          "teaching": "Variáveis CSS (Custom Properties) começam obrigatoriamente com dois traços (--).",
+          "challenges": [
+            {
+              "keyword": "--",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: O prefixo para criar uma variável chamada \"cor-principal\" é ____cor-principal."
+            },
+            {
+              "keyword": "var()",
+              "distractors": [
+                "--cor",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso permite mudar o tema do site inteiro alterando apenas um lugar."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Usando a Variável",
+          "objective": "Aplicar o valor armazenado em um seletor.",
+          "teaching": "Para ler o valor de uma variável, usamos a função var().",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: color: ____(--cor-fundo);"
+            },
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "--cor",
+              "distractors": [
+                "var()",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Se o nome da variável estiver errado, o CSS usará o valor padrão."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Escopo Global (:root)",
+          "objective": "Tornar as variáveis acessíveis em todo o site.",
+          "teaching": "O seletor :root representa o elemento mais alto do documento (html).",
+          "challenges": [
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Declaramos as cores globais dentro do seletor ____."
+            },
+            {
+              "keyword": "--cor",
+              "distractors": [
+                "var()",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var()",
+              "distractors": [
+                "--cor",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Variáveis em :root são herdadas por todos os outros elementos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Escopo Local",
+          "objective": "Limitar o uso de uma variável a um componente.",
+          "teaching": "Você pode declarar variáveis dentro de uma classe específica para uso interno.",
+          "challenges": [
+            {
+              "keyword": "local",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: Variáveis dentro de um seletor têm escopo ____."
+            },
+            {
+              "keyword": "var()",
+              "distractors": [
+                "--cor",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso evita conflitos entre partes diferentes do seu CSS."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Valor de Reserva (Fallback)",
+          "objective": "Garantir um estilo caso a variável falhe.",
+          "teaching": "A função var() aceita um segundo parâmetro como garantia.",
+          "challenges": [
+            {
+              "keyword": "red",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: var(--cor-sumida, ____); usará vermelho se a variável não existir."
+            },
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "--cor",
+              "distractors": [
+                "var()",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito útil para sistemas de temas e bibliotecas de componentes."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Cálculos Dinâmicos (Calc)",
+          "objective": "Misturar unidades e realizar contas no CSS.",
+          "teaching": "A função calc() permite somar px com % ou outras unidades.",
+          "challenges": [
+            {
+              "keyword": "calc",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: Para largura total menos 20px: width: ____(100% - 20px);"
+            },
+            {
+              "keyword": "--cor",
+              "distractors": [
+                "var()",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var()",
+              "distractors": [
+                "--cor",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Lembre-se de sempre colocar espaços entre os operadores (+, -, *, /)."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Cores HSL",
+          "objective": "Trabalhar com Matiz, Saturação e Luminosidade.",
+          "teaching": "HSL é mais intuitivo para humanos criarem variações de cores.",
+          "challenges": [
+            {
+              "keyword": "hsl",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: ____(200, 50%, 50%) cria um azul médio agradável."
+            },
+            {
+              "keyword": "var()",
+              "distractors": [
+                "--cor",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O primeiro número é o ângulo na roda de cores (0-360)."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Herança de Variáveis",
+          "objective": "Entender como os filhos recebem os valores.",
+          "teaching": "Se você mudar uma variável no pai, todos os filhos que a usam serão atualizados.",
+          "challenges": [
+            {
+              "keyword": "herança",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: As variáveis CSS seguem a regra de ____ natural do DOM."
+            },
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "--cor",
+              "distractors": [
+                "var()",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso torna as Custom Properties muito superiores às variáveis de pré-processadores."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Mistura de Cores (Color-mix)",
+          "objective": "Criar tons misturando duas cores existentes.",
+          "teaching": "color-mix permite gerar uma cor intermediária diretamente no CSS.",
+          "challenges": [
+            {
+              "keyword": "color-mix",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: Use ____ para criar um cinza misturando preto e branco."
+            },
+            {
+              "keyword": "--cor",
+              "distractors": [
+                "var()",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var()",
+              "distractors": [
+                "--cor",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Recurso moderno que dispensa o uso de ferramentas externas."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Custom Properties",
+          "objective": "O nome técnico das variáveis.",
+          "teaching": "Embora chamemos de variáveis, o nome oficial na especificação é Custom Properties.",
+          "challenges": [
+            {
+              "keyword": "Properties",
+              "distractors": [
+                "--cor",
+                "var()",
+                ":root"
+              ],
+              "hint": "Dica do mestre: Variáveis CSS são tecnicamente chamadas de Custom ____."
+            },
+            {
+              "keyword": "var()",
+              "distractors": [
+                "--cor",
+                ":root",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": ":root",
+              "distractors": [
+                "--cor",
+                "var()",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "São dinâmicas e podem ser manipuladas via JavaScript em tempo real."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Arquitetura CSS (CSS)",
+      "subtitle": "10 missoes de arquitetura css em CSS",
+      "file": "lang-module?lang=css&mod=11",
+      "missions": [
+        {
+          "title": "Metodologia BEM",
+          "objective": "Organizar classes de forma lógica.",
+          "teaching": "BEM significa Block, Element, Modifier (Bloco, Elemento, Modificador).",
+          "challenges": [
+            {
+              "keyword": "__",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: No BEM, separamos o Bloco do Elemento com dois underlines: bloco____elemento."
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "componente",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evita conflitos de nomes e torna o CSS muito mais fácil de ler."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Classes de Utilitário",
+          "objective": "Criar classes que fazem apenas uma coisa.",
+          "teaching": "Utilitários como .text-center ou .mt-10 ajudam a construir layouts rápidos.",
+          "challenges": [
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: O foco das classes utilitárias é o máximo ____ de código."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "componente",
+              "distractors": [
+                "classe",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "É a base de frameworks como o Tailwind CSS."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Componentização",
+          "objective": "Isolar o estilo de uma parte da interface.",
+          "teaching": "Um componente (ex: Card, Navbar) deve ter seu estilo auto-contido.",
+          "challenges": [
+            {
+              "keyword": "componente",
+              "distractors": [
+                "classe",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Dica do mestre: Um botão estilizado que pode ser levado para qualquer projeto é um ____."
+            },
+            {
+              "keyword": "componente",
+              "distractors": [
+                "classe",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "componente",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Facilita a manutenção e a escalabilidade do projeto."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Especificidade",
+          "objective": "Entender qual regra vence em caso de conflito.",
+          "teaching": "IDs vencem Classes, que vencem Tags. É o peso da regra.",
+          "challenges": [
+            {
+              "keyword": "ID",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: Entre um seletor de Classe e um de ID, o ____ tem maior força."
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "componente",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evite usar seletores muito profundos para não quebrar a especificidade."
+          ],
+          "number": 4
+        },
+        {
+          "title": "O Perigoso !important",
+          "objective": "Forçar a aplicação de um estilo.",
+          "teaching": "!important atropela todas as regras de especificidade.",
+          "challenges": [
+            {
+              "keyword": "!important",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: Use ____ apenas em casos de extrema necessidade, pois dificulta a manutenção."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "componente",
+              "distractors": [
+                "classe",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sinal de que a arquitetura do CSS pode estar mal planejada."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Cascata (Cascade)",
+          "objective": "A ordem de leitura do navegador.",
+          "teaching": "Se duas regras têm o mesmo peso, a que estiver mais abaixo no arquivo vence.",
+          "challenges": [
+            {
+              "keyword": "Cascata",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: O \"C\" do CSS significa ____."
+            },
+            {
+              "keyword": "componente",
+              "distractors": [
+                "classe",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "componente",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Por isso a ordem dos seus arquivos importados importa muito."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Herança (Inheritance)",
+          "objective": "Propriedades que passam de pai para filho.",
+          "teaching": "Cores e fontes costumam ser herdadas, enquanto margens e bordas não.",
+          "challenges": [
+            {
+              "keyword": "herança",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: Definir a fonte no body faz os parágrafos receberem via ____."
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "componente",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Economiza muito código ao definir padrões globais."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Reset CSS",
+          "objective": "Zerar as diferenças entre navegadores.",
+          "teaching": "Cada navegador (Chrome, Safari) tem um estilo padrão diferente que precisa ser zerado.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: Um reset comum é definir margin e padding como ____ para todos os elementos."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "componente",
+              "distractors": [
+                "classe",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Garante que seu site pareça igual em qualquer lugar."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Normalize CSS",
+          "objective": "Uma alternativa mais suave ao Reset.",
+          "teaching": "Normalize corrige bugs mas preserva estilos úteis do navegador.",
+          "challenges": [
+            {
+              "keyword": "bugs",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: O Normalize foca em corrigir ____ comuns entre browsers."
+            },
+            {
+              "keyword": "componente",
+              "distractors": [
+                "classe",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "componente",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "É menos agressivo que um Reset total."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Modularização",
+          "objective": "Dividir o CSS em vários arquivos.",
+          "teaching": "Separar o CSS por responsabilidade (layout, cores, componentes) facilita o trabalho em equipe.",
+          "challenges": [
+            {
+              "keyword": "manutenção",
+              "distractors": [
+                "componente",
+                "classe",
+                "reuso"
+              ],
+              "hint": "Dica do mestre: Dividir arquivos melhora muito a ____ a longo prazo."
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "componente",
+                "reuso",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "componente",
+                "classe",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use pré-processadores ou módulos nativos para importar esses arquivos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "css_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final CSS (CSS)",
+      "subtitle": "10 missoes de projeto final css em CSS",
+      "file": "lang-module?lang=css&mod=12",
+      "missions": [
+        {
+          "title": "Estrutura Semântica",
+          "objective": "Combinar HTML correto com CSS moderno.",
+          "teaching": "Um bom projeto começa com tags como <header>, <main> e <footer>.",
+          "challenges": [
+            {
+              "keyword": "semântica",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: O HTML fornece a ____ e o CSS a aparência."
+            },
+            {
+              "keyword": "tema",
+              "distractors": [
+                "layout",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "responsivo",
+              "distractors": [
+                "layout",
+                "tema",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Fundamental para SEO e acessibilidade."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Sistema de Temas",
+          "objective": "Implementar Dark Mode e Light Mode.",
+          "teaching": "Usar variáveis em :root facilita a troca de cores do site inteiro.",
+          "challenges": [
+            {
+              "keyword": "variáveis",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: O segredo de um tema escuro eficiente é o uso de ____ CSS."
+            },
+            {
+              "keyword": "responsivo",
+              "distractors": [
+                "layout",
+                "tema",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "layout",
+              "distractors": [
+                "tema",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você pode detectar a preferência do sistema do usuário via media query."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Layout Complexo",
+          "objective": "Misturar Flexbox e Grid.",
+          "teaching": "Use Grid para a estrutura externa e Flexbox para alinhar itens internos.",
+          "challenges": [
+            {
+              "keyword": "Grid",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: Para o esqueleto da página (áreas grandes), prefira usar ____."
+            },
+            {
+              "keyword": "layout",
+              "distractors": [
+                "tema",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "tema",
+              "distractors": [
+                "layout",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Saber quando usar cada um é a marca de um desenvolvedor sênior."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Acessibilidade Visual",
+          "objective": "Garantir contraste e clareza.",
+          "teaching": "As cores devem ter contraste suficiente para serem lidas por todos.",
+          "challenges": [
+            {
+              "keyword": "contraste",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: Ferramentas de inspeção ajudam a verificar o ____ das cores."
+            },
+            {
+              "keyword": "tema",
+              "distractors": [
+                "layout",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "responsivo",
+              "distractors": [
+                "layout",
+                "tema",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O CSS deve ajudar a todos, inclusive quem tem baixa visão."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Transições Globais",
+          "objective": "Dar fluidez a toda a interface.",
+          "teaching": "Pequenas transições em botões e links melhoram muito a percepção de qualidade.",
+          "challenges": [
+            {
+              "keyword": "fluidez",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: Transições suaves trazem ____ para a experiência do usuário."
+            },
+            {
+              "keyword": "responsivo",
+              "distractors": [
+                "layout",
+                "tema",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "layout",
+              "distractors": [
+                "tema",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Cuidado para não exagerar e tornar a navegação lenta."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Responsividade Total",
+          "objective": "Funcionar de 320px a 4000px.",
+          "teaching": "Seu layout deve se adaptar sem criar barras de rolagem horizontal.",
+          "challenges": [
+            {
+              "keyword": "horizontal",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: Um site responsivo nunca deve ter rolagem ____."
+            },
+            {
+              "keyword": "layout",
+              "distractors": [
+                "tema",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "tema",
+              "distractors": [
+                "layout",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Teste em múltiplos tamanhos de tela durante o desenvolvimento."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Refatoração de Código",
+          "objective": "Limpar e otimizar seu CSS.",
+          "teaching": "Remover seletores duplicados e organizar variáveis no final do projeto.",
+          "challenges": [
+            {
+              "keyword": "refatoração",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: O processo de melhorar o código sem mudar o que ele faz é a ____."
+            },
+            {
+              "keyword": "tema",
+              "distractors": [
+                "layout",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "responsivo",
+              "distractors": [
+                "layout",
+                "tema",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "CSS limpo carrega mais rápido e é mais fácil de manter."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Performance de Renderização",
+          "objective": "Evitar lentidão no navegador.",
+          "teaching": "Algumas propriedades (como box-shadow pesados) podem deixar o scroll lento.",
+          "challenges": [
+            {
+              "keyword": "performance",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: Otimizar o CSS garante uma boa ____ no celular."
+            },
+            {
+              "keyword": "responsivo",
+              "distractors": [
+                "layout",
+                "tema",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "layout",
+              "distractors": [
+                "tema",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use ferramentas de performance do navegador para medir o tempo de pintura (paint)."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Boas Práticas de Nomeação",
+          "objective": "Manter a consistência no projeto.",
+          "teaching": "Escolha um padrão (como camelCase ou kebab-case) e siga até o fim.",
+          "challenges": [
+            {
+              "keyword": "consistência",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: Seguir o mesmo padrão traz ____ para o time."
+            },
+            {
+              "keyword": "layout",
+              "distractors": [
+                "tema",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "tema",
+              "distractors": [
+                "layout",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Facilita encontrar e editar regras meses depois."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Entrega do Projeto",
+          "objective": "Finalizar a trilha de CSS com sucesso!",
+          "teaching": "O CSS é o que dá alma e beleza para a web. Parabéns por dominar essa arte!",
+          "challenges": [
+            {
+              "keyword": "CSS",
+              "distractors": [
+                "layout",
+                "tema",
+                "responsivo"
+              ],
+              "hint": "Dica do mestre: Você agora é um mestre em estilização com ____!"
+            },
+            {
+              "keyword": "tema",
+              "distractors": [
+                "layout",
+                "responsivo",
+                "CSS"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "responsivo",
+              "distractors": [
+                "layout",
+                "tema",
+                "CSS"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Continue praticando layouts reais para aprimorar seu \"olho clínico\" para design."
+          ],
+          "number": 10
+        }
+      ]
+    }
+  ]
+}

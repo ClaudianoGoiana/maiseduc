@@ -1,0 +1,4808 @@
+{
+  "id": "html",
+  "name": "HTML",
+  "icon": "🧱",
+  "color": "from-orange-500 to-amber-600",
+  "modules": [
+    {
+      "id": "html_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Estrutura HTML (HTML)",
+      "subtitle": "10 missoes de estrutura html em HTML",
+      "file": "lang-module?lang=html&mod=1",
+      "missions": [
+        {
+          "title": "O que e HTML",
+          "objective": "Entender HTML como linguagem de estrutura da pagina.",
+          "teaching": "HTML organiza o conteudo da pagina com tags que definem cada parte.",
+          "challenges": [
+            {
+              "keyword": "HTML",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual linguagem estrutura o conteudo de uma pagina?"
+            },
+            {
+              "keyword": "tags",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Como chamamos os marcadores usados no HTML?"
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual papel principal do HTML em um site?"
+            }
+          ],
+          "learn": [
+            "HTML define o esqueleto da pagina.",
+            "Sem estrutura clara o site fica confuso."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Documento minimo",
+          "objective": "Reconhecer o formato basico de um arquivo HTML.",
+          "teaching": "Um documento inicial costuma ter doctype, html, head e body.",
+          "challenges": [
+            {
+              "keyword": "<!DOCTYPE html>",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual declaracao indica documento HTML moderno?"
+            },
+            {
+              "keyword": "html",
+              "distractors": [
+                "head",
+                "body",
+                "HTML"
+              ],
+              "hint": "Qual tag envolve todo o documento?"
+            },
+            {
+              "keyword": "head e body",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Quais duas partes principais compoem o documento?"
+            }
+          ],
+          "learn": [
+            "Estrutura minima ajuda a evitar erros iniciais.",
+            "Voce passa a reconhecer o formato padrao de pagina."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Papel do head",
+          "objective": "Entender para que serve a area de cabecalho tecnico da pagina.",
+          "teaching": "No head ficam metadados, titulo e configuracoes que nao aparecem como conteudo principal.",
+          "challenges": [
+            {
+              "keyword": "head",
+              "distractors": [
+                "html",
+                "body",
+                "HTML"
+              ],
+              "hint": "Qual area guarda metadados da pagina?"
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag define o titulo exibido na aba do navegador?"
+            },
+            {
+              "keyword": "meta",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag e comum para codificacao e viewport?"
+            }
+          ],
+          "learn": [
+            "Head configura aspectos tecnicos importantes.",
+            "Titulo e meta melhoram organizacao e SEO basico."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Papel do body",
+          "objective": "Entender onde fica o conteudo visivel da pagina.",
+          "teaching": "Tudo que o usuario enxerga normalmente esta dentro do body.",
+          "challenges": [
+            {
+              "keyword": "body",
+              "distractors": [
+                "html",
+                "head",
+                "HTML"
+              ],
+              "hint": "Qual parte contem o conteudo visivel?"
+            },
+            {
+              "keyword": "visivel",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Que tipo de conteudo fica no body?"
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Quem ve o conteudo colocado nessa area?"
+            }
+          ],
+          "learn": [
+            "Body concentra o conteudo da interface.",
+            "Separar head e body deixa o HTML mais claro."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Titulos e paragrafos",
+          "objective": "Criar textos basicos com hierarquia visual.",
+          "teaching": "Titulos usam h1-h6 e paragrafos usam p.",
+          "challenges": [
+            {
+              "keyword": "h1",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag costuma representar o titulo principal da pagina?"
+            },
+            {
+              "keyword": "p",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag representa paragrafo?"
+            },
+            {
+              "keyword": "hierarquia",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Titulos em niveis ajudam em qual organizacao do texto?"
+            }
+          ],
+          "learn": [
+            "Titulos e paragrafos sao base de qualquer pagina.",
+            "Hierarquia textual melhora leitura."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Listas simples",
+          "objective": "Montar listas ordenadas e nao ordenadas.",
+          "teaching": "ul e ol criam listas e li define cada item.",
+          "challenges": [
+            {
+              "keyword": "ul",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag cria lista nao ordenada?"
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag cria lista ordenada?"
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag representa cada item da lista?"
+            }
+          ],
+          "learn": [
+            "Listas organizam informacoes em blocos claros.",
+            "ul, ol e li aparecem muito em menus e conteudos."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Links de navegacao",
+          "objective": "Criar links para outras paginas ou secoes.",
+          "teaching": "A tag a usa o atributo href para definir destino.",
+          "challenges": [
+            {
+              "keyword": "a",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag cria hiperlink em HTML?"
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual atributo define para onde o link aponta?"
+            },
+            {
+              "keyword": "navegacao",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Links sao fundamentais para qual experiencia do site?"
+            }
+          ],
+          "learn": [
+            "Links conectam paginas e secoes.",
+            "Navegacao bem feita melhora usabilidade."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Imagens com descricao",
+          "objective": "Inserir imagem e descrever seu conteudo com alt.",
+          "teaching": "A tag img usa src para caminho e alt para descricao acessivel.",
+          "challenges": [
+            {
+              "keyword": "img",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag insere imagem em HTML?"
+            },
+            {
+              "keyword": "src",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual atributo aponta o caminho do arquivo da imagem?"
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual atributo descreve a imagem para acessibilidade?"
+            }
+          ],
+          "learn": [
+            "Imagem precisa de caminho correto.",
+            "Alt melhora acessibilidade e contexto do conteudo."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Divs e organizacao por blocos",
+          "objective": "Agrupar partes da pagina para facilitar estrutura e estilo.",
+          "teaching": "Div funciona como container generico para organizar secoes.",
+          "challenges": [
+            {
+              "keyword": "div",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Qual tag generica costuma agrupar elementos?"
+            },
+            {
+              "keyword": "container",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Div e muito usada como o que na estrutura?"
+            },
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "html",
+                "head",
+                "body"
+              ],
+              "hint": "Agrupar elementos melhora qual aspecto da pagina?"
+            }
+          ],
+          "learn": [
+            "Div ajuda a montar blocos de layout.",
+            "Estrutura organizada facilita CSS depois."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini pagina completa",
+          "objective": "Juntar estrutura minima, texto, lista, link e imagem em um unico exemplo.",
+          "teaching": "Uma mini pagina bem montada consolida os fundamentos de Estrutura HTML.",
+          "challenges": [
+            {
+              "keyword": "html",
+              "distractors": [
+                "head",
+                "body",
+                "HTML"
+              ],
+              "hint": "Tag raiz do documento."
+            },
+            {
+              "keyword": "head",
+              "distractors": [
+                "html",
+                "body",
+                "HTML"
+              ],
+              "hint": "Area tecnica com title e meta."
+            },
+            {
+              "keyword": "body",
+              "distractors": [
+                "html",
+                "head",
+                "HTML"
+              ],
+              "hint": "Area do conteudo que o usuario enxerga."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card Estrutura HTML.",
+            "Base pronta para os proximos cards da trilha."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "html_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Textos e Titulos (HTML)",
+      "subtitle": "10 missoes de textos e titulos em HTML",
+      "file": "lang-module?lang=html&mod=2",
+      "missions": [
+        {
+          "title": "Para que servem titulos",
+          "objective": "Entender o papel dos titulos na organizacao de uma pagina.",
+          "teaching": "Titulos criam hierarquia visual e ajudam o usuario a entender o assunto rapidamente.",
+          "challenges": [
+            {
+              "keyword": "h1",
+              "distractors": [
+                "p",
+                "strong",
+                "HTML"
+              ],
+              "hint": "Qual tag representa o titulo principal da pagina?"
+            },
+            {
+              "keyword": "hierarquia",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Titulos ajudam em qual organizacao do conteudo?"
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Titulos reforcam qual aspecto do HTML?"
+            }
+          ],
+          "learn": [
+            "Titulos melhoram leitura e escaneamento de conteudo.",
+            "Uma pagina organizada comeca por uma boa hierarquia."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Titulo principal com h1",
+          "objective": "Usar corretamente h1 como cabecalho mais importante.",
+          "teaching": "Em geral, h1 representa o tema principal da pagina.",
+          "challenges": [
+            {
+              "keyword": "h1",
+              "distractors": [
+                "p",
+                "strong",
+                "HTML"
+              ],
+              "hint": "Qual tag costuma ser usada uma vez para o titulo principal?"
+            },
+            {
+              "keyword": "principal",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "O h1 representa qual nivel de importancia?"
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Onde esse titulo aparece como destaque do conteudo?"
+            }
+          ],
+          "learn": [
+            "H1 deve representar o assunto central.",
+            "Uso correto de h1 melhora acessibilidade e SEO."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Subtitulos com h2 e h3",
+          "objective": "Dividir o conteudo em secoes com titulos secundarios.",
+          "teaching": "h2 e h3 criam niveis abaixo do h1 para organizar blocos de texto.",
+          "challenges": [
+            {
+              "keyword": "h2",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tag e comum para subtitulo de secao?"
+            },
+            {
+              "keyword": "h3",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tag pode detalhar subtitulo dentro de uma secao?"
+            },
+            {
+              "keyword": "secoes",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Subtitulos ajudam a separar quais partes?"
+            }
+          ],
+          "learn": [
+            "Subtitulos deixam o conteudo navegavel.",
+            "Cada nivel de titulo tem funcao especifica na hierarquia."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Paragrafos com p",
+          "objective": "Escrever blocos de texto corrido corretamente.",
+          "teaching": "A tag p representa paragrafos e deve conter uma ideia textual por bloco.",
+          "challenges": [
+            {
+              "keyword": "p",
+              "distractors": [
+                "h1",
+                "strong",
+                "HTML"
+              ],
+              "hint": "Qual tag representa paragrafo em HTML?"
+            },
+            {
+              "keyword": "texto",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tipo de conteudo normalmente fica dentro de p?"
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Paragrafo funciona como qual unidade de leitura?"
+            }
+          ],
+          "learn": [
+            "Paragrafos organizam o texto em partes legiveis.",
+            "Usar p corretamente melhora leitura em telas grandes e pequenas."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Destaque com strong e em",
+          "objective": "Aplicar enfase semantica em partes do texto.",
+          "teaching": "strong indica importancia forte e em indica enfase no texto.",
+          "challenges": [
+            {
+              "keyword": "strong",
+              "distractors": [
+                "h1",
+                "p",
+                "HTML"
+              ],
+              "hint": "Qual tag indica importancia semantica forte?"
+            },
+            {
+              "keyword": "em",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tag representa enfase semantica?"
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Strong e em reforcam qual tipo de significado?"
+            }
+          ],
+          "learn": [
+            "Destaque semantico e melhor que apenas visual.",
+            "Strong e em ajudam leitores e tecnologias assistivas."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Quebra de linha e separador",
+          "objective": "Entender uso basico de br e hr no texto.",
+          "teaching": "br faz quebra de linha e hr insere separador horizontal entre blocos.",
+          "challenges": [
+            {
+              "keyword": "br",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tag cria quebra de linha simples?"
+            },
+            {
+              "keyword": "hr",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tag adiciona uma linha separadora horizontal?"
+            },
+            {
+              "keyword": "separacao",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Hr costuma ser usado para qual objetivo visual de conteudo?"
+            }
+          ],
+          "learn": [
+            "Br e hr ajudam no ritmo de leitura.",
+            "Usar com moderacao evita poluicao visual."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Texto com span e div",
+          "objective": "Diferenciar elementos inline e de bloco no conteudo textual.",
+          "teaching": "span e inline para pequenos trechos; div e bloco para agrupar secoes maiores.",
+          "challenges": [
+            {
+              "keyword": "span",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tag e comum para marcar trecho pequeno dentro de linha?"
+            },
+            {
+              "keyword": "div",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual tag e container de bloco generico?"
+            },
+            {
+              "keyword": "inline",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Span e normalmente um elemento de qual comportamento?"
+            }
+          ],
+          "learn": [
+            "Span e div tem papeis diferentes na estrutura do texto.",
+            "Compreender isso facilita estilizar depois com CSS."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Legibilidade de conteudo",
+          "objective": "Escrever texto com clareza e boa separacao de ideias.",
+          "teaching": "Conteudo legivel usa titulos claros, paragrafos curtos e destaque apenas quando necessario.",
+          "challenges": [
+            {
+              "keyword": "clareza",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual qualidade principal o texto de iniciante deve ter?"
+            },
+            {
+              "keyword": "paragrafos curtos",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual formato costuma melhorar a leitura?"
+            },
+            {
+              "keyword": "organizado",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Como o conteudo deve parecer para facilitar entendimento?"
+            }
+          ],
+          "learn": [
+            "Bom HTML tambem depende de boa escrita.",
+            "Legibilidade melhora experiencia do usuario final."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Erros comuns em textos HTML",
+          "objective": "Evitar problemas frequentes ao estruturar titulos e paragrafos.",
+          "teaching": "Pular niveis de titulo e usar tags de forma aleatoria prejudica estrutura e acessibilidade.",
+          "challenges": [
+            {
+              "keyword": "ordem de titulos",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "O que deve ser respeitado entre h1, h2, h3..."
+            },
+            {
+              "keyword": "acessibilidade",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Estrutura correta de titulos melhora qual aspecto?"
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "h1",
+                "p",
+                "strong"
+              ],
+              "hint": "Qual conceito e prejudicado por uso incorreto das tags?"
+            }
+          ],
+          "learn": [
+            "Evitar erros comuns acelera o aprendizado.",
+            "Estrutura semantica correta torna o HTML mais profissional."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini pagina de artigo",
+          "objective": "Consolidar titulos, paragrafos e destaques em uma pagina simples.",
+          "teaching": "Uma mini pagina de artigo usa h1, h2, p, strong e em de forma organizada e coerente.",
+          "challenges": [
+            {
+              "keyword": "h1",
+              "distractors": [
+                "p",
+                "strong",
+                "HTML"
+              ],
+              "hint": "Tag do titulo principal do artigo."
+            },
+            {
+              "keyword": "p",
+              "distractors": [
+                "h1",
+                "strong",
+                "HTML"
+              ],
+              "hint": "Tag dos paragrafos de texto."
+            },
+            {
+              "keyword": "strong",
+              "distractors": [
+                "h1",
+                "p",
+                "HTML"
+              ],
+              "hint": "Tag de destaque semantico forte no conteudo."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card Textos e Titulos.",
+            "Base pronta para avancar nos proximos cards de HTML."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "html_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Links (HTML)",
+      "subtitle": "10 missoes de links em HTML",
+      "file": "lang-module?lang=html&mod=3",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Links",
+          "objective": "Entender a base de links em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como links aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar links com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar links.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre links.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar links em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "a",
+              "distractors": [
+                "href",
+                "target",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "href",
+              "distractors": [
+                "a",
+                "target",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "target",
+              "distractors": [
+                "a",
+                "href",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Listas (HTML)",
+      "subtitle": "10 missoes de listas em HTML",
+      "file": "lang-module?lang=html&mod=4",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Listas",
+          "objective": "Entender a base de listas em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como listas aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar listas com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar listas.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre listas.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar listas em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "ul",
+              "distractors": [
+                "ol",
+                "li",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "ol",
+              "distractors": [
+                "ul",
+                "li",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "li",
+              "distractors": [
+                "ul",
+                "ol",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Imagens e Midia (HTML)",
+      "subtitle": "10 missoes de imagens e midia em HTML",
+      "file": "lang-module?lang=html&mod=5",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Imagens e Midia",
+          "objective": "Entender a base de imagens e midia em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como imagens e midia aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar imagens e midia com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar imagens e midia.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre imagens e midia.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar imagens e midia em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "img",
+              "distractors": [
+                "alt",
+                "video",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "img",
+                "video",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "video",
+              "distractors": [
+                "img",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Tabelas (HTML)",
+      "subtitle": "10 missoes de tabelas em HTML",
+      "file": "lang-module?lang=html&mod=6",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Tabelas",
+          "objective": "Entender a base de tabelas em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como tabelas aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar tabelas com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar tabelas.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre tabelas.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar tabelas em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "table",
+              "distractors": [
+                "tr",
+                "td",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "tr",
+              "distractors": [
+                "table",
+                "td",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "td",
+              "distractors": [
+                "table",
+                "tr",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Formularios (HTML)",
+      "subtitle": "10 missoes de formularios em HTML",
+      "file": "lang-module?lang=html&mod=7",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Formularios",
+          "objective": "Entender a base de formularios em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como formularios aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar formularios com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar formularios.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre formularios.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar formularios em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "form",
+              "distractors": [
+                "input",
+                "label",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "form",
+                "label",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "label",
+              "distractors": [
+                "form",
+                "input",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Semantica (HTML)",
+      "subtitle": "10 missoes de semantica em HTML",
+      "file": "lang-module?lang=html&mod=8",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Semantica",
+          "objective": "Entender a base de semantica em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como semantica aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar semantica com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar semantica.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre semantica.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar semantica em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "header",
+              "distractors": [
+                "section",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "section",
+              "distractors": [
+                "header",
+                "footer",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "footer",
+              "distractors": [
+                "header",
+                "section",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Acessibilidade (HTML)",
+      "subtitle": "10 missoes de acessibilidade em HTML",
+      "file": "lang-module?lang=html&mod=9",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Acessibilidade",
+          "objective": "Entender a base de acessibilidade em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como acessibilidade aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar acessibilidade com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar acessibilidade.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre acessibilidade.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar acessibilidade em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "aria",
+              "distractors": [
+                "alt",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "alt",
+              "distractors": [
+                "aria",
+                "acessivel",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "acessivel",
+              "distractors": [
+                "aria",
+                "alt",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. SEO Basico (HTML)",
+      "subtitle": "10 missoes de seo basico em HTML",
+      "file": "lang-module?lang=html&mod=10",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com SEO Basico",
+          "objective": "Entender a base de seo basico em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como seo basico aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar seo basico com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar seo basico.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre seo basico.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar seo basico em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "meta",
+              "distractors": [
+                "title",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "title",
+              "distractors": [
+                "meta",
+                "descricao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "meta",
+                "title",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Boas Praticas (HTML)",
+      "subtitle": "10 missoes de boas praticas em HTML",
+      "file": "lang-module?lang=html&mod=11",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Boas Praticas",
+          "objective": "Entender a base de boas praticas em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como boas praticas aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar boas praticas com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar boas praticas.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre boas praticas.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar boas praticas em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "identacao",
+              "distractors": [
+                "semantica",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "semantica",
+              "distractors": [
+                "identacao",
+                "validacao",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "identacao",
+                "semantica",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "html_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final HTML (HTML)",
+      "subtitle": "10 missoes de projeto final html em HTML",
+      "file": "lang-module?lang=html&mod=12",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Projeto Final HTML",
+          "objective": "Entender a base de projeto final html em HTML.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como projeto final html aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar projeto final html com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar projeto final html.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre projeto final html.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar projeto final html em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "estrutura",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "pagina",
+                "conteudo",
+                "HTML"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "pagina",
+                "estrutura",
+                "HTML"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    }
+  ]
+}

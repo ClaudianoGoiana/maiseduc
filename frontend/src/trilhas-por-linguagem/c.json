@@ -1,0 +1,4808 @@
+{
+  "id": "c",
+  "name": "C",
+  "icon": "🔵",
+  "color": "from-blue-500 to-sky-600",
+  "modules": [
+    {
+      "id": "c_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Estrutura em C (C)",
+      "subtitle": "10 missoes de estrutura em c em C",
+      "file": "lang-module?lang=c&mod=1",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Estrutura em C",
+          "objective": "Entender a base de estrutura em c em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como estrutura em c aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar estrutura em c com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar estrutura em c.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre estrutura em c.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar estrutura em c em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "include",
+                "compilador",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "main",
+                "compilador",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "compilador",
+              "distractors": [
+                "main",
+                "include",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Tipos e Variaveis (C)",
+      "subtitle": "10 missoes de tipos e variaveis em C",
+      "file": "lang-module?lang=c&mod=2",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Tipos e Variaveis",
+          "objective": "Entender a base de tipos e variaveis em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como tipos e variaveis aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar tipos e variaveis com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar tipos e variaveis.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre tipos e variaveis.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar tipos e variaveis em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "float",
+                "char",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "char",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "float",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (C)",
+      "subtitle": "10 missoes de condicionais em C",
+      "file": "lang-module?lang=c&mod=3",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Condicionais",
+          "objective": "Entender a base de condicionais em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como condicionais aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar condicionais com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar condicionais.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre condicionais.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar condicionais em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (C)",
+      "subtitle": "10 missoes de loops em C",
+      "file": "lang-module?lang=c&mod=4",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Loops",
+          "objective": "Entender a base de loops em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como loops aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar loops com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar loops.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre loops.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar loops em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Vetores e Matrizes (C)",
+      "subtitle": "10 missoes de vetores e matrizes em C",
+      "file": "lang-module?lang=c&mod=5",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Vetores e Matrizes",
+          "objective": "Entender a base de vetores e matrizes em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como vetores e matrizes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar vetores e matrizes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar vetores e matrizes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre vetores e matrizes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar vetores e matrizes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "matriz",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "matriz",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "matriz",
+              "distractors": [
+                "array",
+                "indice",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Funcoes (C)",
+      "subtitle": "10 missoes de funcoes em C",
+      "file": "lang-module?lang=c&mod=6",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Funcoes",
+          "objective": "Entender a base de funcoes em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como funcoes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar funcoes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar funcoes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre funcoes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar funcoes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "parametro",
+                "return",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "funcao",
+                "return",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "funcao",
+                "parametro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Ponteiros (C)",
+      "subtitle": "10 missoes de ponteiros em C",
+      "file": "lang-module?lang=c&mod=7",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Ponteiros",
+          "objective": "Entender a base de ponteiros em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como ponteiros aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar ponteiros com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar ponteiros.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre ponteiros.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar ponteiros em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "ponteiro",
+              "distractors": [
+                "endereco",
+                "memoria",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "endereco",
+              "distractors": [
+                "ponteiro",
+                "memoria",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "memoria",
+              "distractors": [
+                "ponteiro",
+                "endereco",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Strings em C (C)",
+      "subtitle": "10 missoes de strings em c em C",
+      "file": "lang-module?lang=c&mod=8",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Strings em C",
+          "objective": "Entender a base de strings em c em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como strings em c aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar strings em c com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar strings em c.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre strings em c.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar strings em c em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "strlen",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "strlen",
+              "distractors": [
+                "string",
+                "strcpy",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "strcpy",
+              "distractors": [
+                "string",
+                "strlen",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Structs (C)",
+      "subtitle": "10 missoes de structs em C",
+      "file": "lang-module?lang=c&mod=9",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Structs",
+          "objective": "Entender a base de structs em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como structs aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar structs com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar structs.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre structs.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar structs em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "struct",
+              "distractors": [
+                "campo",
+                "registro",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "campo",
+              "distractors": [
+                "struct",
+                "registro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "struct",
+                "campo",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Memoria Dinamica (C)",
+      "subtitle": "10 missoes de memoria dinamica em C",
+      "file": "lang-module?lang=c&mod=10",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Memoria Dinamica",
+          "objective": "Entender a base de memoria dinamica em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como memoria dinamica aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar memoria dinamica com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar memoria dinamica.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre memoria dinamica.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar memoria dinamica em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "malloc",
+              "distractors": [
+                "free",
+                "heap",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "free",
+              "distractors": [
+                "malloc",
+                "heap",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "heap",
+              "distractors": [
+                "malloc",
+                "free",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Arquivos em C (C)",
+      "subtitle": "10 missoes de arquivos em c em C",
+      "file": "lang-module?lang=c&mod=11",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Arquivos em C",
+          "objective": "Entender a base de arquivos em c em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como arquivos em c aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar arquivos em c com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar arquivos em c.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre arquivos em c.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar arquivos em c em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "fopen",
+              "distractors": [
+                "fclose",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "fclose",
+              "distractors": [
+                "fopen",
+                "fprintf",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "fprintf",
+              "distractors": [
+                "fopen",
+                "fclose",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final C (C)",
+      "subtitle": "10 missoes de projeto final c em C",
+      "file": "lang-module?lang=c&mod=12",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Projeto Final C",
+          "objective": "Entender a base de projeto final c em C.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como projeto final c aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar projeto final c com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar projeto final c.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre projeto final c.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar projeto final c em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "menu",
+              "distractors": [
+                "cadastro",
+                "terminal",
+                "C"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "menu",
+                "terminal",
+                "C"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "terminal",
+              "distractors": [
+                "menu",
+                "cadastro",
+                "C"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    }
+  ]
+}

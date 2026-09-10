@@ -1,0 +1,4808 @@
+{
+  "id": "python",
+  "name": "Python",
+  "icon": "🐍",
+  "color": "from-green-500 to-emerald-500",
+  "modules": [
+    {
+      "id": "python_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Primeiros Passos em Python (Python)",
+      "subtitle": "10 missoes de primeiros passos em python em Python",
+      "file": "lang-module?lang=python&mod=1",
+      "missions": [
+        {
+          "title": "Primeiro programa com print",
+          "objective": "Entender como um programa simples mostra uma mensagem na tela.",
+          "teaching": "Quando comecamos a programar, uma das primeiras tarefas e exibir uma mensagem. Em Python, usamos print() para mostrar texto e testar se o programa esta funcionando.",
+          "challenges": [
+            {
+              "keyword": "print()",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual comando exibe texto no Python?"
+            },
+            {
+              "keyword": "mensagem",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que um programa inicial costuma mostrar para testar se esta rodando?"
+            },
+            {
+              "keyword": "()",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual simbolo aparece na chamada de print?"
+            }
+          ],
+          "learn": [
+            "Todo programa pode comecar exibindo algo simples.",
+            "print() e a porta de entrada para testar ideias no Python."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Guardando dados em variaveis",
+          "objective": "Entender que um programa pode armazenar informacoes para reutilizar depois.",
+          "teaching": "Variaveis servem para guardar dados como nome, idade e pontuacao. Quando o programa precisa usar esse valor novamente, ele consulta a variavel em vez de repetir tudo do zero.",
+          "challenges": [
+            {
+              "keyword": "variavel",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que guarda um valor para o programa usar depois?"
+            },
+            {
+              "keyword": "nome",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Exemplo comum de dado que pode ficar guardado em uma variavel."
+            },
+            {
+              "keyword": "=",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual simbolo usamos para atribuir um valor a uma variavel?"
+            }
+          ],
+          "learn": [
+            "Variaveis ajudam a construir programas mais uteis.",
+            "Atribuir valores e um passo basico da programacao."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Lendo entrada do usuario",
+          "objective": "Entender como o programa recebe informacoes digitadas pela pessoa usuaria.",
+          "teaching": "Programar nao e apenas mostrar resultados. Tambem precisamos receber dados. Em Python, input() permite perguntar algo ao usuario e capturar a resposta.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "print",
+                "if",
+                "Python"
+              ],
+              "hint": "Qual funcao le algo digitado pelo usuario?"
+            },
+            {
+              "keyword": "resposta",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que o programa captura quando a pessoa digita no teclado?"
+            },
+            {
+              "keyword": "texto",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual tipo de dado input() retorna no caso mais basico?"
+            }
+          ],
+          "learn": [
+            "Programas interativos recebem dados do usuario.",
+            "input() ajuda a criar programas que conversam com a pessoa."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Tomando decisoes com if",
+          "objective": "Aprender que o programa pode escolher um caminho com base em uma condicao.",
+          "teaching": "Um programa pode verificar uma situacao e decidir o que fazer. Em Python, usamos if para executar um bloco apenas quando a condicao e verdadeira.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "print",
+                "input",
+                "Python"
+              ],
+              "hint": "Qual palavra usamos para tomar uma decisao?"
+            },
+            {
+              "keyword": ":",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual simbolo aparece ao final da linha do if?"
+            },
+            {
+              "keyword": "condicao",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que o if avalia antes de executar um bloco?"
+            }
+          ],
+          "learn": [
+            "Programar e decidir o que fazer em cada situacao.",
+            "if e uma das estruturas mais importantes do comeco do aprendizado."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Repetindo acoes com for",
+          "objective": "Entender que o programa pode repetir instrucoes sem escrever tudo varias vezes.",
+          "teaching": "Quando precisamos repetir uma acao varias vezes, usamos estruturas de repeticao. Em Python, for ajuda a percorrer sequencias e repetir tarefas.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual estrutura usamos para repetir uma acao?"
+            },
+            {
+              "keyword": "repeticao",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Que ideia o for representa?"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual funcao aparece muito em exemplos simples com for?"
+            }
+          ],
+          "learn": [
+            "Repeticao evita codigo repetido sem necessidade.",
+            "for ajuda a resolver varias tarefas comuns de iniciante."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Organizando blocos com indentacao",
+          "objective": "Perceber que a indentacao mostra o que pertence a cada bloco de codigo.",
+          "teaching": "Diferente de outras linguagens que usam chaves, Python usa indentacao para mostrar quais linhas fazem parte de um if, for, while ou def. Isso torna a leitura clara, mas exige cuidado ao escrever.",
+          "challenges": [
+            {
+              "keyword": "indentacao",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que organiza os blocos em Python?"
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Como chamamos o conjunto de linhas que pertence a uma estrutura?"
+            },
+            {
+              "keyword": "espacos",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que normalmente usamos para indentar o codigo?"
+            }
+          ],
+          "learn": [
+            "Indentacao faz parte da logica do programa em Python.",
+            "Escrever blocos corretamente evita erros e confusao."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Criando funcoes simples",
+          "objective": "Entender que podemos agrupar instrucoes em uma funcao reutilizavel.",
+          "teaching": "Funcoes servem para organizar o programa em pequenas partes. Em Python, usamos def para criar um bloco que pode ser chamado varias vezes.",
+          "challenges": [
+            {
+              "keyword": "def",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual palavra inicia a declaracao de uma funcao em Python?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que agrupa instrucoes para reutilizacao?"
+            },
+            {
+              "keyword": "reutilizar",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual vantagem principal existe em criar uma funcao?"
+            }
+          ],
+          "learn": [
+            "Funcoes ajudam a organizar melhor a logica.",
+            "Reaproveitar codigo e um habito importante desde o inicio."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Juntando texto e variaveis",
+          "objective": "Mostrar valores guardados pelo programa dentro de uma mensagem.",
+          "teaching": "Depois de guardar dados em variaveis, o programa pode exibi-los em mensagens. Isso e muito comum em saudacoes, relatorios simples e respostas personalizadas.",
+          "challenges": [
+            {
+              "keyword": "variavel",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que guarda o dado que sera mostrado na mensagem?"
+            },
+            {
+              "keyword": "mensagem",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que o programa monta para responder ao usuario?"
+            },
+            {
+              "keyword": "f-string",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual recurso moderno facilita inserir variaveis no texto em Python?"
+            }
+          ],
+          "learn": [
+            "Programas uteis costumam combinar texto com dados.",
+            "Mostrar resultados de forma clara e parte importante da programacao."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Corrigindo erros simples",
+          "objective": "Perceber que erros fazem parte do aprendizado e podem ser corrigidos passo a passo.",
+          "teaching": "Ao programar, e normal errar um parenteses, esquecer dois-pontos ou indentar de forma errada. O importante e ler com calma, identificar o problema e ajustar o codigo.",
+          "challenges": [
+            {
+              "keyword": "erro",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "O que o programa mostra quando ha algo escrito de forma invalida?"
+            },
+            {
+              "keyword": "dois-pontos",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual elemento e comum faltar em if, for e def?"
+            },
+            {
+              "keyword": "parenteses",
+              "distractors": [
+                "print",
+                "input",
+                "if"
+              ],
+              "hint": "Qual parte costuma faltar em chamadas de funcao como print()?"
+            }
+          ],
+          "learn": [
+            "Errar faz parte de aprender a programar.",
+            "Revisar pequenos detalhes ajuda a desbloquear o raciocinio."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini programa completo",
+          "objective": "Combinar entrada, decisao e saida em um pequeno programa funcional.",
+          "teaching": "Neste ponto, voce ja consegue imaginar um programa simples: perguntar algo, guardar a resposta, tomar uma decisao e mostrar um resultado. Esse encadeamento ja e programacao de verdade.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "print",
+                "if",
+                "Python"
+              ],
+              "hint": "Qual parte recebe a informacao digitada?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "print",
+                "input",
+                "Python"
+              ],
+              "hint": "Qual parte decide o caminho do programa?"
+            },
+            {
+              "keyword": "print",
+              "distractors": [
+                "input",
+                "if",
+                "Python"
+              ],
+              "hint": "Qual parte mostra o resultado final?"
+            }
+          ],
+          "learn": [
+            "Voce ja consegue enxergar o fluxo de um programa simples.",
+            "A base de entrada, processamento e saida prepara o caminho para os proximos modulos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Variaveis e Tipos (Python)",
+      "subtitle": "10 missoes de variaveis e tipos em Python",
+      "file": "lang-module?lang=python&mod=2",
+      "missions": [
+        {
+          "title": "O que e variavel",
+          "objective": "Entender variavel como nome que guarda um valor.",
+          "teaching": "Em Python, variavel aponta para um dado e pode mudar durante o programa.",
+          "challenges": [
+            {
+              "keyword": "variavel",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "O que guarda um valor para reutilizar no codigo?"
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "O que fica armazenado dentro da variavel?"
+            },
+            {
+              "keyword": "nome",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Como voce identifica uma variavel no codigo?"
+            }
+          ],
+          "learn": [
+            "Variavel serve para armazenar dados.",
+            "Nome claro facilita leitura do codigo."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Atribuicao com =",
+          "objective": "Aprender a atribuir um valor para variavel.",
+          "teaching": "O sinal = faz atribuicao em Python: nome = valor.",
+          "challenges": [
+            {
+              "keyword": "=",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual operador atribui valor em Python?"
+            },
+            {
+              "keyword": "atribuicao",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Como se chama o ato de guardar valor na variavel?"
+            },
+            {
+              "keyword": "idade = 18",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual exemplo representa atribuicao correta?"
+            }
+          ],
+          "learn": [
+            "Atribuicao usa um unico sinal de igual.",
+            "Comparacao (==) e diferente de atribuicao (=)."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Tipo inteiro (int)",
+          "objective": "Reconhecer valores numericos inteiros.",
+          "teaching": "int representa numero sem casa decimal.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "str",
+                "float",
+                "Python"
+              ],
+              "hint": "Qual tipo representa inteiro?"
+            },
+            {
+              "keyword": "42",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual exemplo e inteiro?"
+            },
+            {
+              "keyword": "numero",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "int representa qual categoria de dado?"
+            }
+          ],
+          "learn": [
+            "int e usado para contagem e quantidades inteiras.",
+            "Nao possui parte decimal."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Tipo texto (str)",
+          "objective": "Diferenciar texto de numero.",
+          "teaching": "str representa texto entre aspas.",
+          "challenges": [
+            {
+              "keyword": "str",
+              "distractors": [
+                "int",
+                "float",
+                "Python"
+              ],
+              "hint": "Qual tipo representa texto?"
+            },
+            {
+              "keyword": "\"Maria\"",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual exemplo e string valida?"
+            },
+            {
+              "keyword": "aspas",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Texto em Python geralmente e delimitado por que?"
+            }
+          ],
+          "learn": [
+            "Strings guardam palavras e frases.",
+            "Aspas definem valores textuais."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Tipo decimal (float)",
+          "objective": "Identificar numeros com casas decimais.",
+          "teaching": "float representa valores com ponto decimal.",
+          "challenges": [
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "str",
+                "Python"
+              ],
+              "hint": "Tipo para numero decimal."
+            },
+            {
+              "keyword": "3.14",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual valor e float?"
+            },
+            {
+              "keyword": "decimal",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Float e usado para qual tipo de numero?"
+            }
+          ],
+          "learn": [
+            "Float e ideal para medias e medidas.",
+            "Usa ponto para parte decimal."
+          ],
+          "number": 5
+        },
+        {
+          "title": "bool: verdadeiro ou falso",
+          "objective": "Usar variavel logica para condicoes.",
+          "teaching": "bool guarda apenas True ou False.",
+          "challenges": [
+            {
+              "keyword": "bool",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual tipo guarda verdadeiro/falso?"
+            },
+            {
+              "keyword": "True",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual valor booleano valido em Python?"
+            },
+            {
+              "keyword": "False",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Par logico de True em Python."
+            }
+          ],
+          "learn": [
+            "Booleano e base de decisoes com if.",
+            "True e False sao palavras reservadas."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Descobrindo tipo com type()",
+          "objective": "Inspecionar o tipo de uma variavel.",
+          "teaching": "type(valor) retorna o tipo daquele dado.",
+          "challenges": [
+            {
+              "keyword": "type",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual funcao mostra o tipo do valor?"
+            },
+            {
+              "keyword": "type(nome)",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual chamada esta correta em Python?"
+            },
+            {
+              "keyword": "diagnostico",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Para que serve verificar tipo durante estudo?"
+            }
+          ],
+          "learn": [
+            "type() ajuda a evitar confusao entre tipos.",
+            "Boa pratica para iniciantes em debug."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Conversao com int(), float() e str()",
+          "objective": "Converter valores entre tipos basicos.",
+          "teaching": "Conversao transforma dado para outro tipo quando necessario.",
+          "challenges": [
+            {
+              "keyword": "int()",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual funcao converte para inteiro em Python?"
+            },
+            {
+              "keyword": "float()",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual funcao converte para decimal?"
+            },
+            {
+              "keyword": "str()",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual funcao converte para texto?"
+            }
+          ],
+          "learn": [
+            "Conversao e comum ao ler input do usuario.",
+            "Use a conversao certa para cada situacao."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Input e tipo de dado",
+          "objective": "Entender que input() retorna string.",
+          "teaching": "Mesmo digitando numero, input() retorna texto e pode exigir conversao.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Qual funcao captura texto digitado?"
+            },
+            {
+              "keyword": "str",
+              "distractors": [
+                "int",
+                "float",
+                "Python"
+              ],
+              "hint": "Qual tipo input() retorna por padrao?"
+            },
+            {
+              "keyword": "int(input())",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Como transformar entrada em inteiro direto?"
+            }
+          ],
+          "learn": [
+            "Input retorna texto por padrao.",
+            "Conversao evita erros em calculos."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de variaveis",
+          "objective": "Combinar variavel, tipo e conversao em um problema simples.",
+          "teaching": "Ao juntar atribuicao e tipos, voce cria logicas basicas consistentes.",
+          "challenges": [
+            {
+              "keyword": "variavel",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Base para guardar dados no programa."
+            },
+            {
+              "keyword": "type()",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Funcao para conferir o tipo atual do valor."
+            },
+            {
+              "keyword": "conversao",
+              "distractors": [
+                "int",
+                "str",
+                "float"
+              ],
+              "hint": "Passo necessario quando o tipo nao bate com o esperado."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de variaveis e tipos.",
+            "Preparacao para estudar condicionais com mais seguranca."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (Python)",
+      "subtitle": "10 missoes de condicionais em Python",
+      "file": "lang-module?lang=python&mod=3",
+      "missions": [
+        {
+          "title": "Decisao com if",
+          "objective": "Entender quando usar if em Python.",
+          "teaching": "if executa um bloco apenas quando a condicao e verdadeira.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "elif",
+                "else",
+                "Python"
+              ],
+              "hint": "Qual palavra inicia uma condicional?"
+            },
+            {
+              "keyword": "condicao",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "O que o if avalia antes de executar?"
+            },
+            {
+              "keyword": "True",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Quando o bloco do if e executado?"
+            }
+          ],
+          "learn": [
+            "if e a base para tomada de decisao.",
+            "A condicao precisa ser verdadeira para executar o bloco."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Comparacao com ==",
+          "objective": "Comparar dois valores corretamente.",
+          "teaching": "== verifica se dois valores sao iguais.",
+          "challenges": [
+            {
+              "keyword": "==",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual operador compara igualdade?"
+            },
+            {
+              "keyword": "comparacao",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Como se chama verificar se valores sao iguais?"
+            },
+            {
+              "keyword": "if idade == 18",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual exemplo esta correto?"
+            }
+          ],
+          "learn": [
+            "== e diferente de =.",
+            "Comparacao correta evita erro logico."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Bloco alternativo com else",
+          "objective": "Criar caminho alternativo para condicao falsa.",
+          "teaching": "else executa quando o if for falso.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "elif",
+                "Python"
+              ],
+              "hint": "Qual palavra define o caso contrario do if?"
+            },
+            {
+              "keyword": "alternativa",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Que tipo de fluxo o else representa?"
+            },
+            {
+              "keyword": "falso",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Quando o else e acionado?"
+            }
+          ],
+          "learn": [
+            "else cobre o caso contrario.",
+            "Seu programa fica mais completo com dois caminhos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Multiplas condicoes com elif",
+          "objective": "Tratar mais de duas possibilidades.",
+          "teaching": "elif adiciona novas condicoes depois do if.",
+          "challenges": [
+            {
+              "keyword": "elif",
+              "distractors": [
+                "if",
+                "else",
+                "Python"
+              ],
+              "hint": "Palavra correta em Python para condicao intermediaria."
+            },
+            {
+              "keyword": "sequencia",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "if/elif/else formam uma estrutura em que ordem?"
+            },
+            {
+              "keyword": "prioridade",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "As condicoes sao avaliadas em qual logica?"
+            }
+          ],
+          "learn": [
+            "elif evita muitos if separados.",
+            "Condicoes sao testadas de cima para baixo."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Operadores relacionais",
+          "objective": "Comparar maior, menor e diferente.",
+          "teaching": "Operadores como >, <, >=, <= e != ampliam as condicoes.",
+          "challenges": [
+            {
+              "keyword": ">",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual operador significa maior que?"
+            },
+            {
+              "keyword": "!=",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual operador significa diferente?"
+            },
+            {
+              "keyword": "<=",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual operador significa menor ou igual?"
+            }
+          ],
+          "learn": [
+            "Relacionais ajudam a criar regras reais.",
+            "Escolher o operador certo e essencial."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Operadores logicos and/or",
+          "objective": "Combinar duas condicoes no mesmo if.",
+          "teaching": "and exige duas condicoes verdadeiras; or aceita uma verdadeira.",
+          "challenges": [
+            {
+              "keyword": "and",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual operador logico exige todas condicoes verdadeiras em Python?"
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual operador logico aceita pelo menos uma condicao verdadeira?"
+            },
+            {
+              "keyword": "logico",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Que tipo de operador e and/or?"
+            }
+          ],
+          "learn": [
+            "and e mais restritivo que or.",
+            "Combinar condicoes deixa regras mais reais."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Negacao com not",
+          "objective": "Inverter resultado de uma condicao.",
+          "teaching": "not transforma verdadeiro em falso e vice-versa.",
+          "challenges": [
+            {
+              "keyword": "not",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual palavra nega uma condicao em Python?"
+            },
+            {
+              "keyword": "inverter",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual acao o not faz com o resultado logico?"
+            },
+            {
+              "keyword": "booleano",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "not trabalha sobre qual tipo de resultado?"
+            }
+          ],
+          "learn": [
+            "not e util para bloqueios e validacoes.",
+            "Negacao simplifica certas regras."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Condicional com input",
+          "objective": "Tomar decisao com valor digitado pelo usuario.",
+          "teaching": "input() retorna texto, entao pode ser necessario converter antes de comparar.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual funcao recebe entrada do usuario?"
+            },
+            {
+              "keyword": "int(input())",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Como converter entrada para inteiro antes de comparar numero?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "elif",
+                "else",
+                "Python"
+              ],
+              "hint": "Qual estrutura decide com base no valor recebido?"
+            }
+          ],
+          "learn": [
+            "Entradas reais exigem validacao.",
+            "Conversao correta evita comparacao errada."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Indentacao nas condicionais",
+          "objective": "Evitar erro de bloco em if/elif/else.",
+          "teaching": "Python depende da indentacao para saber quais linhas pertencem ao if.",
+          "challenges": [
+            {
+              "keyword": "indentacao",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "O que define bloco de codigo em Python?"
+            },
+            {
+              "keyword": ":",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Qual simbolo deve aparecer ao fim de if/elif/else?"
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "if",
+                "elif",
+                "else"
+              ],
+              "hint": "Conjunto de linhas controladas por uma condicao."
+            }
+          ],
+          "learn": [
+            "Erro de identacao quebra a condicional.",
+            "Dois-pontos e recuo sao obrigatorios."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de condicionais",
+          "objective": "Combinar if, elif e else em um problema simples.",
+          "teaching": "Com uma cadeia if/elif/else voce resolve varias situacoes de forma clara.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "elif",
+                "else",
+                "Python"
+              ],
+              "hint": "Inicio da cadeia condicional em Python."
+            },
+            {
+              "keyword": "elif",
+              "distractors": [
+                "if",
+                "else",
+                "Python"
+              ],
+              "hint": "Extensao para condicoes intermediarias."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "elif",
+                "Python"
+              ],
+              "hint": "Fechamento da condicao para o caso restante."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de condicionais.",
+            "Base pronta para loops e desafios maiores."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (Python)",
+      "subtitle": "10 missoes de loops em Python",
+      "file": "lang-module?lang=python&mod=4",
+      "missions": [
+        {
+          "title": "O que e repeticao",
+          "objective": "Entender por que usar loop em vez de repetir codigo manualmente.",
+          "teaching": "Loop repete um bloco de codigo varias vezes de forma organizada.",
+          "challenges": [
+            {
+              "keyword": "loop",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Qual estrutura repete instrucoes?"
+            },
+            {
+              "keyword": "repeticao",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Qual ideia central de for e while?"
+            },
+            {
+              "keyword": "automacao",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Loop ajuda a executar tarefas repetidas com menos codigo."
+            }
+          ],
+          "learn": [
+            "Loops evitam duplicacao de codigo.",
+            "Repeticao e base para processar listas e contagens."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Primeiro for com range",
+          "objective": "Criar um loop for simples em Python.",
+          "teaching": "for percorre uma sequencia; range gera sequencias numericas.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Python"
+              ],
+              "hint": "Qual laco e mais comum com range?"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "Python"
+              ],
+              "hint": "Qual funcao gera sequencia numerica para o for?"
+            },
+            {
+              "keyword": "iterar",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Acao de percorrer elementos um a um."
+            }
+          ],
+          "learn": [
+            "for + range e o padrao inicial de repeticao.",
+            "Iteracao percorre valores em sequencia."
+          ],
+          "number": 2
+        },
+        {
+          "title": "range(inicio, fim)",
+          "objective": "Entender inicio e fim no range.",
+          "teaching": "Em range(a, b), inicia em a e vai ate b-1.",
+          "challenges": [
+            {
+              "keyword": "fim exclusivo",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Como o limite final do range funciona?"
+            },
+            {
+              "keyword": "range(1, 4)",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Quais valores essa faixa gera?"
+            },
+            {
+              "keyword": "sequencia",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "range produz o que para o for usar?"
+            }
+          ],
+          "learn": [
+            "O limite final do range nao entra na sequencia.",
+            "Entender isso evita erro de contagem."
+          ],
+          "number": 3
+        },
+        {
+          "title": "range com passo",
+          "objective": "Controlar incremento do loop.",
+          "teaching": "range(inicio, fim, passo) define de quanto em quanto o contador avanca.",
+          "challenges": [
+            {
+              "keyword": "passo",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Terceiro parametro do range representa o que?"
+            },
+            {
+              "keyword": "range(0, 10, 2)",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Qual padrao essa faixa gera?"
+            },
+            {
+              "keyword": "incremento",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Como chamamos o aumento do contador?"
+            }
+          ],
+          "learn": [
+            "Passo ajuda a controlar ritmo da iteracao.",
+            "Pode pular valores para otimizar a repeticao."
+          ],
+          "number": 4
+        },
+        {
+          "title": "while com condicao",
+          "objective": "Usar while para repetir enquanto condicao for verdadeira.",
+          "teaching": "while depende de condicao; se nunca mudar, pode virar loop infinito.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Python"
+              ],
+              "hint": "Qual laco depende de uma condicao logica?"
+            },
+            {
+              "keyword": "condicao",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "O que controla a continuidade do while?"
+            },
+            {
+              "keyword": "infinito",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Tipo de erro quando a condicao nunca fica falsa."
+            }
+          ],
+          "learn": [
+            "while e util quando nao sabemos quantas repeticoes exatas teremos.",
+            "Condicao precisa evoluir a cada ciclo."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Contador no while",
+          "objective": "Atualizar variavel para encerrar loop corretamente.",
+          "teaching": "No while, geralmente usamos contador para evitar repeticao infinita.",
+          "challenges": [
+            {
+              "keyword": "contador",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Variavel usada para controlar repeticoes."
+            },
+            {
+              "keyword": "i = i + 1",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Qual linha atualiza contador corretamente?"
+            },
+            {
+              "keyword": "controle",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Sem atualizacao do contador, falta o que no loop?"
+            }
+          ],
+          "learn": [
+            "Atualizar contador e obrigatorio no while.",
+            "Controle evita travamento do programa."
+          ],
+          "number": 6
+        },
+        {
+          "title": "break para parar",
+          "objective": "Interromper loop antes do fim quando necessario.",
+          "teaching": "break encerra o loop imediatamente.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Qual comando encerra o loop na hora?"
+            },
+            {
+              "keyword": "interromper",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Principal efeito do break."
+            },
+            {
+              "keyword": "controle de fluxo",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "break pertence a qual tema?"
+            }
+          ],
+          "learn": [
+            "break permite parada antecipada em condicoes especiais.",
+            "Muito util em buscas e validacoes."
+          ],
+          "number": 7
+        },
+        {
+          "title": "continue para pular",
+          "objective": "Pular iteracao atual e seguir para a proxima.",
+          "teaching": "continue ignora o restante do bloco naquela volta do loop.",
+          "challenges": [
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Qual comando pula para a proxima iteracao?"
+            },
+            {
+              "keyword": "pular",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Acao principal do continue."
+            },
+            {
+              "keyword": "iteracao",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Continue atua sobre o que dentro do loop?"
+            }
+          ],
+          "learn": [
+            "continue filtra casos sem encerrar o loop todo.",
+            "Ajuda a manter fluxo limpo."
+          ],
+          "number": 8
+        },
+        {
+          "title": "for em lista",
+          "objective": "Percorrer elementos de uma lista diretamente.",
+          "teaching": "for item in lista percorre cada elemento sem usar indice manual.",
+          "challenges": [
+            {
+              "keyword": "for item in lista",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Qual forma Pythonica de percorrer lista?"
+            },
+            {
+              "keyword": "elemento",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Cada volta do for pega o que da lista?"
+            },
+            {
+              "keyword": "colecao",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Lista e um tipo de que estrutura?"
+            }
+          ],
+          "learn": [
+            "for em lista e mais legivel para iniciantes.",
+            "Nem sempre e preciso usar indice numerico."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de loops",
+          "objective": "Combinar for, while e controle de repeticao em um caso simples.",
+          "teaching": "A escolha entre for e while depende do problema e da forma de controle.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "range",
+                "Python"
+              ],
+              "hint": "Melhor para repeticao com quantidade conhecida."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "range",
+                "Python"
+              ],
+              "hint": "Melhor para repeticao baseada em condicao."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "range"
+              ],
+              "hint": "Comando para parar repeticao antes do fim."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de loops.",
+            "Base pronta para listas, funcoes e desafios maiores."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Listas e Tuplas (Python)",
+      "subtitle": "10 missoes de listas e tuplas em Python",
+      "file": "lang-module?lang=python&mod=5",
+      "missions": [
+        {
+          "title": "O que e lista",
+          "objective": "Entender lista como colecao ordenada de valores.",
+          "teaching": "Lista guarda varios itens em uma unica variavel.",
+          "challenges": [
+            {
+              "keyword": "list",
+              "distractors": [
+                "tuple",
+                "append",
+                "Python"
+              ],
+              "hint": "Qual estrutura e mutavel e ordenada?"
+            },
+            {
+              "keyword": "colecao",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Lista representa o que no codigo?"
+            },
+            {
+              "keyword": "itens",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Lista armazena o que dentro dela?"
+            }
+          ],
+          "learn": [
+            "Lista agrupa dados relacionados.",
+            "Ajuda a organizar informacoes em sequencia."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Criando lista com []",
+          "objective": "Montar lista usando colchetes.",
+          "teaching": "Em Python, lista e criada com [] e elementos separados por virgula.",
+          "challenges": [
+            {
+              "keyword": "[]",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual delimitador de lista em Python?"
+            },
+            {
+              "keyword": "virgula",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Como separar itens na lista?"
+            },
+            {
+              "keyword": "[1, 2, 3]",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual exemplo representa lista?"
+            }
+          ],
+          "learn": [
+            "Sintaxe basica de lista com colchetes.",
+            "Separacao correta dos elementos."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Acesso por indice",
+          "objective": "Ler elemento da lista pelo indice.",
+          "teaching": "Indice em Python comeca em 0.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Posicao de um item na lista."
+            },
+            {
+              "keyword": "0",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Primeira posicao da lista em Python."
+            },
+            {
+              "keyword": "lista[1]",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Como acessar por indice?"
+            }
+          ],
+          "learn": [
+            "Listas usam indice para leitura e alteracao.",
+            "Primeiro item sempre esta no indice 0."
+          ],
+          "number": 3
+        },
+        {
+          "title": "append para adicionar",
+          "objective": "Inserir novo item no fim da lista.",
+          "teaching": "append(valor) adiciona elemento ao final da lista.",
+          "challenges": [
+            {
+              "keyword": "append",
+              "distractors": [
+                "list",
+                "tuple",
+                "Python"
+              ],
+              "hint": "Metodo para adicionar no fim da lista."
+            },
+            {
+              "keyword": "lista.append(10)",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual uso correto em Python?"
+            },
+            {
+              "keyword": "final",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "append adiciona em qual posicao?"
+            }
+          ],
+          "learn": [
+            "append e metodo muito usado em iniciantes.",
+            "Permite crescer lista dinamicamente."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Alterando valor da lista",
+          "objective": "Trocar item existente por indice.",
+          "teaching": "Lista e mutavel: voce pode alterar elemento por indice.",
+          "challenges": [
+            {
+              "keyword": "mutavel",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Caracteristica principal de list."
+            },
+            {
+              "keyword": "lista[0] = 99",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual sintaxe altera o primeiro item?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual conceito usamos para trocar item especifico?"
+            }
+          ],
+          "learn": [
+            "Lista pode ser atualizada apos criacao.",
+            "Indice define exatamente qual item mudar."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Removendo item",
+          "objective": "Excluir elemento da lista com metodos basicos.",
+          "teaching": "Metodos como pop e remove ajudam a retirar elementos.",
+          "challenges": [
+            {
+              "keyword": "pop",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Metodo para remover por indice (ou ultimo)."
+            },
+            {
+              "keyword": "remove",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Metodo para remover pelo valor."
+            },
+            {
+              "keyword": "lista.pop()",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual chamada remove ultimo elemento?"
+            }
+          ],
+          "learn": [
+            "Voce pode controlar entrada e saida de itens da lista.",
+            "Remocao e importante em fluxos reais."
+          ],
+          "number": 6
+        },
+        {
+          "title": "len para tamanho",
+          "objective": "Descobrir quantidade de itens da lista.",
+          "teaching": "len(lista) retorna o numero de elementos.",
+          "challenges": [
+            {
+              "keyword": "len",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Funcao para tamanho em Python."
+            },
+            {
+              "keyword": "len(lista)",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual uso correto para contar itens?"
+            },
+            {
+              "keyword": "quantidade",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "len retorna qual informacao?"
+            }
+          ],
+          "learn": [
+            "len ajuda em validacoes e loops.",
+            "Tamanho da lista e dado frequente em problemas."
+          ],
+          "number": 7
+        },
+        {
+          "title": "for percorrendo lista",
+          "objective": "Iterar por cada elemento da lista.",
+          "teaching": "for item in lista e o jeito simples de percorrer elementos.",
+          "challenges": [
+            {
+              "keyword": "for item in lista",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Forma recomendada de percorrer lista."
+            },
+            {
+              "keyword": "item",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Nome temporario de cada elemento no loop."
+            },
+            {
+              "keyword": "iteracao",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Percorrer elementos um a um se chama o que?"
+            }
+          ],
+          "learn": [
+            "Loop com lista e base para varios algoritmos.",
+            "Percorrer sem indice e mais legivel no inicio."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Tupla: o que muda",
+          "objective": "Diferenciar tupla de lista para iniciante.",
+          "teaching": "Tuple usa parenteses e e imutavel apos criada.",
+          "challenges": [
+            {
+              "keyword": "tuple",
+              "distractors": [
+                "list",
+                "append",
+                "Python"
+              ],
+              "hint": "Estrutura ordenada porem imutavel."
+            },
+            {
+              "keyword": "imutavel",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Principal caracteristica da tupla."
+            },
+            {
+              "keyword": "(1, 2, 3)",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Qual exemplo representa tupla?"
+            }
+          ],
+          "learn": [
+            "Tupla e boa para dados que nao devem mudar.",
+            "Lista e mais flexivel para alteracoes frequentes."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de listas e tuplas",
+          "objective": "Consolidar criacao, acesso e diferenca entre lista e tupla.",
+          "teaching": "Escolher estrutura correta melhora clareza e evita erros de alteracao.",
+          "challenges": [
+            {
+              "keyword": "list",
+              "distractors": [
+                "tuple",
+                "append",
+                "Python"
+              ],
+              "hint": "Qual estrutura permite append?"
+            },
+            {
+              "keyword": "tuple",
+              "distractors": [
+                "list",
+                "append",
+                "Python"
+              ],
+              "hint": "Qual estrutura nao permite alteracao de itens?"
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "list",
+                "tuple",
+                "append"
+              ],
+              "hint": "Funcao para medir tamanho das colecoes."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de listas e tuplas.",
+            "Base pronta para dicionarios e funcoes."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Funcoes (Python)",
+      "subtitle": "10 missoes de funcoes em Python",
+      "file": "lang-module?lang=python&mod=6",
+      "missions": [
+        {
+          "title": "O que e funcao",
+          "objective": "Entender funcao como bloco reutilizavel de codigo.",
+          "teaching": "Funcao agrupa instrucoes para serem chamadas varias vezes sem duplicacao.",
+          "challenges": [
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Que recurso reutiliza um bloco de codigo?"
+            },
+            {
+              "keyword": "reutilizacao",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Principal vantagem de criar funcao."
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Funcao organiza o codigo em que estrutura?"
+            }
+          ],
+          "learn": [
+            "Funcoes evitam repeticao de codigo.",
+            "Elas deixam o programa mais organizado."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Criando funcao com def",
+          "objective": "Aprender a declarar uma funcao em Python.",
+          "teaching": "A palavra-chave def inicia a declaracao de uma funcao.",
+          "challenges": [
+            {
+              "keyword": "def",
+              "distractors": [
+                "return",
+                "parametro",
+                "Python"
+              ],
+              "hint": "Qual palavra cria funcao em Python?"
+            },
+            {
+              "keyword": ":",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual simbolo fecha o cabecalho da funcao?"
+            },
+            {
+              "keyword": "indentacao",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "O que define o corpo da funcao em Python?"
+            }
+          ],
+          "learn": [
+            "def e a base da declaracao de funcoes.",
+            "Cabecalho e bloco precisam estar corretos."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Chamando a funcao",
+          "objective": "Executar uma funcao depois de criada.",
+          "teaching": "Depois de definir, a funcao precisa ser chamada pelo nome com parenteses.",
+          "challenges": [
+            {
+              "keyword": "parenteses",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "O que usamos para chamar a funcao?"
+            },
+            {
+              "keyword": "saudacao()",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual exemplo chama funcao sem parametros?"
+            },
+            {
+              "keyword": "nome",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual identificador usamos para localizar a funcao?"
+            }
+          ],
+          "learn": [
+            "Definir e chamar sao etapas diferentes.",
+            "Sem chamada, a funcao nao executa."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Parametro de entrada",
+          "objective": "Receber valores dentro da funcao.",
+          "teaching": "Parametro e a variavel declarada no cabecalho da funcao.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "def",
+                "return",
+                "Python"
+              ],
+              "hint": "Como se chama o dado recebido pela funcao?"
+            },
+            {
+              "keyword": "def saudacao(nome)",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual cabecalho mostra parametro corretamente?"
+            },
+            {
+              "keyword": "entrada",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Parametro representa qual papel na funcao?"
+            }
+          ],
+          "learn": [
+            "Parametros tornam funcoes flexiveis.",
+            "A mesma funcao pode receber dados diferentes."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Mais de um parametro",
+          "objective": "Usar varios dados na mesma funcao.",
+          "teaching": "Voce pode declarar varios parametros separados por virgula.",
+          "challenges": [
+            {
+              "keyword": "virgula",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Como separar parametros no cabecalho?"
+            },
+            {
+              "keyword": "def soma(a, b)",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual exemplo usa dois parametros corretamente?"
+            },
+            {
+              "keyword": "argumentos",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Como chamamos os valores enviados na chamada da funcao?"
+            }
+          ],
+          "learn": [
+            "Uma funcao pode trabalhar com varios dados.",
+            "Separar parametros por virgula e essencial."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Retorno com return",
+          "objective": "Devolver um resultado da funcao.",
+          "teaching": "return envia um valor de volta para quem chamou a funcao.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "def",
+                "parametro",
+                "Python"
+              ],
+              "hint": "Qual palavra devolve resultado da funcao?"
+            },
+            {
+              "keyword": "resultado",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "O que a funcao entrega ao usar return?"
+            },
+            {
+              "keyword": "def soma(a, b): return a + b",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual exemplo mostra retorno correto?"
+            }
+          ],
+          "learn": [
+            "return permite reaproveitar o resultado em outra parte do codigo.",
+            "Imprimir e retornar nao sao a mesma coisa."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Diferenca entre print e return",
+          "objective": "Nao confundir mostrar resultado com devolver resultado.",
+          "teaching": "print exibe na tela; return devolve valor para uso posterior.",
+          "challenges": [
+            {
+              "keyword": "print",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual comando apenas mostra na tela?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "def",
+                "parametro",
+                "Python"
+              ],
+              "hint": "Qual comando devolve valor da funcao?"
+            },
+            {
+              "keyword": "devolver",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Acao principal do return."
+            }
+          ],
+          "learn": [
+            "print e visual; return e logico.",
+            "Saber a diferenca evita muita confusao no inicio."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Funcao sem retorno",
+          "objective": "Entender que nem toda funcao precisa retornar valor.",
+          "teaching": "Algumas funcoes apenas executam uma acao, como mostrar mensagem.",
+          "challenges": [
+            {
+              "keyword": "acao",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Uma funcao sem return normalmente faz o que?"
+            },
+            {
+              "keyword": "print",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual comando costuma aparecer em funcoes que apenas exibem algo?"
+            },
+            {
+              "keyword": "mensagem",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Exemplo comum de funcao sem retorno."
+            }
+          ],
+          "learn": [
+            "Nem toda funcao precisa produzir dado novo.",
+            "Funcoes tambem podem apenas executar tarefas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Funcao com input e calculo",
+          "objective": "Combinar funcao com dados recebidos do usuario.",
+          "teaching": "Voce pode receber input, converter e enviar para funcao processar.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual funcao le o que usuario digitou?"
+            },
+            {
+              "keyword": "int()",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual recurso ajuda a converter entrada para numero inteiro?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "def",
+                "return",
+                "parametro"
+              ],
+              "hint": "Quem pode receber esses valores e calcular algo?"
+            }
+          ],
+          "learn": [
+            "Funcoes ficam mais uteis quando recebem dados reais.",
+            "Entrada + processamento e base de varios programas."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de funcoes",
+          "objective": "Consolidar def, parametros e return em um exemplo simples.",
+          "teaching": "Uma boa funcao tem nome claro, recebe dados corretos e devolve resultado quando necessario.",
+          "challenges": [
+            {
+              "keyword": "def",
+              "distractors": [
+                "return",
+                "parametro",
+                "Python"
+              ],
+              "hint": "Palavra inicial para criar funcao em Python."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "def",
+                "return",
+                "Python"
+              ],
+              "hint": "Variavel declarada no cabecalho da funcao."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "def",
+                "parametro",
+                "Python"
+              ],
+              "hint": "Palavra para devolver o resultado do processamento."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de funcoes.",
+            "Base pronta para dicionarios, arquivos e projetos maiores."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Dicionarios (Python)",
+      "subtitle": "10 missoes de dicionarios em Python",
+      "file": "lang-module?lang=python&mod=7",
+      "missions": [
+        {
+          "title": "O que e dicionario",
+          "objective": "Entender dicionario como estrutura chave e valor.",
+          "teaching": "Dicionario organiza dados usando chaves para encontrar valores rapidamente.",
+          "challenges": [
+            {
+              "keyword": "dict",
+              "distractors": [
+                "key",
+                "value",
+                "Python"
+              ],
+              "hint": "Qual estrutura representa dicionario em Python?"
+            },
+            {
+              "keyword": "chave",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Como localizamos um valor dentro do dicionario?"
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "O que fica associado a cada chave?"
+            }
+          ],
+          "learn": [
+            "Dicionario usa pares chave: valor.",
+            "E util para dados nomeados e organizados."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Criando dicionario com {}",
+          "objective": "Montar um dicionario com a sintaxe correta.",
+          "teaching": "Dicionario usa chaves {} e pares separados por virgula.",
+          "challenges": [
+            {
+              "keyword": "{}",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual delimitador e usado em dicionario?"
+            },
+            {
+              "keyword": ":",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual simbolo liga chave e valor?"
+            },
+            {
+              "keyword": "{\"nome\": \"Ana\"}",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual exemplo representa dicionario valido?"
+            }
+          ],
+          "learn": [
+            "Sintaxe de dicionario usa chaves e dois-pontos.",
+            "Cada par representa uma informacao nomeada."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Acesso por chave",
+          "objective": "Ler um valor usando sua chave.",
+          "teaching": "Em dicionario, o acesso e feito pela chave, nao por indice numerico.",
+          "challenges": [
+            {
+              "keyword": "dados[\"nome\"]",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Como acessar o valor da chave nome?"
+            },
+            {
+              "keyword": "chave",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Dicionario usa o que para localizar dado?"
+            },
+            {
+              "keyword": "nome",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Exemplo de identificador usado no acesso."
+            }
+          ],
+          "learn": [
+            "Dicionario nao depende de posicao numerica.",
+            "A chave descreve o dado de forma mais clara."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Adicionando novo par",
+          "objective": "Inserir uma nova chave com valor.",
+          "teaching": "Voce pode criar novo campo atribuindo valor a uma chave nova.",
+          "challenges": [
+            {
+              "keyword": "dados[\"idade\"] = 20",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual sintaxe adiciona novo campo ao dicionario?"
+            },
+            {
+              "keyword": "nova chave",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "O que esta sendo criado ao inserir novo par?"
+            },
+            {
+              "keyword": "atribuir",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual acao usamos para adicionar o valor?"
+            }
+          ],
+          "learn": [
+            "Dicionarios podem crescer dinamicamente.",
+            "Novas chaves ajudam a completar os dados."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Alterando valor existente",
+          "objective": "Atualizar valor de uma chave que ja existe.",
+          "teaching": "Se a chave ja existir, a atribuicao substitui o valor antigo.",
+          "challenges": [
+            {
+              "keyword": "atualizar",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "O que acontece ao atribuir novo valor para chave existente?"
+            },
+            {
+              "keyword": "dados[\"nome\"] = \"Bia\"",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual exemplo atualiza o valor corretamente?"
+            },
+            {
+              "keyword": "substituir",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Efeito sobre o valor antigo."
+            }
+          ],
+          "learn": [
+            "Dicionario permite corrigir ou trocar informacoes.",
+            "Mesma chave recebe valor novo sem criar copia."
+          ],
+          "number": 5
+        },
+        {
+          "title": "keys e values",
+          "objective": "Reconhecer chaves e valores separadamente.",
+          "teaching": "keys() mostra chaves; values() mostra valores do dicionario.",
+          "challenges": [
+            {
+              "keyword": "keys()",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual metodo retorna apenas as chaves?"
+            },
+            {
+              "keyword": "values()",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual metodo retorna apenas os valores?"
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Esses metodos ajudam em que tipo de uso?"
+            }
+          ],
+          "learn": [
+            "Separar chaves e valores ajuda a inspecionar dados.",
+            "Bom para leitura e exploracao do dicionario."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Percorrendo com for",
+          "objective": "Ler dados do dicionario em repeticao simples.",
+          "teaching": "for pode percorrer chaves e depois acessar os valores associados.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual estrutura usamos para percorrer o dicionario?"
+            },
+            {
+              "keyword": "chaves",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Ao iterar diretamente no dicionario, normalmente percorremos o que?"
+            },
+            {
+              "keyword": "itens",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "O loop percorre quais unidades do dicionario?"
+            }
+          ],
+          "learn": [
+            "Dicionario pode ser lido em repeticao.",
+            "Iterar sobre chaves e uma forma simples para iniciante."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Removendo com pop",
+          "objective": "Excluir uma chave e seu valor.",
+          "teaching": "pop(chave) remove o par correspondente do dicionario.",
+          "challenges": [
+            {
+              "keyword": "pop",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual metodo remove um campo do dicionario?"
+            },
+            {
+              "keyword": "dados.pop(\"idade\")",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Qual exemplo remove a chave idade?"
+            },
+            {
+              "keyword": "remover",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Acao principal do pop."
+            }
+          ],
+          "learn": [
+            "Voce pode limpar dados que nao sao mais necessarios.",
+            "Remocao e comum em cadastros e filtros."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Dicionario e JSON mental",
+          "objective": "Perceber como dicionario representa dados estruturados.",
+          "teaching": "Dicionarios se parecem com JSON e ajudam a modelar informacoes de pessoas, produtos e configuracoes.",
+          "challenges": [
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Dicionario ajuda a organizar que tipo de dado?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Exemplo comum de uso de dicionario."
+            },
+            {
+              "keyword": "JSON",
+              "distractors": [
+                "dict",
+                "key",
+                "value"
+              ],
+              "hint": "Formato mental parecido com dicionario."
+            }
+          ],
+          "learn": [
+            "Dicionario representa objetos do mundo real.",
+            "Ajuda a preparar para APIs e arquivos estruturados."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de dicionarios",
+          "objective": "Consolidar criacao, acesso e alteracao em um exemplo simples.",
+          "teaching": "Ao combinar chave, valor e atualizacao, voce domina o uso inicial do dicionario.",
+          "challenges": [
+            {
+              "keyword": "dict",
+              "distractors": [
+                "key",
+                "value",
+                "Python"
+              ],
+              "hint": "Estrutura central do modulo."
+            },
+            {
+              "keyword": "key",
+              "distractors": [
+                "dict",
+                "value",
+                "Python"
+              ],
+              "hint": "Elemento usado para localizar valor."
+            },
+            {
+              "keyword": "value",
+              "distractors": [
+                "dict",
+                "key",
+                "Python"
+              ],
+              "hint": "Informacao armazenada junto da chave."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de dicionarios.",
+            "Base pronta para arquivos, modulos e projetos mais reais."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Arquivos (Python)",
+      "subtitle": "10 missoes de arquivos em Python",
+      "file": "lang-module?lang=python&mod=8",
+      "missions": [
+        {
+          "title": "O que e um arquivo",
+          "objective": "Entender arquivo como forma de guardar dados fora do programa.",
+          "teaching": "Arquivos permitem salvar textos e informacoes para usar depois.",
+          "challenges": [
+            {
+              "keyword": "arquivo",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "O que guarda dados fora da memoria do programa?"
+            },
+            {
+              "keyword": "armazenar",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual ideia principal de trabalhar com arquivos?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "O que normalmente salvamos em arquivos?"
+            }
+          ],
+          "learn": [
+            "Arquivos ajudam a persistir informacoes.",
+            "Programas podem ler e escrever dados externos."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Abrindo com open()",
+          "objective": "Usar a funcao basica para abrir arquivos.",
+          "teaching": "open() e a porta de entrada para leitura e escrita de arquivos em Python.",
+          "challenges": [
+            {
+              "keyword": "open",
+              "distractors": [
+                "read",
+                "write",
+                "Python"
+              ],
+              "hint": "Qual funcao abre arquivo em Python?"
+            },
+            {
+              "keyword": "arquivo.txt",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual nome parece um arquivo de texto comum?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "open e o que dentro da linguagem?"
+            }
+          ],
+          "learn": [
+            "open() e o primeiro passo para trabalhar com arquivos.",
+            "Nome e caminho do arquivo importam na abertura."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Modo leitura",
+          "objective": "Entender quando usar leitura de arquivo.",
+          "teaching": "O modo r abre o arquivo para ler seu conteudo.",
+          "challenges": [
+            {
+              "keyword": "r",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual modo representa leitura?"
+            },
+            {
+              "keyword": "ler",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Acao principal do modo r."
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "O que normalmente buscamos ao abrir em leitura?"
+            }
+          ],
+          "learn": [
+            "Modo r serve para consultar o arquivo.",
+            "Leitura nao e o mesmo que escrita."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Modo escrita",
+          "objective": "Entender quando usar escrita em arquivo.",
+          "teaching": "O modo w cria ou sobrescreve o conteudo do arquivo.",
+          "challenges": [
+            {
+              "keyword": "w",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual modo representa escrita?"
+            },
+            {
+              "keyword": "sobrescrever",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "O que pode acontecer com conteudo anterior no modo w?"
+            },
+            {
+              "keyword": "escrever",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Principal uso do modo w."
+            }
+          ],
+          "learn": [
+            "Modo w grava novo conteudo.",
+            "Ele exige cuidado para nao apagar dados antigos sem querer."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Modo append",
+          "objective": "Adicionar texto ao fim do arquivo sem apagar o anterior.",
+          "teaching": "O modo a acrescenta novo conteudo ao final do arquivo.",
+          "challenges": [
+            {
+              "keyword": "a",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual modo adiciona conteudo ao final?"
+            },
+            {
+              "keyword": "acrescentar",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Acao principal do append."
+            },
+            {
+              "keyword": "final",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Onde o novo texto e colocado no modo a?"
+            }
+          ],
+          "learn": [
+            "Append preserva conteudo antigo.",
+            "Bom para logs e registros novos."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Lendo com read()",
+          "objective": "Capturar o texto inteiro do arquivo.",
+          "teaching": "read() retorna o conteudo do arquivo aberto.",
+          "challenges": [
+            {
+              "keyword": "read",
+              "distractors": [
+                "open",
+                "write",
+                "Python"
+              ],
+              "hint": "Qual metodo le o conteudo?"
+            },
+            {
+              "keyword": "conteudo",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "O que read() devolve?"
+            },
+            {
+              "keyword": "texto",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Tipo de dado comum ao ler arquivo simples."
+            }
+          ],
+          "learn": [
+            "read() pega o conteudo completo.",
+            "Boa base para leitura simples de arquivos de texto."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Escrevendo com write()",
+          "objective": "Gravar texto em um arquivo aberto.",
+          "teaching": "write() envia texto para o arquivo no modo de escrita ou append.",
+          "challenges": [
+            {
+              "keyword": "write",
+              "distractors": [
+                "open",
+                "read",
+                "Python"
+              ],
+              "hint": "Qual metodo grava no arquivo?"
+            },
+            {
+              "keyword": "texto",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "O que normalmente enviamos para write()?"
+            },
+            {
+              "keyword": "gravar",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual acao o metodo write executa?"
+            }
+          ],
+          "learn": [
+            "write() salva novo conteudo no arquivo.",
+            "Leitura e escrita sao operacoes diferentes."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Fechando com close()",
+          "objective": "Encerrar o uso do arquivo corretamente.",
+          "teaching": "close() fecha o arquivo e libera o recurso do sistema.",
+          "challenges": [
+            {
+              "keyword": "close",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual metodo encerra o arquivo?"
+            },
+            {
+              "keyword": "fechar",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual acao final fazemos apos usar o arquivo?"
+            },
+            {
+              "keyword": "recurso",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "O arquivo aberto consome o que do sistema?"
+            }
+          ],
+          "learn": [
+            "Fechar arquivo e boa pratica.",
+            "Evita problemas de uso e perda de controle do recurso."
+          ],
+          "number": 8
+        },
+        {
+          "title": "with open como boa pratica",
+          "objective": "Usar forma segura para abrir e fechar automaticamente.",
+          "teaching": "with open(...) garante fechamento automatico ao final do bloco.",
+          "challenges": [
+            {
+              "keyword": "with",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Qual palavra ajuda a gerenciar o arquivo automaticamente?"
+            },
+            {
+              "keyword": "automatico",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "Como o fechamento ocorre usando with?"
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "open",
+                "read",
+                "write"
+              ],
+              "hint": "with controla qual parte do codigo?"
+            }
+          ],
+          "learn": [
+            "with open e a forma recomendada para iniciantes.",
+            "Ele reduz chance de esquecer o fechamento do arquivo."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de arquivos",
+          "objective": "Consolidar abertura, leitura ou escrita de forma simples.",
+          "teaching": "Trabalhar com arquivos exige escolher modo correto e metodo adequado para cada tarefa.",
+          "challenges": [
+            {
+              "keyword": "open",
+              "distractors": [
+                "read",
+                "write",
+                "Python"
+              ],
+              "hint": "Funcao inicial do modulo."
+            },
+            {
+              "keyword": "read",
+              "distractors": [
+                "open",
+                "write",
+                "Python"
+              ],
+              "hint": "Metodo para leitura."
+            },
+            {
+              "keyword": "write",
+              "distractors": [
+                "open",
+                "read",
+                "Python"
+              ],
+              "hint": "Metodo para gravacao."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de arquivos.",
+            "Base pronta para scripts que salvam e recuperam dados."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Modulos e Pacotes (Python)",
+      "subtitle": "10 missoes de modulos e pacotes em Python",
+      "file": "lang-module?lang=python&mod=9",
+      "missions": [
+        {
+          "title": "O que e modulo",
+          "objective": "Entender modulo como arquivo reutilizavel de codigo.",
+          "teaching": "Modulo organiza funcoes, classes e variaveis em um arquivo separado.",
+          "challenges": [
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "pip",
+                "Python"
+              ],
+              "hint": "Como chamamos um arquivo Python reutilizavel?"
+            },
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual vantagem principal de usar modulos?"
+            },
+            {
+              "keyword": "arquivo",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Modulo normalmente esta em que unidade?"
+            }
+          ],
+          "learn": [
+            "Modulos ajudam a separar responsabilidades.",
+            "Codigo fica mais limpo e reaproveitavel."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Importando com import",
+          "objective": "Trazer recursos de outro modulo para o programa.",
+          "teaching": "import carrega um modulo para que voce possa usar seus recursos.",
+          "challenges": [
+            {
+              "keyword": "import",
+              "distractors": [
+                "pip",
+                "modulo",
+                "Python"
+              ],
+              "hint": "Qual palavra carrega modulo em Python?"
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "pip",
+                "Python"
+              ],
+              "hint": "O que o import traz para o codigo?"
+            },
+            {
+              "keyword": "reutilizar",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual objetivo principal do import?"
+            }
+          ],
+          "learn": [
+            "Import evita reescrever codigo util.",
+            "Permite aproveitar recursos ja prontos."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Usando modulo math",
+          "objective": "Reconhecer exemplo simples de modulo nativo.",
+          "teaching": "math e um modulo da biblioteca padrao com recursos matematicos.",
+          "challenges": [
+            {
+              "keyword": "math",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual modulo nativo e comum para funcoes matematicas?"
+            },
+            {
+              "keyword": "biblioteca padrao",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "De onde vem modulos como math?"
+            },
+            {
+              "keyword": "nativo",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Como classificamos um modulo que ja vem com Python?"
+            }
+          ],
+          "learn": [
+            "Python ja oferece modulos prontos.",
+            "Nao precisa instalar tudo do zero para usar recursos uteis."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Importando parte com from",
+          "objective": "Pegar um recurso especifico de um modulo.",
+          "teaching": "from modulo import recurso permite trazer apenas o que sera usado.",
+          "challenges": [
+            {
+              "keyword": "from",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual palavra inicia importacao parcial?"
+            },
+            {
+              "keyword": "from math import sqrt",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual exemplo esta correto?"
+            },
+            {
+              "keyword": "especifico",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Esse tipo de import traz recurso de forma mais como?"
+            }
+          ],
+          "learn": [
+            "Import parcial pode deixar o uso mais direto.",
+            "Bom quando voce quer poucos recursos do modulo."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Alias com as",
+          "objective": "Renomear modulo importado para facilitar uso.",
+          "teaching": "as cria um apelido para o modulo ou recurso importado.",
+          "challenges": [
+            {
+              "keyword": "as",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual palavra cria apelido no import?"
+            },
+            {
+              "keyword": "apelido",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Como chamamos o novo nome do modulo?"
+            },
+            {
+              "keyword": "math as m",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual exemplo mostra ideia correta de alias?"
+            }
+          ],
+          "learn": [
+            "Alias encurta nomes longos.",
+            "Ajuda na legibilidade quando bem usado."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Criando seu proprio modulo",
+          "objective": "Entender que qualquer arquivo .py pode virar modulo.",
+          "teaching": "Se voce cria um arquivo com funcoes, ele pode ser importado em outro script.",
+          "challenges": [
+            {
+              "keyword": ".py",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual extensao do arquivo que pode virar modulo Python?"
+            },
+            {
+              "keyword": "arquivo",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Seu proprio modulo nasce em que formato?"
+            },
+            {
+              "keyword": "reutilizar",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Por que criar um modulo proprio?"
+            }
+          ],
+          "learn": [
+            "Voce tambem pode criar modulos.",
+            "Isso ajuda a dividir projetos maiores em partes menores."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Pacote como pasta organizada",
+          "objective": "Entender pacote como agrupamento de modulos.",
+          "teaching": "Pacote e uma pasta que organiza varios modulos relacionados.",
+          "challenges": [
+            {
+              "keyword": "pacote",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Como chamamos conjunto organizado de modulos?"
+            },
+            {
+              "keyword": "pasta",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Pacote se parece mais com o que na estrutura de arquivos?"
+            },
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Principal objetivo de um pacote."
+            }
+          ],
+          "learn": [
+            "Pacotes ajudam em projetos com muitos arquivos.",
+            "Agrupam modulos de mesmo contexto."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Instalando com pip",
+          "objective": "Conhecer a ferramenta de instalacao de bibliotecas.",
+          "teaching": "pip instala pacotes externos no ambiente Python.",
+          "challenges": [
+            {
+              "keyword": "pip",
+              "distractors": [
+                "import",
+                "modulo",
+                "Python"
+              ],
+              "hint": "Qual ferramenta instala pacotes Python?"
+            },
+            {
+              "keyword": "instalar",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Qual acao o pip realiza?"
+            },
+            {
+              "keyword": "biblioteca",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "O que normalmente instalamos com pip?"
+            }
+          ],
+          "learn": [
+            "pip amplia o que voce pode fazer com Python.",
+            "Ele permite usar bibliotecas criadas por outras pessoas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Biblioteca externa e ambiente",
+          "objective": "Entender que biblioteca precisa existir no ambiente para importar.",
+          "teaching": "Nem todo import funciona sem instalacao; depende do que esta disponivel no ambiente.",
+          "challenges": [
+            {
+              "keyword": "ambiente",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Onde a biblioteca precisa estar disponivel?"
+            },
+            {
+              "keyword": "instalada",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "Como a biblioteca deve estar para o import funcionar?"
+            },
+            {
+              "keyword": "erro",
+              "distractors": [
+                "import",
+                "pip",
+                "modulo"
+              ],
+              "hint": "O que pode acontecer se a biblioteca nao existir?"
+            }
+          ],
+          "learn": [
+            "Import depende do ambiente correto.",
+            "Nem todo modulo ja vem com Python."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de modulos",
+          "objective": "Consolidar import, modulo e pip em um entendimento unico.",
+          "teaching": "Voce usa import para carregar modulos e pip quando precisa instalar recursos externos.",
+          "challenges": [
+            {
+              "keyword": "import",
+              "distractors": [
+                "pip",
+                "modulo",
+                "Python"
+              ],
+              "hint": "Palavra central para carregar modulo."
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "pip",
+                "Python"
+              ],
+              "hint": "Arquivo reutilizavel de codigo."
+            },
+            {
+              "keyword": "pip",
+              "distractors": [
+                "import",
+                "modulo",
+                "Python"
+              ],
+              "hint": "Ferramenta para instalar pacotes externos."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de modulos e pacotes.",
+            "Base pronta para projetos maiores e bibliotecas externas."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. POO em Python (Python)",
+      "subtitle": "10 missoes de poo em python em Python",
+      "file": "lang-module?lang=python&mod=10",
+      "missions": [
+        {
+          "title": "O que e POO",
+          "objective": "Entender POO como forma de organizar codigo com objetos.",
+          "teaching": "Programacao orientada a objetos modela coisas do mundo real com classes e objetos.",
+          "challenges": [
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "class",
+                "self",
+                "Python"
+              ],
+              "hint": "Na POO, o que representa uma entidade do programa?"
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Na POO, o que define o molde do objeto?"
+            },
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Qual vantagem principal da POO para iniciantes?"
+            }
+          ],
+          "learn": [
+            "POO ajuda a organizar programas maiores.",
+            "Classes e objetos aproximam codigo de situacoes reais."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Criando classe com class",
+          "objective": "Aprender a declarar uma classe em Python.",
+          "teaching": "A palavra class cria o molde que sera usado para formar objetos.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "self",
+                "objeto",
+                "Python"
+              ],
+              "hint": "Qual palavra cria uma classe em Python?"
+            },
+            {
+              "keyword": "molde",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Classe funciona como o que para os objetos?"
+            },
+            {
+              "keyword": ":",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Qual simbolo fecha o cabecalho da classe?"
+            }
+          ],
+          "learn": [
+            "class inicia a estrutura orientada a objetos.",
+            "Classe serve de modelo para varias instancias."
+          ],
+          "number": 2
+        },
+        {
+          "title": "O que e objeto",
+          "objective": "Diferenciar classe de objeto.",
+          "teaching": "Objeto e a instancia criada a partir de uma classe.",
+          "challenges": [
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Como tambem chamamos um objeto criado a partir da classe?"
+            },
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "class",
+                "self",
+                "Python"
+              ],
+              "hint": "Quem nasce da classe?"
+            },
+            {
+              "keyword": "classe",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "O objeto vem de qual estrutura?"
+            }
+          ],
+          "learn": [
+            "Classe e o modelo; objeto e o exemplo concreto.",
+            "Uma classe pode gerar varios objetos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Atributos do objeto",
+          "objective": "Entender que objeto pode guardar dados.",
+          "teaching": "Atributos sao caracteristicas como nome, idade ou cor dentro do objeto.",
+          "challenges": [
+            {
+              "keyword": "atributo",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Como chamamos uma caracteristica do objeto?"
+            },
+            {
+              "keyword": "dado",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Atributo guarda qual tipo de informacao?"
+            },
+            {
+              "keyword": "caracteristica",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Outra forma de entender atributo."
+            }
+          ],
+          "learn": [
+            "Objetos podem armazenar estado.",
+            "Atributos representam informacoes da entidade."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Metodo e comportamento",
+          "objective": "Entender metodo como acao do objeto.",
+          "teaching": "Metodo e uma funcao declarada dentro da classe.",
+          "challenges": [
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Como se chama a funcao dentro da classe?"
+            },
+            {
+              "keyword": "acao",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Metodo representa qual ideia no objeto?"
+            },
+            {
+              "keyword": "comportamento",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Metodo define o que o objeto pode fazer."
+            }
+          ],
+          "learn": [
+            "Objeto nao so guarda dados, tambem executa acoes.",
+            "Metodo e a parte comportamental da classe."
+          ],
+          "number": 5
+        },
+        {
+          "title": "self na pratica",
+          "objective": "Compreender o papel de self em Python.",
+          "teaching": "self representa o proprio objeto atual dentro do metodo.",
+          "challenges": [
+            {
+              "keyword": "self",
+              "distractors": [
+                "class",
+                "objeto",
+                "Python"
+              ],
+              "hint": "Qual palavra referencia o proprio objeto em Python?"
+            },
+            {
+              "keyword": "proprio objeto",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "O que self representa?"
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Em que parte da classe self aparece com mais frequencia?"
+            }
+          ],
+          "learn": [
+            "self conecta metodo ao objeto atual.",
+            "Sem entender self, a POO em Python fica confusa."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Construtor com __init__",
+          "objective": "Inicializar atributos ao criar objeto.",
+          "teaching": "__init__ e o metodo executado quando a instancia e criada.",
+          "challenges": [
+            {
+              "keyword": "__init__",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Qual metodo inicializa o objeto?"
+            },
+            {
+              "keyword": "inicializar",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Qual acao o construtor faz com os atributos?"
+            },
+            {
+              "keyword": "criacao",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Quando __init__ e executado?"
+            }
+          ],
+          "learn": [
+            "Construtor prepara o objeto para uso.",
+            "Atributos podem nascer prontos na instanciacao."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Criando instancias",
+          "objective": "Instanciar uma classe e guardar em variavel.",
+          "teaching": "Ao chamar o nome da classe com parenteses, voce cria um objeto.",
+          "challenges": [
+            {
+              "keyword": "instanciar",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Como chamamos o ato de criar um objeto?"
+            },
+            {
+              "keyword": "Pessoa()",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Qual forma cria uma instancia?"
+            },
+            {
+              "keyword": "variavel",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Onde normalmente guardamos o objeto criado?"
+            }
+          ],
+          "learn": [
+            "Classe so ganha vida quando vira objeto.",
+            "Instancia normalmente e salva em variavel para uso posterior."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Acessando atributo e metodo",
+          "objective": "Usar ponto para conversar com o objeto.",
+          "teaching": "objeto.atributo e objeto.metodo() sao acessos comuns na POO.",
+          "challenges": [
+            {
+              "keyword": ".",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Qual operador usamos para acessar membro do objeto?"
+            },
+            {
+              "keyword": "objeto.nome",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Como acessar um atributo?"
+            },
+            {
+              "keyword": "objeto.falar()",
+              "distractors": [
+                "class",
+                "self",
+                "objeto"
+              ],
+              "hint": "Como chamar um metodo?"
+            }
+          ],
+          "learn": [
+            "O ponto conecta voce ao que esta dentro do objeto.",
+            "Atributo e metodo tem acessos parecidos, mas uso diferente."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de POO",
+          "objective": "Consolidar classe, objeto, atributo, metodo e self.",
+          "teaching": "A base da POO e saber criar o molde, instanciar e usar dados e comportamentos do objeto.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "self",
+                "objeto",
+                "Python"
+              ],
+              "hint": "Palavra que cria a classe."
+            },
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "class",
+                "self",
+                "Python"
+              ],
+              "hint": "Resultado da instanciacao da classe."
+            },
+            {
+              "keyword": "self",
+              "distractors": [
+                "class",
+                "objeto",
+                "Python"
+              ],
+              "hint": "Referencia ao proprio objeto dentro do metodo."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de POO.",
+            "Base pronta para temas orientados a objetos mais avancados."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Tratamento de Erros (Python)",
+      "subtitle": "10 missoes de tratamento de erros em Python",
+      "file": "lang-module?lang=python&mod=11",
+      "missions": [
+        {
+          "title": "O que e erro no programa",
+          "objective": "Perceber que programas podem falhar e precisam lidar com isso.",
+          "teaching": "Erros acontecem por entradas invalidas, arquivos ausentes ou operacoes incorretas.",
+          "challenges": [
+            {
+              "keyword": "erro",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "O que ocorre quando algo da errado na execucao?"
+            },
+            {
+              "keyword": "falha",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Outra forma de entender erro em programa."
+            },
+            {
+              "keyword": "execucao",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Em que momento muitos erros aparecem?"
+            }
+          ],
+          "learn": [
+            "Erros fazem parte da programacao.",
+            "Identificar e tratar erros melhora a confiabilidade."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Bloco try",
+          "objective": "Entender onde colocar codigo que pode falhar.",
+          "teaching": "try envolve o trecho de codigo que pode gerar erro.",
+          "challenges": [
+            {
+              "keyword": "try",
+              "distractors": [
+                "except",
+                "finally",
+                "Python"
+              ],
+              "hint": "Qual palavra inicia o tratamento de erro em Python?"
+            },
+            {
+              "keyword": "risco",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "try envolve trecho com qual caracteristica?"
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "try organiza o codigo em que formato?"
+            }
+          ],
+          "learn": [
+            "try isola o trecho sensivel do codigo.",
+            "Bom para operacoes que podem falhar."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Capturando com except",
+          "objective": "Tratar a falha sem derrubar o programa.",
+          "teaching": "except define o que fazer quando um erro acontece.",
+          "challenges": [
+            {
+              "keyword": "except",
+              "distractors": [
+                "try",
+                "finally",
+                "Python"
+              ],
+              "hint": "Qual palavra trata o erro em Python?"
+            },
+            {
+              "keyword": "tratar",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Qual acao fazemos com o erro?"
+            },
+            {
+              "keyword": "continuar",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Uma vantagem de tratar erro e permitir o programa o que?"
+            }
+          ],
+          "learn": [
+            "except permite responder ao problema.",
+            "Tratamento evita encerramento abrupto em varios casos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "finally para finalizar",
+          "objective": "Executar algo no final, com erro ou sem erro.",
+          "teaching": "finally roda sempre ao fim do bloco try/except.",
+          "challenges": [
+            {
+              "keyword": "finally",
+              "distractors": [
+                "try",
+                "except",
+                "Python"
+              ],
+              "hint": "Qual palavra executa no final de qualquer jeito?"
+            },
+            {
+              "keyword": "sempre",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Quando finally executa?"
+            },
+            {
+              "keyword": "finalizacao",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "finally e util para qual tipo de tarefa?"
+            }
+          ],
+          "learn": [
+            "finally e bom para limpeza e fechamento.",
+            "Executa independentemente do resultado do try."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Erro comum com input numerico",
+          "objective": "Entender falha ao converter entrada invalida.",
+          "teaching": "Converter texto para int pode falhar se o usuario digitar algo nao numerico.",
+          "challenges": [
+            {
+              "keyword": "int()",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Qual conversao pode falhar com texto nao numerico?"
+            },
+            {
+              "keyword": "ValueError",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Erro comum ao converter valor invalido."
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Quem normalmente fornece entrada inesperada?"
+            }
+          ],
+          "learn": [
+            "Entradas do usuario precisam de validacao.",
+            "Tratamento de erro protege o programa de dados invalidos."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Arquivo nao encontrado",
+          "objective": "Lidar com tentativa de abrir arquivo inexistente.",
+          "teaching": "Abrir um arquivo que nao existe pode gerar erro e precisa ser tratado.",
+          "challenges": [
+            {
+              "keyword": "arquivo",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Que recurso pode nao existir no disco?"
+            },
+            {
+              "keyword": "open",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Qual funcao pode falhar ao tentar abrir arquivo ausente?"
+            },
+            {
+              "keyword": "tratamento",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "O que fazer em vez de deixar o programa quebrar?"
+            }
+          ],
+          "learn": [
+            "Nem todo arquivo pedido estara disponivel.",
+            "Tratamento melhora experiencia do usuario."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Mensagem amigavel ao usuario",
+          "objective": "Mostrar explicacao simples quando der erro.",
+          "teaching": "Ao tratar erro, voce pode orientar o usuario sobre o que fazer.",
+          "challenges": [
+            {
+              "keyword": "mensagem",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "O que exibimos para orientar o usuario?"
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Quem recebe a explicacao do erro?"
+            },
+            {
+              "keyword": "orientacao",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Qual objetivo de uma mensagem de erro amigavel?"
+            }
+          ],
+          "learn": [
+            "Erro bem comunicado e mais facil de corrigir.",
+            "Mensagem clara melhora usabilidade."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Evitar travar o programa",
+          "objective": "Entender por que tratar erros protege o fluxo.",
+          "teaching": "Sem tratamento, uma falha pode interromper toda a execucao.",
+          "challenges": [
+            {
+              "keyword": "proteger",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Tratamento de erro ajuda a fazer o que com o programa?"
+            },
+            {
+              "keyword": "fluxo",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "O que continuamos preservando com tratamento?"
+            },
+            {
+              "keyword": "interromper",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "O que o erro nao tratado pode fazer com o programa?"
+            }
+          ],
+          "learn": [
+            "Tratamento deixa aplicacoes mais resistentes.",
+            "Mesmo programas simples ganham estabilidade com isso."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Try com varios cenarios",
+          "objective": "Perceber que o mesmo bloco pode exigir cuidado com diferentes falhas.",
+          "teaching": "Em programas reais, leitura de input, arquivos e conversoes podem falhar por motivos diferentes.",
+          "challenges": [
+            {
+              "keyword": "cenarios",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "Erro pode acontecer em diferentes o que?"
+            },
+            {
+              "keyword": "cuidado",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "O tratamento exige qual postura do programador?"
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "try",
+                "except",
+                "finally"
+              ],
+              "hint": "O que ajuda a prevenir varios erros antes mesmo do except?"
+            }
+          ],
+          "learn": [
+            "Erros podem ter origens diferentes.",
+            "Pensar em cenarios ajuda a criar codigo mais seguro."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de erros",
+          "objective": "Consolidar try, except e finally em um fluxo simples.",
+          "teaching": "O essencial e saber onde pode falhar, como reagir e como finalizar com seguranca.",
+          "challenges": [
+            {
+              "keyword": "try",
+              "distractors": [
+                "except",
+                "finally",
+                "Python"
+              ],
+              "hint": "Palavra que inicia a protecao do trecho de risco."
+            },
+            {
+              "keyword": "except",
+              "distractors": [
+                "try",
+                "finally",
+                "Python"
+              ],
+              "hint": "Palavra que trata o erro."
+            },
+            {
+              "keyword": "finally",
+              "distractors": [
+                "try",
+                "except",
+                "Python"
+              ],
+              "hint": "Palavra da finalizacao garantida."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de tratamento de erros.",
+            "Base pronta para scripts mais confiaveis e seguros."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "python_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final Python (Python)",
+      "subtitle": "10 missoes de projeto final python em Python",
+      "file": "lang-module?lang=python&mod=12",
+      "missions": [
+        {
+          "title": "O que e um projeto final Python",
+          "objective": "Entender projeto final como uniao dos modulos aprendidos.",
+          "teaching": "No projeto final, voce usa variaveis, condicionais, loops, funcoes e estruturas de dados em um caso simples.",
+          "challenges": [
+            {
+              "keyword": "projeto",
+              "distractors": [
+                "automacao",
+                "script",
+                "Python"
+              ],
+              "hint": "Qual palavra representa uma aplicacao mais completa?"
+            },
+            {
+              "keyword": "integracao",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Projeto final une varios conceitos em uma unica o que?"
+            },
+            {
+              "keyword": "pratica",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Projeto final leva o estudo para um contexto mais como?"
+            }
+          ],
+          "learn": [
+            "Projeto final mostra como os modulos se conectam.",
+            "Ele transforma exercicios isolados em uma solucao simples."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Definindo objetivo do script",
+          "objective": "Escolher uma tarefa simples para o programa resolver.",
+          "teaching": "Todo script fica melhor quando tem um objetivo claro, como cadastro, calculo ou automacao simples.",
+          "challenges": [
+            {
+              "keyword": "script",
+              "distractors": [
+                "automacao",
+                "projeto",
+                "Python"
+              ],
+              "hint": "Como chamamos um programa pequeno em Python?"
+            },
+            {
+              "keyword": "objetivo",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "O que precisa estar claro antes de montar o projeto?"
+            },
+            {
+              "keyword": "tarefa",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "O projeto final deve resolver qual tipo de coisa?"
+            }
+          ],
+          "learn": [
+            "Projeto bom comeca com meta definida.",
+            "Objetivo claro ajuda a escolher as partes do codigo."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Entrada de dados do usuario",
+          "objective": "Coletar informacoes com input para alimentar o projeto.",
+          "teaching": "Projetos basicos em Python costumam pedir dados com input().",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual funcao recebe dado do usuario?"
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Quem normalmente fornece os dados iniciais?"
+            },
+            {
+              "keyword": "entrada",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Como chamamos o dado que entra no programa?"
+            }
+          ],
+          "learn": [
+            "Input e comum em scripts interativos.",
+            "O projeto fica mais util quando recebe dados reais."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Validando informacoes",
+          "objective": "Usar condicoes para conferir se os dados fazem sentido.",
+          "teaching": "Validacao impede que entradas invalidas quebrem a logica do projeto.",
+          "challenges": [
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Como se chama a verificacao dos dados?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual estrutura ajuda a validar?"
+            },
+            {
+              "keyword": "erro",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "O que a validacao tenta evitar?"
+            }
+          ],
+          "learn": [
+            "Validacao deixa o projeto mais confiavel.",
+            "Mesmo scripts simples precisam conferir entradas."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Organizando em funcoes",
+          "objective": "Separar a logica do projeto em partes menores.",
+          "teaching": "Funcoes ajudam a dividir entrada, processamento e exibicao em blocos claros.",
+          "challenges": [
+            {
+              "keyword": "def",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual palavra cria funcao em Python?"
+            },
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual ganho principal de usar funcoes no projeto?"
+            },
+            {
+              "keyword": "blocos",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "As funcoes dividem o projeto em que partes?"
+            }
+          ],
+          "learn": [
+            "Funcoes tornam o script mais limpo.",
+            "Dividir responsabilidades ajuda manutencao e leitura."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Guardando dados em lista ou dicionario",
+          "objective": "Escolher estrutura simples para armazenar informacoes do projeto.",
+          "teaching": "Listas e dicionarios sao otimos para mini cadastros e organizacao de dados.",
+          "challenges": [
+            {
+              "keyword": "lista",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual estrutura e boa para varios itens em sequencia?"
+            },
+            {
+              "keyword": "dicionario",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual estrutura e boa para chave e valor?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "O projeto normalmente precisa guardar o que?"
+            }
+          ],
+          "learn": [
+            "Estrutura de dados correta facilita o projeto.",
+            "Lista e dicionario cobrem muitos cenarios iniciais."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Exibindo resultado final",
+          "objective": "Mostrar uma resposta clara para o usuario.",
+          "teaching": "Depois do processamento, o programa precisa exibir o resultado de forma compreensivel.",
+          "challenges": [
+            {
+              "keyword": "print",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual funcao exibe resultado no terminal?"
+            },
+            {
+              "keyword": "resultado",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "O que o projeto deve mostrar ao final?"
+            },
+            {
+              "keyword": "clareza",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Como a resposta ao usuario deve ser apresentada?"
+            }
+          ],
+          "learn": [
+            "Saida clara melhora o uso do script.",
+            "O usuario precisa entender facilmente o que aconteceu."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Tratando erros simples",
+          "objective": "Evitar que o projeto quebre com entrada inesperada.",
+          "teaching": "try e except podem proteger o projeto contra falhas comuns.",
+          "challenges": [
+            {
+              "keyword": "try",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual palavra inicia o tratamento de erro?"
+            },
+            {
+              "keyword": "except",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Qual palavra define a reacao ao erro?"
+            },
+            {
+              "keyword": "seguranca",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Tratamento de erro deixa o projeto mais como?"
+            }
+          ],
+          "learn": [
+            "Projetos finais melhoram quando lidam com erro.",
+            "Pequena protecao ja aumenta bastante a estabilidade."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Testando o script",
+          "objective": "Executar o projeto varias vezes para conferir se funciona.",
+          "teaching": "Testar com entradas diferentes ajuda a encontrar falhas antes de considerar o projeto pronto.",
+          "challenges": [
+            {
+              "keyword": "teste",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "O que fazemos para verificar se o script funciona bem?"
+            },
+            {
+              "keyword": "entradas diferentes",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "Que estrategia ajuda a encontrar problemas?"
+            },
+            {
+              "keyword": "correcao",
+              "distractors": [
+                "automacao",
+                "script",
+                "projeto"
+              ],
+              "hint": "O que costuma vir depois do teste quando algo falha?"
+            }
+          ],
+          "learn": [
+            "Teste faz parte da conclusao do projeto.",
+            "Experimentar varios cenarios revela erros escondidos."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini projeto final Python",
+          "objective": "Consolidar entrada, validacao, estrutura de dados e exibicao de resultado.",
+          "teaching": "O projeto final em Python deve mostrar que voce ja consegue montar um script pequeno, util e organizado.",
+          "challenges": [
+            {
+              "keyword": "script",
+              "distractors": [
+                "automacao",
+                "projeto",
+                "Python"
+              ],
+              "hint": "Formato comum do projeto final em Python."
+            },
+            {
+              "keyword": "automacao",
+              "distractors": [
+                "script",
+                "projeto",
+                "Python"
+              ],
+              "hint": "Uma ideia comum de projeto simples em Python."
+            },
+            {
+              "keyword": "projeto",
+              "distractors": [
+                "automacao",
+                "script",
+                "Python"
+              ],
+              "hint": "Conceito central deste modulo final."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo final de Python.",
+            "Base pronta para pequenos projetos reais e estudos mais avancados."
+          ],
+          "number": 10
+        }
+      ]
+    }
+  ]
+}

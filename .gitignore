@@ -1,0 +1,8 @@
+frontend/.env*.local
+portal-professor/.env*.local
+laravel-backend-deploy.zip
+
+# Ignorar arquivos de ambiente que podem conter senhas
+.env
+.env.*
+!.env.example

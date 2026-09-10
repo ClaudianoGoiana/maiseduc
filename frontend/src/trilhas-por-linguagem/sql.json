@@ -1,0 +1,4808 @@
+{
+  "id": "sql",
+  "name": "SQL",
+  "icon": "🗄️",
+  "color": "from-emerald-500 to-teal-600",
+  "modules": [
+    {
+      "id": "sql_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Modelo Relacional (SQL)",
+      "subtitle": "10 missoes de modelo relacional em SQL",
+      "file": "lang-module?lang=sql&mod=1",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Modelo Relacional",
+          "objective": "Entender a base de modelo relacional em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "tabela",
+              "distractors": [
+                "registro",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "tabela",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "relacionamento",
+              "distractors": [
+                "tabela",
+                "registro",
+                "atributo"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como modelo relacional aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "registro",
+              "distractors": [
+                "tabela",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "relacionamento",
+              "distractors": [
+                "tabela",
+                "registro",
+                "atributo"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "atributo",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "relacionamento",
+              "distractors": [
+                "tabela",
+                "registro",
+                "atributo"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "atributo",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "chave primaria",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar modelo relacional com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "atributo",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "chave primaria",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "tabela",
+              "distractors": [
+                "registro",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar modelo relacional.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "chave primaria",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "tabela",
+              "distractors": [
+                "registro",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "tabela",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "tabela",
+              "distractors": [
+                "registro",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "tabela",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "relacionamento",
+              "distractors": [
+                "tabela",
+                "registro",
+                "atributo"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre modelo relacional.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "registro",
+              "distractors": [
+                "tabela",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "relacionamento",
+              "distractors": [
+                "tabela",
+                "registro",
+                "atributo"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "atributo",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar modelo relacional em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "relacionamento",
+              "distractors": [
+                "tabela",
+                "registro",
+                "atributo"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "atributo",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "chave primaria",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "atributo",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "chave primaria",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "tabela",
+              "distractors": [
+                "registro",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "chave primaria",
+              "distractors": [
+                "tabela",
+                "registro",
+                "relacionamento"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "tabela",
+              "distractors": [
+                "registro",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "tabela",
+                "relacionamento",
+                "atributo"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. SELECT (SQL)",
+      "subtitle": "10 missoes de select em SQL",
+      "file": "lang-module?lang=sql&mod=2",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com SELECT",
+          "objective": "Entender a base de select em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como select aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar select com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar select.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre select.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar select em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "select",
+              "distractors": [
+                "from",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "from",
+              "distractors": [
+                "select",
+                "alias",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "alias",
+              "distractors": [
+                "select",
+                "from",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Filtros (SQL)",
+      "subtitle": "10 missoes de filtros em SQL",
+      "file": "lang-module?lang=sql&mod=3",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Filtros",
+          "objective": "Entender a base de filtros em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como filtros aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar filtros com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar filtros.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre filtros.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar filtros em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "where",
+              "distractors": [
+                "and",
+                "or",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "and",
+              "distractors": [
+                "where",
+                "or",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "or",
+              "distractors": [
+                "where",
+                "and",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Ordenacao e Limite (SQL)",
+      "subtitle": "10 missoes de ordenacao e limite em SQL",
+      "file": "lang-module?lang=sql&mod=4",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Ordenacao e Limite",
+          "objective": "Entender a base de ordenacao e limite em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como ordenacao e limite aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar ordenacao e limite com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar ordenacao e limite.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre ordenacao e limite.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar ordenacao e limite em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "order by",
+              "distractors": [
+                "limit",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "limit",
+              "distractors": [
+                "order by",
+                "desc",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "desc",
+              "distractors": [
+                "order by",
+                "limit",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Agregacoes (SQL)",
+      "subtitle": "10 missoes de agregacoes em SQL",
+      "file": "lang-module?lang=sql&mod=5",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Agregacoes",
+          "objective": "Entender a base de agregacoes em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como agregacoes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar agregacoes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar agregacoes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre agregacoes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar agregacoes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "count",
+              "distractors": [
+                "sum",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "sum",
+              "distractors": [
+                "count",
+                "avg",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "avg",
+              "distractors": [
+                "count",
+                "sum",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. GROUP BY e HAVING (SQL)",
+      "subtitle": "10 missoes de group by e having em SQL",
+      "file": "lang-module?lang=sql&mod=6",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com GROUP BY e HAVING",
+          "objective": "Entender a base de group by e having em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como group by e having aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar group by e having com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar group by e having.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre group by e having.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar group by e having em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "group by",
+              "distractors": [
+                "having",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "having",
+              "distractors": [
+                "group by",
+                "agrupar",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "agrupar",
+              "distractors": [
+                "group by",
+                "having",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. JOINs (SQL)",
+      "subtitle": "10 missoes de joins em SQL",
+      "file": "lang-module?lang=sql&mod=7",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com JOINs",
+          "objective": "Entender a base de joins em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como joins aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar joins com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar joins.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre joins.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar joins em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "join",
+              "distractors": [
+                "inner join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "inner join",
+              "distractors": [
+                "join",
+                "left join",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "left join",
+              "distractors": [
+                "join",
+                "inner join",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Subqueries (SQL)",
+      "subtitle": "10 missoes de subqueries em SQL",
+      "file": "lang-module?lang=sql&mod=8",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Subqueries",
+          "objective": "Entender a base de subqueries em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como subqueries aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar subqueries com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar subqueries.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre subqueries.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar subqueries em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "subquery",
+              "distractors": [
+                "exists",
+                "in",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "exists",
+              "distractors": [
+                "subquery",
+                "in",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "in",
+              "distractors": [
+                "subquery",
+                "exists",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. INSERT (SQL)",
+      "subtitle": "10 missoes de insert em SQL",
+      "file": "lang-module?lang=sql&mod=9",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com INSERT",
+          "objective": "Entender a base de insert em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como insert aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar insert com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar insert.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre insert.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar insert em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "insert",
+              "distractors": [
+                "values",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "values",
+              "distractors": [
+                "insert",
+                "nova linha",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "nova linha",
+              "distractors": [
+                "insert",
+                "values",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. UPDATE e DELETE (SQL)",
+      "subtitle": "10 missoes de update e delete em SQL",
+      "file": "lang-module?lang=sql&mod=10",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com UPDATE e DELETE",
+          "objective": "Entender a base de update e delete em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como update e delete aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar update e delete com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar update e delete.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre update e delete.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar update e delete em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "update",
+              "distractors": [
+                "delete",
+                "where",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "delete",
+              "distractors": [
+                "update",
+                "where",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "update",
+                "delete",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Transacoes (SQL)",
+      "subtitle": "10 missoes de transacoes em SQL",
+      "file": "lang-module?lang=sql&mod=11",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Transacoes",
+          "objective": "Entender a base de transacoes em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como transacoes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar transacoes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar transacoes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre transacoes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar transacoes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "begin",
+              "distractors": [
+                "commit",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "commit",
+              "distractors": [
+                "begin",
+                "rollback",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "rollback",
+              "distractors": [
+                "begin",
+                "commit",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final SQL (SQL)",
+      "subtitle": "10 missoes de projeto final sql em SQL",
+      "file": "lang-module?lang=sql&mod=12",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Projeto Final SQL",
+          "objective": "Entender a base de projeto final sql em SQL.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como projeto final sql aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar projeto final sql com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar projeto final sql.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre projeto final sql.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar projeto final sql em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "relatorio",
+              "distractors": [
+                "consulta",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "consulta",
+              "distractors": [
+                "relatorio",
+                "dados",
+                "SQL"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "relatorio",
+                "consulta",
+                "SQL"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    }
+  ]
+}

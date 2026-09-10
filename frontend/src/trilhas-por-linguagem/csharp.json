@@ -1,0 +1,4688 @@
+{
+  "id": "csharp",
+  "name": "C#",
+  "icon": "🟣",
+  "color": "from-purple-500 to-fuchsia-500",
+  "modules": [
+    {
+      "id": "csharp_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Fundamentos C# (C#)",
+      "subtitle": "10 missoes de fundamentos c# em C#",
+      "file": "lang-module?lang=csharp&mod=1",
+      "missions": [
+        {
+          "title": "Imprimindo no Console",
+          "objective": "Aprender a exibir mensagens no terminal.",
+          "teaching": "Em C#, utilizamos a classe Console seguida do método WriteLine() para exibir um texto na tela do terminal.",
+          "challenges": [
+            {
+              "keyword": "Console",
+              "distractors": [
+                "Main",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Dica: Interagimos com o terminal através da classe chamada \"Console\".\n\n```csharp\n____.WriteLine(\"Olá, Mundo!\");\n```"
+            },
+            {
+              "keyword": "Main",
+              "distractors": [
+                "Console",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "dotnet",
+              "distractors": [
+                "Console",
+                "Main",
+                "using"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Console.WriteLine é a principal forma de saída de dados no terminal em C#."
+          ],
+          "number": 1
+        },
+        {
+          "title": "A Porta de Entrada",
+          "objective": "Identificar onde o programa inicia sua execução.",
+          "teaching": "Todo programa em C# clássico começa a ser executado pelo método estático chamado Main.",
+          "challenges": [
+            {
+              "keyword": "Main",
+              "distractors": [
+                "Console",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Dica: O método principal sempre leva o nome \"Main\" com \"M\" maiúsculo.\n\n```csharp\npublic static void ____(string[] args) { }\n```"
+            },
+            {
+              "keyword": "dotnet",
+              "distractors": [
+                "Console",
+                "Main",
+                "using"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "using",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O método Main é a raiz da execução da aplicação."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Iniciando o Motor",
+          "objective": "Executar o código via linha de comando.",
+          "teaching": "No ecossistema .NET, utilizamos a interface de linha de comando (CLI) do dotnet para rodar o projeto.",
+          "challenges": [
+            {
+              "keyword": "dotnet",
+              "distractors": [
+                "Console",
+                "Main",
+                "using"
+              ],
+              "hint": "Dica: O utilitário base do terminal para C# se chama \"dotnet\".\n\n```bash\n____ run\n```"
+            },
+            {
+              "keyword": "using",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "namespace",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O comando `dotnet run` compila e executa o seu código de uma só vez."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Explicando o Código",
+          "objective": "Usar comentários para documentar a lógica.",
+          "teaching": "Comentários de uma linha começam com // e são ignorados pelo compilador.",
+          "challenges": [
+            {
+              "keyword": "//",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Dica: Use as duas barras para um comentário simples.\n\n```csharp\n____ Isso é um comentário\n```"
+            },
+            {
+              "keyword": "namespace",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "comment",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Comentários ajudam outros desenvolvedores a entender seu código."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Organizando com Namespaces",
+          "objective": "Importar bibliotecas de sistema.",
+          "teaching": "Para usar classes como Console sem digitar o caminho completo, usamos a diretiva using.",
+          "challenges": [
+            {
+              "keyword": "using",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Dica: A palavra-chave para importar um namespace é \"using\".\n\n```csharp\n____ System;\n```"
+            },
+            {
+              "keyword": "comment",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "csproj",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `using` organiza as dependências do seu arquivo."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Sensibilidade de Caixa",
+          "objective": "Entender que C# diferencia maiúsculas de minúsculas.",
+          "teaching": "Em C#, Main é diferente de main. Se você escrever errado, o programa não encontrará o ponto de entrada.",
+          "challenges": [
+            {
+              "keyword": "Main",
+              "distractors": [
+                "Console",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Dica: O nome correto do método de entrada começa com M maiúsculo.\n\n```csharp\npublic static void ____() { }\n```"
+            },
+            {
+              "keyword": "csproj",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "build",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "C# é uma linguagem Case-Sensitive."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Onde mora o código?",
+          "objective": "Identificar a pasta de saída do compilador.",
+          "teaching": "Quando você compila um projeto, os arquivos executáveis (.dll ou .exe) são gerados dentro da pasta bin.",
+          "challenges": [
+            {
+              "keyword": "bin",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Dica: A pasta de binários se chama \"bin\".\n\n```text\nProjeto/\n├── ____/\n├── obj/\n└── Program.cs\n```"
+            },
+            {
+              "keyword": "build",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "clear",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A pasta bin contém o resultado final da sua compilação."
+          ],
+          "number": 7
+        },
+        {
+          "title": "O RG do Projeto",
+          "objective": "Entender o arquivo de configuração do projeto.",
+          "teaching": "O arquivo .csproj contém as informações sobre a versão do .NET e as bibliotecas que o projeto utiliza.",
+          "challenges": [
+            {
+              "keyword": ".csproj",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Dica: É a extensão do arquivo de projeto do C#.\n\n```text\nMeuProjeto____\n```"
+            },
+            {
+              "keyword": "clear",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Console",
+              "distractors": [
+                "Main",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O .csproj é o arquivo mestre que define como o projeto deve ser construído."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Apenas Construir",
+          "objective": "Compilar o projeto sem executá-lo imediatamente.",
+          "teaching": "Se você quiser apenas verificar se há erros de sintaxe sem rodar o app, use o comando build.",
+          "challenges": [
+            {
+              "keyword": "build",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Dica: Comando para construir o projeto.\n\n```bash\ndotnet ____\n```"
+            },
+            {
+              "keyword": "Console",
+              "distractors": [
+                "Main",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Main",
+              "distractors": [
+                "Console",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`dotnet build` é útil para validar o código em grandes projetos."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Limpando a Sujeira",
+          "objective": "Limpar a tela do terminal via código.",
+          "teaching": "Podemos limpar todas as mensagens anteriores do console usando o método Clear().",
+          "challenges": [
+            {
+              "keyword": "Clear",
+              "distractors": [
+                "Console",
+                "Main",
+                "dotnet"
+              ],
+              "hint": "Dica: O método para limpar o console se chama \"Clear\".\n\n```csharp\nConsole.____();\n```"
+            },
+            {
+              "keyword": "Main",
+              "distractors": [
+                "Console",
+                "dotnet",
+                "using"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "dotnet",
+              "distractors": [
+                "Console",
+                "Main",
+                "using"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Console.Clear()` ajuda a manter a interface do terminal organizada para o usuário."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Tipos e Variaveis (C#)",
+      "subtitle": "10 missoes de tipos e variaveis em C#",
+      "file": "lang-module?lang=csharp&mod=2",
+      "missions": [
+        {
+          "title": "Armazenando Textos",
+          "objective": "Declarar variáveis que guardam caracteres.",
+          "teaching": "Para guardar palavras ou frases (textos) em C#, declaramos a variável usando a palavra-chave string.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "int",
+                "var",
+                "double"
+              ],
+              "hint": "Dica: Tipo primitivo para cadeias de caracteres em minúsculo: \"string\".\n\n```csharp\n____ nome = \"João\";\n```"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "string",
+                "var",
+                "double"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "string",
+                "int",
+                "double"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O tipo string guarda coleções de caracteres delimitados por aspas duplas."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Trabalhando com Números",
+          "objective": "Declarar variáveis para números inteiros.",
+          "teaching": "A palavra-chave int é utilizada para armazenar números que não possuem casas decimais.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "string",
+                "var",
+                "double"
+              ],
+              "hint": "Dica: Abreviação de integer, usamos \"int\" para inteiros.\n\n```csharp\n____ idade = 25;\n```"
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "string",
+                "int",
+                "double"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O tipo int é a forma padrão de lidar com matemática exata sem decimais."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Tipagem Implícita (Preguiça Inteligente)",
+          "objective": "Deixar o compilador descobrir o tipo.",
+          "teaching": "Com a palavra-chave var, você não precisa informar o tipo da variável: o C# descobre sozinho ao ver o valor que está sendo atribuído.",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                "string",
+                "int",
+                "double"
+              ],
+              "hint": "Dica: Usamos \"var\" para tipagem implícita baseada no valor atribuído à direita.\n\n```csharp\n____ preco = 10.50;\n```"
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "bool",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O tipo var ajuda a ter um código mais limpo quando o tipo do lado direito já é óbvio."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Números Decimais",
+          "objective": "Armazenar valores com ponto flutuante.",
+          "teaching": "Para valores monetários simples ou medidas com decimais, usamos o tipo double.",
+          "challenges": [
+            {
+              "keyword": "double",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Dica: Tipo para números com casas decimais.\n\n```csharp\n____ altura = 1.75;\n```"
+            },
+            {
+              "keyword": "bool",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O double é o padrão para números decimais no C#."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Verdadeiro ou Falso",
+          "objective": "Usar o tipo lógico booleano.",
+          "teaching": "O tipo bool armazena apenas dois estados: true (verdadeiro) ou false (falso).",
+          "challenges": [
+            {
+              "keyword": "bool",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Dica: Abreviação de boolean.\n\n```csharp\n____ estaAtivo = true;\n```"
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "const",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Booleanos são essenciais para o controle de fluxo com IF."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Um Único Caractere",
+          "objective": "Armazenar apenas uma letra ou símbolo.",
+          "teaching": "O tipo char guarda um único caractere e deve ser delimitado por aspas simples (').",
+          "challenges": [
+            {
+              "keyword": "char",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Dica: Tipo para um único caractere.\n\n```csharp\n____ letra = 'A';\n```"
+            },
+            {
+              "keyword": "const",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interpolation",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Lembre-se: string usa \" (duplas) e char usa ' (simples)."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Valores Imutáveis",
+          "objective": "Criar uma variável que não pode ser alterada.",
+          "teaching": "Ao usar a palavra const, o valor da variável deve ser definido na criação e nunca mais poderá mudar.",
+          "challenges": [
+            {
+              "keyword": "const",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Dica: Define uma constante.\n\n```csharp\n____ double PI = 3.1415;\n```"
+            },
+            {
+              "keyword": "interpolation",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Constantes ajudam a evitar bugs impedindo alterações acidentais em valores fixos."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Conversão de Tipos",
+          "objective": "Forçar a mudança de um tipo para outro (Casting).",
+          "teaching": "Para converter um double em int (perdendo as casas decimais), colocamos o tipo desejado entre parênteses.",
+          "challenges": [
+            {
+              "keyword": "(int)",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Dica: O cast é feito com parênteses antes do valor.\n\n```csharp\ndouble nota = 9.8;\nint final = ____nota;\n```"
+            },
+            {
+              "keyword": "nullable",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "int",
+                "var",
+                "double"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Casting explícito é necessário quando há risco de perda de dados."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Frases Dinâmicas",
+          "objective": "Inserir variáveis dentro de textos facilmente.",
+          "teaching": "Usando o cifrão ($) antes das aspas, você pode colocar variáveis dentro de chaves { } no meio do texto.",
+          "challenges": [
+            {
+              "keyword": "$",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Dica: Símbolo usado para interpolação de strings.\n\n```csharp\nstring msg = ____\"Olá, {nome}!\";\n```"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "int",
+                "var",
+                "double"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "string",
+                "var",
+                "double"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A interpolação de strings é muito mais legível que a concatenação com +."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Aceitando o Vazio",
+          "objective": "Permitir que tipos numéricos sejam nulos.",
+          "teaching": "Normalmente um int não pode ser nulo. Para permitir, adicionamos uma interrogação (?) após o tipo.",
+          "challenges": [
+            {
+              "keyword": "int?",
+              "distractors": [
+                "string",
+                "int",
+                "var"
+              ],
+              "hint": "Dica: Adicione ? ao tipo para torná-lo nullable.\n\n```csharp\n____ idade = null;\n```"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "string",
+                "var",
+                "double"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                "string",
+                "int",
+                "double"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Tipos Nullable são fundamentais ao trabalhar com bancos de dados."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (C#)",
+      "subtitle": "10 missoes de condicionais em C#",
+      "file": "lang-module?lang=csharp&mod=3",
+      "missions": [
+        {
+          "title": "A Bifurcação IF",
+          "objective": "Criar uma condição lógica simples.",
+          "teaching": "Utilizamos if (se) para executar um bloco de código apenas quando a condição interna for verdadeira.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "else",
+                "ternary"
+              ],
+              "hint": "Dica: A palavra reservada é \"if\" (se, em inglês).\n\n```csharp\n____ (idade >= 18) {\n  Console.WriteLine(\"Maior de idade\");\n}\n```"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "ternary"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "ternary"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A estrutura `if` é a base das decisões de fluxo em C#."
+          ],
+          "number": 1
+        },
+        {
+          "title": "O Plano B",
+          "objective": "Executar código quando a condição IF falhar.",
+          "teaching": "A palavra else (senão) complementa um if, executando as instruções apenas se a primeira condição for avaliada como falsa.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "ternary"
+              ],
+              "hint": "Dica: Usamos \"else\" logo após o bloco de fechamento do if.\n\n```csharp\nif (choveu) { \n  // ...\n} ____ { \n  Console.WriteLine(\"Vou sair\"); \n}\n```"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "ternary"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ternary",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O bloco `else` garante que algo sempre aconteça se a condição falhar."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Múltiplos Caminhos",
+          "objective": "Substituir vários IFs com uma estrutura mais limpa.",
+          "teaching": "Quando precisamos verificar o valor de uma única variável contra várias possibilidades, usamos o switch para criar caminhos mais organizados.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "ternary"
+              ],
+              "hint": "Dica: A palavra para selecionar entre múltiplos \"cases\" é \"switch\".\n\n```csharp\n____ (opcao) {\n  case 1:\n    // ...\n    break;\n}\n```"
+            },
+            {
+              "keyword": "ternary",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "logic",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `switch` deixa comparações de igualdade múltiplas muito mais elegantes que vários `if/else if`."
+          ],
+          "number": 3
+        },
+        {
+          "title": "A Terceira Via",
+          "objective": "Usar Else If para múltiplas condições encadeadas.",
+          "teaching": "Quando o primeiro IF falha, podemos tentar uma segunda condição específica antes de cair no Else final.",
+          "challenges": [
+            {
+              "keyword": "else if",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Dica: Combinação de else e if.\n\n```csharp\nif (x > 10) { } ____ (x > 5) { }\n```"
+            },
+            {
+              "keyword": "logic",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "comparison",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`else if` permite criar cadeias de decisão complexas."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Decisão em Uma Linha",
+          "objective": "Usar o operador ternário para atribuições rápidas.",
+          "teaching": "O operador ternário (?:) funciona como um IF/ELSE reduzido para retornar um valor.",
+          "challenges": [
+            {
+              "keyword": "?",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Dica: O primeiro símbolo do ternário é a interrogação.\n\n```csharp\nstring status = (idade >= 18) ____ \"Adulto\" : \"Menor\";\n```"
+            },
+            {
+              "keyword": "comparison",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "match",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O ternário é excelente para simplificar atribuições condicionais simples."
+          ],
+          "number": 5
+        },
+        {
+          "title": "E Também (E Lógico)",
+          "objective": "Verificar se duas condições são verdadeiras ao mesmo tempo.",
+          "teaching": "O operador && exige que ambos os lados sejam verdadeiros para o resultado final ser true.",
+          "challenges": [
+            {
+              "keyword": "&&",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Dica: Use o duplo e comercial.\n\n```csharp\nif (temChave ____ temAcesso) { }\n```"
+            },
+            {
+              "keyword": "match",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "expression",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`&&` (AND) é usado para restrições duplas."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Ou Um Ou Outro",
+          "objective": "Verificar se ao menos uma condição é verdadeira.",
+          "teaching": "O operador || (OR) resulta em verdadeiro se qualquer um dos lados (ou ambos) for true.",
+          "challenges": [
+            {
+              "keyword": "||",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Dica: Use as duas barras verticais (pipes).\n\n```csharp\nif (eSabado ____ eDomingo) { }\n```"
+            },
+            {
+              "keyword": "expression",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "else",
+                "ternary"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`||` (OR) é usado para opções alternativas."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Igualdade e Diferença",
+          "objective": "Comparar valores exatos.",
+          "teaching": "Para testar se valores são iguais usamos ==. Para testar se são diferentes usamos !=.",
+          "challenges": [
+            {
+              "keyword": "!=",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Dica: Símbolo para \"Diferente de\".\n\n```csharp\nif (senha ____ \"1234\") { Console.WriteLine(\"Acesso Negado\"); }\n```"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "else",
+                "ternary"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "ternary"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Não confunda = (atribuição) com == (comparação)."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Switch Moderno",
+          "objective": "Usar Switch Expression para retornar valores.",
+          "teaching": "Nas versões recentes do C#, o switch pode ser usado como uma expressão compacta usando a seta =>.",
+          "challenges": [
+            {
+              "keyword": "=>",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Dica: A \"setinha\" do switch expression.\n\n```csharp\nstring msg = opcao switch {\n  1 ____ \"Salvar\",\n  _ => \"Opção Inválida\"\n};\n```"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "ternary"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "ternary"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Switch expressions tornam o código muito mais funcional e limpo."
+          ],
+          "number": 9
+        },
+        {
+          "title": "O Descarte do Switch",
+          "objective": "Usar o caso padrão (default) no switch expression.",
+          "teaching": "No switch expression, usamos o caractere underline (_) para representar o caso que \"captura tudo\" (o default).",
+          "challenges": [
+            {
+              "keyword": "_",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Dica: O \"discard\" pattern no switch.\n\n```csharp\nvar r = x switch { 1 => \"A\", ____ => \"B\" };\n```"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "ternary"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ternary",
+              "distractors": [
+                "if",
+                "switch",
+                "else"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `_` é obrigatório se o switch não cobrir todas as possibilidades do tipo."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (C#)",
+      "subtitle": "10 missoes de loops em C#",
+      "file": "lang-module?lang=csharp&mod=4",
+      "missions": [
+        {
+          "title": "O Ciclo Controlado",
+          "objective": "Rodar um código sabendo exatamente quantas vezes.",
+          "teaching": "O loop for possui 3 partes: inicialização, condição e incremento. É ideal quando você sabe a quantidade de repetições necessárias.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "do-while"
+              ],
+              "hint": "Dica: Para ciclos contáveis, usamos the clássico \"for\".\n\n```csharp\n____ (int i = 0; i < 10; i++) {\n  // ...\n}\n```"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "do-while"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "do-while"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A estrutura `for` junta todo o gerenciamento do contador em uma única linha."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Enquanto For Verdade",
+          "objective": "Repetir algo sem saber o número de vezes.",
+          "teaching": "O loop while repete um bloco de código indefinidamente enquanto uma determinada condição for avaliada como verdadeira.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "do-while"
+              ],
+              "hint": "Dica: \"Enquanto\" a condição for verdadeira, ou seja: \"while\".\n\n```csharp\n____ (jogoRodando) {\n  AtualizarTela();\n}\n```"
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "do-while"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "do-while",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `while` é perigoso se você esquecer de alterar a condição interna (Loop Infinito!)."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Iterando Coleções",
+          "objective": "Passar por todos os elementos de uma lista.",
+          "teaching": "A estrutura foreach passa por cada item dentro de uma lista ou array, tirando a necessidade de usar índices de controle [i].",
+          "challenges": [
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "do-while"
+              ],
+              "hint": "Dica: \"Para cada\" item na lista, usamos a palavra unida \"foreach\".\n\n```csharp\n____ (var aluno in alunos) {\n  Console.WriteLine(aluno);\n}\n```"
+            },
+            {
+              "keyword": "do-while",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `foreach` é a maneira mais limpa de ler listas e coleções de dados sem se preocupar com limites."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Ao Menos uma Vez",
+          "objective": "Garantir que o código rode antes da primeira checagem.",
+          "teaching": "O loop do-while executa o bloco primeiro e só depois verifica a condição. Isso garante que o código rode ao menos uma vez.",
+          "challenges": [
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Dica: Começa com a palavra \"fazer\".\n\n```csharp\n____ { \n  Executar(); \n} while (condicao);\n```"
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use `do-while` quando a ação inicial é obrigatória antes da validação."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Saindo de Emergência",
+          "objective": "Interromper um loop imediatamente.",
+          "teaching": "A palavra break cancela a execução do loop atual e pula para a próxima linha fora dele.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Dica: \"Quebra\" o ciclo.\n\n```csharp\nwhile(true) {\n  if (finalizou) ____;\n}\n```"
+            },
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "nested",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `break` é essencial para evitar loops infinitos ou parar buscas após encontrar o item."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Pulando a Vez",
+          "objective": "Ir para a próxima repetição sem terminar a atual.",
+          "teaching": "O comando continue ignora o restante do código dentro do loop apenas para a volta atual e já inicia a próxima iteração.",
+          "challenges": [
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Dica: \"Continua\" para o próximo ciclo.\n\n```csharp\nfor (int i=0; i<10; i++) {\n  if (i % 2 == 0) ____;\n  Console.WriteLine(i);\n}\n```"
+            },
+            {
+              "keyword": "nested",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "infinite",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`continue` ajuda a filtrar processamentos dentro de um loop de forma elegante."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Loop em Camadas",
+          "objective": "Criar uma repetição dentro de outra.",
+          "teaching": "Podemos aninhar loops (Nested Loops) para percorrer estruturas complexas como matrizes (linhas e colunas).",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "do-while"
+              ],
+              "hint": "Dica: Use outro loop dentro do primeiro.\n\n```csharp\nfor(int i=0; i<3; i++) {\n  ____(int j=0; j<3; j++) { }\n}\n```"
+            },
+            {
+              "keyword": "infinite",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Cuidado com loops aninhados! Eles podem tornar o programa lento se processarem muitos dados."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Ciclo Eterno",
+          "objective": "Criar um loop que nunca para por design.",
+          "teaching": "Em engines de jogos ou servidores, usamos loops infinitos que só param sob condições específicas de sistema.",
+          "challenges": [
+            {
+              "keyword": "true",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Dica: Condição sempre verdadeira.\n\n```csharp\nwhile (____) {\n  ProcessarFrames();\n}\n```"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reverse",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Um loop infinito sem um `break` ou condição de saída travará seu computador!"
+          ],
+          "number": 8
+        },
+        {
+          "title": "Intervalos Modernos",
+          "objective": "Iterar sobre um intervalo de números.",
+          "teaching": "No C# moderno, podemos usar Enumerable.Range para gerar sequências rápidas para o foreach.",
+          "challenges": [
+            {
+              "keyword": "Range",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Dica: Gera um intervalo.\n\n```csharp\nforeach (var i in Enumerable.____(1, 10)) { }\n```"
+            },
+            {
+              "keyword": "reverse",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "do-while"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Enumerable.Range` é uma forma funcional de criar contadores rápidos."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Contagem Regressiva",
+          "objective": "Fazer o loop rodar de trás para frente.",
+          "teaching": "Para loops invertidos, iniciamos o contador no valor alto e usamos o operador de decremento --.",
+          "challenges": [
+            {
+              "keyword": "i--",
+              "distractors": [
+                "for",
+                "while",
+                "foreach"
+              ],
+              "hint": "Dica: Diminui o valor de i em 1.\n\n```csharp\nfor (int i = 10; i > 0; ____) {\n  Console.WriteLine(i);\n}\n```"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "do-while"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "do-while"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Loops regressivos são úteis para remover itens de uma lista sem bagunçar os índices."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Colecoes (C#)",
+      "subtitle": "10 missoes de colecoes em C#",
+      "file": "lang-module?lang=csharp&mod=5",
+      "missions": [
+        {
+          "title": "Array Básico (Tamanho Fixo)",
+          "objective": "Criar uma lista primitiva de tamanho fixo.",
+          "teaching": "O Array tradicional em C# exige que o tamanho máximo seja definido na hora da criação. Depois de criado, ele não encolhe nem cresce.",
+          "challenges": [
+            {
+              "keyword": "int[]",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: Declaramos um array colocando colchetes logo após o tipo de dado.\n\n```csharp\n____ notas = new int[5];\n```"
+            },
+            {
+              "keyword": "Dictionary",
+              "distractors": [
+                "List",
+                "Array",
+                "Queue"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Array",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Queue"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Arrays `[]` são ultra-rápidos e ocupam pouca memória, mas são rígidos."
+          ],
+          "number": 1
+        },
+        {
+          "title": "A Lista Flexível",
+          "objective": "Criar uma coleção que cresce e diminui.",
+          "teaching": "A List<T> resolve o problema de limite do Array. Ela permite usar o método .Add() para inserir dados infinitamente.",
+          "challenges": [
+            {
+              "keyword": "List",
+              "distractors": [
+                "Dictionary",
+                "Array",
+                "Queue"
+              ],
+              "hint": "Dica: A coleção genérica que aceita novos itens é chamada de \"List\".\n\n```csharp\n____<string> nomes = new List<string>();\nnomes.Add(\"Maria\");\n```"
+            },
+            {
+              "keyword": "Array",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Queue"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Queue",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A `List` é de longe a coleção mais utilizada no dia-a-dia com C#."
+          ],
+          "number": 2
+        },
+        {
+          "title": "O Dicionário de Chaves",
+          "objective": "Mapear valores e acessá-los via chave (ID).",
+          "teaching": "No Dictionary<TKey, TValue> armazenamos os dados em pares. O primeiro define a chave (ex: Nome) e o segundo o valor (Ex: Idade).",
+          "challenges": [
+            {
+              "keyword": "Dictionary",
+              "distractors": [
+                "List",
+                "Array",
+                "Queue"
+              ],
+              "hint": "Dica: Chamamos o mapa de Chave-Valor em C# de \"Dictionary\".\n\n```csharp\n____<string, int> idades = new Dictionary<string, int>();\nidades[\"Ana\"] = 30;\n```"
+            },
+            {
+              "keyword": "Queue",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Stack",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Dicionários oferecem acesso super-rápido aos dados sem precisar buscar item por item."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Primeiro a Chegar (Fila)",
+          "objective": "Usar uma estrutura FIFO (First-In, First-Out).",
+          "teaching": "A Queue é ideal para filas de atendimento. O primeiro item adicionado com Enqueue() será o primeiro a ser removido.",
+          "challenges": [
+            {
+              "keyword": "Queue",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: Fila em inglês.\n\n```csharp\n____<string> fila = new Queue<string>();\nfila.Enqueue(\"Paciente 1\");\n```"
+            },
+            {
+              "keyword": "Stack",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "HashSet",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Queue` é perfeita para processamento sequencial de tarefas."
+          ],
+          "number": 4
+        },
+        {
+          "title": "O Último é o Primeiro (Pilha)",
+          "objective": "Usar uma estrutura LIFO (Last-In, First-Out).",
+          "teaching": "A Stack funciona como uma pilha de pratos. O último item colocado com Push() é o primeiro a sair com Pop().",
+          "challenges": [
+            {
+              "keyword": "Stack",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: Pilha em inglês.\n\n```csharp\n____<string> historico = new Stack<string>();\nhistorico.Push(\"Pagina 1\");\n```"
+            },
+            {
+              "keyword": "HashSet",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Sort",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Stack` é muito usada em sistemas de \"Desfazer\" (Undo) e navegação."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Sem Duplicatas",
+          "objective": "Armazenar apenas itens únicos.",
+          "teaching": "O HashSet ignora tentativas de adicionar o mesmo valor duas vezes, garantindo uma coleção sem repetições.",
+          "challenges": [
+            {
+              "keyword": "HashSet",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: Conjunto baseado em Hash.\n\n```csharp\n____<int> ids = new HashSet<int>();\n```"
+            },
+            {
+              "keyword": "Sort",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Find",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`HashSet` é extremamente rápido para verificar se um item já existe na coleção."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Ordenando a Bagunça",
+          "objective": "Colocar uma lista em ordem alfabética ou numérica.",
+          "teaching": "As listas possuem o método Sort() que organiza os elementos automaticamente.",
+          "challenges": [
+            {
+              "keyword": "Sort",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: Método para ordenar.\n\n```csharp\nnumeros.____();\n```"
+            },
+            {
+              "keyword": "Find",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Matrix",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `Sort()` altera a lista original permanentemente."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Busca Rápida",
+          "objective": "Encontrar um item específico na lista.",
+          "teaching": "O método Find() permite localizar o primeiro item que atende a uma condição lógica.",
+          "challenges": [
+            {
+              "keyword": "Find",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: \"Encontrar\" em inglês.\n\n```csharp\nvar resultado = lista.____(x => x == \"Alvo\");\n```"
+            },
+            {
+              "keyword": "Matrix",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Length",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Find` retorna o item encontrado ou o valor padrão se não houver nada."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Tabelas e Matrizes",
+          "objective": "Criar coleções com linhas e colunas.",
+          "teaching": "Arrays multidimensionais usam vírgula dentro dos colchetes para definir dimensões.",
+          "challenges": [
+            {
+              "keyword": "[,]",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: Colchetes com vírgula indicam matriz.\n\n```csharp\nint____ mapa = new int[3, 3];\n```"
+            },
+            {
+              "keyword": "Length",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "Dictionary",
+                "Array",
+                "Queue"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Matrizes são úteis para representar tabuleiros, mapas ou planilhas."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Qual o Tamanho?",
+          "objective": "Descobrir quantos itens existem em um Array.",
+          "teaching": "Diferente da List que usa Count, o Array tradicional usa a propriedade Length.",
+          "challenges": [
+            {
+              "keyword": "Length",
+              "distractors": [
+                "List",
+                "Dictionary",
+                "Array"
+              ],
+              "hint": "Dica: \"Comprimento\" em inglês.\n\n```csharp\nint total = meuArray.____;\n```"
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "Dictionary",
+                "Array",
+                "Queue"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Dictionary",
+              "distractors": [
+                "List",
+                "Array",
+                "Queue"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Lembre-se: Arrays usam `Length`, Coleções (List, Dict) usam `Count`."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Metodos (C#)",
+      "subtitle": "10 missoes de metodos em C#",
+      "file": "lang-module?lang=csharp&mod=6",
+      "missions": [
+        {
+          "title": "Criando Ações (Métodos)",
+          "objective": "Agrupar linhas de código em uma ação reaproveitável.",
+          "teaching": "Um método é um bloco de código que executa uma rotina específica. Se ele não devolve nada para quem o chamou, usamos a palavra void.",
+          "challenges": [
+            {
+              "keyword": "void",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Palavra para método que retorna \"vazio\" é \"void\".\n\n```csharp\npublic ____ MostrarAviso() {\n  Console.WriteLine(\"Atenção!\");\n}\n```"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "optional"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "optional"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Métodos `void` executam ações, mas não entregam resultados de volta."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Entregando Resultados",
+          "objective": "Fazer o método devolver uma response.",
+          "teaching": "Quando o método não é void (ex: int, string), você é obrigado a devolver um valor ao fim da operação utilizando a palavra return.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "optional"
+              ],
+              "hint": "Dica: Para retornar dados, utilize \"return\".\n\n```csharp\npublic int Somar() {\n  ____ 10 + 5;\n}\n```"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "optional"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "optional",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O comando `return` joga o valor computado para fora e encerra a execução do método na hora!"
+          ],
+          "number": 2
+        },
+        {
+          "title": "Passando Informações (Parâmetros)",
+          "objective": "Fazer o método aceitar dados externos.",
+          "teaching": "Parâmetros funcionam como variáveis locais dentro dos parênteses do método, que são preenchidas quando alguém invoca a função.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Você deve dizer o tipo do parâmetro, neste caso será um inteiro (\"int\").\n\n```csharp\npublic void SetIdade(____ idadeAtual) {\n  idade = idadeAtual;\n}\n```"
+            },
+            {
+              "keyword": "optional",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "named",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Parâmetros permitem que a mesma lógica de método funcione para dados diferentes."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Valores Padrão",
+          "objective": "Criar parâmetros opcionais.",
+          "teaching": "Podemos definir um valor padrão para um parâmetro. Se quem chamar o método não passar nada, o valor padrão será usado.",
+          "challenges": [
+            {
+              "keyword": "=",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Use o sinal de atribuição no parâmetro.\n\n```csharp\npublic void Log(string msg ____ \"Sem mensagem\") { }\n```"
+            },
+            {
+              "keyword": "named",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "out",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Parâmetros opcionais reduzem a necessidade de criar várias versões do mesmo método."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Chamada Nomeada",
+          "objective": "Passar argumentos fora de ordem usando nomes.",
+          "teaching": "Você pode indicar qual valor vai para qual parâmetro usando o nome dele seguido de dois pontos.",
+          "challenges": [
+            {
+              "keyword": ":",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Dois pontos após o nome do parâmetro.\n\n```csharp\nEnviarEmail(assunto____ \"Oi\", para: \"ana@email.com\");\n```"
+            },
+            {
+              "keyword": "out",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ref",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Argumentos nomeados tornam a chamada do método muito mais clara em funções com muitos parâmetros."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Saída Múltipla (out)",
+          "objective": "Fazer o método retornar mais de um valor via parâmetro.",
+          "teaching": "A palavra out permite que o método preencha uma variável externa. É muito usado em métodos de \"TryParse\".",
+          "challenges": [
+            {
+              "keyword": "out",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Parâmetro de saída.\n\n```csharp\npublic void Calcular(____ int resultado) { resultado = 10; }\n```"
+            },
+            {
+              "keyword": "ref",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "static",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Um parâmetro `out` DEVE ser obrigatoriamente preenchido dentro do método."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Referência Direta (ref)",
+          "objective": "Passar uma variável para ser modificada na origem.",
+          "teaching": "O modificador ref passa o endereço de memória da variável, permitindo que alterações lá dentro afetem a variável original lá fora.",
+          "challenges": [
+            {
+              "keyword": "ref",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Passagem por referência.\n\n```csharp\npublic void Incrementar(____ int n) { n++; }\n```"
+            },
+            {
+              "keyword": "static",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "overload",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ao contrário do `out`, o `ref` exige que a variável já tenha um valor antes de ser passada."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Métodos de Classe",
+          "objective": "Criar ações que não dependem de um objeto (instância).",
+          "teaching": "Métodos static pertencem à classe em si, e não a um objeto criado com \"new\". Exemplo: Math.Sqrt().",
+          "challenges": [
+            {
+              "keyword": "static",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Método estático.\n\n```csharp\npublic ____ void AvisarGeral() { }\n```"
+            },
+            {
+              "keyword": "overload",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "expression",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Métodos estáticos são úteis para funções utilitárias que não guardam estado."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Mesmo Nome, Outra Cara",
+          "objective": "Criar métodos com o mesmo nome mas parâmetros diferentes.",
+          "teaching": "A Sobrecarga (Overloading) permite ter vários métodos chamados \"Somar\", um para inteiros e outro para números decimais.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Mude o tipo ou quantidade de parâmetros.\n\n```csharp\nvoid Print(string s) { }\nvoid Print(____ n) { }\n```"
+            },
+            {
+              "keyword": "expression",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "optional"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O compilador decide qual método usar baseado no tipo de dado que você envia."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Métodos em Uma Linha",
+          "objective": "Usar a sintaxe reduzida para métodos simples.",
+          "teaching": "Para métodos que apenas retornam uma conta ou valor, podemos usar o operador => em vez de chaves e return.",
+          "challenges": [
+            {
+              "keyword": "=>",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica: Operador \"lambda\" para corpo de método.\n\n```csharp\npublic int Dobro(int n) ____ n * 2;\n```"
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "optional"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "optional"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Expression-bodied members tornam classes de dados muito mais compactas."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Classes (C#)",
+      "subtitle": "10 missoes de classes em C#",
+      "file": "lang-module?lang=csharp&mod=7",
+      "missions": [
+        {
+          "title": "O Molde do Objeto",
+          "objective": "Definir o plano estrutural de uma entidade.",
+          "teaching": "A palavra class é a base da Orientação a Objetos. Ela permite criar um \"Molde\" contendo atributos e métodos.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "property",
+                "constructor",
+                "private"
+              ],
+              "hint": "Dica: A planta baixa ou molde se chama \"class\".\n\n```csharp\npublic ____ Pessoa {\n  // dados e métodos da pessoa\n}\n```"
+            },
+            {
+              "keyword": "property",
+              "distractors": [
+                "class",
+                "constructor",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "property",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes são moldes lógicos de coisas do mundo real."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Propriedades Inteligentes",
+          "objective": "Criar encapsulamento com Get e Set rápidos.",
+          "teaching": "No C# moderno, em vez de criar Getters e Setters enormes, criamos Propriedades Automáticas para encapsular o acesso a um dado.",
+          "challenges": [
+            {
+              "keyword": "set",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Propriedades leem com \"get\" e escrevem com \"set\".\n\n```csharp\npublic string Nome { get; ____; }\n```"
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "property",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "As propriedades de `{ get; set; }` fornecem controle de alteração do dado (Encapsulamento)."
+          ],
+          "number": 2
+        },
+        {
+          "title": "A Fábrica (Construtor)",
+          "objective": "Executar um código assim que a classe nascer.",
+          "teaching": "O Construtor é um método especial que SEMPRE leva o exato mesmo nome da classe e não possui tipo de retorno, usado para preparar a configuração inicial.",
+          "challenges": [
+            {
+              "keyword": "Carro",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Se a classe se chama \"Carro\", o construtor DEVE ter este mesmo nome.\n\n```csharp\nclass Carro {\n  public ____() {\n    // Inicialização da fábrica\n  }\n}\n```"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "protected",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Construtores nascem junto com os novos objetos na memória."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Segredo de Estado (Private)",
+          "objective": "Esconder dados sensíveis dentro da classe.",
+          "teaching": "O modificador private garante que apenas o código dentro da própria classe possa ver ou alterar aquele dado.",
+          "challenges": [
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Modificador de acesso privado.\n\n```csharp\n____ string senhaBanco;\n```"
+            },
+            {
+              "keyword": "protected",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O uso de `private` é o primeiro passo para um bom encapsulamento."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Herança Familiar (Protected)",
+          "objective": "Permitir que apenas os filhos vejam o dado.",
+          "teaching": "O protected funciona como o privado, mas abre uma exceção: as classes que herdarem (filhos) também podem acessar.",
+          "challenges": [
+            {
+              "keyword": "protected",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Protegido para a família de classes.\n\n```csharp\n____ int idInterno;\n```"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "readonly",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`protected` equilibra segurança e flexibilidade na herança."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Portas Abertas (Public)",
+          "objective": "Tornar um membro visível para todo o projeto.",
+          "teaching": "O modificador public permite que qualquer outra parte do programa acesse aquele método ou atributo.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Modificador de acesso público.\n\n```csharp\n____ void Iniciar() { }\n```"
+            },
+            {
+              "keyword": "readonly",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "this",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use `public` apenas para o que realmente precisa ser exposto para fora da classe."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Só no Nascimento (Readonly)",
+          "objective": "Criar campos que só mudam no construtor.",
+          "teaching": "A palavra readonly permite que um campo seja definido na declaração ou dentro do construtor, mas nunca mais depois disso.",
+          "challenges": [
+            {
+              "keyword": "readonly",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Apenas leitura.\n\n```csharp\nprivate ____ string idUnico;\n```"
+            },
+            {
+              "keyword": "this",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "partial",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`readonly` é mais flexível que `const` porque permite calcular o valor durante a criação do objeto."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Eu Mesmo (this)",
+          "objective": "Referenciar a própria instância da classe.",
+          "teaching": "Usamos a palavra this para diferenciar um atributo da classe de um parâmetro de método que tenha o mesmo nome.",
+          "challenges": [
+            {
+              "keyword": "this",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Referência local.\n\n```csharp\npublic void SetNome(string nome) {\n  ____.nome = nome;\n}\n```"
+            },
+            {
+              "keyword": "partial",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "nested",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `this` evita confusão de nomes e aponta diretamente para a memória do objeto atual."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Classe em Pedaços (Partial)",
+          "objective": "Dividir uma classe em vários arquivos.",
+          "teaching": "Com a palavra partial, você pode espalhar o código de uma única classe por vários arquivos .cs diferentes.",
+          "challenges": [
+            {
+              "keyword": "partial",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Dica: Classe parcial.\n\n```csharp\npublic ____ class Jogador { }\n```"
+            },
+            {
+              "keyword": "nested",
+              "distractors": [
+                "class",
+                "property",
+                "constructor"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "property",
+                "constructor",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes parciais são muito usadas por ferramentas de geração automática de código."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Classe Ninho (Nested)",
+          "objective": "Criar uma classe dentro de outra.",
+          "teaching": "Você pode declarar uma classe dentro do escopo de outra para organizar melhor componentes que só fazem sentido juntos.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "property",
+                "constructor",
+                "private"
+              ],
+              "hint": "Dica: Declare a classe interna.\n\n```csharp\npublic class Banco {\n  private ____ Conta { }\n}\n```"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "property",
+                "constructor",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "property",
+              "distractors": [
+                "class",
+                "constructor",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes internas ajudam a agrupar lógica que não deve ser exposta globalmente."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Objetos (C#)",
+      "subtitle": "10 missoes de objetos em C#",
+      "file": "lang-module?lang=csharp&mod=8",
+      "missions": [
+        {
+          "title": "A Palavra Mágica NEW",
+          "objective": "Transformar o molde de Classe em um Objeto Real.",
+          "teaching": "Para alocar memória e de fato \"produzir\" o objeto baseado em uma classe, utilizamos o comando mágico new chamando o construtor.",
+          "challenges": [
+            {
+              "keyword": "new",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "garbage"
+              ],
+              "hint": "Dica: A palavra-chave que invoca um novo objeto na RAM é \"new\".\n\n```csharp\nPessoa cliente = ____ Pessoa();\n```"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "objeto",
+                "new",
+                "garbage"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "garbage"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A palavra `new` constrói o objeto físico a partir do Molde Abstrato da Classe."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Acessando os Componentes do Objeto",
+          "objective": "Modificar dados de um Objeto já instanciado.",
+          "teaching": "Após criar o objeto, usamos o operador de Ponto (.) para alcançar seus métodos ou propriedades.",
+          "challenges": [
+            {
+              "keyword": "Nome",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Através do objeto \"cliente\", acessamos a sua propriedade \"Nome\".\n\n```csharp\nPessoa cliente = new Pessoa();\ncliente.____ = \"Carlos\";\n```"
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "garbage"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "garbage",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O Ponto (.) é o gancho usado para se comunicar com um Objeto vivo."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Um Tipo Específico de Molde",
+          "objective": "Saber o que colocamos na frente da variável de um Objeto.",
+          "teaching": "O tipo da variável que recebe um objeto sempre será O NOME da própria Classe que a criou (O Tipo do Dado agora é a própria classe).",
+          "challenges": [
+            {
+              "keyword": "Pessoa",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Se foi construído com \"new Pessoa()\", o tipo do lado esquerdo também deve ser \"Pessoa\".\n\n```csharp\n____ cliente = new Pessoa();\n```"
+            },
+            {
+              "keyword": "garbage",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "nullcheck",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "As classes agem como os \"Novos Tipos\" de variáveis no C# (Tipos de Referência)."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Limpeza Automática",
+          "objective": "Entender como o C# limpa a memória.",
+          "teaching": "O Garbage Collector (Coletor de Lixo) é o processo do .NET que identifica objetos que não estão mais sendo usados e libera a memória RAM automaticamente.",
+          "challenges": [
+            {
+              "keyword": "GC",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Sigla do Garbage Collector.\n\n```csharp\n// O ____ limpa objetos sem referências.\n```"
+            },
+            {
+              "keyword": "nullcheck",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "conditional",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Diferente de C++, no C# você não precisa deletar objetos manualmente."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Cuidado com o Nada",
+          "objective": "Evitar o erro mais comum: NullReferenceException.",
+          "teaching": "Antes de acessar um objeto, é vital checar se ele não é null para evitar que o programa trave.",
+          "challenges": [
+            {
+              "keyword": "null",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Representa a ausência de objeto.\n\n```csharp\nif (usuario != ____) { usuario.Logar(); }\n```"
+            },
+            {
+              "keyword": "conditional",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "initializer",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Checar nulos é uma das tarefas mais frequentes de um programador C#."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Acesso Seguro (?.)",
+          "objective": "Usar o operador condicional nulo para simplificar checagens.",
+          "teaching": "O operador ?. acessa a propriedade apenas se o objeto não for nulo. Se for nulo, ele retorna nulo em vez de dar erro.",
+          "challenges": [
+            {
+              "keyword": "?.",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Interrogação antes do ponto.\n\n```csharp\nstring nome = cliente____Nome;\n```"
+            },
+            {
+              "keyword": "initializer",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "equals",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O operador Elvis (`?.`) reduz drasticamente o número de IFs no código."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Construção Rápida",
+          "objective": "Definir valores logo na criação do objeto.",
+          "teaching": "Com os Object Initializers, você pode preencher propriedades usando chaves logo após o construtor.",
+          "challenges": [
+            {
+              "keyword": "{",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Use chaves para inicializar.\n\n```csharp\nvar p = new Pessoa ____ Nome = \"Ana\" };\n```"
+            },
+            {
+              "keyword": "equals",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "tostring",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Inicializadores de objeto tornam a criação de instâncias muito mais legível."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Comparando Identidades",
+          "objective": "Verificar se dois objetos são o mesmo.",
+          "teaching": "O método Equals() compara se dois objetos possuem o mesmo conteúdo ou referência, dependendo de como foi implementado.",
+          "challenges": [
+            {
+              "keyword": "Equals",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Método de igualdade herdado de Object.\n\n```csharp\nif (obj1.____(obj2)) { }\n```"
+            },
+            {
+              "keyword": "tostring",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reference",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Por padrão, para classes, o `==` compara a posição na memória, não o conteúdo."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Quem é Você?",
+          "objective": "Transformar um objeto em uma representação de texto.",
+          "teaching": "O método ToString() devolve uma string que representa o objeto. Você pode sobrescrevê-lo para mostrar dados amigáveis.",
+          "challenges": [
+            {
+              "keyword": "ToString",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Converte para string.\n\n```csharp\nConsole.WriteLine(usuario.____());\n```"
+            },
+            {
+              "keyword": "reference",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "instancia",
+                "new",
+                "garbage"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sobrescrever o `ToString()` ajuda muito no processo de Debugging."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Valor vs Referência",
+          "objective": "Entender a diferença entre struct e class.",
+          "teaching": "Classes são tipos de referência (ficam no Heap), enquanto structs são tipos de valor (ficam na Stack) e são copiados ao serem passados.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "objeto",
+                "instancia",
+                "new"
+              ],
+              "hint": "Dica: Tipo que vive no Heap por referência.\n\n```csharp\npublic ____ Cliente { } // Tipo de referência\n```"
+            },
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "instancia",
+                "new",
+                "garbage"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "objeto",
+                "new",
+                "garbage"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Tipos de referência guardam apenas o \"endereço\" de onde o objeto realmente está na memória."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Heranca e Interfaces (C#)",
+      "subtitle": "10 missoes de heranca e interfaces em C#",
+      "file": "lang-module?lang=csharp&mod=9",
+      "missions": [
+        {
+          "title": "Herdando as Dívidas e Ativos (Herança)",
+          "objective": "Compartilhar o molde do Pai com um Filho.",
+          "teaching": "Para uma classe herdar de outra, em C# usamos simplesmente Dois Pontos (:) na declaração do filho, evitando o termo longo \"extends\".",
+          "challenges": [
+            {
+              "keyword": ":",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Apenas coloque os Dois Pontos \":\" para iniciar a herança.\n\n```csharp\nclass Cachorro ____ Animal { }\n```"
+            },
+            {
+              "keyword": "heranca",
+              "distractors": [
+                "interface",
+                "abstract",
+                "sealed"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "interface",
+                "heranca",
+                "sealed"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A Herança de 2 pontos ( : ) copia as propriedades de Animal para Cachorro automaticamente."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Contratos Sem Lógica",
+          "objective": "Criar as regras de um sistema através de Interfaces.",
+          "teaching": "A interface não contém lógicas de código (sem \"chaves\"), ela funciona como uma assinatura legal. Por regra, seus nomes sempre começam com a letra \"I\".",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "heranca",
+                "abstract",
+                "sealed"
+              ],
+              "hint": "Dica: A palavra reservada é \"interface\".\n\n```csharp\npublic ____ IAutenticavel {\n  bool Login(string senha);\n}\n```"
+            },
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "interface",
+                "heranca",
+                "sealed"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "sealed",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Interfaces garantem padronização: as classes que a assinam são OBRIGADAS a implementar seus métodos."
+          ],
+          "number": 2
+        },
+        {
+          "title": "O Fantasma Abstrato",
+          "objective": "Criar uma classe Pai que não permite criar \"new\" nela mesma.",
+          "teaching": "A palavra abstract avisa que essa Classe é tão teórica (Abstrata) que ela só serve para passar DNA na herança, sendo bloqueado criar Objetos dela.",
+          "challenges": [
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "interface",
+                "heranca",
+                "sealed"
+              ],
+              "hint": "Dica: O molde fantasma e abstrato utiliza a palavra \"abstract\".\n\n```csharp\npublic ____ class ContaBancaria { }\n```"
+            },
+            {
+              "keyword": "sealed",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "explicit",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes \"abstract\" travam a instanciação de tipos base confusos, forçando o dev a instanciar os Herdeiros Corretos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Fim da Linha (Sealed)",
+          "objective": "Impedir que uma classe seja herdada.",
+          "teaching": "Se você não quer que ninguém crie filhos para sua classe, use o modificador sealed para \"selar\" a herança.",
+          "challenges": [
+            {
+              "keyword": "sealed",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Classe selada.\n\n```csharp\npublic ____ class SegredoMaximo { }\n```"
+            },
+            {
+              "keyword": "explicit",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "record",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes `sealed` podem ter pequenas melhorias de performance no compilador."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Implementação Explícita",
+          "objective": "Resolver conflitos de nomes em interfaces.",
+          "teaching": "Se duas interfaces tiverem o mesmo nome de método, você pode implementá-las explicitamente usando o nome da interface.",
+          "challenges": [
+            {
+              "keyword": "IControle.",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Use o nome da interface antes do método.\n\n```csharp\nvoid ____Executar() { }\n```"
+            },
+            {
+              "keyword": "record",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "init",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso esconde o método a menos que o objeto seja convertido para o tipo da interface."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Dados Imutáveis (Record)",
+          "objective": "Criar classes focadas apenas em dados.",
+          "teaching": "O tipo record é uma forma moderna de criar classes imutáveis com comparação por valor automática.",
+          "challenges": [
+            {
+              "keyword": "record",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Novo tipo de dado imutável.\n\n```csharp\npublic ____ Pessoa(string Nome, int Idade);\n```"
+            },
+            {
+              "keyword": "init",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "required",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Records` simplificam muito a criação de DTOs e modelos de dados."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Só no Início (Init)",
+          "objective": "Permitir definir valor apenas na criação.",
+          "teaching": "O modificador init em uma propriedade permite que o valor seja setado apenas no inicializador de objeto, tornando-o imutável depois.",
+          "challenges": [
+            {
+              "keyword": "init",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Substitui o set para imutabilidade.\n\n```csharp\npublic string Id { get; ____; }\n```"
+            },
+            {
+              "keyword": "required",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "multiple",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`init` permite flexibilidade na criação sem perder a segurança da imutabilidade."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Campo Obrigatório",
+          "objective": "Forçar o preenchimento de uma propriedade.",
+          "teaching": "Com a palavra required, o compilador dará erro se você tentar criar o objeto sem preencher aquele campo.",
+          "challenges": [
+            {
+              "keyword": "required",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Membro requerido.\n\n```csharp\npublic ____ string CPF { get; set; }\n```"
+            },
+            {
+              "keyword": "multiple",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "heranca",
+                "abstract",
+                "sealed"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`required` substitui muitos construtores gigantes que serviam apenas para validar dados."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Múltiplos Contratos",
+          "objective": "Assinar mais de uma interface.",
+          "teaching": "Diferente da herança de classe, você pode implementar quantas interfaces quiser separando-as por vírgula.",
+          "challenges": [
+            {
+              "keyword": ",",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Use vírgula para separar interfaces.\n\n```csharp\nclass Robo : IMovel____ ILigavel { }\n```"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "heranca",
+                "abstract",
+                "sealed"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "heranca",
+              "distractors": [
+                "interface",
+                "abstract",
+                "sealed"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Implementar múltiplas interfaces é a chave para sistemas altamente desacoplados."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Record Struct",
+          "objective": "Criar um record leve na Stack.",
+          "teaching": "Você pode combinar as vantagens do record (comparação por valor) com a leveza da struct.",
+          "challenges": [
+            {
+              "keyword": "struct",
+              "distractors": [
+                "interface",
+                "heranca",
+                "abstract"
+              ],
+              "hint": "Dica: Use record junto com struct.\n\n```csharp\npublic record ____ Ponto(int X, int Y);\n```"
+            },
+            {
+              "keyword": "heranca",
+              "distractors": [
+                "interface",
+                "abstract",
+                "sealed"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "interface",
+                "heranca",
+                "sealed"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`record struct` é excelente para representar pequenos dados matemáticos de alto desempenho."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Polimorfismo (C#)",
+      "subtitle": "10 missoes de polimorfismo em C#",
+      "file": "lang-module?lang=csharp&mod=10",
+      "missions": [
+        {
+          "title": "Habilitando a Mudança no Pai",
+          "objective": "Permitir que os filhos alterem um método.",
+          "teaching": "O C# é restrito! Para que o Filho consiga re-escrever um método do Pai, o Pai DEVE liberar esse método com a tag virtual.",
+          "challenges": [
+            {
+              "keyword": "virtual",
+              "distractors": [
+                "override",
+                "base",
+                "overload"
+              ],
+              "hint": "Dica: Libere a funcionalidade para o filho colocar uma virtualização da própria através do \"virtual\".\n\n```csharp\npublic ____ void Falar() {\n  Console.WriteLine(\"Som de animal\");\n}\n```"
+            },
+            {
+              "keyword": "virtual",
+              "distractors": [
+                "override",
+                "base",
+                "overload"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "base",
+              "distractors": [
+                "override",
+                "virtual",
+                "overload"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O \"virtual\" é a permissão de \"Você pode alterar isso depois\" na Herança."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Escrevendo por Cima do Pai",
+          "objective": "Assumir o controle e criar uma nova versão.",
+          "teaching": "Se o Pai liberou usando \"virtual\", o Filho obrigatoriamente aplica a palavra override na mesma assinatura de método para colocar sua rotina única.",
+          "challenges": [
+            {
+              "keyword": "override",
+              "distractors": [
+                "virtual",
+                "base",
+                "overload"
+              ],
+              "hint": "Dica: Sobrescreva, ou passe por cima usando \"override\".\n\n```csharp\npublic ____ void Falar() {\n  Console.WriteLine(\"Au Au!\");\n}\n```"
+            },
+            {
+              "keyword": "base",
+              "distractors": [
+                "override",
+                "virtual",
+                "overload"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "overload",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Polimorfismo significa Muitas Formas. O `override` deixa Cachorro latir e Gato miar chamando a mesma função."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Pedindo Ajuda aos Mais Velhos",
+          "objective": "Injetar a lógica do pai dentro do override do filho.",
+          "teaching": "Quando o Filho reescreve algo com override, se ele quiser aproveitar a lógica que estava programada no Pai, ele invoca a mágica da palavra base.",
+          "challenges": [
+            {
+              "keyword": "base",
+              "distractors": [
+                "override",
+                "virtual",
+                "overload"
+              ],
+              "hint": "Dica: Acesso a Classe Pai base é através do comando \"base\".\n\n```csharp\npublic override void Salvar() {\n  ____.Salvar(); // Salva rotina do pai\n  Log(\"Arquivo Salvo\");\n}\n```"
+            },
+            {
+              "keyword": "overload",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "hiding",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `base` substitui a palavra \"super\" presente no Java para conversar com os níveis de herança superiores."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Mesmo Nome, Coisas Diferentes",
+          "objective": "Entender a diferença entre Sobrecarga e Sobrescrita.",
+          "teaching": "Overloading (Sobrecarga) ocorre na mesma classe com parâmetros diferentes. Overriding (Sobrescrita) ocorre na herança mudando o comportamento.",
+          "challenges": [
+            {
+              "keyword": "override",
+              "distractors": [
+                "virtual",
+                "base",
+                "overload"
+              ],
+              "hint": "Dica: Modifica o comportamento do pai.\n\n```csharp\npublic ____ void Mover() { }\n```"
+            },
+            {
+              "keyword": "hiding",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sobrecarga é polimorfismo em tempo de compilação; Sobrescrita é em tempo de execução."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Escondendo o Pai (new)",
+          "objective": "Criar um método novo ignorando a herança.",
+          "teaching": "Se você criar um método com o mesmo nome do pai sem usar override, use a palavra new para avisar que você está propositalmente \"escondendo\" a versão do pai.",
+          "challenges": [
+            {
+              "keyword": "new",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Dica: Esconde o membro herdado.\n\n```csharp\npublic ____ void Calcular() { }\n```"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "covariance",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O uso de `new` em métodos é raro e deve ser usado com cuidado para não confundir outros devs."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Polimorfismo de Interface",
+          "objective": "Tratar objetos diferentes pelo que eles fazem.",
+          "teaching": "Se várias classes implementam a mesma interface, você pode guardá-las em uma lista do tipo da interface e chamar seus métodos polimorficamente.",
+          "challenges": [
+            {
+              "keyword": "IEntidade",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Dica: Use o tipo da interface.\n\n```csharp\nList<____> lista = new List<____>();\n```"
+            },
+            {
+              "keyword": "covariance",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "contravariance",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Interfaces permitem polimorfismo sem exigir uma hierarquia de classes comum."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Entrada Flexível (Contravariância)",
+          "objective": "Permitir tipos mais genéricos na entrada.",
+          "teaching": "Em delegados e interfaces genéricas, o modificador \"in\" permite que você use um tipo menos derivado do que o especificado.",
+          "challenges": [
+            {
+              "keyword": "in",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Dica: Modificador para entrada genérica.\n\n```csharp\npublic interface IComparador<____ T> { }\n```"
+            },
+            {
+              "keyword": "contravariance",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "as",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Contravariância permite que um consumidor de dados aceite tipos mais amplos."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Saída Flexível (Covariância)",
+          "objective": "Permitir tipos mais específicos na saída.",
+          "teaching": "O modificador \"out\" em genéricos permite que você retorne um tipo mais derivado (específico) do que o original.",
+          "challenges": [
+            {
+              "keyword": "out",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Dica: Modificador para saída genérica.\n\n```csharp\npublic interface IFabrica<____ T> { }\n```"
+            },
+            {
+              "keyword": "as",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "is",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Covariância é muito comum em `IEnumerable<T>`, permitindo tratar uma lista de Cachorros como uma lista de Animais."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Tentar Converter (as)",
+          "objective": "Converter tipos sem disparar exceções.",
+          "teaching": "O operador as tenta converter um objeto. Se falhar, ele retorna null em vez de quebrar o programa.",
+          "challenges": [
+            {
+              "keyword": "as",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Dica: Tenta converter ou retorna null.\n\n```csharp\nvar humano = serVivo ____ Humano;\n```"
+            },
+            {
+              "keyword": "is",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "virtual",
+                "base",
+                "overload"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`as` é mais seguro que o casting direto (tipo) quando você não tem certeza da conversão."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Checagem de Tipo (is)",
+          "objective": "Verificar se um objeto é de um determinado tipo.",
+          "teaching": "O operador is verifica a compatibilidade e, no C# moderno, já pode criar uma variável local se a checagem for verdadeira.",
+          "challenges": [
+            {
+              "keyword": "is",
+              "distractors": [
+                "override",
+                "virtual",
+                "base"
+              ],
+              "hint": "Dica: Verifica o tipo.\n\n```csharp\nif (animal ____ Cachorro cao) { cao.Latir(); }\n```"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "virtual",
+                "base",
+                "overload"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "virtual",
+              "distractors": [
+                "override",
+                "base",
+                "overload"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `is` com declaração de variável é uma das formas mais limpas de fazer pattern matching."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. LINQ e Dados (C#)",
+      "subtitle": "10 missoes de linq e dados em C#",
+      "file": "lang-module?lang=csharp&mod=11",
+      "missions": [
+        {
+          "title": "Invocando a Ferramenta Especial",
+          "objective": "Habilitar consultas de banco de dados na memória.",
+          "teaching": "LINQ (Language-Integrated Query) adiciona poderes de super-busca nas suas listas! Para usá-lo, você PRECISA incluir sua biblioteca no Using.",
+          "challenges": [
+            {
+              "keyword": "Linq",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: No topo do arquivo importe o System.\"Linq\".\n\n```csharp\nusing System.____;\n```"
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "linq",
+                "select",
+                "orderby"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "linq",
+                "where",
+                "orderby"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sem o using do LINQ, listas e arrays não revelam seus métodos mágicos avançados."
+          ],
+          "number": 1
+        },
+        {
+          "title": "O Filtro WHERE",
+          "objective": "Eliminar sujeira e pescar os dados exatos.",
+          "teaching": "O método .Where() usa expressões Lambda (Arrow functions do C#) para avaliar cada item e extrair da lista original só os que cumprirem a regra.",
+          "challenges": [
+            {
+              "keyword": "Where",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: Extraia dados onde (\"Where\") o X for maior que 10.\n\n```csharp\nvar fortes = itens.____(x => x.forca > 10);\n```"
+            },
+            {
+              "keyword": "select",
+              "distractors": [
+                "linq",
+                "where",
+                "orderby"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "orderby",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O método `Where` funciona como a cláusula WHERE do SQL, filtrando as coleções."
+          ],
+          "number": 2
+        },
+        {
+          "title": "A Transformação SELECT",
+          "objective": "Pegar uma lista de Objetos Grandes e extrair só Textos.",
+          "teaching": "O comando .Select() serve para converter uma List de algo em uma List de Outra Coisa. Ele pega o Objeto e \"Mapeia\" apenas o atributo que você deseja.",
+          "challenges": [
+            {
+              "keyword": "Select",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: \"Selecione\" o atributo nome e construa uma nova coleção:\n\n```csharp\nvar nomes = itens.____(x => x.Nome);\n```"
+            },
+            {
+              "keyword": "orderby",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "first",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `Select` do LINQ possui a exata mesma função mecânica do método `map` no JavaScript!"
+          ],
+          "number": 3
+        },
+        {
+          "title": "Ordenação Alfabética",
+          "objective": "Organizar os dados por um atributo.",
+          "teaching": "O método OrderBy() organiza sua coleção de forma crescente baseado na propriedade que você escolher.",
+          "challenges": [
+            {
+              "keyword": "OrderBy",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: \"Ordenar Por\" em inglês.\n\n```csharp\nvar lista = produtos.____(p => p.Preco);\n```"
+            },
+            {
+              "keyword": "first",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "any",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use `OrderByDescending` para inverter a ordem (do maior para o menor)."
+          ],
+          "number": 4
+        },
+        {
+          "title": "O Primeiro da Fila",
+          "objective": "Pegar apenas um item da lista filtrada.",
+          "teaching": "FirstOrDefault() tenta pegar o primeiro item. Se a lista estiver vazia, ele retorna o valor padrão (null para objetos) em vez de dar erro.",
+          "challenges": [
+            {
+              "keyword": "FirstOrDefault",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: Primeiro ou Padrão.\n\n```csharp\nvar um = lista.____();\n```"
+            },
+            {
+              "keyword": "any",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre prefira `FirstOrDefault` ao invés de acessar o índice [0] diretamente para evitar crashes."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Tem alguém aí?",
+          "objective": "Verificar existência sem contar tudo.",
+          "teaching": "O método Any() retorna verdadeiro se houver ao menos um item na lista que cumpra a regra. É muito mais rápido que usar Count > 0.",
+          "challenges": [
+            {
+              "keyword": "Any",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: \"Qualquer\" em inglês.\n\n```csharp\nbool temVagas = lista.____(x => x.Livre);\n```"
+            },
+            {
+              "keyword": "count",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "tolist",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Any()` para de buscar assim que encontra o primeiro resultado positivo."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Contagem de Itens",
+          "objective": "Saber quantos elementos atendem a um critério.",
+          "teaching": "Diferente da propriedade .Count das listas, o método .Count() do LINQ pode aceitar um filtro interno.",
+          "challenges": [
+            {
+              "keyword": "Count",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: Método de contagem.\n\n```csharp\nint vips = lista.____(x => x.Premium);\n```"
+            },
+            {
+              "keyword": "tolist",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "groupby",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `Count()` do LINQ é flexível, mas em listas grandes o Count (propriedade) é mais rápido para o total."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Materializando a Lista",
+          "objective": "Converter o resultado do LINQ em uma List real.",
+          "teaching": "Consultas LINQ são \"preguiçosas\" (Lazy). Para transformá-las em uma lista física na memória, usamos o ToList().",
+          "challenges": [
+            {
+              "keyword": "ToList",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: Para Lista.\n\n```csharp\nvar resultado = consulta.____();\n```"
+            },
+            {
+              "keyword": "groupby",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre use `ToList()` ou `ToArray()` se precisar iterar sobre os resultados várias vezes."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Agrupando Resultados",
+          "objective": "Criar subgrupos baseados em uma categoria.",
+          "teaching": "O GroupBy() separa sua lista original em pequenos grupos baseados em uma chave comum (ex: agrupar alunos por sala).",
+          "challenges": [
+            {
+              "keyword": "GroupBy",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: \"Agrupar Por\" em inglês.\n\n```csharp\nvar grupos = lista.____(x => x.Categoria);\n```"
+            },
+            {
+              "keyword": "join",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "linq",
+              "distractors": [
+                "where",
+                "select",
+                "orderby"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O resultado do `GroupBy` é uma coleção de grupos onde cada um tem uma Key."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Unindo Duas Listas",
+          "objective": "Fazer um \"Join\" entre coleções diferentes.",
+          "teaching": "Podemos unir duas listas diferentes (ex: Pedidos e Clientes) através de um campo comum, exatamente como no SQL.",
+          "challenges": [
+            {
+              "keyword": "Join",
+              "distractors": [
+                "linq",
+                "where",
+                "select"
+              ],
+              "hint": "Dica: \"Unir\" em inglês.\n\n```csharp\nvar resumo = pedidos.____(clientes, p => p.IdC, c => c.Id, ...);\n```"
+            },
+            {
+              "keyword": "linq",
+              "distractors": [
+                "where",
+                "select",
+                "orderby"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "where",
+              "distractors": [
+                "linq",
+                "select",
+                "orderby"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `Join` do LINQ permite criar relacionamentos poderosos entre seus objetos em memória."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "csharp_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Excecoes e Async (C#)",
+      "subtitle": "10 missoes de excecoes e async em C#",
+      "file": "lang-module?lang=csharp&mod=12",
+      "missions": [
+        {
+          "title": "Zona de Perigo (Try)",
+          "objective": "Avisar ao sistema que a operação pode explodir.",
+          "teaching": "Quando desconfiamos que um comando pode dar crash no sistema (Acessar internet ou ler arquivos), encapsulamos isso num bloco de tentativa (try).",
+          "challenges": [
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "async",
+                "finally"
+              ],
+              "hint": "Dica: Tente (\"try\") executar o código frágil.\n\n```csharp\n____ {\n  AbrirBanco();\n}\n```"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "async",
+                "finally"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "async",
+              "distractors": [
+                "try",
+                "catch",
+                "finally"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Tudo que quebra dentro do `try` desvia o controle do programa imediatamente para não derrubar a aplicação."
+          ],
+          "number": 1
+        },
+        {
+          "title": "A Cesta de Redenção (Catch)",
+          "objective": "Segurar as cinzas da explosão sem fechar o App.",
+          "teaching": "Todo bloco try é acompanhado pelo catch (capturar), que receberá os Detalhes do Erro e permitirá você reagir de forma segura para o Usuário final.",
+          "challenges": [
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "async",
+                "finally"
+              ],
+              "hint": "Dica: Segure o Erro (\"catch\") gerado.\n\n```csharp\ntry { } ____ (Exception erro) {\n  Console.WriteLine(\"Falhou!\");\n}\n```"
+            },
+            {
+              "keyword": "async",
+              "distractors": [
+                "try",
+                "catch",
+                "finally"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "finally",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Um bloco `catch` limpo garante que o usuário não verá a tela vermelha da morte caso haja algum Crash local."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Não Trave a Interface (Assíncrono)",
+          "objective": "Rodar tarefas lentas no fundo.",
+          "teaching": "Para carregar grandes arquivos sem travar a interface da tela do PC ou Android, declaramos nosso método de retorno em Task com a palavra async!",
+          "challenges": [
+            {
+              "keyword": "async",
+              "distractors": [
+                "try",
+                "catch",
+                "finally"
+              ],
+              "hint": "Dica: Crie uma Task declarando que este método será Assíncrono (\"async\").\n\n```csharp\npublic ____ Task BaixarArquivos() {\n  // Lógica de download\n}\n```"
+            },
+            {
+              "keyword": "finally",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `async` aliado ao `await` substituiu técnicas velhas difíceis e se tornou o padrão moderno de rodar processos no C# do .NET moderno!"
+          ],
+          "number": 3
+        },
+        {
+          "title": "Sempre Executar (finally)",
+          "objective": "Garantir a limpeza de recursos independente de erros.",
+          "teaching": "O bloco finally roda SEMPRE, tanto se o try deu certo quanto se o catch foi ativado. É ideal para fechar conexões de banco ou arquivos.",
+          "challenges": [
+            {
+              "keyword": "finally",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Dica: \"Finalmente\" em inglês.\n\n```csharp\ntry { } catch { } ____ { Conexao.Close(); }\n```"
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "exception",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `finally` evita vazamentos de memória e conexões abertas penduradas."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Lançando o Erro (throw)",
+          "objective": "Criar sua própria falha de sistema.",
+          "teaching": "Você pode forçar a parada do programa e avisar um erro usando a palavra throw acompanhada de uma Exception.",
+          "challenges": [
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Dica: \"Lançar\" em inglês.\n\n```csharp\nif (valor < 0) ____ new Exception(\"Inválido\");\n```"
+            },
+            {
+              "keyword": "exception",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "await",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`throw` é usado para validar regras de negócio e parar o fluxo se algo estiver muito errado."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Exceção Personalizada",
+          "objective": "Criar um tipo de erro específico para seu app.",
+          "teaching": "Você pode criar suas próprias classes de erro herdando da classe base Exception.",
+          "challenges": [
+            {
+              "keyword": "Exception",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Dica: Classe base de todos os erros.\n\n```csharp\nclass SaldoInsuficiente : ____ { }\n```"
+            },
+            {
+              "keyword": "await",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "whenall",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Erros personalizados tornam o tratamento de falhas muito mais profissional e fácil de rastrear."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Esperando a Tarefa (await)",
+          "objective": "Pausar o código sem travar o processador.",
+          "teaching": "Usamos await dentro de métodos async para dizer ao C#: \"Espere esse download terminar e, enquanto isso, libere o processador para outras tarefas\".",
+          "challenges": [
+            {
+              "keyword": "await",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Dica: \"Aguardar\" em inglês.\n\n```csharp\nvar dados = ____ BaixarDadosAsync();\n```"
+            },
+            {
+              "keyword": "whenall",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "token",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O `await` é o segredo para aplicativos que nunca \"congelam\" a tela durante processamentos longos."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Todos Juntos (WhenAll)",
+          "objective": "Esperar várias tarefas terminarem ao mesmo tempo.",
+          "teaching": "Se você disparar 10 downloads, use Task.WhenAll para esperar que todos concluam antes de seguir o código.",
+          "challenges": [
+            {
+              "keyword": "WhenAll",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Dica: Quando Todos.\n\n```csharp\nawait Task.____(tarefa1, tarefa2);\n```"
+            },
+            {
+              "keyword": "token",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "delay",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`WhenAll` economiza muito tempo ao processar tarefas em paralelo."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Botão de Pânico (Token)",
+          "objective": "Permitir o cancelamento de uma tarefa longa.",
+          "teaching": "O CancellationToken permite avisar a uma tarefa em execução que o usuário desistiu ou fechou o app, para ela parar o que está fazendo.",
+          "challenges": [
+            {
+              "keyword": "CancellationToken",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Dica: Token de cancelamento.\n\n```csharp\npublic async Task Run(____ token) { }\n```"
+            },
+            {
+              "keyword": "delay",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "async",
+                "finally"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre passe um token para métodos assíncronos que podem demorar muito."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Pausa sem Travamento",
+          "objective": "Aguardar um tempo sem congelar o sistema.",
+          "teaching": "Em vez de usar Thread.Sleep (que trava tudo), use Task.Delay no mundo assíncrono para criar pausas inteligentes.",
+          "challenges": [
+            {
+              "keyword": "Delay",
+              "distractors": [
+                "try",
+                "catch",
+                "async"
+              ],
+              "hint": "Dica: Atraso em inglês.\n\n```csharp\nawait Task.____(2000); // Espera 2 segundos\n```"
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "async",
+                "finally"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "async",
+                "finally"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "`Task.Delay` é o substituto moderno para criar temporizadores em C#."
+          ],
+          "number": 10
+        }
+      ]
+    }
+  ]
+}

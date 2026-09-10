@@ -1,0 +1,4688 @@
+{
+  "id": "go",
+  "name": "Go (Golang)",
+  "icon": "🐹",
+  "color": "from-cyan-500 to-teal-500",
+  "modules": [
+    {
+      "id": "go_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Fundamentos Go (Go (Golang))",
+      "subtitle": "10 missoes de fundamentos go em Go (Golang)",
+      "file": "lang-module?lang=go&mod=1",
+      "missions": [
+        {
+          "title": "Pacote Principal",
+          "objective": "Definir o pacote inicial de execução.",
+          "teaching": "Todo programa executável em Go deve pertencer ao pacote main.",
+          "challenges": [
+            {
+              "keyword": "package",
+              "distractors": [
+                "main",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: Começamos o arquivo definindo o escopo com ____ main."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O pacote main diz ao compilador que este arquivo deve gerar um executável."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Importando Ferramentas",
+          "objective": "Trazer pacotes para usar funções prontas.",
+          "teaching": "A palavra-chave import traz funcionalidades de outros pacotes, como o fmt para formatação.",
+          "challenges": [
+            {
+              "keyword": "import",
+              "distractors": [
+                "package",
+                "main",
+                "fmt"
+              ],
+              "hint": "Dica do mestre: Para usar o Println, precisamos de ____ \"fmt\"."
+            },
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "main",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Go não permite importações que não são usadas no código."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Função de Entrada",
+          "objective": "Criar o ponto onde o programa começa.",
+          "teaching": "A função main() é onde tudo se inicia automaticamente quando rodamos o programa.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: Defina o ponto de partida: func ____() { ... }"
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "main",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Só pode existir uma função main por pacote principal."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Imprimindo no Console",
+          "objective": "Exibir texto na tela para o usuário.",
+          "teaching": "O pacote fmt (format) possui a função Println para imprimir com quebra de linha.",
+          "challenges": [
+            {
+              "keyword": "Println",
+              "distractors": [
+                "package",
+                "main",
+                "fmt"
+              ],
+              "hint": "Dica do mestre: fmt.____(\"Olá Mundo!\");"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Println adiciona automaticamente um caractere de nova linha ao final."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Iniciando Blocos",
+          "objective": "Usar chaves para delimitar o código.",
+          "teaching": "Em Go, a chave de abertura { deve estar na mesma linha da declaração da função.",
+          "challenges": [
+            {
+              "keyword": "{",
+              "distractors": [
+                "package",
+                "main",
+                "fmt"
+              ],
+              "hint": "Dica do mestre: func main() ____"
+            },
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "main",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Essa regra é obrigatória e ajuda na padronização do código Go."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Comentários de Linha",
+          "objective": "Explicar o código sem afetar a execução.",
+          "teaching": "Usamos duas barras para ignorar o restante da linha.",
+          "challenges": [
+            {
+              "keyword": "//",
+              "distractors": [
+                "package",
+                "main",
+                "fmt"
+              ],
+              "hint": "Dica do mestre: ____ Isto é um comentário em Go."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "main",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Comentários são essenciais para documentar a lógica complexa."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Rodando o Código",
+          "objective": "Executar o arquivo sem compilar permanentemente.",
+          "teaching": "O comando go run compila e executa seu arquivo em um único passo.",
+          "challenges": [
+            {
+              "keyword": "run",
+              "distractors": [
+                "package",
+                "main",
+                "fmt"
+              ],
+              "hint": "Dica do mestre: No terminal, usamos go ____ arquivo.go"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ideal para testes rápidos durante o desenvolvimento."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Exportando Funções",
+          "objective": "Tornar funções visíveis para outros pacotes.",
+          "teaching": "Em Go, se um nome começa com letra Maiúscula, ele é exportado (público).",
+          "challenges": [
+            {
+              "keyword": "DigaOla",
+              "distractors": [
+                "package",
+                "main",
+                "fmt"
+              ],
+              "hint": "Dica do mestre: Para que outros pacotes vejam sua função, use ____ (Maiúscula)."
+            },
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "main",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Letras minúsculas tornam a função privada ao pacote atual."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Importação de Pacotes",
+          "objective": "Referenciar o caminho do pacote.",
+          "teaching": "Ao usar módulos, o caminho de importação geralmente segue a URL do repositório.",
+          "challenges": [
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: O pacote de formatação padrão é o ____."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "main",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Módulos (go mod) organizam as dependências do projeto moderno."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Verificando Versão",
+          "objective": "Checar se o compilador Go está instalado.",
+          "teaching": "Sempre verifique se o ambiente está pronto antes de programar.",
+          "challenges": [
+            {
+              "keyword": "version",
+              "distractors": [
+                "package",
+                "main",
+                "fmt"
+              ],
+              "hint": "Dica do mestre: go ____ mostra qual versão do Go você está usando."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "package",
+                "fmt",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "fmt",
+              "distractors": [
+                "package",
+                "main",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Manter o Go atualizado garante acesso às melhorias de performance e segurança."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Tipos e Variaveis (Go (Golang))",
+      "subtitle": "10 missoes de tipos e variaveis em Go (Golang)",
+      "file": "lang-module?lang=go&mod=2",
+      "missions": [
+        {
+          "title": "Declaração com VAR",
+          "objective": "Criar uma variável de forma explícita.",
+          "teaching": "A palavra var é usada para declarar variáveis, podendo ou não definir o tipo.",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ nome string = \"João\""
+            },
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Declarar com var é comum fora de funções ou para valores zero."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Operador Curto",
+          "objective": "Declarar e inicializar rapidamente.",
+          "teaching": "Dentro de funções, o operador := infere o tipo automaticamente.",
+          "challenges": [
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: idade ____ 25 (declaração curta)"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            ":= só pode ser usado dentro do corpo de funções."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Números Inteiros",
+          "objective": "Armazenar valores numéricos sem decimais.",
+          "teaching": "O tipo int ajusta seu tamanho (32 ou 64 bits) conforme a arquitetura.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: var contagem ____ = 10"
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Existem tipos específicos como int32 ou int64 se precisar de controle total."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Texto (Strings)",
+          "objective": "Manipular sequências de caracteres.",
+          "teaching": "Strings em Go são imutáveis e usam aspas duplas.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "var",
+                ":=",
+                "int"
+              ],
+              "hint": "Dica do mestre: var mensagem ____ = \"Bem-vindo!\""
+            },
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Strings podem ser concatenadas usando o operador +."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Constantes",
+          "objective": "Criar valores que nunca mudam.",
+          "teaching": "Constantes são definidas em tempo de compilação e não podem ser alteradas.",
+          "challenges": [
+            {
+              "keyword": "const",
+              "distractors": [
+                "var",
+                ":=",
+                "int"
+              ],
+              "hint": "Dica do mestre: ____ Pi = 3.1415"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Constantes não podem ser declaradas com o operador curto :=."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Booleano",
+          "objective": "Trabalhar com verdadeiro ou falso.",
+          "teaching": "O tipo bool armazena apenas true ou false.",
+          "challenges": [
+            {
+              "keyword": "bool",
+              "distractors": [
+                "var",
+                ":=",
+                "int"
+              ],
+              "hint": "Dica do mestre: var ativo ____ = true"
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito usado em verificações lógicas e condicionais."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Números Decimais",
+          "objective": "Usar pontos flutuantes para precisão.",
+          "teaching": "float64 é o tipo padrão para números decimais no Go moderno.",
+          "challenges": [
+            {
+              "keyword": "float64",
+              "distractors": [
+                "var",
+                ":=",
+                "int"
+              ],
+              "hint": "Dica do mestre: var preco ____ = 19.90"
+            },
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre use float64 para evitar erros de precisão comuns em float32."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Valor Zero",
+          "objective": "Entender o estado inicial das variáveis.",
+          "teaching": "Variáveis declaradas sem valor recebem o \"zero value\" do seu tipo.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "var",
+                ":=",
+                "int"
+              ],
+              "hint": "Dica do mestre: Qual o valor inicial de um int? ____"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Para strings o valor zero é \"\", e para bool é false."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Conversão de Tipos",
+          "objective": "Mudar o tipo de um valor manualmente.",
+          "teaching": "Go não faz conversão automática; você deve ser explícito.",
+          "challenges": [
+            {
+              "keyword": "float64",
+              "distractors": [
+                "var",
+                ":=",
+                "int"
+              ],
+              "hint": "Dica do mestre: Para somar um int com float: ____(inteiro) + decimal."
+            },
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso evita erros sutis de arredondamento comuns em outras linguagens."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Declaração em Bloco",
+          "objective": "Organizar múltiplas variáveis juntas.",
+          "teaching": "Você pode agrupar declarações usando parênteses.",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                ":=",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ ( x = 1; y = 2 )"
+            },
+            {
+              "keyword": ":=",
+              "distractors": [
+                "var",
+                "int",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "var",
+                ":=",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ajuda a manter o topo do arquivo limpo e organizado."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (Go (Golang))",
+      "subtitle": "10 missoes de condicionais em Go (Golang)",
+      "file": "lang-module?lang=go&mod=3",
+      "missions": [
+        {
+          "title": "O Se (If)",
+          "objective": "Executar código baseado em uma condição.",
+          "teaching": "O if em Go não precisa de parênteses em volta da condição.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ idade >= 18 { ... }"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A condição deve obrigatoriamente resultar em um booleano."
+          ],
+          "number": 1
+        },
+        {
+          "title": "O Senão (Else)",
+          "objective": "Tratar o caso em que a condição falha.",
+          "teaching": "O else deve ficar na mesma linha da chave de fechamento do if.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: } ____ { ... }"
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Garante que o fluxo de código seja contínuo e legível."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Seleção Múltipla (Switch)",
+          "objective": "Evitar muitos if-else encadeados.",
+          "teaching": "O switch compara um valor com vários casos de forma limpa.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ dia { case 1: ... }"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Go não precisa de break ao final de cada caso; ele para sozinho."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Casos do Switch",
+          "objective": "Definir as opções de comparação.",
+          "teaching": "Cada bloco case representa uma possibilidade de valor.",
+          "challenges": [
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ \"Domingo\":"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você pode agrupar valores no mesmo caso: case 1, 2, 3:"
+          ],
+          "number": 4
+        },
+        {
+          "title": "Caso Padrão (Default)",
+          "objective": "Executar algo se nenhum caso for atendido.",
+          "teaching": "O default funciona como o else final de um switch.",
+          "challenges": [
+            {
+              "keyword": "default",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: ____: fmt.Println(\"Desconhecido\")"
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre coloque um default para lidar com valores inesperados."
+          ],
+          "number": 5
+        },
+        {
+          "title": "If com Inicialização",
+          "objective": "Declarar uma variável apenas para a condição.",
+          "teaching": "Go permite criar uma variável curta que só existe dentro do if.",
+          "challenges": [
+            {
+              "keyword": ";",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: if valor := 10____ valor > 5 { ... }"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito usado para verificar erros em chamadas de funções."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Operador Lógico E (AND)",
+          "objective": "Verificar se duas condições são verdadeiras.",
+          "teaching": "Usamos && para exigir que ambos os lados sejam true.",
+          "challenges": [
+            {
+              "keyword": "&&",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: if ativo ____ permitido { ... }"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Se o primeiro lado for false, o Go nem olha o segundo."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Operador Lógico OU (OR)",
+          "objective": "Verificar se pelo menos uma condição é verdadeira.",
+          "teaching": "Usamos || para aceitar qualquer uma das condições.",
+          "challenges": [
+            {
+              "keyword": "||",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: if sabado ____ domingo { ... }"
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito comum para permissões alternativas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Negação (NOT)",
+          "objective": "Inverter o valor de um booleano.",
+          "teaching": "O símbolo ! transforma true em false e vice-versa.",
+          "challenges": [
+            {
+              "keyword": "!",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: if ____erro { ... } (Se NÃO houver erro)"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "switch",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Fundamental para checar estados negativos."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Switch sem Expressão",
+          "objective": "Usar o switch como uma lista de condições.",
+          "teaching": "Se não houver valor no switch, ele funciona como uma cadeia de if-else.",
+          "challenges": [
+            {
+              "keyword": "true",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: Um switch vazio é o mesmo que switch ____ { ... }"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "case",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "switch",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ajuda a escrever condições complexas de forma mais organizada."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (Go (Golang))",
+      "subtitle": "10 missoes de loops em Go (Golang)",
+      "file": "lang-module?lang=go&mod=4",
+      "missions": [
+        {
+          "title": "O Único Loop (For)",
+          "objective": "Repetir código várias vezes.",
+          "teaching": "Em Go, o for é a única palavra-chave para todos os tipos de loops.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ i := 0; i < 10; i++ { ... }"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Go removeu o while para simplificar a linguagem."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Loop Estilo While",
+          "objective": "Repetir enquanto uma condição for verdadeira.",
+          "teaching": "Basta usar o for apenas com a condição central.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ ativo { ... }"
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "É a forma mais simples de criar um loop infinito controlado."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Percorrendo Coleções (Range)",
+          "objective": "Iterar sobre cada item de um array ou slice.",
+          "teaching": "O range devolve o índice e o valor de cada elemento.",
+          "challenges": [
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: for i, v := ____ lista { ... }"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Range funciona com Slices, Maps e até Strings."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Interrompendo o Loop",
+          "objective": "Sair do loop imediatamente.",
+          "teaching": "A palavra break para a execução do for atual.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: if achou { ____ }"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Útil quando você encontra o que estava procurando antes do fim da lista."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Pulando Iterações",
+          "objective": "Ir direto para a próxima rodada do loop.",
+          "teaching": "O continue ignora o restante do código atual e volta para o topo do for.",
+          "challenges": [
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "range",
+                "break"
+              ],
+              "hint": "Dica do mestre: if par { ____ }"
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ideal para filtrar itens que não devem ser processados."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Ignorando o Índice",
+          "objective": "Usar apenas o valor no range.",
+          "teaching": "Use o identificador em branco (_) para descartar o índice que não será usado.",
+          "challenges": [
+            {
+              "keyword": "_",
+              "distractors": [
+                "for",
+                "range",
+                "break"
+              ],
+              "hint": "Dica do mestre: for ____, valor := range lista { ... }"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O Go exige que você use todas as variáveis declaradas, o _ evita esse erro."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Loop Infinito",
+          "objective": "Rodar código para sempre (ou até um break).",
+          "teaching": "Basta usar for sem nenhuma condição ou inicialização.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ { fmt.Println(\"Rodando...\") }"
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Comum em servidores que devem ficar ouvindo requisições indefinidamente."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Pós-iteração (Incremento)",
+          "objective": "Atualizar o contador do loop.",
+          "teaching": "A terceira parte do for (i++) é executada após cada volta.",
+          "challenges": [
+            {
+              "keyword": "i++",
+              "distractors": [
+                "for",
+                "range",
+                "break"
+              ],
+              "hint": "Dica do mestre: for i := 0; i < 5; ____ { ... }"
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "i++ é um comando, não uma expressão, em Go."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Percorrendo Maps",
+          "objective": "Iterar sobre chaves e valores de um dicionário.",
+          "teaching": "O range em um map devolve a chave e o valor associado.",
+          "challenges": [
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: for chave, valor := ____ meuMap { ... }"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "range",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A ordem de iteração em um map é aleatória em Go."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Range em Strings",
+          "objective": "Percorrer caractere por caractere.",
+          "teaching": "Ao usar range em uma string, o Go devolve runas (Unicode).",
+          "challenges": [
+            {
+              "keyword": "rune",
+              "distractors": [
+                "for",
+                "range",
+                "break"
+              ],
+              "hint": "Dica do mestre: O valor devolvido no range de uma string é do tipo ____."
+            },
+            {
+              "keyword": "range",
+              "distractors": [
+                "for",
+                "break",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "range",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso permite lidar corretamente com acentos e emojis."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Slices e Arrays (Go (Golang))",
+      "subtitle": "10 missoes de slices e arrays em Go (Golang)",
+      "file": "lang-module?lang=go&mod=5",
+      "missions": [
+        {
+          "title": "Arrays Fixos",
+          "objective": "Criar uma lista com tamanho definido.",
+          "teaching": "Arrays têm tamanho fixo que faz parte do seu tipo.",
+          "challenges": [
+            {
+              "keyword": "[5]",
+              "distractors": [
+                "slice",
+                "append",
+                "len"
+              ],
+              "hint": "Dica do mestre: var numeros ____int"
+            },
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Arrays são pouco usados diretamente em Go; prefira Slices."
+          ],
+          "number": 1
+        },
+        {
+          "title": "A Lista Dinâmica (Slice)",
+          "objective": "Trabalhar com coleções que podem crescer.",
+          "teaching": "Slices são abstrações sobre arrays que oferecem flexibilidade.",
+          "challenges": [
+            {
+              "keyword": "[]",
+              "distractors": [
+                "slice",
+                "append",
+                "len"
+              ],
+              "hint": "Dica do mestre: var lista ____string"
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "slice",
+              "distractors": [
+                "append",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Slices são o padrão para quase todas as listas em Go."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Adicionando Itens (Append)",
+          "objective": "Inserir novos elementos no final do slice.",
+          "teaching": "A função append cria um novo slice com os itens adicionados.",
+          "challenges": [
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: lista = ____(lista, \"Novo\")"
+            },
+            {
+              "keyword": "slice",
+              "distractors": [
+                "append",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Append lida automaticamente com o aumento da capacidade do array subjacente."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Tamanho da Lista (Len)",
+          "objective": "Saber quantos elementos existem na coleção.",
+          "teaching": "A função len() retorna a quantidade atual de itens.",
+          "challenges": [
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: total := ____(meuSlice)"
+            },
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Funciona para arrays, slices, maps e strings."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Capacidade (Cap)",
+          "objective": "Entender o espaço reservado na memória.",
+          "teaching": "Capacidade é o máximo que o slice pode crescer sem realocar memória.",
+          "challenges": [
+            {
+              "keyword": "cap",
+              "distractors": [
+                "slice",
+                "append",
+                "len"
+              ],
+              "hint": "Dica do mestre: limite := ____(meuSlice)"
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "slice",
+              "distractors": [
+                "append",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Saber a capacidade ajuda a otimizar a performance do programa."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Criando com Make",
+          "objective": "Inicializar um slice com tamanho e capacidade.",
+          "teaching": "A função make cria e prepara o slice para uso.",
+          "challenges": [
+            {
+              "keyword": "make",
+              "distractors": [
+                "slice",
+                "append",
+                "len"
+              ],
+              "hint": "Dica do mestre: s := ____([]int, 5, 10)"
+            },
+            {
+              "keyword": "slice",
+              "distractors": [
+                "append",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evita realocações constantes de memória ao usar append."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Fatiamento (Slicing)",
+          "objective": "Extrair uma parte de uma lista.",
+          "teaching": "Use o operador [início:fim] para criar uma nova visão do slice.",
+          "challenges": [
+            {
+              "keyword": ":",
+              "distractors": [
+                "slice",
+                "append",
+                "len"
+              ],
+              "hint": "Dica do mestre: parte := lista[1____3]"
+            },
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O índice final não é incluído no resultado (exclusivo)."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Copiando Slices",
+          "objective": "Duplicar dados de forma segura.",
+          "teaching": "A função copy transfere elementos de um slice para outro.",
+          "challenges": [
+            {
+              "keyword": "copy",
+              "distractors": [
+                "slice",
+                "append",
+                "len"
+              ],
+              "hint": "Dica do mestre: ____(destino, origem)"
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "slice",
+              "distractors": [
+                "append",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O destino deve ter tamanho suficiente para receber os dados."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Slice Nulo (Nil)",
+          "objective": "Entender o estado inicial de um slice.",
+          "teaching": "Um slice declarado sem valor é nil e tem tamanho 0.",
+          "challenges": [
+            {
+              "keyword": "nil",
+              "distractors": [
+                "slice",
+                "append",
+                "len"
+              ],
+              "hint": "Dica do mestre: if meuSlice == ____ { ... }"
+            },
+            {
+              "keyword": "slice",
+              "distractors": [
+                "append",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você pode dar append em um slice nil sem problemas."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Removendo Itens",
+          "objective": "Deletar um elemento de uma posição específica.",
+          "teaching": "Não há função \"delete\" para slices; use fatiamento e append.",
+          "challenges": [
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: lista = ____(lista[:i], lista[i+1:]...)"
+            },
+            {
+              "keyword": "append",
+              "distractors": [
+                "slice",
+                "len",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "len",
+              "distractors": [
+                "slice",
+                "append",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O operador ... expande o segundo slice em argumentos individuais."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Funcoes (Go (Golang))",
+      "subtitle": "10 missoes de funcoes em Go (Golang)",
+      "file": "lang-module?lang=go&mod=6",
+      "missions": [
+        {
+          "title": "Declarando Funções",
+          "objective": "Criar um bloco de código reutilizável.",
+          "teaching": "Usamos a palavra func seguida do nome e parênteses.",
+          "challenges": [
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ somar(a int, b int) int { ... }"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "func",
+                "return",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Nomes de funções em Go seguem a regra de exportação por maiúscula."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Retorno Simples",
+          "objective": "Enviar um resultado de volta para quem chamou.",
+          "teaching": "O tipo de retorno vem após os parâmetros da função.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ a + b"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "func",
+                "return",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Toda função com tipo definido deve ter um return explícito."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Múltiplos Retornos",
+          "objective": "Devolver mais de um valor ao mesmo tempo.",
+          "teaching": "Go permite retornar vários valores, muito usado para resultados e erros.",
+          "challenges": [
+            {
+              "keyword": "(int, int)",
+              "distractors": [
+                "func",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica do mestre: func calcular() ____ { ... }"
+            },
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Elimina a necessidade de objetos de retorno complexos em muitos casos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Parâmetros com Mesmo Tipo",
+          "objective": "Simplificar a assinatura da função.",
+          "teaching": "Se vários parâmetros seguidos têm o mesmo tipo, você pode omitir os primeiros.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "func",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica do mestre: func somar(a, b, c ____) { ... }"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "func",
+                "return",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Deixa o código mais limpo e fácil de ler."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Retornos Nomeados",
+          "objective": "Dar nome aos valores que serão retornados.",
+          "teaching": "Variáveis de retorno nomeadas são tratadas como declaradas no topo da função.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: Um ____ limpo enviará os valores das variáveis nomeadas."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "func",
+                "return",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Pode melhorar a documentação automática do seu código."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Funções Variádicas",
+          "objective": "Aceitar um número indefinido de argumentos.",
+          "teaching": "Use o prefixo ... antes do tipo do último parâmetro.",
+          "challenges": [
+            {
+              "keyword": "...",
+              "distractors": [
+                "func",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica do mestre: func somaTudo(numeros ____int) { ... }"
+            },
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Dentro da função, o parâmetro é tratado como um slice."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Funções Anônimas",
+          "objective": "Criar funções sem nome (closures).",
+          "teaching": "Podem ser atribuídas a variáveis ou executadas imediatamente.",
+          "challenges": [
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: minhaFunc := ____() { ... }"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "func",
+                "return",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Capturam o contexto das variáveis ao seu redor."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Defer (Adiar Execução)",
+          "objective": "Garantir que algo rode no final da função.",
+          "teaching": "O defer agenda uma chamada de função para quando a função atual terminar.",
+          "challenges": [
+            {
+              "keyword": "defer",
+              "distractors": [
+                "func",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica do mestre: ____ arquivo.Close()"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "func",
+                "return",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Excelente para limpeza de recursos, como fechar arquivos ou conexões."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Passagem por Valor",
+          "objective": "Entender como os dados entram na função.",
+          "teaching": "Por padrão, Go copia o valor dos argumentos para a função.",
+          "challenges": [
+            {
+              "keyword": "cópia",
+              "distractors": [
+                "func",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica do mestre: Mudar o parâmetro lá dentro altera uma ____ do original."
+            },
+            {
+              "keyword": "func",
+              "distractors": [
+                "return",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Para alterar o original, você deve passar um ponteiro."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Recursividade",
+          "objective": "Fazer uma função chamar a si mesma.",
+          "teaching": "Go suporta funções recursivas para algoritmos como fatorial ou árvores.",
+          "challenges": [
+            {
+              "keyword": "fatorial",
+              "distractors": [
+                "func",
+                "return",
+                "parametro"
+              ],
+              "hint": "Dica do mestre: func ____(n int) int { return n * ____(n-1) }"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "func",
+                "parametro",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "func",
+                "return",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre defina um caso base para evitar loops infinitos e estouro de pilha."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Structs (Go (Golang))",
+      "subtitle": "10 missoes de structs em Go (Golang)",
+      "file": "lang-module?lang=go&mod=7",
+      "missions": [
+        {
+          "title": "Criando Estruturas",
+          "objective": "Agrupar dados de diferentes tipos.",
+          "teaching": "Structs são coleções de campos que representam um objeto ou entidade.",
+          "challenges": [
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: type Pessoa ____ { Nome string; Idade int }"
+            },
+            {
+              "keyword": "field",
+              "distractors": [
+                "struct",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "struct",
+                "field",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Go não tem classes; as structs são a base para dados complexos."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Instanciando Structs",
+          "objective": "Criar um valor concreto a partir do modelo.",
+          "teaching": "Você pode inicializar campos usando nomes ou a ordem de definição.",
+          "challenges": [
+            {
+              "keyword": "{",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: p := Pessoa____Nome: \"Ana\"____"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "struct",
+                "field",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Usar nomes de campos na inicialização torna o código mais robusto."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Acessando Campos",
+          "objective": "Ler ou alterar valores internos.",
+          "teaching": "Usamos o ponto (.) para acessar as propriedades da struct.",
+          "challenges": [
+            {
+              "keyword": ".",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: fmt.Println(p____Nome)"
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "field",
+              "distractors": [
+                "struct",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Campos que iniciam com minúscula são privados ao pacote."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Structs Anônimas",
+          "objective": "Criar uma estrutura de uso único.",
+          "teaching": "Úteis para organizar dados rápidos sem precisar definir um tipo formal.",
+          "challenges": [
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: config := ____ { Porta int }{ 8080 }"
+            },
+            {
+              "keyword": "field",
+              "distractors": [
+                "struct",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "struct",
+                "field",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito usadas em testes ou retornos de APIs temporários."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Composição (Embed)",
+          "objective": "Incluir uma struct dentro de outra.",
+          "teaching": "Go usa composição em vez de herança para estender funcionalidades.",
+          "challenges": [
+            {
+              "keyword": "Pessoa",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: type Funcionario struct { ____; Cargo string }"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "struct",
+                "field",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Os campos da struct embutida tornam-se acessíveis diretamente no nível superior."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Ponteiros para Structs",
+          "objective": "Evitar cópias pesadas de dados.",
+          "teaching": "Passar um ponteiro permite que funções modifiquem a struct original.",
+          "challenges": [
+            {
+              "keyword": "*",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: func atualizar(p ____Pessoa) { ... }"
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "field",
+              "distractors": [
+                "struct",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O Go permite acessar campos (p.Nome) mesmo se p for um ponteiro."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Tags de Struct",
+          "objective": "Adicionar metadados aos campos.",
+          "teaching": "Tags ajudam bibliotecas a saber como processar a struct (ex: converter para JSON).",
+          "challenges": [
+            {
+              "keyword": "`",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: Nome string ____json:\"nome\"____"
+            },
+            {
+              "keyword": "field",
+              "distractors": [
+                "struct",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "struct",
+                "field",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Tags são lidas via reflexão em tempo de execução."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Structs Vazias",
+          "objective": "Criar tipos que não ocupam memória.",
+          "teaching": "struct{} é usado para sinalizar eventos ou como chaves de mapas únicos.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: Quantos bytes ocupa uma struct{}? ____"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "struct",
+                "field",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ideal para economizar memória em coleções grandes."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Comparação de Structs",
+          "objective": "Verificar se dois registros são iguais.",
+          "teaching": "Duas instâncias são iguais se todos os seus campos forem iguais e comparáveis.",
+          "challenges": [
+            {
+              "keyword": "==",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: if p1 ____ p2 { ... }"
+            },
+            {
+              "keyword": "struct",
+              "distractors": [
+                "field",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "field",
+              "distractors": [
+                "struct",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Structs com slices ou maps não podem ser comparadas com ==."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Métodos na Struct",
+          "objective": "Adicionar comportamento aos dados.",
+          "teaching": "Funções vinculadas a uma struct são chamadas de métodos.",
+          "challenges": [
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "struct",
+                "field",
+                "instancia"
+              ],
+              "hint": "Dica do mestre: O parâmetro entre func e o nome é o ____."
+            },
+            {
+              "keyword": "field",
+              "distractors": [
+                "struct",
+                "instancia",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "struct",
+                "field",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Permite uma organização próxima à Orientação a Objetos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Metodos e Interfaces (Go (Golang))",
+      "subtitle": "10 missoes de metodos e interfaces em Go (Golang)",
+      "file": "lang-module?lang=go&mod=8",
+      "missions": [
+        {
+          "title": "Definindo Métodos",
+          "objective": "Vincular uma função a um tipo.",
+          "teaching": "O receiver (receptor) define a qual tipo o método pertence.",
+          "challenges": [
+            {
+              "keyword": "(p Pessoa)",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: func ____ DizerOla() { ... }"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "method",
+                "interface",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Receptores podem ser de valor ou de ponteiro."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Receptor de Ponteiro",
+          "objective": "Permitir que o método altere os dados do objeto.",
+          "teaching": "Use o asterisco no receptor para modificar o estado interno.",
+          "challenges": [
+            {
+              "keyword": "*",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: func (p ____Pessoa) MudarNome(n string) { ... }"
+            },
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "method",
+                "interface",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "interface",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Também evita cópias de grandes estruturas de dados."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Contratos (Interfaces)",
+          "objective": "Definir o que um objeto pode fazer.",
+          "teaching": "Interfaces declaram um conjunto de métodos que outros tipos devem implementar.",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: type Falante ____ { Falar() string }"
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "interface",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Go usa implementação implícita: não precisa de \"implements\"."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Implementação Implícita",
+          "objective": "Cumprir o contrato sem aviso formal.",
+          "teaching": "Se uma struct possui os métodos da interface, ela já é considerada uma instância dela.",
+          "challenges": [
+            {
+              "keyword": "métodos",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: Basta ter os ____ corretos para satisfazer a interface."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "method",
+                "interface",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso permite criar interfaces para códigos que você não controla."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Interface Vazia",
+          "objective": "Armazenar qualquer tipo de valor.",
+          "teaching": "interface{} (ou any no Go 1.18+) aceita literalmente qualquer dado.",
+          "challenges": [
+            {
+              "keyword": "any",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: O novo apelido para interface{} é ____."
+            },
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "method",
+                "interface",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "interface",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use com cautela, pois você perde a segurança de tipos."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Verificação de Tipo (Assertion)",
+          "objective": "Recuperar o tipo original de uma interface.",
+          "teaching": "Type assertion verifica se a interface contém um tipo específico.",
+          "challenges": [
+            {
+              "keyword": ".",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: s, ok := i____(string)"
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "interface",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O segundo retorno (ok) diz se a conversão deu certo."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Polimorfismo",
+          "objective": "Tratar diferentes tipos da mesma forma.",
+          "teaching": "Funções que recebem interfaces podem trabalhar com qualquer tipo compatível.",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: Passe a ____ para permitir múltiplos tipos na função."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "method",
+                "interface",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "É o coração do design flexível em Go."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Interface Reader",
+          "objective": "Entender interfaces padrão da linguagem.",
+          "teaching": "io.Reader é uma das interfaces mais importantes para lidar com fluxos de dados.",
+          "challenges": [
+            {
+              "keyword": "Read",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: A interface Reader exige o método ____."
+            },
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "method",
+                "interface",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "interface",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Permite que você leia de arquivos, rede ou strings com o mesmo código."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Composição de Interfaces",
+          "objective": "Criar interfaces a partir de outras.",
+          "teaching": "Você pode embutir interfaces para criar contratos mais complexos.",
+          "challenges": [
+            {
+              "keyword": "Reader",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: type ReadWriter interface { ____; Writer }"
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "interface",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Mantém as interfaces pequenas e focadas (Interface Segregation)."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Valores Nil em Interfaces",
+          "objective": "Evitar pânicos com interfaces vazias.",
+          "teaching": "Uma interface só é nil se tanto o tipo quanto o valor forem nil.",
+          "challenges": [
+            {
+              "keyword": "nil",
+              "distractors": [
+                "method",
+                "interface",
+                "receiver"
+              ],
+              "hint": "Dica do mestre: if i == ____ { ... }"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "method",
+                "receiver",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "receiver",
+              "distractors": [
+                "method",
+                "interface",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre verifique se a interface é válida antes de chamar seus métodos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Pacotes (Go (Golang))",
+      "subtitle": "10 missoes de pacotes em Go (Golang)",
+      "file": "lang-module?lang=go&mod=9",
+      "missions": [
+        {
+          "title": "Criação de Módulos",
+          "objective": "Iniciar o gerenciamento de dependências.",
+          "teaching": "go mod init cria o arquivo que rastreia as versões dos pacotes.",
+          "challenges": [
+            {
+              "keyword": "init",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: go mod ____ nome-do-modulo"
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "import",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "package",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O go.mod é similar ao package.json do Node ou pom.xml do Java."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Pacotes Locais",
+          "objective": "Organizar código em pastas separadas.",
+          "teaching": "Cada pasta deve ter apenas um nome de pacote no topo de seus arquivos.",
+          "challenges": [
+            {
+              "keyword": "pasta",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: Geralmente o nome do pacote é o mesmo da ____."
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "package",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "package",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ajuda a manter a modularidade e reuso do código."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Importação com Apelido",
+          "objective": "Resolver conflitos de nomes de pacotes.",
+          "teaching": "Você pode dar um nome curto ou diferente para o pacote importado.",
+          "challenges": [
+            {
+              "keyword": "f",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: import ____ \"fmt\""
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "package",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "import",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Agora você usaria f.Println em vez de fmt.Println."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Importação Lateral",
+          "objective": "Rodar apenas os efeitos colaterais de um pacote.",
+          "teaching": "O prefixo underline (_) executa a função init() sem importar os nomes.",
+          "challenges": [
+            {
+              "keyword": "_",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: import ____ \"github.com/lib/pq\""
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "import",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "package",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito comum para registrar drivers de banco de dados."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Função Init",
+          "objective": "Preparar o pacote antes da main.",
+          "teaching": "A função init() roda automaticamente assim que o pacote é carregado.",
+          "challenges": [
+            {
+              "keyword": "init",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: func ____() { ... }"
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "package",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "package",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Útil para configurar variáveis globais ou verificar ambientes."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Visibilidade de Pacote",
+          "objective": "Proteger o código interno.",
+          "teaching": "Identificadores que começam com minúscula não saem do pacote.",
+          "challenges": [
+            {
+              "keyword": "minúscula",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: Letra ____ torna o campo \"privado\"."
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "package",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "import",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso força o uso de interfaces públicas bem definidas."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Limpando Dependências",
+          "objective": "Remover pacotes não usados do go.mod.",
+          "teaching": "O comando tidy sincroniza seus imports com o arquivo de módulo.",
+          "challenges": [
+            {
+              "keyword": "tidy",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: go mod ____"
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "import",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "package",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Também baixa dependências que estão no código mas não no go.mod."
+          ],
+          "number": 7
+        },
+        {
+          "title": "O Arquivo go.sum",
+          "objective": "Garantir a segurança dos pacotes baixados.",
+          "teaching": "go.sum armazena hashes de verificação para garantir que o código não foi alterado.",
+          "challenges": [
+            {
+              "keyword": "segurança",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: go.sum é focado na ____ e integridade."
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "package",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "package",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Nunca edite este arquivo manualmente; deixe o Go gerenciar."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Pacotes da Standard Library",
+          "objective": "Conhecer as ferramentas que já vêm com o Go.",
+          "teaching": "A biblioteca padrão do Go é muito rica, cobrindo HTTP, Criptografia e JSON.",
+          "challenges": [
+            {
+              "keyword": "net/http",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: Pacote para criar servidores web: ____"
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "package",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "import",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muitas vezes você não precisa de frameworks externos em Go."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Versão do Módulo",
+          "objective": "Definir a compatibilidade do Go.",
+          "teaching": "O go.mod especifica a versão mínima do Go necessária para o projeto.",
+          "challenges": [
+            {
+              "keyword": "go",
+              "distractors": [
+                "import",
+                "package",
+                "modulo"
+              ],
+              "hint": "Dica do mestre: Linha no go.mod: ____ 1.20"
+            },
+            {
+              "keyword": "package",
+              "distractors": [
+                "import",
+                "modulo",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "package",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evita que o código quebre em ambientes com compiladores antigos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Concorrência (Go (Golang))",
+      "subtitle": "10 missoes de concorrência em Go (Golang)",
+      "file": "lang-module?lang=go&mod=10",
+      "missions": [
+        {
+          "title": "Goroutines",
+          "objective": "Rodar funções de forma independente.",
+          "teaching": "A palavra go inicia uma função em uma \"thread\" leve gerenciada pelo Go.",
+          "challenges": [
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____ minhaFuncao()"
+            },
+            {
+              "keyword": "channel",
+              "distractors": [
+                "goroutine",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Goroutines ocupam pouquíssima memória comparadas a threads do OS."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Canais (Channels)",
+          "objective": "Comunicar goroutines de forma segura.",
+          "teaching": "Canais são tubos onde você envia e recebe dados entre goroutines.",
+          "challenges": [
+            {
+              "keyword": "chan",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: var c ____ int"
+            },
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "goroutine",
+              "distractors": [
+                "channel",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evita condições de corrida por não precisar compartilhar memória."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Enviando Dados",
+          "objective": "Colocar um valor dentro do canal.",
+          "teaching": "Use a seta <- para a direita do canal para enviar.",
+          "challenges": [
+            {
+              "keyword": "<-",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: canal ____ valor"
+            },
+            {
+              "keyword": "goroutine",
+              "distractors": [
+                "channel",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "channel",
+              "distractors": [
+                "goroutine",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O envio bloqueia a goroutine até que alguém receba (se não houver buffer)."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Recebendo Dados",
+          "objective": "Tirar um valor do canal.",
+          "teaching": "Use a seta <- para a esquerda do canal para receber.",
+          "challenges": [
+            {
+              "keyword": "<-",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: valor := ____ canal"
+            },
+            {
+              "keyword": "channel",
+              "distractors": [
+                "goroutine",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A recepção bloqueia até que um dado esteja disponível."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Canais com Buffer",
+          "objective": "Enviar múltiplos itens sem bloquear imediatamente.",
+          "teaching": "Defina um tamanho na criação para o canal aceitar itens sem um receptor pronto.",
+          "challenges": [
+            {
+              "keyword": "2",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: c := make(chan int, ____) (Buffer de 2)"
+            },
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "goroutine",
+              "distractors": [
+                "channel",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Útil para lidar com rajadas de dados ou balancear carga."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Fechando Canais",
+          "objective": "Sinalizar que não haverá mais envios.",
+          "teaching": "A função close() indica ao receptor que o canal terminou.",
+          "challenges": [
+            {
+              "keyword": "close",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: ____(canal)"
+            },
+            {
+              "keyword": "goroutine",
+              "distractors": [
+                "channel",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "channel",
+              "distractors": [
+                "goroutine",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Apenas o remetente deve fechar o canal, nunca o receptor."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Seleção (Select)",
+          "objective": "Aguardar múltiplos canais ao mesmo tempo.",
+          "teaching": "O select funciona como um switch, mas para operações de canais.",
+          "challenges": [
+            {
+              "keyword": "select",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: ____ { case msg := <-c1: ... }"
+            },
+            {
+              "keyword": "channel",
+              "distractors": [
+                "goroutine",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Bloqueia até que um dos casos esteja pronto para executar."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Aguardando Tudo (WaitGroup)",
+          "objective": "Esperar várias goroutines terminarem.",
+          "teaching": "sync.WaitGroup coordena a finalização de múltiplas tarefas paralelas.",
+          "challenges": [
+            {
+              "keyword": "Done",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: defer wg.____()"
+            },
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "goroutine",
+              "distractors": [
+                "channel",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evita que o programa main termine antes das goroutines acabarem."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Canais Unidirecionais",
+          "objective": "Restringir um canal apenas para envio ou recepção.",
+          "teaching": "Aumenta a segurança do código ao definir claramente o papel do canal na função.",
+          "challenges": [
+            {
+              "keyword": "chan<-",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: Canal apenas de ENVIO: ____ int"
+            },
+            {
+              "keyword": "goroutine",
+              "distractors": [
+                "channel",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "channel",
+              "distractors": [
+                "goroutine",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O compilador impede que você receba de um canal configurado como chan<-."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Timeout com Select",
+          "objective": "Impedir que o programa trave para sempre.",
+          "teaching": "Use time.After para criar um limite de tempo no select.",
+          "challenges": [
+            {
+              "keyword": "After",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "go"
+              ],
+              "hint": "Dica do mestre: case <-time.____(time.Second):"
+            },
+            {
+              "keyword": "channel",
+              "distractors": [
+                "goroutine",
+                "go",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "go",
+              "distractors": [
+                "goroutine",
+                "channel",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Essencial para manter sistemas resilientes e responsivos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Tratamento de Erros (Go (Golang))",
+      "subtitle": "10 missoes de tratamento de erros em Go (Golang)",
+      "file": "lang-module?lang=go&mod=11",
+      "missions": [
+        {
+          "title": "O Tipo Error",
+          "objective": "Representar falhas no sistema.",
+          "teaching": "Em Go, erros são valores que implementam a interface error.",
+          "challenges": [
+            {
+              "keyword": "error",
+              "distractors": [
+                "panic",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: func algo() ____ { ... }"
+            },
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "recover",
+              "distractors": [
+                "error",
+                "panic",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A interface error exige apenas um método: Error() string."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Verificando Erros",
+          "objective": "Agir quando algo dá errado.",
+          "teaching": "A forma padrão é verificar se o erro retornado não é nil.",
+          "challenges": [
+            {
+              "keyword": "nil",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: if err != ____ { return err }"
+            },
+            {
+              "keyword": "recover",
+              "distractors": [
+                "error",
+                "panic",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "error",
+              "distractors": [
+                "panic",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Essa verbosidade garante que você nunca ignore uma falha em Go."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Criando Erros Simples",
+          "objective": "Gerar um erro com uma mensagem de texto.",
+          "teaching": "errors.New cria um valor de erro básico rapidamente.",
+          "challenges": [
+            {
+              "keyword": "errors",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: ____.New(\"falha no sistema\")"
+            },
+            {
+              "keyword": "error",
+              "distractors": [
+                "panic",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Útil para erros que não precisam de dados extras."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Formatando Erros",
+          "objective": "Incluir variáveis na mensagem de erro.",
+          "teaching": "fmt.Errorf funciona como Printf, mas gera um valor do tipo error.",
+          "challenges": [
+            {
+              "keyword": "Errorf",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: fmt.____(\"id %d inválido\", id)"
+            },
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "recover",
+              "distractors": [
+                "error",
+                "panic",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Permite criar mensagens de erro muito mais informativas."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Pânico (Panic)",
+          "objective": "Parar tudo em caso de erro irrecuperável.",
+          "teaching": "O panic interrompe o fluxo normal e começa a desenrolar a pilha.",
+          "challenges": [
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Dica do mestre: ____(\"Algo terrível aconteceu!\")"
+            },
+            {
+              "keyword": "recover",
+              "distractors": [
+                "error",
+                "panic",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "error",
+              "distractors": [
+                "panic",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use apenas para erros que o programa não consegue contornar (ex: config vital faltando)."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Recuperação (Recover)",
+          "objective": "Voltar ao normal após um pânico.",
+          "teaching": "recover() captura um valor de pânico e permite que o programa continue.",
+          "challenges": [
+            {
+              "keyword": "defer",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: O recover deve estar sempre dentro de um ____."
+            },
+            {
+              "keyword": "error",
+              "distractors": [
+                "panic",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Muito usado em servidores para que um erro em um usuário não derrube o site todo."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Nil como Sucesso",
+          "objective": "Indicar que tudo correu bem.",
+          "teaching": "Retornar nil como erro sinaliza que a função foi concluída com sucesso.",
+          "challenges": [
+            {
+              "keyword": "nil",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: return resultado, ____"
+            },
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "recover",
+              "distractors": [
+                "error",
+                "panic",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "É a convenção universal em toda a biblioteca padrão do Go."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Personalizando Erros",
+          "objective": "Adicionar dados extras ao erro.",
+          "teaching": "Você pode criar sua própria struct que implementa o método Error().",
+          "challenges": [
+            {
+              "keyword": "Error()",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: func (e MeuErro) ____ string { ... }"
+            },
+            {
+              "keyword": "recover",
+              "distractors": [
+                "error",
+                "panic",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "error",
+              "distractors": [
+                "panic",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Permite que quem recebe o erro faça verificações mais detalhadas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Ignorando Erros",
+          "objective": "Quando você sabe o que está fazendo (perigoso!).",
+          "teaching": "Use _ para descartar o erro retornado por uma função.",
+          "challenges": [
+            {
+              "keyword": "_",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: resultado, ____ := fazerAlgo()"
+            },
+            {
+              "keyword": "error",
+              "distractors": [
+                "panic",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Evite isso ao máximo; quase todo erro merece ser tratado."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Logging",
+          "objective": "Registrar erros para análise posterior.",
+          "teaching": "O pacote log ajuda a imprimir erros com data e hora.",
+          "challenges": [
+            {
+              "keyword": "Fatal",
+              "distractors": [
+                "error",
+                "panic",
+                "recover"
+              ],
+              "hint": "Dica do mestre: log.____(err) (Imprime e faz o programa sair)"
+            },
+            {
+              "keyword": "panic",
+              "distractors": [
+                "error",
+                "recover",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "recover",
+              "distractors": [
+                "error",
+                "panic",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Fatal chama o os.Exit(1) após imprimir a mensagem."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "go_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final Go (Go (Golang))",
+      "subtitle": "10 missoes de projeto final go em Go (Golang)",
+      "file": "lang-module?lang=go&mod=12",
+      "missions": [
+        {
+          "title": "Conversão para JSON",
+          "objective": "Transformar dados Go em texto para API.",
+          "teaching": "json.Marshal converte structs em bytes formatados como JSON.",
+          "challenges": [
+            {
+              "keyword": "Marshal",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: json.____(minhaStruct)"
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "api",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "handler",
+              "distractors": [
+                "api",
+                "json",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Os campos da struct devem ser exportados (Maiúsculos) para serem vistos pelo pacote json."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Leitura de JSON",
+          "objective": "Transformar texto JSON em dados Go.",
+          "teaching": "json.Unmarshal preenche uma struct a partir de bytes JSON.",
+          "challenges": [
+            {
+              "keyword": "&",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: json.Unmarshal(dados, ____minhaStruct) (Precisa de ponteiro)"
+            },
+            {
+              "keyword": "handler",
+              "distractors": [
+                "api",
+                "json",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "api",
+              "distractors": [
+                "json",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A função precisa do endereço de memória para alterar a struct original."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Servidor HTTP",
+          "objective": "Criar a base de um site ou API.",
+          "teaching": "O pacote net/http permite subir um servidor com poucas linhas.",
+          "challenges": [
+            {
+              "keyword": "ListenAndServe",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: http.____(\":8080\", nil)"
+            },
+            {
+              "keyword": "api",
+              "distractors": [
+                "json",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "api",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O Go gerencia automaticamente uma goroutine para cada conexão recebida."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Rotas e Handlers",
+          "objective": "Definir o que acontece em cada URL.",
+          "teaching": "HandleFunc associa um caminho (URL) a uma função do Go.",
+          "challenges": [
+            {
+              "keyword": "HandleFunc",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: http.____(\"/ola\", olaHandler)"
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "api",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "handler",
+              "distractors": [
+                "api",
+                "json",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O handler deve receber ResponseWriter e Request como parâmetros."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Escrita de Resposta",
+          "objective": "Enviar dados de volta para o navegador.",
+          "teaching": "ResponseWriter é usado para definir status e corpo da resposta.",
+          "challenges": [
+            {
+              "keyword": "Write",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: w.____([]byte(\"Olá!\"))"
+            },
+            {
+              "keyword": "handler",
+              "distractors": [
+                "api",
+                "json",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "api",
+              "distractors": [
+                "json",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Tudo o que você escreve é enviado como o corpo do HTTP."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Lendo o Request",
+          "objective": "Pegar dados enviados pelo usuário.",
+          "teaching": "O objeto r *http.Request contém tudo: URL, Header e Body.",
+          "challenges": [
+            {
+              "keyword": "Method",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: if r.____ == \"POST\" { ... }"
+            },
+            {
+              "keyword": "api",
+              "distractors": [
+                "json",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "api",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Saber o método (GET, POST, etc) é vital para APIs REST."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Status HTTP",
+          "objective": "Informar se a requisição deu certo.",
+          "teaching": "Use constantes como http.StatusOK para maior clareza.",
+          "challenges": [
+            {
+              "keyword": "WriteHeader",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: w.____(http.StatusNotFound)"
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "api",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "handler",
+              "distractors": [
+                "api",
+                "json",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre envie o código de status antes de escrever o corpo da resposta."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Módulos e Vendoring",
+          "objective": "Garantir que as bibliotecas não mudem.",
+          "teaching": "go mod vendor copia as dependências para dentro da sua pasta.",
+          "challenges": [
+            {
+              "keyword": "vendor",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: go mod ____"
+            },
+            {
+              "keyword": "handler",
+              "distractors": [
+                "api",
+                "json",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "api",
+              "distractors": [
+                "json",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Garante que seu projeto compile mesmo sem internet no futuro."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Compilação Estática",
+          "objective": "Gerar um único arquivo executável.",
+          "teaching": "O binário final do Go inclui todas as bibliotecas necessárias.",
+          "challenges": [
+            {
+              "keyword": "build",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: go ____ -o meu-app"
+            },
+            {
+              "keyword": "api",
+              "distractors": [
+                "json",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "api",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Facilita muito o deploy, pois você só precisa copiar um arquivo para o servidor."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Conclusão da Trilha",
+          "objective": "Parabéns! Você agora domina o Go!",
+          "teaching": "O Go é uma linguagem incrível para nuvem, sistemas distribuídos e alta performance.",
+          "challenges": [
+            {
+              "keyword": "🐹",
+              "distractors": [
+                "api",
+                "json",
+                "handler"
+              ],
+              "hint": "Dica do mestre: Qual o mascote oficial do Go? ____"
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "api",
+                "handler",
+                "Go (Golang)"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "handler",
+              "distractors": [
+                "api",
+                "json",
+                "Go (Golang)"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Continue explorando goroutines e canais para dominar a concorrência."
+          ],
+          "number": 10
+        }
+      ]
+    }
+  ]
+}

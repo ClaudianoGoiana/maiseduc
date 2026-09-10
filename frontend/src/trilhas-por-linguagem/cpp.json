@@ -1,0 +1,4688 @@
+{
+  "id": "cpp",
+  "name": "C++",
+  "icon": "💠",
+  "color": "from-indigo-500 to-blue-600",
+  "modules": [
+    {
+      "id": "cpp_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Base do C++ (C++)",
+      "subtitle": "10 missoes de base do c++ em C++",
+      "file": "lang-module?lang=cpp&mod=1",
+      "missions": [
+        {
+          "title": "Saída de Dados",
+          "objective": "Exibir mensagens no terminal.",
+          "teaching": "Em C++, utilizamos o objeto cout seguido do operador de inserção << para exibir textos.",
+          "challenges": [
+            {
+              "keyword": "cout",
+              "distractors": [
+                "cin",
+                "include",
+                "main"
+              ],
+              "hint": "Dica do mestre: O nome significa \"Character Output\".\n\n```cpp\nstd::____ << \"Olá Mundo!\";\n```"
+            },
+            {
+              "keyword": "cin",
+              "distractors": [
+                "cout",
+                "include",
+                "main"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "cout",
+                "cin",
+                "main"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "cout é o fluxo de saída padrão."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Entrada de Dados",
+          "objective": "Capturar o que o usuário digita.",
+          "teaching": "O objeto cin é usado com o operador >> para receber dados do teclado e guardar em variáveis.",
+          "challenges": [
+            {
+              "keyword": "cin",
+              "distractors": [
+                "cout",
+                "include",
+                "main"
+              ],
+              "hint": "Dica do mestre: O nome significa \"Character Input\".\n\n```cpp\nstd::____ >> idade;\n```"
+            },
+            {
+              "keyword": "include",
+              "distractors": [
+                "cout",
+                "cin",
+                "main"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "cin é o fluxo de entrada padrão."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Incluindo Bibliotecas",
+          "objective": "Usar recursos prontos da linguagem.",
+          "teaching": "Para usar cout e cin, precisamos incluir a biblioteca de fluxos de entrada e saída.",
+          "challenges": [
+            {
+              "keyword": "#include",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: Toda diretiva de pré-processador começa com #.\n\n```cpp\n____ <iostream>\n```"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "endl",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "iostream é a biblioteca base para console."
+          ],
+          "number": 3
+        },
+        {
+          "title": "A Função Principal",
+          "objective": "Identificar onde o código começa.",
+          "teaching": "Todo programa C++ deve ter uma função chamada main, que é por onde a execução inicia.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: É uma função que retorna um inteiro.\n\n```cpp\nint ____() {\n  return 0;\n}\n```"
+            },
+            {
+              "keyword": "endl",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "std",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O sistema operacional chama a função main primeiro."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Pulando Linhas",
+          "objective": "Organizar a saída de texto.",
+          "teaching": "O manipulador endl insere um caractere de nova linha e limpa o buffer de saída.",
+          "challenges": [
+            {
+              "keyword": "endl",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: Significa \"End Line\".\n\n```cpp\nstd::cout << \"Olá\" << std::____;\n```"
+            },
+            {
+              "keyword": "std",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "using",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "endl é uma alternativa ao \"\\n\"."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Namespace Padrão",
+          "objective": "Organizar nomes de funções.",
+          "teaching": "A maioria dos recursos básicos do C++ reside no namespace std (standard).",
+          "challenges": [
+            {
+              "keyword": "std",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: Usamos o operador :: para acessar o namespace.\n\n```cpp\n____::cout << \"Oi\";\n```"
+            },
+            {
+              "keyword": "using",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O prefixo std:: evita conflitos de nomes."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Facilitando a Escrita",
+          "objective": "Evitar repetições do prefixo std.",
+          "teaching": "Podemos usar a diretiva using para declarar que estamos usando um namespace específico.",
+          "challenges": [
+            {
+              "keyword": "using",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: Normalmente colocada após os includes.\n\n```cpp\n____ namespace std;\n```"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "insertion",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "using namespace std facilita o código mas deve ser usado com cautela."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Finalizando com Sucesso",
+          "objective": "Indicar que o programa terminou bem.",
+          "teaching": "O comando return 0 no final da main diz ao sistema que o programa rodou sem erros.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: É uma palavra-chave para devolver um valor.\n\n```cpp\n____ 0;\n```"
+            },
+            {
+              "keyword": "insertion",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "extraction",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Zero costuma significar \"sucesso\" em sistemas operacionais."
+          ],
+          "number": 8
+        },
+        {
+          "title": "O Operador de Envio",
+          "objective": "Saber qual seta usar com cout.",
+          "teaching": "O operador de inserção << aponta para o destino da informação (o cout).",
+          "challenges": [
+            {
+              "keyword": "<<",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: Pense que os dados estão fluindo para a esquerda.\n\n```cpp\ncout ____ \"Texto\";\n```"
+            },
+            {
+              "keyword": "extraction",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "cout",
+              "distractors": [
+                "cin",
+                "include",
+                "main"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O sentido das setas indica o fluxo de dados."
+          ],
+          "number": 9
+        },
+        {
+          "title": "O Operador de Recebimento",
+          "objective": "Saber qual seta usar com cin.",
+          "teaching": "O operador de extração >> aponta para a variável que vai receber os dados.",
+          "challenges": [
+            {
+              "keyword": ">>",
+              "distractors": [
+                "cout",
+                "cin",
+                "include"
+              ],
+              "hint": "Dica do mestre: Os dados saem do cin para a variável.\n\n```cpp\ncin ____ variavel;\n```"
+            },
+            {
+              "keyword": "cout",
+              "distractors": [
+                "cin",
+                "include",
+                "main"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "cin",
+              "distractors": [
+                "cout",
+                "include",
+                "main"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Setas para a direita extraem dados do fluxo."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Tipos e Variaveis (C++)",
+      "subtitle": "10 missoes de tipos e variaveis em C++",
+      "file": "lang-module?lang=cpp&mod=2",
+      "missions": [
+        {
+          "title": "Números Inteiros",
+          "objective": "Guardar valores sem decimais.",
+          "teaching": "O tipo int é usado para números como 1, -5 ou 1000.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "double",
+                "char",
+                "bool"
+              ],
+              "hint": "Dica do mestre: Abreviação de integer.\n\n```cpp\n____ idade = 25;\n```"
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "char",
+                "bool"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "double",
+                "bool"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Inteiros não possuem ponto decimal."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Números Decimais",
+          "objective": "Guardar valores com precisão.",
+          "teaching": "O tipo double oferece alta precisão para números reais.",
+          "challenges": [
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "char",
+                "bool"
+              ],
+              "hint": "Dica do mestre: Significa \"precisão dupla\".\n\n```cpp\n____ preco = 19.99;\n```"
+            },
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "double",
+                "bool"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "bool",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use double para cálculos financeiros ou científicos simples."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Caracteres Simples",
+          "objective": "Guardar uma única letra.",
+          "teaching": "O tipo char guarda exatamente um caractere, usando aspas simples.",
+          "challenges": [
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "double",
+                "bool"
+              ],
+              "hint": "Dica do mestre: Aspas simples são obrigatórias para chars.\n\n```cpp\n____ inicial = 'A';\n```"
+            },
+            {
+              "keyword": "bool",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Chars são representados internamente por números (ASCII)."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Valores Lógicos",
+          "objective": "Trabalhar com verdadeiro e falso.",
+          "teaching": "O tipo bool pode assumir apenas os valores true ou false.",
+          "challenges": [
+            {
+              "keyword": "bool",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Dica do mestre: Nomeado em homenagem a George Boole.\n\n```cpp\n____ estaLigado = true;\n```"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "const",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Booleano é essencial para tomadas de decisão."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Textos (Strings)",
+          "objective": "Guardar palavras e frases.",
+          "teaching": "Diferente do C, o C++ tem uma classe string muito potente para lidar com textos.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Dica do mestre: Precisa de #include <string>.\n\n```cpp\n____ nome = \"C++\";\n```"
+            },
+            {
+              "keyword": "const",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "auto",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Strings usam aspas duplas obrigatoriamente."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Valores Imutáveis",
+          "objective": "Proteger variáveis de mudanças.",
+          "teaching": "A palavra const impede que o valor de uma variável seja alterado após a criação.",
+          "challenges": [
+            {
+              "keyword": "const",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Dica do mestre: Significa constante.\n\n```cpp\n____ double PI = 3.14;\n```"
+            },
+            {
+              "keyword": "auto",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "sizeof",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Constantes tornam o código mais seguro."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Dedução de Tipo",
+          "objective": "Deixar o compilador trabalhar por você.",
+          "teaching": "O auto permite que o C++ descubra o tipo da variável sozinho pelo valor atribuído.",
+          "challenges": [
+            {
+              "keyword": "auto",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Dica do mestre: Muito útil com tipos complexos da STL.\n\n```cpp\n____ x = 10; // x será int\n```"
+            },
+            {
+              "keyword": "sizeof",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "long",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O auto mantém a segurança da tipagem estática."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Tamanho em Memória",
+          "objective": "Saber quantos bytes um tipo ocupa.",
+          "teaching": "O operador sizeof retorna o tamanho em bytes de um tipo ou variável.",
+          "challenges": [
+            {
+              "keyword": "sizeof",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Dica do mestre: É um operador, não uma função comum.\n\n```cpp\ncout << ____(int);\n```"
+            },
+            {
+              "keyword": "long",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O tamanho dos tipos pode variar entre diferentes máquinas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Inteiros Longos",
+          "objective": "Lidar com números muito grandes.",
+          "teaching": "Usamos long para garantir que o inteiro tenha mais espaço em memória.",
+          "challenges": [
+            {
+              "keyword": "long",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Dica do mestre: Pode ser combinado com int.\n\n```cpp\n____ long populacao = 8000000000;\n```"
+            },
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "double",
+                "char",
+                "bool"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Existem também os tipos long long para números ainda maiores."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Ponto Flutuante Simples",
+          "objective": "Decimais que ocupam menos espaço.",
+          "teaching": "O float é a versão de precisão simples, ocupando metade do espaço de um double.",
+          "challenges": [
+            {
+              "keyword": "float",
+              "distractors": [
+                "int",
+                "double",
+                "char"
+              ],
+              "hint": "Dica do mestre: Geralmente adicionamos um 'f' ao valor.\n\n```cpp\n____ altura = 1.75f;\n```"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "double",
+                "char",
+                "bool"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "char",
+                "bool"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use float quando a economia de memória for crítica."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (C++)",
+      "subtitle": "10 missoes de condicionais em C++",
+      "file": "lang-module?lang=cpp&mod=3",
+      "missions": [
+        {
+          "title": "O Se (IF)",
+          "objective": "Executar código sob condição.",
+          "teaching": "O if verifica se uma expressão é verdadeira antes de rodar o bloco de código.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: A condição vai entre parênteses.\n\n```cpp\n____ (idade >= 18) {\n  cout << \"Maior\";\n}\n```"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "case"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O IF é a base da lógica de programação."
+          ],
+          "number": 1
+        },
+        {
+          "title": "O Senão (ELSE)",
+          "objective": "Dar uma alternativa ao IF.",
+          "teaching": "O else roda caso a condição do if anterior tenha sido falsa.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Dica do mestre: Não leva condição entre parênteses.\n\n```cpp\nif (x > 0) {} ____ { cout << \"Negativo\"; }\n```"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "case"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Else sempre depende de um If."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Condição Escolha",
+          "objective": "Trocar múltiplos IFs por algo limpo.",
+          "teaching": "O switch é ideal para comparar uma única variável com vários valores fixos.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "case"
+              ],
+              "hint": "Dica do mestre: Funciona melhor com inteiros ou chars.\n\n```cpp\n____ (opcao) {\n  case 1: ...\n}\n```"
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Switch torna o código de menus mais legível."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Casos do Switch",
+          "objective": "Definir os caminhos do switch.",
+          "teaching": "Cada valor possível no switch é definido por um rótulo case.",
+          "challenges": [
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Dica do mestre: Seguido pelo valor e dois pontos.\n\n```cpp\nswitch(x) {\n  ____ 10:\n    cout << \"Dez\";\n}\n```"
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "default",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O valor do case deve ser uma constante."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Saindo do Switch",
+          "objective": "Impedir a execução dos próximos casos.",
+          "teaching": "Sem o break, o código continua executando todos os cases abaixo do que foi ativado.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Dica do mestre: Sem ele, ocorre o \"fall-through\".\n\n```cpp\ncase 1:\n  fazerAlgo();\n  ____;\n```"
+            },
+            {
+              "keyword": "default",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "&&",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O break é essencial na maioria dos switches."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Caso Padrão",
+          "objective": "Lidar com valores não previstos.",
+          "teaching": "O default funciona como o else do switch, rodando se nenhum case coincidir.",
+          "challenges": [
+            {
+              "keyword": "default",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Dica do mestre: Geralmente é o último item do switch.\n\n```cpp\nswitch(x) {\n  ____:\n    cout << \"Outro\";\n}\n```"
+            },
+            {
+              "keyword": "&&",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "||",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre inclua um default para segurança."
+          ],
+          "number": 6
+        },
+        {
+          "title": "E Lógico",
+          "objective": "Combinar duas condições obrigatórias.",
+          "teaching": "O operador && exige que as duas partes sejam verdadeiras para o resultado ser true.",
+          "challenges": [
+            {
+              "keyword": "&&",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Dica do mestre: Use o duplo e comercial.\n\n```cpp\nif (temChave ____ estaAberta) {\n  entrar();\n}\n```"
+            },
+            {
+              "keyword": "||",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "!",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "AND é usado para restrições cumulativas."
+          ],
+          "number": 7
+        },
+        {
+          "title": "OU Lógico",
+          "objective": "Aceitar qualquer uma das condições.",
+          "teaching": "O operador || resulta em verdadeiro se ao menos uma das partes for true.",
+          "challenges": [
+            {
+              "keyword": "||",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Dica do mestre: Use as duas barras verticais (pipes).\n\n```cpp\nif (eSabado ____ eDomingo) {\n  descansar();\n}\n```"
+            },
+            {
+              "keyword": "!",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "==",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "OR é usado para alternativas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Negação",
+          "objective": "Inverter um valor lógico.",
+          "teaching": "O operador ! transforma true em false e vice-versa.",
+          "challenges": [
+            {
+              "keyword": "!",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Dica do mestre: É um operador unário (vai antes da variável).\n\n```cpp\nif (____estaLogado) {\n  pedirLogin();\n}\n```"
+            },
+            {
+              "keyword": "==",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "case"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A negação ajuda a verificar o estado \"falso\" de algo."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Igualdade",
+          "objective": "Comparar dois valores.",
+          "teaching": "Para saber se dois valores são iguais, usamos o operador == (não confunda com =).",
+          "challenges": [
+            {
+              "keyword": "==",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Dica do mestre: Lembre-se, um só igual é atribuição.\n\n```cpp\nif (senha ____ 1234) {\n  liberar();\n}\n```"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "case"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "case"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre use == para testes lógicos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (C++)",
+      "subtitle": "10 missoes de loops em C++",
+      "file": "lang-module?lang=cpp&mod=4",
+      "missions": [
+        {
+          "title": "Loop Contado (FOR)",
+          "objective": "Repetir código um número fixo de vezes.",
+          "teaching": "O for organiza inicialização, condição e incremento em uma única linha.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "break"
+              ],
+              "hint": "Dica do mestre: É o loop mais usado com índices.\n\n```cpp\n____ (int i = 0; i < 10; i++) {\n  cout << i;\n}\n```"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "break"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O for é ideal quando sabemos o fim da iteração."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Loop Condicional (WHILE)",
+          "objective": "Repetir enquanto algo for verdade.",
+          "teaching": "O while verifica a condição antes de cada execução do bloco.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "break"
+              ],
+              "hint": "Dica do mestre: Cuidado para não criar loops infinitos.\n\n```cpp\n____ (energia > 0) {\n  correr();\n}\n```"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O while pode rodar zero vezes se a condição inicial for falsa."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Garantindo Execução",
+          "objective": "Rodar o código ao menos uma vez.",
+          "teaching": "O loop do-while verifica a condição apenas no final da execução.",
+          "challenges": [
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Dica do mestre: Começa com a palavra do e termina com while.\n\n```cpp\n____ {\n  tentar();\n} while (falhou);\n```"
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Do-while é útil para menus que devem aparecer ao menos uma vez."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Interrompendo Loops",
+          "objective": "Sair de um loop antecipadamente.",
+          "teaching": "O comando break encerra imediatamente o loop atual.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Dica do mestre: Sai do loop, não da função.\n\n```cpp\nwhile(true) {\n  if(acabou) ____;\n}\n```"
+            },
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "++",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Break é usado para saídas de emergência em loops."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Pulando Iterações",
+          "objective": "Ir direto para a próxima volta do loop.",
+          "teaching": "O continue ignora o restante do código atual e volta para o teste da condição.",
+          "challenges": [
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Dica do mestre: Muito usado para ignorar itens inválidos.\n\n```cpp\nfor(int i=0; i<10; i++) {\n  if(i % 2 == 0) ____;\n  cout << i; // só imprime ímpares\n}\n```"
+            },
+            {
+              "keyword": "++",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "--",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Continue reinicia o ciclo sem sair do loop."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Incremento",
+          "objective": "Aumentar uma variável em 1.",
+          "teaching": "O operador ++ é uma forma rápida de somar 1 a uma variável.",
+          "challenges": [
+            {
+              "keyword": "++",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Dica do mestre: Dá nome à linguagem C++.\n\n```cpp\nint x = 0;\nx____; // x agora é 1\n```"
+            },
+            {
+              "keyword": "--",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "condition",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Incremento é fundamental em contadores de loop."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Decremento",
+          "objective": "Diminuir uma variável em 1.",
+          "teaching": "O operador -- reduz o valor de uma variável em 1.",
+          "challenges": [
+            {
+              "keyword": "--",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Dica do mestre: O oposto do incremento.\n\n```cpp\nfor(int i=10; i>0; i____) { ... }\n```"
+            },
+            {
+              "keyword": "condition",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "nested",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Decremento é usado para contagens regressivas."
+          ],
+          "number": 7
+        },
+        {
+          "title": "A Condição do Loop",
+          "objective": "Saber quando parar.",
+          "teaching": "Todo loop precisa de uma expressão booleana que determine sua continuação.",
+          "challenges": [
+            {
+              "keyword": "i < 10",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Dica do mestre: O loop roda enquanto isso for true.\n\n```cpp\nfor(int i=0; ____; i++) { ... }\n```"
+            },
+            {
+              "keyword": "nested",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "infinite",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Uma condição mal escrita gera loops infinitos ou que nunca rodam."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Loop Infinito",
+          "objective": "Identificar loops que nunca param.",
+          "teaching": "Um loop for sem parâmetros ou um while(true) nunca encerram por conta própria.",
+          "challenges": [
+            {
+              "keyword": "true",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Dica do mestre: O valor que mantém o while rodando para sempre.\n\n```cpp\nwhile(____) {\n  // Rodará eternamente\n}\n```"
+            },
+            {
+              "keyword": "infinite",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "break"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Loops infinitos são úteis em sistemas que esperam eventos (como jogos)."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Loops Aninhados",
+          "objective": "Colocar um loop dentro de outro.",
+          "teaching": "Usamos loops aninhados para percorrer matrizes ou gerar combinações.",
+          "challenges": [
+            {
+              "keyword": "j",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Dica do mestre: Geralmente usamos uma variável diferente para o loop interno.\n\n```cpp\nfor(int i=0; i<3; i++) {\n  for(int ____=0; j<3; j++) { ... }\n}\n```"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "break"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "break"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Cuidado: loops aninhados aumentam muito o tempo de execução."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Vetores e STL (C++)",
+      "subtitle": "10 missoes de vetores e stl em C++",
+      "file": "lang-module?lang=cpp&mod=5",
+      "missions": [
+        {
+          "title": "Vetor Dinâmico",
+          "objective": "Usar listas que crescem sozinhas.",
+          "teaching": "O std::vector é a estrutura de dados mais comum do C++ para guardar sequências de elementos.",
+          "challenges": [
+            {
+              "keyword": "vector",
+              "distractors": [
+                "push_back",
+                "pop_back",
+                "size"
+              ],
+              "hint": "Dica do mestre: Precisa de #include <vector>.\n\n```cpp\nstd::____<int> numeros;\n```"
+            },
+            {
+              "keyword": "push_back",
+              "distractors": [
+                "vector",
+                "pop_back",
+                "size"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "pop_back",
+              "distractors": [
+                "vector",
+                "push_back",
+                "size"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Vector substitui os arrays antigos com muito mais segurança."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Adicionando Elementos",
+          "objective": "Colocar um item no fim da lista.",
+          "teaching": "O método push_back insere um novo elemento no final do vetor.",
+          "challenges": [
+            {
+              "keyword": "push_back",
+              "distractors": [
+                "vector",
+                "pop_back",
+                "size"
+              ],
+              "hint": "Dica do mestre: \"Push\" significa empurrar para o fundo.\n\n```cpp\nvetor.____(10);\n```"
+            },
+            {
+              "keyword": "pop_back",
+              "distractors": [
+                "vector",
+                "push_back",
+                "size"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "size",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O vetor gerencia a memória automaticamente ao adicionar itens."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Removendo Elementos",
+          "objective": "Tirar o último item.",
+          "teaching": "O método pop_back remove o último elemento que foi inserido.",
+          "challenges": [
+            {
+              "keyword": "pop_back",
+              "distractors": [
+                "vector",
+                "push_back",
+                "size"
+              ],
+              "hint": "Dica do mestre: O oposto do push.\n\n```cpp\nvetor.____();\n```"
+            },
+            {
+              "keyword": "size",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "at",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Pop não retorna o valor, apenas o remove."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Tamanho da Lista",
+          "objective": "Saber quantos itens existem.",
+          "teaching": "O método size() retorna a quantidade atual de elementos no vetor.",
+          "challenges": [
+            {
+              "keyword": "size",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Dica do mestre: Retorna um tipo unsigned (sem sinal).\n\n```cpp\ncout << lista.____();\n```"
+            },
+            {
+              "keyword": "at",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Size é útil para percorrer o vetor com um loop for."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Acesso Seguro",
+          "objective": "Pegar um item validando os limites.",
+          "teaching": "Diferente de usar [ ], o método .at(index) gera um erro se você tentar acessar uma posição inválida.",
+          "challenges": [
+            {
+              "keyword": "at",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Dica do mestre: Mais seguro que usar colchetes.\n\n```cpp\nint x = v.____(0);\n```"
+            },
+            {
+              "keyword": "begin",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "end",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre prefira .at() quando a segurança for prioridade."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Início da Coleção",
+          "objective": "Pegar a posição do primeiro item.",
+          "teaching": "O método begin() retorna um iterador apontando para o primeiro elemento.",
+          "challenges": [
+            {
+              "keyword": "begin",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Dica do mestre: Usado em algoritmos da STL.\n\n```cpp\nauto it = v.____();\n```"
+            },
+            {
+              "keyword": "end",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "clear",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Begin() é o ponto de partida para percorrer a lista."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Fim da Coleção",
+          "objective": "Identificar o limite final.",
+          "teaching": "O método end() aponta para a posição LOGO APÓS o último elemento.",
+          "challenges": [
+            {
+              "keyword": "end",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Dica do mestre: Não aponta para o último item, mas para o \"muro\" final.\n\n```cpp\nit != v.____();\n```"
+            },
+            {
+              "keyword": "clear",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "empty",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "End() é usado como critério de parada em buscas."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Limpando Tudo",
+          "objective": "Esvaziar o vetor de uma vez.",
+          "teaching": "O método clear() remove todos os elementos, deixando o tamanho (size) como zero.",
+          "challenges": [
+            {
+              "keyword": "clear",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Dica do mestre: Deixa o vetor pronto para ser reusado.\n\n```cpp\nmeuVetor.____();\n```"
+            },
+            {
+              "keyword": "empty",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "iterator",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Clear não reduz a capacidade de memória, apenas remove os itens."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Verificando Vazio",
+          "objective": "Saber se não há itens.",
+          "teaching": "O método empty() retorna true se o vetor estiver sem nenhum elemento.",
+          "challenges": [
+            {
+              "keyword": "empty",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Dica do mestre: Mais eficiente que verificar se size() == 0.\n\n```cpp\nif (v.____()) cout << \"Vazio\";\n```"
+            },
+            {
+              "keyword": "iterator",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "vector",
+              "distractors": [
+                "push_back",
+                "pop_back",
+                "size"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use empty() para checagens rápidas antes de processar."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Iteradores",
+          "objective": "Navegar na lista de forma genérica.",
+          "teaching": "Iteradores funcionam como ponteiros inteligentes para navegar em qualquer coleção da STL.",
+          "challenges": [
+            {
+              "keyword": "iterator",
+              "distractors": [
+                "vector",
+                "push_back",
+                "pop_back"
+              ],
+              "hint": "Dica do mestre: O tipo é definido dentro do container.\n\n```cpp\nvector<int>::____ it;\n```"
+            },
+            {
+              "keyword": "vector",
+              "distractors": [
+                "push_back",
+                "pop_back",
+                "size"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "push_back",
+              "distractors": [
+                "vector",
+                "pop_back",
+                "size"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Iteradores permitem que o mesmo algoritmo funcione em vetores, listas ou conjuntos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Funcoes (C++)",
+      "subtitle": "10 missoes de funcoes em C++",
+      "file": "lang-module?lang=cpp&mod=6",
+      "missions": [
+        {
+          "title": "Função Sem Retorno",
+          "objective": "Criar ações que não devolvem valor.",
+          "teaching": "Usamos a palavra void quando a função apenas executa algo (como imprimir) e termina.",
+          "challenges": [
+            {
+              "keyword": "void",
+              "distractors": [
+                "return",
+                "prototype",
+                "parameter"
+              ],
+              "hint": "Dica do mestre: Significa \"vazio\" em inglês.\n\n```cpp\n____ imprimirOi() {\n  cout << \"Oi\";\n}\n```"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "void",
+                "prototype",
+                "parameter"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "prototype",
+              "distractors": [
+                "void",
+                "return",
+                "parameter"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Funções void não precisam do comando return."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Devolvendo Valores",
+          "objective": "Enviar um resultado de volta.",
+          "teaching": "O comando return encerra a função e entrega o valor resultante para quem a chamou.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "void",
+                "prototype",
+                "parameter"
+              ],
+              "hint": "Dica do mestre: O tipo do valor deve bater com o tipo da função.\n\n```cpp\nint soma(int a, int b) {\n  ____ a + b;\n}\n```"
+            },
+            {
+              "keyword": "prototype",
+              "distractors": [
+                "void",
+                "return",
+                "parameter"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parameter",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O return interrompe a função imediatamente."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Parâmetros de Entrada",
+          "objective": "Receber dados para processar.",
+          "teaching": "Variáveis declaradas nos parênteses da função são chamadas de parâmetros.",
+          "challenges": [
+            {
+              "keyword": "int x",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: Deve ter tipo e nome.\n\n```cpp\nvoid dobro(____) {\n  cout << x * 2;\n}\n```"
+            },
+            {
+              "keyword": "parameter",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "argument",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Parâmetros funcionam como variáveis locais da função."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Protótipo de Função",
+          "objective": "Avisar ao compilador que a função existe.",
+          "teaching": "Podemos declarar a assinatura da função antes da main e definir o corpo depois.",
+          "challenges": [
+            {
+              "keyword": ";",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: A declaração termina com ponto e vírgula.\n\n```cpp\nvoid calcular()____\n\nint main() { ... }\n```"
+            },
+            {
+              "keyword": "argument",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "overload",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Protótipos ajudam a organizar arquivos grandes."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Argumentos Reais",
+          "objective": "Passar valores na hora da chamada.",
+          "teaching": "Os valores que passamos entre parênteses ao chamar a função são os argumentos.",
+          "challenges": [
+            {
+              "keyword": "5",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: É o valor concreto sendo passado.\n\n```cpp\nsoma(____, 10);\n```"
+            },
+            {
+              "keyword": "overload",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "recursion",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Os argumentos são copiados para os parâmetros da função."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Sobrecarga de Função",
+          "objective": "Mesmo nome, comportamentos diferentes.",
+          "teaching": "C++ permite várias funções com o mesmo nome, desde que os parâmetros sejam diferentes.",
+          "challenges": [
+            {
+              "keyword": "overload",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: Chamamos isso de sobrecarga ou...\n\n```cpp\nvoid print(int n); \nvoid print(string s); // ____\n```"
+            },
+            {
+              "keyword": "recursion",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "inline",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O compilador escolhe qual função rodar baseada nos argumentos."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Recursividade",
+          "objective": "Uma função que chama a si mesma.",
+          "teaching": "Recursão é útil para problemas que podem ser divididos em partes menores iguais.",
+          "challenges": [
+            {
+              "keyword": "fatorial",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: Ela se chama novamente.\n\n```cpp\nint fatorial(int n) {\n  return n * ____(n-1);\n}\n```"
+            },
+            {
+              "keyword": "inline",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "call",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre tenha uma \"condição de parada\" na recursão!"
+          ],
+          "number": 7
+        },
+        {
+          "title": "Funções Inline",
+          "objective": "Otimizar chamadas pequenas.",
+          "teaching": "A palavra inline sugere ao compilador que substitua a chamada pelo código da função diretamente.",
+          "challenges": [
+            {
+              "keyword": "inline",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: Reduz o custo de trocar o contexto da CPU.\n\n```cpp\n____ int soma(int a, int b) { return a+b; }\n```"
+            },
+            {
+              "keyword": "call",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "declaration",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use inline para funções muito curtas e chamadas com frequência."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Chamada de Função",
+          "objective": "Colocar a função para trabalhar.",
+          "teaching": "Para executar uma função, usamos seu nome seguido de parênteses com os argumentos.",
+          "challenges": [
+            {
+              "keyword": "()",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: Mesmo sem argumentos, os parênteses são obrigatórios.\n\n```cpp\nminhaFuncao____;\n```"
+            },
+            {
+              "keyword": "declaration",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "void",
+              "distractors": [
+                "return",
+                "prototype",
+                "parameter"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A chamada transfere o controle do programa para a função."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Declaração de Tipo",
+          "objective": "Definir o que a função devolve.",
+          "teaching": "O tipo antes do nome da função indica o que ela vai retornar ao final.",
+          "challenges": [
+            {
+              "keyword": "double",
+              "distractors": [
+                "void",
+                "return",
+                "prototype"
+              ],
+              "hint": "Dica do mestre: Se ela retorna 3.14, o tipo deve ser...\n\n```cpp\n____ calcularPI() { return 3.14; }\n```"
+            },
+            {
+              "keyword": "void",
+              "distractors": [
+                "return",
+                "prototype",
+                "parameter"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "void",
+                "prototype",
+                "parameter"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O tipo deve ser compatível com os valores do comando return."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Classes (C++)",
+      "subtitle": "10 missoes de classes em C++",
+      "file": "lang-module?lang=cpp&mod=7",
+      "missions": [
+        {
+          "title": "Criando a Planta (Class)",
+          "objective": "Definir um novo tipo de dado.",
+          "teaching": "Uma classe funciona como um molde para criar objetos com atributos e comportamentos.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "protected"
+              ],
+              "hint": "Dica do mestre: Começa com letra minúscula.\n\n```cpp\n____ Pessoa {\n  // ...\n};\n```"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "protected"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "protected"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes são a base da Programação Orientada a Objetos."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Acesso Livre (Public)",
+          "objective": "Permitir uso externo de membros.",
+          "teaching": "Tudo que estiver sob o rótulo public pode ser acessado de fora da classe.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "protected"
+              ],
+              "hint": "Dica do mestre: Geralmente usado para os métodos.\n\n```cpp\nclass Carro {\n____:\n  void ligar();\n};\n```"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "protected"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "protected",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Public define a interface de uso da classe."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Dados Protegidos (Private)",
+          "objective": "Esconder detalhes internos.",
+          "teaching": "Membros private só podem ser acessados por funções da própria classe.",
+          "challenges": [
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "protected"
+              ],
+              "hint": "Dica do mestre: É o padrão para atributos (variáveis).\n\n```cpp\nclass Conta {\n____:\n  double saldo;\n};\n```"
+            },
+            {
+              "keyword": "protected",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "member",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O encapsulamento (private) protege os dados de acessos indevidos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "O Construtor",
+          "objective": "Inicializar o objeto ao nascer.",
+          "teaching": "O construtor é um método especial com o MESMO NOME da classe, chamado na criação.",
+          "challenges": [
+            {
+              "keyword": "Pessoa",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Dica do mestre: Não tem tipo de retorno (nem void).\n\n```cpp\nclass Pessoa {\n  public:\n    ____() { cout << \"Nasceu\"; }\n};\n```"
+            },
+            {
+              "keyword": "member",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O construtor serve para configurar os valores iniciais."
+          ],
+          "number": 4
+        },
+        {
+          "title": "O Destrutor",
+          "objective": "Limpar a bagunça ao morrer.",
+          "teaching": "O destrutor é chamado automaticamente quando o objeto sai de cena ou é deletado.",
+          "challenges": [
+            {
+              "keyword": "~",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Dica do mestre: Usa o símbolo do til antes do nome da classe.\n\n```cpp\n____Pessoa() { \n  // Limpar memória \n}\n```"
+            },
+            {
+              "keyword": "constructor",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "destructor",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Destrutores são cruciais para evitar vazamentos de memória."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Atributos (Membros)",
+          "objective": "Guardar o estado do objeto.",
+          "teaching": "Variáveis definidas dentro de uma classe são chamadas de membros ou atributos.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Dica do mestre: É uma variável comum, mas dentro do escopo da classe.\n\n```cpp\nclass Heroi {\n  ____ nome;\n};\n```"
+            },
+            {
+              "keyword": "destructor",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "access",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Atributos definem o que o objeto \"tem\"."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Especificadores de Acesso",
+          "objective": "Controlar a visibilidade.",
+          "teaching": "Usamos os dois pontos ( : ) após public, private ou protected.",
+          "challenges": [
+            {
+              "keyword": ":",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Dica do mestre: Acompanha o especificador de acesso.\n\n```cpp\npublic____\n  int x;\n```"
+            },
+            {
+              "keyword": "access",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "specifier",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Especificadores organizam as \"seções\" da classe."
+          ],
+          "number": 7
+        },
+        {
+          "title": "O Ponto e Vírgula",
+          "objective": "Não esquecer o fechamento.",
+          "teaching": "Diferente de outras linguagens, no C++ a definição de uma classe DEVE terminar com ;",
+          "challenges": [
+            {
+              "keyword": ";",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Dica do mestre: Vai logo após a chave de fechamento.\n\n```cpp\nclass Teste {\n\n}____\n```"
+            },
+            {
+              "keyword": "specifier",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "definition",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Esquecer o ; após a classe gera erros de compilação confusos."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Herança Amigável (Protected)",
+          "objective": "Visível apenas para filhos.",
+          "teaching": "Membros protected são como private, mas classes filhas podem acessá-los.",
+          "challenges": [
+            {
+              "keyword": "protected",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Dica do mestre: O meio termo entre public e private.\n\n```cpp\nclass Pai {\n____:\n  int segredoDeFamilia;\n};\n```"
+            },
+            {
+              "keyword": "definition",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "protected"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Protected é essencial quando usamos herança."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Definição Fora da Classe",
+          "objective": "Separar cabeçalho de código.",
+          "teaching": "Podemos definir o corpo de um método fora da classe usando o operador de escopo ::",
+          "challenges": [
+            {
+              "keyword": "::",
+              "distractors": [
+                "class",
+                "public",
+                "private"
+              ],
+              "hint": "Dica do mestre: Operador de resolução de escopo.\n\n```cpp\nvoid Pessoa____falar() {\n  cout << \"Oi\";\n}\n```"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "protected"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "protected"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso mantém as classes (headers) limpas e fáceis de ler."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Objetos e Metodos (C++)",
+      "subtitle": "10 missoes de objetos e metodos em C++",
+      "file": "lang-module?lang=cpp&mod=8",
+      "missions": [
+        {
+          "title": "Criando um Objeto",
+          "objective": "Dar vida a uma classe.",
+          "teaching": "Um objeto é uma instância real de uma classe ocupando espaço na memória.",
+          "challenges": [
+            {
+              "keyword": "Pessoa",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Use o nome da classe como se fosse um tipo.\n\n```cpp\n____ p1;\n```"
+            },
+            {
+              "keyword": "instance",
+              "distractors": [
+                "object",
+                "method",
+                "this"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "object",
+                "instance",
+                "this"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Podemos criar milhares de objetos a partir da mesma classe."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Chamando Métodos",
+          "objective": "Fazer o objeto agir.",
+          "teaching": "Métodos são funções que pertencem a um objeto e definem o que ele \"faz\".",
+          "challenges": [
+            {
+              "keyword": ".",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Use o ponto para acessar membros de objetos comuns.\n\n```cpp\np1____falar();\n```"
+            },
+            {
+              "keyword": "method",
+              "distractors": [
+                "object",
+                "instance",
+                "this"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "this",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O ponto liga o objeto ao seu comportamento."
+          ],
+          "number": 2
+        },
+        {
+          "title": "A Própria Instância (THIS)",
+          "objective": "Diferenciar atributo de parâmetro.",
+          "teaching": "A palavra-chave this é um ponteiro para o próprio objeto atual.",
+          "challenges": [
+            {
+              "keyword": "this",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Usado para resolver conflitos de nomes.\n\n```cpp\nvoid setNome(string nome) {\n  ____->nome = nome;\n}\n```"
+            },
+            {
+              "keyword": "this",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "pointer",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "This é um ponteiro implícito disponível em todos os métodos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Objetos Dinâmicos (New)",
+          "objective": "Criar objetos no heap.",
+          "teaching": "Usamos new para criar objetos que persistem até pedirmos para deletar.",
+          "challenges": [
+            {
+              "keyword": "new",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Retorna um ponteiro para o objeto.\n\n```cpp\nPessoa* p = ____ Pessoa();\n```"
+            },
+            {
+              "keyword": "pointer",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reference",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Alocação dinâmica exige gerenciamento manual com delete."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Acesso via Ponteiro",
+          "objective": "Usar membros de objetos dinâmicos.",
+          "teaching": "Quando temos um ponteiro para um objeto, usamos a seta (->) para acessar seus membros.",
+          "challenges": [
+            {
+              "keyword": "->",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Atalho para (*ponteiro).membro.\n\n```cpp\nponteiro____metodo();\n```"
+            },
+            {
+              "keyword": "reference",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "dot",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A seta é exclusiva para uso com ponteiros."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Membros Estáticos",
+          "objective": "Compartilhar dados entre todos.",
+          "teaching": "Um membro static pertence à classe inteira, não a um objeto específico.",
+          "challenges": [
+            {
+              "keyword": "static",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Existe apenas uma cópia para todos os objetos.\n\n```cpp\n____ int totalDePessoas;\n```"
+            },
+            {
+              "keyword": "dot",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "arrow",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Membros estáticos são ótimos para contadores de instâncias."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Classes Amigas (Friend)",
+          "objective": "Dar acesso privilegiado.",
+          "teaching": "Uma função friend pode acessar membros privados de uma classe sem ser parte dela.",
+          "challenges": [
+            {
+              "keyword": "friend",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Quebra o encapsulamento por um bom motivo.\n\n```cpp\n____ void resetar(Conta &c);\n```"
+            },
+            {
+              "keyword": "arrow",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "static",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use friend com moderação para evitar códigos bagunçados."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Passagem por Referência",
+          "objective": "Evitar cópias pesadas.",
+          "teaching": "Passar objetos por referência (&) permite alterar o original e economiza memória.",
+          "challenges": [
+            {
+              "keyword": "&",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Símbolo de endereço/referência.\n\n```cpp\nvoid atualizar(Pessoa ____p);\n```"
+            },
+            {
+              "keyword": "static",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "friend",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre passe objetos grandes por referência constante se não for alterá-los."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Ponteiros de Objeto",
+          "objective": "Guardar o endereço de uma instância.",
+          "teaching": "Um ponteiro guarda onde o objeto está na memória, permitindo polimorfismo.",
+          "challenges": [
+            {
+              "keyword": "*",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Símbolo que define um ponteiro.\n\n```cpp\nPessoa ____ptr = &p1;\n```"
+            },
+            {
+              "keyword": "friend",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "instance",
+                "method",
+                "this"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Ponteiros são a chave para o poder do C++."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Limpeza Manual (Delete)",
+          "objective": "Liberar memória ocupada.",
+          "teaching": "Tudo que foi criado com new deve ser destruído com delete para não travar o PC.",
+          "challenges": [
+            {
+              "keyword": "delete",
+              "distractors": [
+                "object",
+                "instance",
+                "method"
+              ],
+              "hint": "Dica do mestre: Chama o destrutor do objeto antes de limpar.\n\n```cpp\n____ ptrObjeto;\n```"
+            },
+            {
+              "keyword": "object",
+              "distractors": [
+                "instance",
+                "method",
+                "this"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instance",
+              "distractors": [
+                "object",
+                "method",
+                "this"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Um \"memory leak\" ocorre quando você perde o ponteiro sem dar delete."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Heranca (C++)",
+      "subtitle": "10 missoes de heranca em C++",
+      "file": "lang-module?lang=cpp&mod=9",
+      "missions": [
+        {
+          "title": "Reuso de Código",
+          "objective": "Criar uma classe baseada em outra.",
+          "teaching": "A herança permite que uma classe filha herde atributos e métodos de uma classe pai.",
+          "challenges": [
+            {
+              "keyword": ":",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: Usamos dois pontos para indicar a herança.\n\n```cpp\nclass Gato ____ public Animal {\n```"
+            },
+            {
+              "keyword": "base",
+              "distractors": [
+                "inheritance",
+                "derived",
+                "public"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "derived",
+              "distractors": [
+                "inheritance",
+                "base",
+                "public"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Herança representa a relação \"é um\"."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Classe Base",
+          "objective": "Identificar a origem.",
+          "teaching": "A classe que fornece os recursos para a outra é chamada de classe Base ou Pai.",
+          "challenges": [
+            {
+              "keyword": "Animal",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: É a classe mais genérica.\n\n```cpp\nclass Gato : public ____ {\n```"
+            },
+            {
+              "keyword": "derived",
+              "distractors": [
+                "inheritance",
+                "base",
+                "public"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A classe base deve conter os comportamentos comuns."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Classe Derivada",
+          "objective": "Identificar a especialização.",
+          "teaching": "A classe que recebe os recursos e adiciona novos é a classe Derivada ou Filha.",
+          "challenges": [
+            {
+              "keyword": "Gato",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: É a classe mais específica.\n\n```cpp\n____ meuGatinho;\n```"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "multiple",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes derivadas estendem a funcionalidade da base."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Herança Pública",
+          "objective": "Manter a interface original.",
+          "teaching": "Usando public na herança, os membros públicos do pai continuam públicos no filho.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: É o tipo mais comum de herança.\n\n```cpp\nclass Carro : ____ Veiculo {\n```"
+            },
+            {
+              "keyword": "multiple",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "protected",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Herança pública é a forma padrão de especialização."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Herança Múltipla",
+          "objective": "Ter vários pais ao mesmo tempo.",
+          "teaching": "Diferente de Java ou C#, o C++ permite que uma classe herde de várias outras simultaneamente.",
+          "challenges": [
+            {
+              "keyword": ",",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: Separe as classes pai por vírgulas.\n\n```cpp\nclass Sereia : public Humano____ public Peixe {\n```"
+            },
+            {
+              "keyword": "protected",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "delegation",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Herança múltipla é poderosa mas pode gerar ambiguidades."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Acessando o Pai",
+          "objective": "Chamar métodos originais.",
+          "teaching": "Se o filho sobrescreveu um método, ainda podemos chamar o original do pai com ::",
+          "challenges": [
+            {
+              "keyword": "Animal::",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: Use o nome da classe pai seguido de dois pontos duplos.\n\n```cpp\nvoid emitirSom() {\n  ____emitirSom();\n}\n```"
+            },
+            {
+              "keyword": "delegation",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "colon",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso permite estender o comportamento original em vez de apenas trocá-lo."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Ordem de Construção",
+          "objective": "Saber quem nasce primeiro.",
+          "teaching": "Ao criar um filho, o construtor do PAI é sempre executado antes do construtor do filho.",
+          "challenges": [
+            {
+              "keyword": "Pai",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: A base deve estar pronta antes da especialização.\n\n```cpp\n// Ordem: ____ -> Filho\n```"
+            },
+            {
+              "keyword": "colon",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "C++ garante que a base seja inicializada primeiro."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Sobrescrita (Override)",
+          "objective": "Mudar o comportamento herdado.",
+          "teaching": "O filho pode redefinir uma função do pai para agir de forma diferente.",
+          "challenges": [
+            {
+              "keyword": "override",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: Palavra opcional que ajuda o compilador a validar se você realmente está sobrescrevendo algo.\n\n```cpp\nvoid mover() ____ {\n```"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "vtable",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Override deixa claro que a função veio da classe base."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Ponteiro da Base",
+          "objective": "Guardar filhos em variáveis de pais.",
+          "teaching": "Um ponteiro da classe base pode apontar para qualquer objeto de classe derivada.",
+          "challenges": [
+            {
+              "keyword": "Animal*",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: Permite tratar diferentes animais de forma genérica.\n\n```cpp\n____ p = new Gato();\n```"
+            },
+            {
+              "keyword": "vtable",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "inheritance",
+              "distractors": [
+                "base",
+                "derived",
+                "public"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Essa é a porta de entrada para o polimorfismo."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Construtores com Parâmetros",
+          "objective": "Passar dados para o pai.",
+          "teaching": "Usamos a lista de inicialização para enviar dados ao construtor da classe pai.",
+          "challenges": [
+            {
+              "keyword": "Animal(n)",
+              "distractors": [
+                "inheritance",
+                "base",
+                "derived"
+              ],
+              "hint": "Dica do mestre: Vem logo após os dois pontos no construtor do filho.\n\n```cpp\nGato(string n) : ____ { ... }\n```"
+            },
+            {
+              "keyword": "inheritance",
+              "distractors": [
+                "base",
+                "derived",
+                "public"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "base",
+              "distractors": [
+                "inheritance",
+                "derived",
+                "public"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O pai deve ser configurado antes do corpo do construtor do filho rodar."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Polimorfismo (C++)",
+      "subtitle": "10 missoes de polimorfismo em C++",
+      "file": "lang-module?lang=cpp&mod=10",
+      "missions": [
+        {
+          "title": "Muitas Formas",
+          "objective": "Entender o conceito de polimorfismo.",
+          "teaching": "Polimorfismo permite que objetos diferentes respondam à mesma chamada de forma diferente.",
+          "challenges": [
+            {
+              "keyword": "virtual",
+              "distractors": [
+                "polymorphism",
+                "pure",
+                "abstract"
+              ],
+              "hint": "Dica do mestre: É a palavra-chave mágica que ativa o polimorfismo.\n\n```cpp\n____ void emitirSom();\n```"
+            },
+            {
+              "keyword": "virtual",
+              "distractors": [
+                "polymorphism",
+                "pure",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "pure",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sem a palavra virtual, o C++ usará sempre a versão da classe do ponteiro, não do objeto real."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Funções Virtuais",
+          "objective": "Permitir a escolha em tempo de execução.",
+          "teaching": "Declarar um método como virtual na base permite que o C++ decida qual versão chamar na hora que o código rodar.",
+          "challenges": [
+            {
+              "keyword": "virtual",
+              "distractors": [
+                "polymorphism",
+                "pure",
+                "abstract"
+              ],
+              "hint": "Dica do mestre: Deve ser colocada na declaração dentro da classe base.\n\n```cpp\n____ ~Animal(); // Destrutor virtual é essencial!\n```"
+            },
+            {
+              "keyword": "pure",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre use destrutores virtuais em classes que terão herança."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Função Virtual Pura",
+          "objective": "Obrigar o filho a implementar.",
+          "teaching": "Uma função virtual pura não tem corpo na base e termina com = 0.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: Indica que a base não sabe implementar essa ação.\n\n```cpp\nvirtual void mover() = ____;\n```"
+            },
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "vtable",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes com funções virtuais puras são chamadas de Abstratas."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Classes Abstratas",
+          "objective": "Criar apenas conceitos, não objetos.",
+          "teaching": "Você não pode criar instâncias (objetos) de uma classe que possua ao menos uma função virtual pura.",
+          "challenges": [
+            {
+              "keyword": "Animal",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: Se Animal for abstrata, o código abaixo falha.\n\n```cpp\n____ a; // Erro: classe abstrata!\n```"
+            },
+            {
+              "keyword": "vtable",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "dynamic_cast",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes abstratas servem como \"contratos\" para os filhos."
+          ],
+          "number": 4
+        },
+        {
+          "title": "VTable (Nos Bastidores)",
+          "objective": "Saber como o C++ organiza as chamadas.",
+          "teaching": "O C++ usa uma tabela interna chamada vtable para mapear qual função virtual deve ser chamada para cada objeto.",
+          "challenges": [
+            {
+              "keyword": "vtable",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: É o segredo da performance do polimorfismo no C++.\n\n```cpp\n// A cada objeto virtual, o compilador adiciona um ponteiro para a ____\n```"
+            },
+            {
+              "keyword": "dynamic_cast",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "binding",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O polimorfismo tem um custo pequeno de memória e tempo por causa da vtable."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Conversão Segura (Cast)",
+          "objective": "Mudar de pai para filho com segurança.",
+          "teaching": "O dynamic_cast verifica se um ponteiro de base realmente aponta para um tipo de filho específico.",
+          "challenges": [
+            {
+              "keyword": "dynamic_cast",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: Retorna nullptr se a conversão for impossível.\n\n```cpp\nGato* g = ____<Gato*>(ponteiroAnimal);\n```"
+            },
+            {
+              "keyword": "binding",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Dynamic_cast só funciona em classes que possuem ao menos uma função virtual."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Ligação Tardia (Late Binding)",
+          "objective": "Decidir na hora da execução.",
+          "teaching": "Chamamos de Late Binding o processo de escolher a função certa enquanto o programa roda, não na compilação.",
+          "challenges": [
+            {
+              "keyword": "binding",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: É o que diferencia funções comuns de virtuais.\n\n```cpp\n// Funções virtuais usam dynamic ____\n```"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "pointer",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Late binding é o que torna o código flexível e extensível."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Interfaces",
+          "objective": "Simular interfaces de outras linguagens.",
+          "teaching": "No C++, uma interface é simplesmente uma classe que SÓ possui funções virtuais puras.",
+          "challenges": [
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: No C++, usamos classes puramente virtuais para isso.\n\n```cpp\nclass IContrato { // Uma classe ____\n  virtual void executar() = 0;\n};\n```"
+            },
+            {
+              "keyword": "pointer",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "reference",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Interfaces definem \"o que\" deve ser feito, não \"como\"."
+          ],
+          "number": 8
+        },
+        {
+          "title": "O Poder da Referência",
+          "objective": "Polimorfismo sem ponteiros.",
+          "teaching": "Polimorfismo também funciona quando passamos objetos por referência de classe base.",
+          "challenges": [
+            {
+              "keyword": "&",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: Símbolo de referência.\n\n```cpp\nvoid fazerSom(Animal ____a) {\n  a.emitirSom();\n}\n```"
+            },
+            {
+              "keyword": "reference",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "polymorphism",
+              "distractors": [
+                "virtual",
+                "pure",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Passar por referência evita alocação dinâmica e mantém o polimorfismo."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Selando a Classe (Final)",
+          "objective": "Impedir novas heranças.",
+          "teaching": "A palavra final impede que uma classe seja usada como base para outras ou que um método seja sobrescrito.",
+          "challenges": [
+            {
+              "keyword": "final",
+              "distractors": [
+                "polymorphism",
+                "virtual",
+                "pure"
+              ],
+              "hint": "Dica do mestre: Introduzido no C++11.\n\n```cpp\nclass Gato ____ : public Animal {\n```"
+            },
+            {
+              "keyword": "polymorphism",
+              "distractors": [
+                "virtual",
+                "pure",
+                "abstract"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "virtual",
+              "distractors": [
+                "polymorphism",
+                "pure",
+                "abstract"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use final para otimizar o compilador e travar o design da classe."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Templates e STL (C++)",
+      "subtitle": "10 missoes de templates e stl em C++",
+      "file": "lang-module?lang=cpp&mod=11",
+      "missions": [
+        {
+          "title": "Código Genérico",
+          "objective": "Criar funções que aceitam qualquer tipo.",
+          "teaching": "Templates permitem escrever código uma única vez e usá-lo com int, double ou classes customizadas.",
+          "challenges": [
+            {
+              "keyword": "template",
+              "distractors": [
+                "typename",
+                "generic",
+                "map"
+              ],
+              "hint": "Dica do mestre: Declarado antes da função ou classe.\n\n```cpp\n____ <typename T>\nT soma(T a, T b) { return a + b; }\n```"
+            },
+            {
+              "keyword": "typename",
+              "distractors": [
+                "template",
+                "generic",
+                "map"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "generic",
+              "distractors": [
+                "template",
+                "typename",
+                "map"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Templates são resolvidos em tempo de compilação."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Definindo o Tipo Genérico",
+          "objective": "Dar um nome ao tipo \"coringa\".",
+          "teaching": "Usamos typename ou class dentro dos colchetes do template para definir o parâmetro de tipo.",
+          "challenges": [
+            {
+              "keyword": "typename",
+              "distractors": [
+                "template",
+                "generic",
+                "map"
+              ],
+              "hint": "Dica do mestre: Geralmente abreviamos o tipo para 'T'.\n\n```cpp\ntemplate <____ T>\n```"
+            },
+            {
+              "keyword": "generic",
+              "distractors": [
+                "template",
+                "typename",
+                "map"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "map",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "T é apenas um placeholder que será substituído pelo tipo real."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Contêiner de Chave-Valor",
+          "objective": "Usar mapas (dicionários).",
+          "teaching": "O std::map guarda pares de chaves únicas associadas a valores, como uma lista telefônica.",
+          "challenges": [
+            {
+              "keyword": "map",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Mantém as chaves ordenadas automaticamente.\n\n```cpp\nstd::____<string, int> idades;\n```"
+            },
+            {
+              "keyword": "map",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "set",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Mapas são excelentes para buscas rápidas por nome/chave."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Conjuntos Únicos",
+          "objective": "Guardar itens sem repetição.",
+          "teaching": "O std::set garante que cada elemento inserido seja único e mantenha a ordem.",
+          "challenges": [
+            {
+              "keyword": "set",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Ignora inserções de itens que já existem.\n\n```cpp\nstd::____<int> numerosUnicos;\n```"
+            },
+            {
+              "keyword": "set",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "pair",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sets são ótimos para remover duplicatas de uma lista."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Pares de Dados",
+          "objective": "Juntar dois valores relacionados.",
+          "teaching": "O std::pair é um template simples para agrupar dois valores de tipos diferentes.",
+          "challenges": [
+            {
+              "keyword": "pair",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Acessamos com .first e .second.\n\n```cpp\nstd::____<int, string> notaAluno;\n```"
+            },
+            {
+              "keyword": "pair",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "list",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Pairs são muito usados como retorno de funções de busca."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Listas Ligadas",
+          "objective": "Inserções rápidas em qualquer lugar.",
+          "teaching": "Diferente do vetor, a std::list é uma lista duplamente ligada, ideal para inserções frequentes no meio.",
+          "challenges": [
+            {
+              "keyword": "list",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Não permite acesso direto por índice [ i ].\n\n```cpp\nstd::____<string> tarefas;\n```"
+            },
+            {
+              "keyword": "list",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "stack",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use listas quando precisar adicionar/remover itens constantemente."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Pilha (Stack)",
+          "objective": "Último a entrar, primeiro a sair.",
+          "teaching": "A stack segue a lógica LIFO (Last-In, First-Out).",
+          "challenges": [
+            {
+              "keyword": "stack",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Só permite acessar o topo.\n\n```cpp\nstd::____<int> pilhaDePratos;\n```"
+            },
+            {
+              "keyword": "stack",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "queue",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Pilhas são usadas para desfazer ações ou gerenciar chamadas."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Fila (Queue)",
+          "objective": "Primeiro a entrar, primeiro a sair.",
+          "teaching": "A queue segue a lógica FIFO (First-In, First-Out).",
+          "challenges": [
+            {
+              "keyword": "queue",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Pense em uma fila de banco.\n\n```cpp\nstd::____<string> filaDeEspera;\n```"
+            },
+            {
+              "keyword": "queue",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "algorithm",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Filas são essenciais para processamento de tarefas em ordem."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Algoritmos Prontos",
+          "objective": "Ordenar listas sem esforço.",
+          "teaching": "A biblioteca <algorithm> possui funções como sort() que funcionam com qualquer contêiner.",
+          "challenges": [
+            {
+              "keyword": "sort",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Precisa do início e fim da coleção.\n\n```cpp\nstd::____(v.begin(), v.end());\n```"
+            },
+            {
+              "keyword": "algorithm",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "template",
+              "distractors": [
+                "typename",
+                "generic",
+                "map"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Nunca tente reinventar a ordenação, a STL já fez o melhor possível."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Busca Binária",
+          "objective": "Encontrar itens rapidamente.",
+          "teaching": "O binary_search verifica se um item existe em uma lista JÁ ORDENADA de forma extremamente veloz.",
+          "challenges": [
+            {
+              "keyword": "binary_search",
+              "distractors": [
+                "template",
+                "typename",
+                "generic"
+              ],
+              "hint": "Dica do mestre: Retorna apenas true ou false.\n\n```cpp\nbool tem = std::____(v.begin(), v.end(), 10);\n```"
+            },
+            {
+              "keyword": "template",
+              "distractors": [
+                "typename",
+                "generic",
+                "map"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "typename",
+              "distractors": [
+                "template",
+                "generic",
+                "map"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Busca binária é a forma mais eficiente de busca em grandes dados."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "cpp_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Excecoes e Projeto (C++)",
+      "subtitle": "10 missoes de excecoes e projeto em C++",
+      "file": "lang-module?lang=cpp&mod=12",
+      "missions": [
+        {
+          "title": "Tentativa Protegida",
+          "objective": "Lidar com possíveis erros.",
+          "teaching": "O bloco try envolve o código que pode gerar algum problema durante a execução.",
+          "challenges": [
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "exception"
+              ],
+              "hint": "Dica do mestre: Trabalha sempre em dupla com o catch.\n\n```cpp\n____ {\n  // Código perigoso\n}\n```"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "exception"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "exception"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Exceções evitam que o programa feche abruptamente em erros."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Capturando o Erro",
+          "objective": "Tratar a falha detectada.",
+          "teaching": "O bloco catch recebe o erro lançado pelo try e permite que você tome uma providência.",
+          "challenges": [
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "exception"
+              ],
+              "hint": "Dica do mestre: Recebe o tipo do erro entre parênteses.\n\n```cpp\n____ (const exception& e) {\n  cout << e.what();\n}\n```"
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "exception"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "exception",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Você pode ter vários blocos catch para tipos de erros diferentes."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Lançando Problemas",
+          "objective": "Avisar que algo deu errado.",
+          "teaching": "Usamos o comando throw para disparar manualmente uma exceção quando uma regra de negócio é quebrada.",
+          "challenges": [
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "exception"
+              ],
+              "hint": "Dica do mestre: \"Arremessa\" o objeto de erro para longe.\n\n```cpp\nif (divisor == 0) ____ \"Erro: Divisão por zero\";\n```"
+            },
+            {
+              "keyword": "exception",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "runtime_error",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Lançar uma exceção interrompe o fluxo normal da função imediatamente."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Mensagem de Erro",
+          "objective": "Saber o que aconteceu.",
+          "teaching": "A maioria das exceções padrão possui o método .what() para retornar a descrição do erro.",
+          "challenges": [
+            {
+              "keyword": "what",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Dica do mestre: Significa \"o que\" aconteceu.\n\n```cpp\ncout << e.____();\n```"
+            },
+            {
+              "keyword": "runtime_error",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "logic_error",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Sempre mostre mensagens de erro amigáveis para o usuário ou logs."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Erros de Execução",
+          "objective": "Tratar problemas fora do seu controle.",
+          "teaching": "O runtime_error é usado para problemas que só aparecem enquanto o programa roda (como falta de arquivo).",
+          "challenges": [
+            {
+              "keyword": "runtime_error",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Dica do mestre: Faz parte da biblioteca standard exceptions.\n\n```cpp\nthrow std::____(\"Falha crítica\");\n```"
+            },
+            {
+              "keyword": "logic_error",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "standard",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Runtime errors geralmente não podem ser evitados apenas com lógica."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Erros de Lógica",
+          "objective": "Tratar erros do programador.",
+          "teaching": "O logic_error indica que houve uma falha na estrutura do código, como um índice fora do limite.",
+          "challenges": [
+            {
+              "keyword": "logic_error",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Dica do mestre: Geralmente são evitáveis com IFs preventivos.\n\n```cpp\nthrow std::____(\"Valor inválido\");\n```"
+            },
+            {
+              "keyword": "standard",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "multiple",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Logic errors ajudam a debugar o comportamento esperado do sistema."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Exceção Genérica",
+          "objective": "Capturar qualquer coisa.",
+          "teaching": "O tipo std::exception é a classe pai de todas as exceções padrão do C++.",
+          "challenges": [
+            {
+              "keyword": "exception",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Dica do mestre: Útil como último recurso no catch.\n\n```cpp\ncatch (const std::____& e)\n```"
+            },
+            {
+              "keyword": "multiple",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "rethrow",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Capturar por referência constante evita cópias desnecessárias do erro."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Relançando Erros",
+          "objective": "Tratar parcialmente e passar adiante.",
+          "teaching": "Podemos usar throw sem argumentos dentro de um catch para relançar a mesma exceção para quem chamou a função.",
+          "challenges": [
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "exception"
+              ],
+              "hint": "Dica do mestre: Repassa o problema para o próximo nível.\n\n```cpp\ncatch (...) {\n  fazerLog();\n  ____;\n}\n```"
+            },
+            {
+              "keyword": "rethrow",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "noexcept",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Isso permite que vários níveis do programa ajudem a tratar o erro."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Garantia de Não Erro",
+          "objective": "Prometer que a função é segura.",
+          "teaching": "A palavra noexcept avisa ao compilador que aquela função nunca lançará uma exceção.",
+          "challenges": [
+            {
+              "keyword": "noexcept",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Dica do mestre: Ajuda na otimização da performance.\n\n```cpp\nvoid soma(int a, int b) ____ {\n```"
+            },
+            {
+              "keyword": "noexcept",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "exception"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Use noexcept em funções simples que não lidam com memória dinâmica ou arquivos."
+          ],
+          "number": 9
+        },
+        {
+          "title": "O Projeto Final",
+          "objective": "Organizar o código em arquivos.",
+          "teaching": "Projetos reais separam o código em arquivos .h (cabeçalhos) e .cpp (implementação).",
+          "challenges": [
+            {
+              "keyword": ".h",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Dica do mestre: Onde ficam as declarações das classes.\n\n```cpp\n#include \"MeuProjeto____\"\n```"
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "exception"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "exception"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A separação em arquivos acelera a compilação e organiza o trabalho em equipe."
+          ],
+          "number": 10
+        }
+      ]
+    }
+  ]
+}

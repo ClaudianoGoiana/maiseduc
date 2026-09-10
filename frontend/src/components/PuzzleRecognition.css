@@ -1,0 +1,226 @@
+.puzzle-container {
+  position: relative;
+  min-height: 100vh;
+  padding: 24px;
+  background: radial-gradient(circle at 50% 20%, #1a0033 0%, #05010f 70%);
+  color: #d6f5ff;
+  font-family: 'Courier New', monospace;
+  overflow-y: auto;
+}
+
+.puzzle-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(0, 255, 200, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 200, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.puzzle-container .hud {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  margin-bottom: 32px;
+  z-index: 1;
+  position: relative;
+}
+
+.puzzle-container .hud__item {
+  padding: 6px 12px;
+  border: 1px solid #00ffc8;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-shadow: 0 0 6px currentColor;
+}
+
+.puzzle-conteudo {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.puzzle-titulo {
+  font-size: 1.8rem;
+  color: #00ffc8;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.puzzle-instrucao {
+  text-align: center;
+  padding: 16px;
+  background: rgba(0, 255, 200, 0.08);
+  border: 1px solid rgba(0, 255, 200, 0.2);
+  border-radius: 6px;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.manchetes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.manchete {
+  background: rgba(0, 255, 200, 0.08);
+  border: 2px solid rgba(0, 255, 200, 0.3);
+  padding: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.manchete:hover {
+  border-color: #00ffc8;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+  transform: translateY(-2px);
+}
+
+.manchete.selecionada {
+  background: rgba(255, 0, 170, 0.2);
+  border-color: #ff00aa;
+  box-shadow: 0 0 20px rgba(255, 0, 170, 0.4);
+}
+
+.manchete.respondido {
+  cursor: default;
+}
+
+.manchete.respondido.falsa {
+  background: rgba(255, 85, 102, 0.15);
+  border-color: #ff5566;
+}
+
+.manchete.respondido.verdadeira {
+  background: rgba(0, 255, 200, 0.15);
+  border-color: #00ffc8;
+}
+
+.manchete-numero {
+  font-size: 0.75rem;
+  color: #ffd166;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.manchete-titulo {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.manchete-resultado {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.botao-verificar {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #00ffc8, #ff00aa);
+  border: none;
+  color: #050115;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  margin-bottom: 24px;
+}
+
+.botao-verificar:hover:not(:disabled) {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.5);
+}
+
+.botao-verificar:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.resultado {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 6px;
+  text-align: center;
+  animation: slideIn 0.4s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.resultado.correta {
+  background: rgba(0, 255, 200, 0.1);
+  border: 1px solid #00ffc8;
+  box-shadow: 0 0 24px rgba(0, 255, 200, 0.3);
+}
+
+.resultado.catastrofica {
+  background: rgba(255, 85, 102, 0.1);
+  border: 1px solid #ff5566;
+  box-shadow: 0 0 24px rgba(255, 85, 102, 0.3);
+}
+
+.resultado-titulo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.resultado-texto {
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.botao-proxima-fase {
+  padding: 12px 24px;
+  background: linear-gradient(90deg, #00ffc8, #ff00aa);
+  border: none;
+  color: #050115;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.botao-proxima-fase:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.5);
+}
+
+@media (max-width: 768px) {
+  .manchetes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .puzzle-titulo {
+    font-size: 1.4rem;
+  }
+}

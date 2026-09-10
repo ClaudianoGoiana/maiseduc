@@ -1,0 +1,4808 @@
+{
+  "id": "js",
+  "name": "JavaScript",
+  "icon": "🟨",
+  "color": "from-yellow-400 to-amber-500",
+  "modules": [
+    {
+      "id": "js_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Sintaxe e Console (JavaScript)",
+      "subtitle": "10 missoes de sintaxe e console em JavaScript",
+      "file": "lang-module?lang=js&mod=1",
+      "missions": [
+        {
+          "title": "Primeira saida com console.log",
+          "objective": "Mostrar uma mensagem no console do navegador.",
+          "teaching": "Em JavaScript, console.log() exibe texto e valores para teste e estudo.",
+          "challenges": [
+            {
+              "keyword": "console.log",
+              "distractors": [
+                "script",
+                "syntax",
+                "JavaScript"
+              ],
+              "hint": "Qual comando mostra informacao no console em JavaScript?"
+            },
+            {
+              "keyword": "()",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual simbolo acompanha a chamada da funcao?"
+            },
+            {
+              "keyword": "console",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Onde normalmente vemos a saida desse comando?"
+            }
+          ],
+          "learn": [
+            "console.log ajuda a enxergar o que o codigo esta fazendo.",
+            "E muito usado para iniciantes e para depuracao."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Onde o JavaScript roda",
+          "objective": "Entender que o navegador executa JavaScript em paginas web.",
+          "teaching": "JavaScript pode ser executado no navegador por meio da tag script.",
+          "challenges": [
+            {
+              "keyword": "script",
+              "distractors": [
+                "console.log",
+                "syntax",
+                "JavaScript"
+              ],
+              "hint": "Qual tag HTML carrega JavaScript?"
+            },
+            {
+              "keyword": "navegador",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual ambiente comum executa JavaScript no inicio do aprendizado?"
+            },
+            {
+              "keyword": "codigo",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "O que a tag script normalmente contem ou carrega?"
+            }
+          ],
+          "learn": [
+            "JavaScript se integra ao HTML.",
+            "O navegador e um ambiente muito comum para aprender JS."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Comentarios em JavaScript",
+          "objective": "Usar comentario simples para explicar codigo.",
+          "teaching": "Comentarios de uma linha em JavaScript usam //.",
+          "challenges": [
+            {
+              "keyword": "//",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual simbolo comenta uma unica linha em JavaScript?"
+            },
+            {
+              "keyword": "comentario",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Que recurso explica o codigo sem executar?"
+            },
+            {
+              "keyword": "leitura",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Comentario ajuda em qual aspecto do projeto?"
+            }
+          ],
+          "learn": [
+            "Comentarios ajudam a documentar o raciocinio.",
+            "Iniciantes usam comentarios para fixar conceitos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Ponto e virgula e blocos",
+          "objective": "Reconhecer simbolos comuns da sintaxe do JavaScript.",
+          "teaching": "JavaScript usa chaves para blocos e pode usar ponto e virgula ao fim das instrucoes.",
+          "challenges": [
+            {
+              "keyword": "{}",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual delimitador representa bloco de codigo?"
+            },
+            {
+              "keyword": ";",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual simbolo aparece com frequencia ao fim de instrucoes?"
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "As chaves normalmente definem o que?"
+            }
+          ],
+          "learn": [
+            "Chaves organizam blocos em funcoes e condicionais.",
+            "Ponto e virgula aparece bastante em exemplos de JavaScript."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Strings com aspas",
+          "objective": "Entender como representar texto em JavaScript.",
+          "teaching": "Strings podem ser escritas com aspas simples, duplas ou crases.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual tipo representa texto?"
+            },
+            {
+              "keyword": "\"Olá\"",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual exemplo representa um texto?"
+            },
+            {
+              "keyword": "aspas",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "O que normalmente envolve o texto?"
+            }
+          ],
+          "learn": [
+            "Texto precisa ser delimitado corretamente.",
+            "Strings sao usadas em mensagens, nomes e titulos."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Numeros e calculos basicos",
+          "objective": "Usar JavaScript para lidar com valores numericos simples.",
+          "teaching": "JavaScript trabalha com numeros e operacoes como soma, subtracao e multiplicacao.",
+          "challenges": [
+            {
+              "keyword": "number",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual tipo representa numero?"
+            },
+            {
+              "keyword": "+",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual operador soma valores?"
+            },
+            {
+              "keyword": "calculo",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Numero e usado com frequencia em que tipo de tarefa?"
+            }
+          ],
+          "learn": [
+            "JavaScript lida bem com operacoes numericas simples.",
+            "Numeros aparecem em contagem, idades e precos."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Entrada e interacao simples",
+          "objective": "Perceber que JavaScript tambem interage com usuario.",
+          "teaching": "Funcoes como prompt e alert aparecem em exemplos iniciais de interacao.",
+          "challenges": [
+            {
+              "keyword": "prompt",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual recurso simples pede um valor ao usuario no navegador?"
+            },
+            {
+              "keyword": "alert",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual recurso simples mostra uma mensagem na tela?"
+            },
+            {
+              "keyword": "interacao",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Prompt e alert sao exemplos de que ideia?"
+            }
+          ],
+          "learn": [
+            "JavaScript pode conversar com o usuario.",
+            "Isso ajuda a criar exemplos mais vivos para iniciantes."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Lendo erros no console",
+          "objective": "Entender que o console tambem mostra erros.",
+          "teaching": "Quando o codigo esta errado, o console pode ajudar a encontrar o problema.",
+          "challenges": [
+            {
+              "keyword": "erro",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "O que o console tambem pode mostrar alem da saida?"
+            },
+            {
+              "keyword": "console",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Onde iniciantes costumam olhar para ver mensagens do JS?"
+            },
+            {
+              "keyword": "depuracao",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Nome do processo de investigar problemas no codigo."
+            }
+          ],
+          "learn": [
+            "Console nao serve apenas para imprimir valores.",
+            "Ele tambem orienta quando algo da errado."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Organizando o codigo JS",
+          "objective": "Perceber a importancia de escrever codigo limpo e simples.",
+          "teaching": "Nomes claros e codigo organizado ajudam muito no aprendizado inicial.",
+          "challenges": [
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Qual qualidade ajuda o codigo a ficar mais facil de entender?"
+            },
+            {
+              "keyword": "legibilidade",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Codigo claro melhora qual aspecto?"
+            },
+            {
+              "keyword": "simples",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Para iniciante, o codigo deve ser mais como?"
+            }
+          ],
+          "learn": [
+            "JavaScript limpo e mais facil de aprender.",
+            "Boa organizacao acelera correcao e evolucao do codigo."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de sintaxe JS",
+          "objective": "Consolidar console, script, comentarios e sintaxe basica.",
+          "teaching": "A base da sintaxe em JavaScript e escrever instrucoes claras e reconhecer o ambiente onde elas executam.",
+          "challenges": [
+            {
+              "keyword": "console.log",
+              "distractors": [
+                "script",
+                "syntax",
+                "JavaScript"
+              ],
+              "hint": "Qual comando central do modulo?"
+            },
+            {
+              "keyword": "script",
+              "distractors": [
+                "console.log",
+                "syntax",
+                "JavaScript"
+              ],
+              "hint": "Tag HTML ligada ao JavaScript."
+            },
+            {
+              "keyword": "//",
+              "distractors": [
+                "console.log",
+                "script",
+                "syntax"
+              ],
+              "hint": "Comentario simples em JavaScript."
+            }
+          ],
+          "learn": [
+            "Consolidacao da sintaxe inicial do JavaScript.",
+            "Base pronta para variaveis, condicoes e funcoes."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Variaveis e Tipos (JavaScript)",
+      "subtitle": "10 missoes de variaveis e tipos em JavaScript",
+      "file": "lang-module?lang=js&mod=2",
+      "missions": [
+        {
+          "title": "O que e variavel",
+          "objective": "Entender variavel como nome que guarda um valor.",
+          "teaching": "Variavel armazena dados para serem usados depois no programa.",
+          "challenges": [
+            {
+              "keyword": "variavel",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "O que guarda um valor no codigo?"
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "O que a variavel armazena?"
+            },
+            {
+              "keyword": "nome",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Como identificamos a variavel no codigo?"
+            }
+          ],
+          "learn": [
+            "Variavel e base da programacao.",
+            "Nome claro ajuda muito na leitura do codigo."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Criando com let",
+          "objective": "Usar let para declarar variavel que pode mudar.",
+          "teaching": "let e a forma moderna de criar variavel com valor mutavel.",
+          "challenges": [
+            {
+              "keyword": "let",
+              "distractors": [
+                "const",
+                "typeof",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra declara variavel mutavel em JavaScript moderno?"
+            },
+            {
+              "keyword": "mutavel",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Caracteristica principal do let."
+            },
+            {
+              "keyword": "let nome = \"Ana\"",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual exemplo esta correto?"
+            }
+          ],
+          "learn": [
+            "let e ideal quando o valor pode mudar.",
+            "A sintaxe da declaracao precisa seguir ordem correta."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Constantes com const",
+          "objective": "Entender quando usar const no lugar de let.",
+          "teaching": "const declara referencia que nao deve ser reatribuida.",
+          "challenges": [
+            {
+              "keyword": "const",
+              "distractors": [
+                "let",
+                "typeof",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra usamos para valor que nao sera reatribuido?"
+            },
+            {
+              "keyword": "estavel",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Constante e indicada para valor mais como?"
+            },
+            {
+              "keyword": "const PI = 3.14",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual exemplo representa constante correta?"
+            }
+          ],
+          "learn": [
+            "const aumenta previsibilidade do codigo.",
+            "Valores fixos devem preferir const."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Tipos basicos",
+          "objective": "Reconhecer texto, numero e booleano no JavaScript.",
+          "teaching": "JavaScript trabalha com tipos como string, number e boolean.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual tipo representa texto?"
+            },
+            {
+              "keyword": "number",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual tipo representa numero?"
+            },
+            {
+              "keyword": "boolean",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual tipo representa verdadeiro ou falso?"
+            }
+          ],
+          "learn": [
+            "Conhecer tipos evita confusao no uso das variaveis.",
+            "Os tipos basicos aparecem em quase todo programa."
+          ],
+          "number": 4
+        },
+        {
+          "title": "typeof para descobrir tipo",
+          "objective": "Inspecionar o tipo de um valor em JavaScript.",
+          "teaching": "typeof informa o tipo do valor analisado.",
+          "challenges": [
+            {
+              "keyword": "typeof",
+              "distractors": [
+                "let",
+                "const",
+                "JavaScript"
+              ],
+              "hint": "Qual operador mostra o tipo em JavaScript?"
+            },
+            {
+              "keyword": "diagnostico",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Para que serve verificar o tipo durante o estudo?"
+            },
+            {
+              "keyword": "tipo",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "O que o typeof devolve?"
+            }
+          ],
+          "learn": [
+            "typeof e util para entender melhor os dados.",
+            "Ajuda muito no aprendizado inicial e depuracao."
+          ],
+          "number": 5
+        },
+        {
+          "title": "String versus number",
+          "objective": "Nao confundir texto numerico com numero real.",
+          "teaching": "\"10\" e string; 10 e number. Eles parecem iguais, mas sao tipos diferentes.",
+          "challenges": [
+            {
+              "keyword": "\"10\"",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual exemplo representa texto com numero dentro?"
+            },
+            {
+              "keyword": "10",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual exemplo representa numero de verdade?"
+            },
+            {
+              "keyword": "diferenca",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "O que precisamos perceber entre esses dois valores?"
+            }
+          ],
+          "learn": [
+            "Aparencia nao define o tipo do valor.",
+            "Entender isso evita erros em calculos e comparacoes."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Recebendo entrada simples",
+          "objective": "Ler valor do usuario com prompt em exemplos basicos.",
+          "teaching": "prompt retorna texto, mesmo quando o usuario digita numero.",
+          "challenges": [
+            {
+              "keyword": "prompt",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual recurso pede entrada do usuario no navegador?"
+            },
+            {
+              "keyword": "texto",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual tipo o prompt geralmente retorna?"
+            },
+            {
+              "keyword": "conversao",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "O que pode ser necessario antes de fazer conta?"
+            }
+          ],
+          "learn": [
+            "Entrada do usuario chega como texto na maioria dos exemplos simples.",
+            "Conversao e importante quando o objetivo e calcular."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Conversao com Number",
+          "objective": "Transformar texto em numero quando necessario.",
+          "teaching": "Number() converte valores para tipo numerico.",
+          "challenges": [
+            {
+              "keyword": "Number",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual recurso converte texto em numero?"
+            },
+            {
+              "keyword": "conversao",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Como se chama mudar o tipo de um valor?"
+            },
+            {
+              "keyword": "calculo",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Conversao e muito usada antes de qual tipo de operacao?"
+            }
+          ],
+          "learn": [
+            "Number ajuda em contas com dados do usuario.",
+            "Texto e numero precisam ser tratados de forma diferente."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Boas praticas com nomes",
+          "objective": "Escolher nomes claros para variaveis.",
+          "teaching": "Nomes descritivos ajudam a entender o papel de cada valor.",
+          "challenges": [
+            {
+              "keyword": "clareza",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual qualidade um bom nome de variavel deve ter?"
+            },
+            {
+              "keyword": "descricao",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Nome de variavel deve trazer que tipo de informacao?"
+            },
+            {
+              "keyword": "idadeUsuario",
+              "distractors": [
+                "let",
+                "const",
+                "typeof"
+              ],
+              "hint": "Qual exemplo e mais claro para iniciante?"
+            }
+          ],
+          "learn": [
+            "Nome bom economiza tempo de leitura.",
+            "Codigo fica mais didatico e facil de manter."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de variaveis JS",
+          "objective": "Consolidar let, const, tipos e conversao basica.",
+          "teaching": "Ao combinar declaracao, tipo e conversao, voce constroi a base para quase todo programa em JavaScript.",
+          "challenges": [
+            {
+              "keyword": "let",
+              "distractors": [
+                "const",
+                "typeof",
+                "JavaScript"
+              ],
+              "hint": "Declaracao mutavel central do modulo."
+            },
+            {
+              "keyword": "const",
+              "distractors": [
+                "let",
+                "typeof",
+                "JavaScript"
+              ],
+              "hint": "Declaracao para valor estavel."
+            },
+            {
+              "keyword": "typeof",
+              "distractors": [
+                "let",
+                "const",
+                "JavaScript"
+              ],
+              "hint": "Recurso para descobrir o tipo do valor."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de variaveis e tipos.",
+            "Base pronta para condicionais e funcoes."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicoes (JavaScript)",
+      "subtitle": "10 missoes de condicoes em JavaScript",
+      "file": "lang-module?lang=js&mod=3",
+      "missions": [
+        {
+          "title": "Decisao com if",
+          "objective": "Entender que if executa bloco quando a condicao e verdadeira.",
+          "teaching": "if permite que o programa tome decisoes conforme uma regra.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra inicia uma condicao em JavaScript?"
+            },
+            {
+              "keyword": "condicao",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "O que o if avalia antes de executar?"
+            },
+            {
+              "keyword": "verdadeiro",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Quando o bloco do if executa?"
+            }
+          ],
+          "learn": [
+            "if e a base da tomada de decisao.",
+            "Programas ficam mais inteligentes com regras condicionais."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Comparando com ===",
+          "objective": "Usar comparacao estrita para verificar igualdade.",
+          "teaching": "=== compara valor e tipo, sendo mais seguro para iniciantes.",
+          "challenges": [
+            {
+              "keyword": "===",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual operador compara igualdade estrita?"
+            },
+            {
+              "keyword": "comparacao",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Como se chama verificar se valores sao iguais?"
+            },
+            {
+              "keyword": "seguranca",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Por que muitos preferem === no inicio?"
+            }
+          ],
+          "learn": [
+            "=== evita confusoes com conversao automatica.",
+            "Comparacao estrita e boa pratica para estudar JS."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Caso contrario com else",
+          "objective": "Tratar situacao quando a condicao for falsa.",
+          "teaching": "else define o caminho alternativo do if.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra representa o caso contrario do if?"
+            },
+            {
+              "keyword": "alternativo",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Que tipo de caminho o else cria?"
+            },
+            {
+              "keyword": "falso",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Quando o else e executado?"
+            }
+          ],
+          "learn": [
+            "else completa a decisao basica.",
+            "Seu programa pode responder de duas formas diferentes."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Mais opcoes com else if",
+          "objective": "Trabalhar com varias condicoes em sequencia.",
+          "teaching": "else if amplia a decisao para varios cenarios.",
+          "challenges": [
+            {
+              "keyword": "else if",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual estrutura adiciona condicao intermediaria em JavaScript?"
+            },
+            {
+              "keyword": "sequencia",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "As condicoes sao avaliadas em que ordem?"
+            },
+            {
+              "keyword": "cenarios",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Else if ajuda a tratar varios o que?"
+            }
+          ],
+          "learn": [
+            "else if evita blocos desconectados.",
+            "Bom para decidir entre varias possibilidades."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Operadores relacionais",
+          "objective": "Comparar maior, menor e diferente.",
+          "teaching": "Operadores como >, <, >= e !== ajudam a criar regras mais reais.",
+          "challenges": [
+            {
+              "keyword": ">",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual operador significa maior que?"
+            },
+            {
+              "keyword": "<",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual operador significa menor que?"
+            },
+            {
+              "keyword": "!==",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual operador representa diferente de forma estrita?"
+            }
+          ],
+          "learn": [
+            "Relacionais ampliam o poder das condicoes.",
+            "Voce pode validar faixas, limites e regras numericas."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Operadores logicos",
+          "objective": "Combinar regras com && e ||.",
+          "teaching": "&& exige que duas condicoes sejam verdadeiras; || aceita pelo menos uma.",
+          "challenges": [
+            {
+              "keyword": "&&",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual operador representa E logico em JavaScript?"
+            },
+            {
+              "keyword": "||",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual operador representa OU logico?"
+            },
+            {
+              "keyword": "combinar",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Esses operadores permitem o que com condicoes?"
+            }
+          ],
+          "learn": [
+            "Condicoes podem ser compostas.",
+            "Isso permite validar cenarios mais completos."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Negacao com !",
+          "objective": "Inverter resultado de uma condicao.",
+          "teaching": "! transforma verdadeiro em falso e falso em verdadeiro.",
+          "challenges": [
+            {
+              "keyword": "!",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual simbolo nega uma condicao em JavaScript?"
+            },
+            {
+              "keyword": "inverter",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual acao o operador de negacao realiza?"
+            },
+            {
+              "keyword": "booleano",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Negacao atua sobre qual tipo de resultado?"
+            }
+          ],
+          "learn": [
+            "Negacao ajuda em verificacoes curtas.",
+            "Ela e comum em validacoes e bloqueios."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Escolha multipla com switch",
+          "objective": "Reconhecer switch como alternativa para varios casos.",
+          "teaching": "switch pode organizar melhor comparacoes com varias opcoes conhecidas.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "JavaScript"
+              ],
+              "hint": "Qual estrutura trata varios casos nomeados?"
+            },
+            {
+              "keyword": "case",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual palavra representa cada opcao dentro do switch?"
+            },
+            {
+              "keyword": "default",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual parte cobre o caso nao previsto?"
+            }
+          ],
+          "learn": [
+            "Switch pode deixar certas decisoes mais organizadas.",
+            "Bom quando ha varias opcoes fixas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Condicao com entrada do usuario",
+          "objective": "Tomar decisao com base no que o usuario informou.",
+          "teaching": "Ao usar prompt, pode ser necessario converter ou comparar com cuidado.",
+          "challenges": [
+            {
+              "keyword": "prompt",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual recurso simples coleta entrada no navegador?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "JavaScript"
+              ],
+              "hint": "Qual estrutura decide com base na entrada?"
+            },
+            {
+              "keyword": "Number",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Qual recurso pode ajudar na conversao da entrada?"
+            }
+          ],
+          "learn": [
+            "Condicoes reais costumam usar dados do usuario.",
+            "A entrada precisa ser tratada com cuidado."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de condicoes JS",
+          "objective": "Consolidar if, else, switch e operadores.",
+          "teaching": "Ao combinar comparacoes e caminhos alternativos, voce controla o fluxo do programa.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "JavaScript"
+              ],
+              "hint": "Estrutura base do modulo."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "JavaScript"
+              ],
+              "hint": "Caminho alternativo da condicao."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "JavaScript"
+              ],
+              "hint": "Estrutura para varios casos fixos."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de condicoes.",
+            "Base pronta para loops e interacoes mais ricas."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (JavaScript)",
+      "subtitle": "10 missoes de loops em JavaScript",
+      "file": "lang-module?lang=js&mod=4",
+      "missions": [
+        {
+          "title": "O que e repeticao",
+          "objective": "Entender por que usamos loops para repetir tarefas.",
+          "teaching": "Loop evita copiar a mesma instrucao varias vezes manualmente.",
+          "challenges": [
+            {
+              "keyword": "loop",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual estrutura repete codigo?"
+            },
+            {
+              "keyword": "repeticao",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual ideia central do modulo?"
+            },
+            {
+              "keyword": "automacao",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Repetir com loop ajuda em qual tipo de ganho?"
+            }
+          ],
+          "learn": [
+            "Loops evitam duplicacao de codigo.",
+            "Sao essenciais para contagem e processamento de colecoes."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Primeiro for",
+          "objective": "Entender o laco for com contador.",
+          "teaching": "for repete codigo com inicio, condicao e incremento.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "break",
+                "JavaScript"
+              ],
+              "hint": "Qual laco costuma usar contador?"
+            },
+            {
+              "keyword": "contador",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual variavel controla o numero de repeticoes?"
+            },
+            {
+              "keyword": "incremento",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "O que faz o contador avancar?"
+            }
+          ],
+          "learn": [
+            "For e muito usado quando sabemos quantas vezes repetir.",
+            "Contador ajuda a controlar o loop."
+          ],
+          "number": 2
+        },
+        {
+          "title": "While com condicao",
+          "objective": "Usar while para repetir enquanto uma regra for verdadeira.",
+          "teaching": "while depende de condicao logica e pode virar infinito se nao houver controle.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "break",
+                "JavaScript"
+              ],
+              "hint": "Qual laco depende de uma condicao?"
+            },
+            {
+              "keyword": "condicao",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "O que o while verifica a cada volta?"
+            },
+            {
+              "keyword": "infinito",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Que problema surge se a condicao nunca ficar falsa?"
+            }
+          ],
+          "learn": [
+            "While e util quando a quantidade de repeticoes nao e fixa.",
+            "Controle da condicao e essencial."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Atualizando o contador",
+          "objective": "Evitar travar o loop por falta de atualizacao.",
+          "teaching": "Sem alterar a variavel de controle, o while pode nunca terminar.",
+          "challenges": [
+            {
+              "keyword": "i++",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual forma comum incrementa o contador no JavaScript?"
+            },
+            {
+              "keyword": "controle",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "O que falta quando o loop nao termina?"
+            },
+            {
+              "keyword": "contador",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Que variavel normalmente muda em cada volta?"
+            }
+          ],
+          "learn": [
+            "Atualizar a variavel de controle e obrigatorio.",
+            "Sem isso, loops podem travar o programa."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Break para parar",
+          "objective": "Encerrar o loop antes do fim quando preciso.",
+          "teaching": "break interrompe o laco imediatamente.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "JavaScript"
+              ],
+              "hint": "Qual comando encerra o loop?"
+            },
+            {
+              "keyword": "interromper",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual efeito principal do break?"
+            },
+            {
+              "keyword": "fluxo",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Break atua sobre qual aspecto do programa?"
+            }
+          ],
+          "learn": [
+            "Break ajuda em buscas e validacoes.",
+            "Voce pode sair do loop quando a meta ja foi atingida."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Continue para pular",
+          "objective": "Ignorar a volta atual e ir para a proxima.",
+          "teaching": "continue pula o restante daquela iteracao sem encerrar o loop todo.",
+          "challenges": [
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual comando pula para a proxima iteracao?"
+            },
+            {
+              "keyword": "iteracao",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Continue afeta qual unidade do loop?"
+            },
+            {
+              "keyword": "pular",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual acao principal do continue?"
+            }
+          ],
+          "learn": [
+            "Continue permite filtrar casos dentro do loop.",
+            "Ele nao encerra toda a repeticao."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Percorrendo array",
+          "objective": "Entender que loops servem para andar por listas de dados.",
+          "teaching": "JavaScript usa loops para ler cada elemento de um array.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Que estrutura costuma ser percorrida em loops?"
+            },
+            {
+              "keyword": "elemento",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Cada volta costuma acessar um o que da colecao?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "break",
+                "JavaScript"
+              ],
+              "hint": "Qual laco e muito usado para percorrer arrays?"
+            }
+          ],
+          "learn": [
+            "Loops sao essenciais para trabalhar com colecoes.",
+            "Array e um dos usos mais comuns de repeticao em JS."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Erro comum em loops",
+          "objective": "Perceber que limites errados causam falhas de logica.",
+          "teaching": "Um contador mal definido pode repetir menos, mais ou para sempre.",
+          "challenges": [
+            {
+              "keyword": "limite",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "O que a condicao do loop precisa definir corretamente?"
+            },
+            {
+              "keyword": "contador",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Qual parte costuma estar no centro dos erros de repeticao?"
+            },
+            {
+              "keyword": "logica",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "Que tipo de problema um loop errado costuma causar?"
+            }
+          ],
+          "learn": [
+            "Loop errado gera resultados errados mesmo sem travar.",
+            "Revisar inicio, condicao e incremento e fundamental."
+          ],
+          "number": 8
+        },
+        {
+          "title": "For versus while",
+          "objective": "Escolher o laco mais adequado para o problema.",
+          "teaching": "for e bom para repeticoes contadas; while para repeticoes condicionais.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "break",
+                "JavaScript"
+              ],
+              "hint": "Qual laco combina com repeticoes contadas?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "break",
+                "JavaScript"
+              ],
+              "hint": "Qual laco combina com repeticao baseada em condicao?"
+            },
+            {
+              "keyword": "escolha",
+              "distractors": [
+                "for",
+                "while",
+                "break"
+              ],
+              "hint": "O programador precisa fazer qual acao entre os dois lacos?"
+            }
+          ],
+          "learn": [
+            "Nem todo problema pede o mesmo laco.",
+            "Escolher bem deixa o codigo mais claro."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de loops JS",
+          "objective": "Consolidar for, while, break e continue.",
+          "teaching": "Loops controlam repeticao e podem ser refinados com comandos de parada e salto.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "break",
+                "JavaScript"
+              ],
+              "hint": "Laco contado principal do modulo."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "break",
+                "JavaScript"
+              ],
+              "hint": "Laco baseado em condicao."
+            },
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "JavaScript"
+              ],
+              "hint": "Comando que interrompe o loop."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de loops.",
+            "Base pronta para arrays e funcoes mais praticas."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Arrays (JavaScript)",
+      "subtitle": "10 missoes de arrays em JavaScript",
+      "file": "lang-module?lang=js&mod=5",
+      "missions": [
+        {
+          "title": "O que e um array",
+          "objective": "Entender array como lista de valores em uma variavel.",
+          "teaching": "Array guarda varios itens na mesma estrutura, em ordem.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "push",
+                "map",
+                "JavaScript"
+              ],
+              "hint": "Qual estrutura guarda varios itens em sequencia?"
+            },
+            {
+              "keyword": "lista",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Array pode ser entendido como uma o que de dados?"
+            },
+            {
+              "keyword": "itens",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "O que colocamos dentro de um array?"
+            }
+          ],
+          "learn": [
+            "Array e base para trabalhar com colecoes.",
+            "Um unico array pode guardar varios valores relacionados."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Criando array literal",
+          "objective": "Montar um array usando colchetes.",
+          "teaching": "Em JavaScript, array literal usa [] e itens separados por virgula.",
+          "challenges": [
+            {
+              "keyword": "[]",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual simbolo delimita array literal?"
+            },
+            {
+              "keyword": "virgula",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Como separam os itens dentro do array?"
+            },
+            {
+              "keyword": "[\"ana\", \"bia\"]",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual exemplo representa array valido?"
+            }
+          ],
+          "learn": [
+            "Array literal e a forma mais comum de criar arrays.",
+            "Sintaxe correta evita erros simples de inicio."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Acessando por indice",
+          "objective": "Ler um item especifico usando sua posicao.",
+          "teaching": "Array usa indice numerico e o primeiro item comeca em 0.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Como chamamos a posicao do item no array?"
+            },
+            {
+              "keyword": "0",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual e o indice do primeiro elemento?"
+            },
+            {
+              "keyword": "nomes[1]",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual sintaxe acessa item por posicao?"
+            }
+          ],
+          "learn": [
+            "Indices comecam em zero em JavaScript.",
+            "Acessar posicao certa e essencial para ler dados corretos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Descobrindo tamanho com length",
+          "objective": "Saber quantos elementos existem no array.",
+          "teaching": "A propriedade length informa a quantidade total de itens.",
+          "challenges": [
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual propriedade mostra o tamanho do array?"
+            },
+            {
+              "keyword": "quantidade",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Length representa qual informacao principal?"
+            },
+            {
+              "keyword": "itens",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Length conta o que dentro do array?"
+            }
+          ],
+          "learn": [
+            "Length ajuda a controlar loops.",
+            "Voce evita acessar posicoes que nao existem."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Adicionando com push",
+          "objective": "Inserir novo item no final do array.",
+          "teaching": "push adiciona elemento no fim da lista.",
+          "challenges": [
+            {
+              "keyword": "push",
+              "distractors": [
+                "array",
+                "map",
+                "JavaScript"
+              ],
+              "hint": "Qual metodo adiciona item no final do array?"
+            },
+            {
+              "keyword": "final",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Push insere item em qual parte da lista?"
+            },
+            {
+              "keyword": "lista.push(\"novo\")",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual chamada de metodo esta correta?"
+            }
+          ],
+          "learn": [
+            "Push e muito comum em mini cadastros.",
+            "Adicionar itens dinamicamente e passo basico em JS."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Removendo com pop",
+          "objective": "Remover o ultimo elemento do array.",
+          "teaching": "pop retira o ultimo item e pode devolver esse valor.",
+          "challenges": [
+            {
+              "keyword": "pop",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual metodo remove o ultimo item?"
+            },
+            {
+              "keyword": "ultimo",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Pop remove qual posicao da lista?"
+            },
+            {
+              "keyword": "remover",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual acao principal desse metodo?"
+            }
+          ],
+          "learn": [
+            "Pop ajuda a desfazer a ultima adicao.",
+            "Adicionar e remover sao operacoes basicas de lista."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Percorrendo array com for",
+          "objective": "Ler cada item de uma lista com repeticao.",
+          "teaching": "for com indice e uma forma direta de percorrer arrays.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual estrutura percorre itens em repeticao?"
+            },
+            {
+              "keyword": "i < lista.length",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual condicao comum evita sair do limite?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "No for classico, qual valor usamos para acessar cada item?"
+            }
+          ],
+          "learn": [
+            "For e essencial para processar listas.",
+            "Length ajuda a controlar o limite do loop."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Transformando com map",
+          "objective": "Criar novo array a partir de outro.",
+          "teaching": "map aplica uma funcao a cada item e retorna nova lista.",
+          "challenges": [
+            {
+              "keyword": "map",
+              "distractors": [
+                "array",
+                "push",
+                "JavaScript"
+              ],
+              "hint": "Qual metodo transforma todos os itens e devolve novo array?"
+            },
+            {
+              "keyword": "novo array",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual resultado principal do map?"
+            },
+            {
+              "keyword": "transformar",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Map e usado para qual tipo de acao?"
+            }
+          ],
+          "learn": [
+            "Map facilita mudancas em lote.",
+            "Voce preserva a lista original e gera outra transformada."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Filtrando e buscando",
+          "objective": "Selecionar itens com filter e encontrar com find.",
+          "teaching": "filter devolve varios itens; find devolve o primeiro que atende a regra.",
+          "challenges": [
+            {
+              "keyword": "filter",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual metodo retorna varios itens aprovados por condicao?"
+            },
+            {
+              "keyword": "find",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Qual metodo retorna o primeiro item encontrado?"
+            },
+            {
+              "keyword": "condicao",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Esses metodos dependem de qual ideia para selecionar itens?"
+            }
+          ],
+          "learn": [
+            "Filter e find sao muito usados em listas reais.",
+            "Voce separa dados de forma rapida e clara."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini projeto de lista",
+          "objective": "Consolidar criacao, leitura e alteracao de arrays.",
+          "teaching": "Um mini projeto de tarefas simples usa array para guardar itens e loops para exibir.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "push",
+                "map",
+                "JavaScript"
+              ],
+              "hint": "Estrutura central do mini projeto."
+            },
+            {
+              "keyword": "push",
+              "distractors": [
+                "array",
+                "map",
+                "JavaScript"
+              ],
+              "hint": "Metodo para adicionar tarefa."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "array",
+                "push",
+                "map"
+              ],
+              "hint": "Estrutura para listar tarefas na tela."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card de arrays.",
+            "Base pronta para objetos, DOM e projetos mais reais."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Funcoes (JavaScript)",
+      "subtitle": "10 missoes de funcoes em JavaScript",
+      "file": "lang-module?lang=js&mod=6",
+      "missions": [
+        {
+          "title": "O que e funcao em JS",
+          "objective": "Entender funcao como bloco reutilizavel.",
+          "teaching": "Funcao agrupa instrucoes para executar quando for chamada.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "return",
+                "parametro",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra cria funcao tradicional em JavaScript?"
+            },
+            {
+              "keyword": "reutilizacao",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual vantagem principal da funcao?"
+            },
+            {
+              "keyword": "bloco",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Funcao organiza o codigo em que formato?"
+            }
+          ],
+          "learn": [
+            "Funcoes evitam repeticao de codigo.",
+            "Elas deixam o programa mais modular."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Declarando com function",
+          "objective": "Criar funcao tradicional com nome.",
+          "teaching": "A sintaxe classica usa function nome() { ... }.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "return",
+                "parametro",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra inicia a funcao tradicional?"
+            },
+            {
+              "keyword": "{}",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual delimitador envolve o corpo da funcao?"
+            },
+            {
+              "keyword": "nome",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "O que identifica a funcao para chamada posterior?"
+            }
+          ],
+          "learn": [
+            "A declaracao tradicional ainda aparece muito em JS.",
+            "Nome da funcao ajuda a entender seu objetivo."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Chamando a funcao",
+          "objective": "Executar uma funcao depois de criada.",
+          "teaching": "Para usar a funcao, chamamos seu nome com parenteses.",
+          "challenges": [
+            {
+              "keyword": "()",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "O que usamos para chamar a funcao?"
+            },
+            {
+              "keyword": "saudacao()",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual exemplo chama uma funcao sem parametros?"
+            },
+            {
+              "keyword": "execucao",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "O que acontece quando chamamos a funcao?"
+            }
+          ],
+          "learn": [
+            "Definir e chamar sao momentos diferentes.",
+            "Sem chamada, a funcao nao roda."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Parametro de entrada",
+          "objective": "Receber valores dentro da funcao.",
+          "teaching": "Parametro e a informacao declarada no cabecalho da funcao.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "JavaScript"
+              ],
+              "hint": "Como se chama o dado recebido pela funcao?"
+            },
+            {
+              "keyword": "function saudacao(nome)",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual exemplo declara um parametro corretamente?"
+            },
+            {
+              "keyword": "entrada",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Parametro representa qual papel na funcao?"
+            }
+          ],
+          "learn": [
+            "Parametros deixam a funcao flexivel.",
+            "Uma mesma funcao pode servir para varios dados."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Mais de um parametro",
+          "objective": "Usar varios valores na mesma funcao.",
+          "teaching": "Parametros sao separados por virgula no cabecalho da funcao.",
+          "challenges": [
+            {
+              "keyword": "virgula",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Como separar parametros?"
+            },
+            {
+              "keyword": "function soma(a, b)",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual exemplo tem dois parametros corretos?"
+            },
+            {
+              "keyword": "argumentos",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Como chamamos os valores enviados na chamada?"
+            }
+          ],
+          "learn": [
+            "Uma funcao pode receber varios dados.",
+            "Separar parametros corretamente evita erros de sintaxe."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Retorno com return",
+          "objective": "Devolver resultado da funcao.",
+          "teaching": "return envia um valor para fora da funcao.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra devolve resultado da funcao?"
+            },
+            {
+              "keyword": "resultado",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "O que a funcao entrega com return?"
+            },
+            {
+              "keyword": "reaproveitar",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Return ajuda a usar o valor depois para fazer o que?"
+            }
+          ],
+          "learn": [
+            "Return permite usar o resultado em outras partes do codigo.",
+            "Imprimir e retornar nao sao a mesma coisa."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Print versus return",
+          "objective": "Nao confundir mostrar valor com devolver valor.",
+          "teaching": "console.log mostra; return devolve para o fluxo do programa.",
+          "challenges": [
+            {
+              "keyword": "console.log",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual comando apenas mostra o valor?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "JavaScript"
+              ],
+              "hint": "Qual comando devolve o valor da funcao?"
+            },
+            {
+              "keyword": "diferenca",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual ideia principal dessa missao?"
+            }
+          ],
+          "learn": [
+            "Exibir e devolver sao acoes diferentes.",
+            "Saber isso melhora o uso de funcoes desde o inicio."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Funcao de calculo simples",
+          "objective": "Usar funcao para somar ou processar valores.",
+          "teaching": "Funcoes podem receber numeros, calcular e retornar resultado.",
+          "challenges": [
+            {
+              "keyword": "calculo",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Que tipo de tarefa simples a funcao pode fazer muito bem?"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "JavaScript"
+              ],
+              "hint": "O calculo normalmente usa quais dados recebidos?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "JavaScript"
+              ],
+              "hint": "Como devolver o resultado do calculo?"
+            }
+          ],
+          "learn": [
+            "Funcoes sao muito uteis para processar dados.",
+            "Calculo simples e um bom primeiro exemplo."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Arrow function como ideia moderna",
+          "objective": "Reconhecer que JavaScript tem forma curta de funcao.",
+          "teaching": "Arrow function e uma sintaxe moderna e comum no ecossistema JS.",
+          "challenges": [
+            {
+              "keyword": "=>",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Qual simbolo marca arrow function?"
+            },
+            {
+              "keyword": "moderna",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Arrow function e vista como sintaxe mais como?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "function",
+                "return",
+                "parametro"
+              ],
+              "hint": "Arrow function ainda representa que conceito?"
+            }
+          ],
+          "learn": [
+            "Arrow functions aparecem muito em projetos JS modernos.",
+            "O iniciante deve ao menos reconhecer essa sintaxe."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio de funcoes JS",
+          "objective": "Consolidar function, parametros e return.",
+          "teaching": "Uma funcao bem feita tem nome claro, recebe dados e devolve resultado quando necessario.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "return",
+                "parametro",
+                "JavaScript"
+              ],
+              "hint": "Palavra central da funcao tradicional."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "JavaScript"
+              ],
+              "hint": "Dado recebido pela funcao."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "JavaScript"
+              ],
+              "hint": "Palavra que devolve resultado."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo de funcoes.",
+            "Base pronta para arrays, objetos e DOM."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Objetos e JSON (JavaScript)",
+      "subtitle": "10 missoes de objetos e json em JavaScript",
+      "file": "lang-module?lang=js&mod=7",
+      "missions": [
+        {
+          "title": "O que e objeto",
+          "objective": "Entender objeto como estrutura de dados com propriedades.",
+          "teaching": "Objeto agrupa informacoes em pares chave e valor.",
+          "challenges": [
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "chave",
+                "json",
+                "JavaScript"
+              ],
+              "hint": "Qual estrutura agrupa dados nomeados?"
+            },
+            {
+              "keyword": "chave",
+              "distractors": [
+                "objeto",
+                "json",
+                "JavaScript"
+              ],
+              "hint": "Qual parte identifica cada dado no objeto?"
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "O que fica associado a cada chave?"
+            }
+          ],
+          "learn": [
+            "Objeto representa entidades do mundo real.",
+            "Chave e valor sao a base dessa estrutura."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Criando objeto literal",
+          "objective": "Montar objeto usando chaves {}.",
+          "teaching": "Objeto literal usa {} com propriedades separadas por virgula.",
+          "challenges": [
+            {
+              "keyword": "{}",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual delimitador envolve objeto literal?"
+            },
+            {
+              "keyword": "nome: \"Ana\"",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual formato representa propriedade valida?"
+            },
+            {
+              "keyword": "virgula",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Como separar propriedades?"
+            }
+          ],
+          "learn": [
+            "Objeto literal e comum em JavaScript.",
+            "Sintaxe de propriedade precisa ser respeitada."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Acesso com ponto",
+          "objective": "Ler valor de propriedade usando notacao de ponto.",
+          "teaching": "obj.nome acessa uma propriedade de forma direta.",
+          "challenges": [
+            {
+              "keyword": "obj.nome",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual exemplo usa notacao de ponto?"
+            },
+            {
+              "keyword": "propriedade",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "O que voce acessa com obj.nome?"
+            },
+            {
+              "keyword": "ponto",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual simbolo caracteriza esse tipo de acesso?"
+            }
+          ],
+          "learn": [
+            "Notacao de ponto e leitura simples e comum.",
+            "Bom para propriedades com nome fixo."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Acesso com colchetes",
+          "objective": "Usar notacao de colchetes para acessar chaves dinamicas.",
+          "teaching": "obj[\"nome\"] e util quando a chave vem de variavel.",
+          "challenges": [
+            {
+              "keyword": "obj[\"nome\"]",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual exemplo usa colchetes corretamente?"
+            },
+            {
+              "keyword": "dinamica",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Colchetes sao uteis para chave mais como?"
+            },
+            {
+              "keyword": "colchetes",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual notacao permite chave em string?"
+            }
+          ],
+          "learn": [
+            "Colchetes aumentam flexibilidade no acesso.",
+            "Eles funcionam bem com chaves variaveis."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Atualizando propriedades",
+          "objective": "Alterar valor de um campo no objeto.",
+          "teaching": "Propriedades podem ser lidas e atualizadas durante a execucao.",
+          "challenges": [
+            {
+              "keyword": "usuario.idade = 20",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual exemplo atualiza uma propriedade?"
+            },
+            {
+              "keyword": "atualizar",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual acao estamos fazendo no objeto?"
+            },
+            {
+              "keyword": "valor",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "O que muda quando atualizamos propriedade?"
+            }
+          ],
+          "learn": [
+            "Objetos mudam estado durante o programa.",
+            "Atualizar campos e operacao muito comum."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Objeto com metodo",
+          "objective": "Entender que objeto tambem pode guardar funcoes.",
+          "teaching": "Metodo e uma funcao dentro de um objeto.",
+          "challenges": [
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Como chamamos funcao dentro de objeto?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Metodo ainda e qual conceito principal?"
+            },
+            {
+              "keyword": "obj.saudar()",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual forma correta de chamar metodo?"
+            }
+          ],
+          "learn": [
+            "Objetos podem guardar dados e comportamento.",
+            "Metodos deixam o modelo mais completo."
+          ],
+          "number": 6
+        },
+        {
+          "title": "JSON como formato de troca",
+          "objective": "Reconhecer JSON como texto estruturado de dados.",
+          "teaching": "JSON e muito usado para trocar dados entre sistemas.",
+          "challenges": [
+            {
+              "keyword": "JSON",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual formato textual representa dados estruturados?"
+            },
+            {
+              "keyword": "chave-valor",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual modelo de dados aparece no JSON?"
+            },
+            {
+              "keyword": "troca de dados",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "JSON e muito usado em qual contexto?"
+            }
+          ],
+          "learn": [
+            "JSON aparece em APIs e armazenamento.",
+            "Saber ler JSON e essencial no JS moderno."
+          ],
+          "number": 7
+        },
+        {
+          "title": "JSON.stringify e JSON.parse",
+          "objective": "Converter objeto para texto JSON e vice-versa.",
+          "teaching": "JSON.stringify transforma objeto em texto; JSON.parse faz o caminho inverso.",
+          "challenges": [
+            {
+              "keyword": "JSON.stringify",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual metodo converte objeto para texto JSON?"
+            },
+            {
+              "keyword": "JSON.parse",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual metodo converte texto JSON para objeto?"
+            },
+            {
+              "keyword": "conversao",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Como chamamos essa mudanca de formato?"
+            }
+          ],
+          "learn": [
+            "Stringify e parse aparecem com frequencia em projetos.",
+            "Conversao correta evita erros de dados."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Array de objetos",
+          "objective": "Juntar listas e objetos em estrutura comum de projetos.",
+          "teaching": "Muitos sistemas usam array com varios objetos.",
+          "challenges": [
+            {
+              "keyword": "array de objetos",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Qual estrutura representa lista de registros?"
+            },
+            {
+              "keyword": "registro",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Cada objeto da lista representa um o que?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Esse formato organiza melhor quais informacoes?"
+            }
+          ],
+          "learn": [
+            "Array de objetos e padrao em interfaces e APIs.",
+            "Estrutura ideal para cadastros simples."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini projeto cadastro em JSON",
+          "objective": "Consolidar objeto, array e JSON em um fluxo simples.",
+          "teaching": "Um mini cadastro pode criar objetos, guardar em array e exportar JSON.",
+          "challenges": [
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "chave",
+                "json",
+                "JavaScript"
+              ],
+              "hint": "Estrutura para cada item cadastrado."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Estrutura para guardar varios cadastros."
+            },
+            {
+              "keyword": "JSON.stringify",
+              "distractors": [
+                "objeto",
+                "chave",
+                "json"
+              ],
+              "hint": "Metodo para gerar texto JSON final."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card de objetos e JSON.",
+            "Base pronta para DOM, APIs e projetos reais."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. DOM e Eventos (JavaScript)",
+      "subtitle": "10 missoes de dom e eventos em JavaScript",
+      "file": "lang-module?lang=js&mod=8",
+      "missions": [
+        {
+          "title": "O que e DOM",
+          "objective": "Entender DOM como representacao da pagina para o JavaScript.",
+          "teaching": "DOM permite ao JS ler e alterar elementos HTML.",
+          "challenges": [
+            {
+              "keyword": "DOM",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual conceito representa a estrutura da pagina no JS?"
+            },
+            {
+              "keyword": "pagina",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "DOM esta ligado a qual ambiente visual?"
+            },
+            {
+              "keyword": "elementos",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "O JS manipula quais partes pelo DOM?"
+            }
+          ],
+          "learn": [
+            "DOM conecta JavaScript com HTML.",
+            "Sem DOM nao ha interacao rica na pagina."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Selecionando com querySelector",
+          "objective": "Capturar elemento HTML para manipular no codigo.",
+          "teaching": "querySelector encontra o primeiro elemento que combina com seletor.",
+          "challenges": [
+            {
+              "keyword": "querySelector",
+              "distractors": [
+                "dom",
+                "click",
+                "JavaScript"
+              ],
+              "hint": "Qual metodo seleciona elemento por seletor CSS?"
+            },
+            {
+              "keyword": "#titulo",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual seletor representa id?"
+            },
+            {
+              "keyword": ".card",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual seletor representa classe?"
+            }
+          ],
+          "learn": [
+            "Selecionar elemento e o primeiro passo para alterar a tela.",
+            "Seletores CSS sao usados dentro do JavaScript."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Texto com textContent",
+          "objective": "Ler e alterar texto visivel de um elemento.",
+          "teaching": "textContent altera somente o texto, sem interpretar HTML.",
+          "challenges": [
+            {
+              "keyword": "textContent",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual propriedade altera texto simples do elemento?"
+            },
+            {
+              "keyword": "texto",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual parte da interface essa propriedade modifica?"
+            },
+            {
+              "keyword": "seguro",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Em geral, textContent e considerado mais seguro para texto puro."
+            }
+          ],
+          "learn": [
+            "TextContent e ideal para mensagens simples.",
+            "Bom para mostrar resultados na tela."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Entendendo innerHTML",
+          "objective": "Reconhecer quando inserir HTML dinamico na pagina.",
+          "teaching": "innerHTML interpreta tags e deve ser usado com cuidado.",
+          "challenges": [
+            {
+              "keyword": "innerHTML",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual propriedade interpreta tags HTML?"
+            },
+            {
+              "keyword": "HTML",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Que tipo de conteudo essa propriedade injeta?"
+            },
+            {
+              "keyword": "cuidado",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual postura devemos ter ao usar innerHTML com dados externos?"
+            }
+          ],
+          "learn": [
+            "InnerHTML e poderoso, mas exige atencao.",
+            "Prefira textContent para texto simples."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Evento de clique",
+          "objective": "Executar codigo quando usuario clicar em um elemento.",
+          "teaching": "addEventListener liga uma acao JavaScript a um evento do elemento.",
+          "challenges": [
+            {
+              "keyword": "addEventListener",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual metodo registra evento em elemento DOM?"
+            },
+            {
+              "keyword": "click",
+              "distractors": [
+                "dom",
+                "querySelector",
+                "JavaScript"
+              ],
+              "hint": "Qual evento basico de botao?"
+            },
+            {
+              "keyword": "interacao",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Eventos sao base de qual ideia em interfaces?"
+            }
+          ],
+          "learn": [
+            "Clique e o evento mais comum para iniciantes.",
+            "Eventos tornam a pagina responsiva ao usuario."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Lendo valor de input",
+          "objective": "Capturar texto digitado em campo HTML.",
+          "teaching": "A propriedade value pega o conteudo atual do input.",
+          "challenges": [
+            {
+              "keyword": "value",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual propriedade le valor de input?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "De qual elemento HTML normalmente vem esse valor?"
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Quem preenche esse campo na tela?"
+            }
+          ],
+          "learn": [
+            "Ler inputs e essencial em formularios.",
+            "Valor digitado alimenta regras e validacoes."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Alterando classes com classList",
+          "objective": "Mudar estilo visual via JavaScript.",
+          "teaching": "classList permite adicionar ou remover classes CSS dinamicamente.",
+          "challenges": [
+            {
+              "keyword": "classList",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual recurso manipula classes de um elemento?"
+            },
+            {
+              "keyword": "add",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual metodo adiciona classe?"
+            },
+            {
+              "keyword": "remove",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual metodo remove classe?"
+            }
+          ],
+          "learn": [
+            "ClassList conecta comportamento e visual.",
+            "Muito usado para feedback de erro e sucesso."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Formulario e preventDefault",
+          "objective": "Controlar envio de formulario para validar antes.",
+          "teaching": "preventDefault impede o comportamento padrao do navegador no submit.",
+          "challenges": [
+            {
+              "keyword": "preventDefault",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual metodo bloqueia acao padrao do evento?"
+            },
+            {
+              "keyword": "submit",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual evento de formulario normalmente usamos aqui?"
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "O que geralmente fazemos antes de permitir o envio?"
+            }
+          ],
+          "learn": [
+            "PreventDefault e importante em formularios.",
+            "Permite validar dados antes de seguir fluxo."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Mostrando mensagens na interface",
+          "objective": "Dar feedback claro ao usuario apos uma acao.",
+          "teaching": "Interfaces amigaveis exibem mensagens de erro, aviso ou sucesso.",
+          "challenges": [
+            {
+              "keyword": "feedback",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual conceito representa retorno claro para o usuario?"
+            },
+            {
+              "keyword": "mensagem",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "O que mostramos para orientar o usuario?"
+            },
+            {
+              "keyword": "DOM",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Qual recurso usamos para atualizar essa mensagem na pagina?"
+            }
+          ],
+          "learn": [
+            "Feedback melhora usabilidade.",
+            "Usuario entende rapidamente o resultado da acao."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini projeto contador de cliques",
+          "objective": "Consolidar selecao de elemento, evento e atualizacao do DOM.",
+          "teaching": "Um contador simples integra querySelector, click e textContent.",
+          "challenges": [
+            {
+              "keyword": "querySelector",
+              "distractors": [
+                "dom",
+                "click",
+                "JavaScript"
+              ],
+              "hint": "Metodo para pegar botao e texto."
+            },
+            {
+              "keyword": "click",
+              "distractors": [
+                "dom",
+                "querySelector",
+                "JavaScript"
+              ],
+              "hint": "Evento que dispara incremento."
+            },
+            {
+              "keyword": "textContent",
+              "distractors": [
+                "dom",
+                "click",
+                "querySelector"
+              ],
+              "hint": "Propriedade para mostrar novo valor na tela."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card DOM e Eventos.",
+            "Base pronta para integracoes assincronas e APIs."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Assincrono (JavaScript)",
+      "subtitle": "10 missoes de assincrono em JavaScript",
+      "file": "lang-module?lang=js&mod=9",
+      "missions": [
+        {
+          "title": "Sincrono versus assincrono",
+          "objective": "Diferenciar tarefas imediatas de tarefas que demoram.",
+          "teaching": "Codigo assincrono permite continuar fluxo enquanto espera uma resposta.",
+          "challenges": [
+            {
+              "keyword": "assincrono",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual tipo de fluxo nao bloqueia tudo enquanto espera?"
+            },
+            {
+              "keyword": "espera",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Assincronia lida com qual situacao comum?"
+            },
+            {
+              "keyword": "fluxo",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "O que continua rodando durante uma tarefa demorada?"
+            }
+          ],
+          "learn": [
+            "Assincronia e essencial em web moderna.",
+            "Ela evita travamentos desnecessarios da interface."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Primeiro exemplo com setTimeout",
+          "objective": "Simular tarefa com atraso controlado.",
+          "teaching": "setTimeout executa uma funcao apos um tempo definido.",
+          "challenges": [
+            {
+              "keyword": "setTimeout",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual funcao agenda execucao futura?"
+            },
+            {
+              "keyword": "tempo",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual parametro importante define o atraso?"
+            },
+            {
+              "keyword": "callback",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Que tipo de funcao o setTimeout recebe para executar depois?"
+            }
+          ],
+          "learn": [
+            "SetTimeout ajuda a visualizar assincronia.",
+            "Execucao nao acontece imediatamente."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Entendendo callback",
+          "objective": "Reconhecer funcao passada para executar depois.",
+          "teaching": "Callback e uma funcao enviada como argumento para ser chamada no futuro.",
+          "challenges": [
+            {
+              "keyword": "callback",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Como se chama funcao executada posteriormente?"
+            },
+            {
+              "keyword": "argumento",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Callback entra em outra funcao como o que?"
+            },
+            {
+              "keyword": "depois",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Em geral, callback e executada quando?"
+            }
+          ],
+          "learn": [
+            "Callbacks sao base historica da assincronia em JS.",
+            "Entender callback facilita evoluir para Promise."
+          ],
+          "number": 3
+        },
+        {
+          "title": "O que e Promise",
+          "objective": "Entender promise como objeto de tarefa futura.",
+          "teaching": "Promise representa sucesso ou falha de uma operacao assincrona.",
+          "challenges": [
+            {
+              "keyword": "Promise",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual objeto representa resultado futuro em JS?"
+            },
+            {
+              "keyword": "resolve",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual estado indica sucesso da promise?"
+            },
+            {
+              "keyword": "reject",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual estado indica falha da promise?"
+            }
+          ],
+          "learn": [
+            "Promise organiza melhor fluxo assincrono.",
+            "Estados ajudam a tratar sucesso e erro."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Usando then e catch",
+          "objective": "Tratar retorno e erro de uma promise.",
+          "teaching": "then recebe sucesso; catch recebe falha.",
+          "challenges": [
+            {
+              "keyword": "then",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual metodo trata sucesso da promise?"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual metodo trata erro da promise?"
+            },
+            {
+              "keyword": "erro",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Catch deve lidar com qual situacao?"
+            }
+          ],
+          "learn": [
+            "Then e catch melhoram legibilidade.",
+            "Fluxo de sucesso e falha fica claro no codigo."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Funcao async",
+          "objective": "Marcar funcao para trabalhar com await.",
+          "teaching": "A palavra async permite usar await dentro da funcao.",
+          "challenges": [
+            {
+              "keyword": "async",
+              "distractors": [
+                "promise",
+                "await",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra marca funcao assincrona?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Async e aplicado em qual estrutura?"
+            },
+            {
+              "keyword": "await",
+              "distractors": [
+                "promise",
+                "async",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra costuma aparecer junto de async?"
+            }
+          ],
+          "learn": [
+            "Async deixa o codigo moderno e legivel.",
+            "E o estilo mais comum em projetos atuais."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Usando await",
+          "objective": "Esperar resultado da promise sem encadear varios thens.",
+          "teaching": "await pausa apenas a funcao async ate a promise terminar.",
+          "challenges": [
+            {
+              "keyword": "await",
+              "distractors": [
+                "promise",
+                "async",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra espera uma promise?"
+            },
+            {
+              "keyword": "async",
+              "distractors": [
+                "promise",
+                "await",
+                "JavaScript"
+              ],
+              "hint": "Await funciona dentro de funcao marcada com o que?"
+            },
+            {
+              "keyword": "legibilidade",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual vantagem comum de usar async/await?"
+            }
+          ],
+          "learn": [
+            "Await simplifica leitura do fluxo assincrono.",
+            "Codigo fica parecido com sequencial sem perder assincronia."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Tratando erro com try/catch",
+          "objective": "Capturar falhas em blocos async/await.",
+          "teaching": "Try/catch permite tratar erros de await de forma organizada.",
+          "challenges": [
+            {
+              "keyword": "try",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual bloco envolve codigo que pode falhar?"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual bloco captura a excecao?"
+            },
+            {
+              "keyword": "tratamento",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual ideia principal ao usar try/catch?"
+            }
+          ],
+          "learn": [
+            "Erros assincronos tambem precisam de tratamento.",
+            "Try/catch evita quebra silenciosa da aplicacao."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Estado de carregamento",
+          "objective": "Mostrar ao usuario que a tarefa esta em andamento.",
+          "teaching": "Interfaces assincronas costumam exibir loading para melhorar experiencia.",
+          "challenges": [
+            {
+              "keyword": "loading",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Qual estado visual indica processamento em andamento?"
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Quem se beneficia de feedback durante espera?"
+            },
+            {
+              "keyword": "feedback",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Loading e exemplo de qual conceito?"
+            }
+          ],
+          "learn": [
+            "Loading reduz sensacao de travamento.",
+            "Boa UX depende de comunicar o estado atual."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini desafio async/await",
+          "objective": "Consolidar Promise, async, await e tratamento de erro.",
+          "teaching": "Um fluxo simples de requisicao simulada integra espera, sucesso e falha.",
+          "challenges": [
+            {
+              "keyword": "Promise",
+              "distractors": [
+                "promise",
+                "async",
+                "await"
+              ],
+              "hint": "Base do fluxo assincrono no card."
+            },
+            {
+              "keyword": "async",
+              "distractors": [
+                "promise",
+                "await",
+                "JavaScript"
+              ],
+              "hint": "Marca funcao que usa await."
+            },
+            {
+              "keyword": "await",
+              "distractors": [
+                "promise",
+                "async",
+                "JavaScript"
+              ],
+              "hint": "Palavra que espera resultado da promise."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card Assincrono.",
+            "Base pronta para consumo real de APIs com fetch."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Modulos (JavaScript)",
+      "subtitle": "10 missoes de modulos em JavaScript",
+      "file": "lang-module?lang=js&mod=10",
+      "missions": [
+        {
+          "title": "Por que usar modulos",
+          "objective": "Entender organizacao de codigo em arquivos separados.",
+          "teaching": "Modulos evitam arquivo gigante e facilitam manutencao.",
+          "challenges": [
+            {
+              "keyword": "modulos",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual recurso separa o codigo por responsabilidade?"
+            },
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual ganho principal ao separar arquivos?"
+            },
+            {
+              "keyword": "manutencao",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Codigo modular melhora qual aspecto ao longo do tempo?"
+            }
+          ],
+          "learn": [
+            "Modularizar melhora clareza do projeto.",
+            "Fica mais facil evoluir e corrigir codigo."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Export nomeado",
+          "objective": "Disponibilizar funcao ou valor especifico de um arquivo.",
+          "teaching": "Export nomeado usa a palavra export antes da declaracao.",
+          "challenges": [
+            {
+              "keyword": "export",
+              "distractors": [
+                "import",
+                "arquivo",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra disponibiliza item do modulo?"
+            },
+            {
+              "keyword": "nomeado",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual tipo de export exige mesmo nome no import?"
+            },
+            {
+              "keyword": "arquivo",
+              "distractors": [
+                "import",
+                "export",
+                "JavaScript"
+              ],
+              "hint": "De onde sai o item exportado?"
+            }
+          ],
+          "learn": [
+            "Export nomeado ajuda a controlar o que o modulo expõe.",
+            "Bom para utilitarios e varias funcoes no mesmo arquivo."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Import nomeado",
+          "objective": "Trazer item exportado de outro arquivo.",
+          "teaching": "Import nomeado usa chaves para indicar o item desejado.",
+          "challenges": [
+            {
+              "keyword": "import",
+              "distractors": [
+                "export",
+                "arquivo",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra traz recurso de outro modulo?"
+            },
+            {
+              "keyword": "{}",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual delimitador aparece no import nomeado?"
+            },
+            {
+              "keyword": "caminho",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Import precisa informar o que para achar o arquivo?"
+            }
+          ],
+          "learn": [
+            "Import conecta modulos do projeto.",
+            "Sem caminho correto, modulo nao e encontrado."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Export default",
+          "objective": "Entender exportacao principal de um modulo.",
+          "teaching": "Default export define um item principal por arquivo.",
+          "challenges": [
+            {
+              "keyword": "default",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual tipo de export representa item principal?"
+            },
+            {
+              "keyword": "um principal",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Default geralmente destaca quantos itens por arquivo?"
+            },
+            {
+              "keyword": "modulo",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Em qual contexto usamos default export?"
+            }
+          ],
+          "learn": [
+            "Default e util para componente principal.",
+            "Simplifica import em alguns cenarios."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Import default",
+          "objective": "Consumir item principal exportado com default.",
+          "teaching": "No import default, nao usamos chaves para o item principal.",
+          "challenges": [
+            {
+              "keyword": "sem chaves",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Como fica o import default?"
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "export",
+                "arquivo",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra inicia esse consumo?"
+            },
+            {
+              "keyword": "principal",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Import default traz qual tipo de item do modulo?"
+            }
+          ],
+          "learn": [
+            "Default import e comum em bibliotecas.",
+            "Diferenciar default e nomeado evita confusao."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Separando utilitarios",
+          "objective": "Criar arquivo para funcoes reaproveitaveis.",
+          "teaching": "Funcoes de apoio podem ficar em modulo utils para reuso.",
+          "challenges": [
+            {
+              "keyword": "utils",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Nome comum para modulo de funcoes auxiliares."
+            },
+            {
+              "keyword": "reuso",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual vantagem principal de centralizar utilitarios?"
+            },
+            {
+              "keyword": "funcao",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Que tipo de item costuma ir para modulo utilitario?"
+            }
+          ],
+          "learn": [
+            "Modulo utilitario reduz duplicacao.",
+            "Projeto fica mais organizado e previsivel."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Evitando variaveis globais",
+          "objective": "Entender que modulo ajuda a isolar escopo.",
+          "teaching": "Ao modularizar, voce reduz risco de conflitos de nomes globais.",
+          "challenges": [
+            {
+              "keyword": "escopo",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual conceito controla onde variavel existe?"
+            },
+            {
+              "keyword": "global",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual tipo de variavel pode gerar mais conflito?"
+            },
+            {
+              "keyword": "conflito",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Problema comum quando nomes se repetem sem organizacao."
+            }
+          ],
+          "learn": [
+            "Modulos ajudam a proteger escopo.",
+            "Menos globais significa menos bugs de colisao."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Organizando pastas do projeto",
+          "objective": "Estruturar codigo em arquivos e diretorios claros.",
+          "teaching": "Uma boa estrutura separa componentes, servicos e utilitarios.",
+          "challenges": [
+            {
+              "keyword": "estrutura",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual aspecto melhora quando organizamos pastas?"
+            },
+            {
+              "keyword": "componentes",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual tipo de codigo pode ficar em pasta propria?"
+            },
+            {
+              "keyword": "servicos",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Onde geralmente colocamos acesso a API e regras externas?"
+            }
+          ],
+          "learn": [
+            "Estrutura boa ajuda times e iniciantes.",
+            "Projeto fica navegavel e escalavel."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Importando varios itens",
+          "objective": "Consumir mais de um export nomeado no mesmo arquivo.",
+          "teaching": "Import nomeado pode trazer varios itens separados por virgula.",
+          "challenges": [
+            {
+              "keyword": "{ soma, media }",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Qual formato representa varios imports nomeados?"
+            },
+            {
+              "keyword": "virgula",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Como separam os nomes importados?"
+            },
+            {
+              "keyword": "nomeado",
+              "distractors": [
+                "import",
+                "export",
+                "arquivo"
+              ],
+              "hint": "Esse formato pertence a qual tipo de import?"
+            }
+          ],
+          "learn": [
+            "Import multiplo reduz repeticao.",
+            "Ajuda a montar modulos reutilizaveis."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini projeto modular",
+          "objective": "Consolidar export/import em organizacao simples.",
+          "teaching": "Um mini projeto pode separar calculos, validacao e interface em modulos diferentes.",
+          "challenges": [
+            {
+              "keyword": "export",
+              "distractors": [
+                "import",
+                "arquivo",
+                "JavaScript"
+              ],
+              "hint": "Palavra para disponibilizar recurso."
+            },
+            {
+              "keyword": "import",
+              "distractors": [
+                "export",
+                "arquivo",
+                "JavaScript"
+              ],
+              "hint": "Palavra para consumir recurso externo."
+            },
+            {
+              "keyword": "arquivo",
+              "distractors": [
+                "import",
+                "export",
+                "JavaScript"
+              ],
+              "hint": "Unidade basica onde cada modulo fica salvo."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card de Modulos.",
+            "Base pronta para integrar APIs de forma organizada."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. API e Fetch (JavaScript)",
+      "subtitle": "10 missoes de api e fetch em JavaScript",
+      "file": "lang-module?lang=js&mod=11",
+      "missions": [
+        {
+          "title": "O que e API",
+          "objective": "Entender API como fonte externa de dados para aplicacao.",
+          "teaching": "API permite que seu app consulte informacoes de outro sistema.",
+          "challenges": [
+            {
+              "keyword": "API",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual conceito fornece dados externos ao app?"
+            },
+            {
+              "keyword": "dados",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "O que geralmente buscamos ao consumir uma API?"
+            },
+            {
+              "keyword": "externo",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "A API costuma estar em qual origem em relacao ao app?"
+            }
+          ],
+          "learn": [
+            "APIs conectam seu projeto ao mundo real.",
+            "Dados externos deixam app mais util e dinamico."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Endpoint e URL",
+          "objective": "Reconhecer endereco de requisicao da API.",
+          "teaching": "Cada endpoint representa um caminho de acesso a um recurso.",
+          "challenges": [
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Como chamamos o caminho especifico da API?"
+            },
+            {
+              "keyword": "URL",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual elemento identifica o endereco da requisicao?"
+            },
+            {
+              "keyword": "recurso",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Endpoint normalmente representa qual item de negocio?"
+            }
+          ],
+          "learn": [
+            "Entender endpoint evita chamadas erradas.",
+            "URL correta e primeiro passo do consumo."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Primeiro fetch",
+          "objective": "Fazer uma requisicao basica para API.",
+          "teaching": "fetch inicia chamada HTTP e retorna uma promise.",
+          "challenges": [
+            {
+              "keyword": "fetch",
+              "distractors": [
+                "api",
+                "response",
+                "JavaScript"
+              ],
+              "hint": "Qual funcao faz requisicao HTTP no navegador?"
+            },
+            {
+              "keyword": "promise",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Que tipo de retorno o fetch devolve?"
+            },
+            {
+              "keyword": "requisicao",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Que acao o fetch realiza?"
+            }
+          ],
+          "learn": [
+            "Fetch e base para consumo de APIs.",
+            "Como retorna promise, integra bem com async/await."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Lendo corpo com response.json",
+          "objective": "Converter resposta HTTP para objeto JS.",
+          "teaching": "response.json() interpreta o corpo retornado em formato JSON.",
+          "challenges": [
+            {
+              "keyword": "response.json",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual metodo le corpo JSON da resposta?"
+            },
+            {
+              "keyword": "JSON",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual formato comum das APIs modernas?"
+            },
+            {
+              "keyword": "objeto",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Depois de converter, o dado vira qual estrutura no JS?"
+            }
+          ],
+          "learn": [
+            "Json da resposta precisa ser convertido para uso.",
+            "Depois disso, voce ja pode renderizar dados na tela."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Mostrando lista na interface",
+          "objective": "Renderizar dados recebidos da API no DOM.",
+          "teaching": "Dados consumidos precisam virar elementos visiveis para o usuario.",
+          "challenges": [
+            {
+              "keyword": "DOM",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual camada usamos para exibir dados na pagina?"
+            },
+            {
+              "keyword": "lista",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Formato comum de resposta para renderizar varios itens."
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Para quem exibimos os dados no fim do fluxo?"
+            }
+          ],
+          "learn": [
+            "Consumir API sem exibir nao fecha ciclo de interface.",
+            "Renderizar bem melhora entendimento do usuario."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Tratando erro com catch",
+          "objective": "Lidar com falhas de rede de forma amigavel.",
+          "teaching": "Catch captura erro de requisicao e permite mostrar mensagem clara.",
+          "challenges": [
+            {
+              "keyword": "catch",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual metodo trata falha na promise do fetch?"
+            },
+            {
+              "keyword": "erro",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual situacao precisa de tratamento quando rede falha?"
+            },
+            {
+              "keyword": "mensagem",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "O que devemos mostrar ao usuario em caso de falha?"
+            }
+          ],
+          "learn": [
+            "Erros de rede sao comuns e esperados.",
+            "Tratar falha melhora confianca no app."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Verificando status HTTP",
+          "objective": "Checar se resposta veio com sucesso antes de usar dados.",
+          "teaching": "Nem toda resposta de servidor significa sucesso de negocio.",
+          "challenges": [
+            {
+              "keyword": "status",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual campo da resposta indica codigo HTTP?"
+            },
+            {
+              "keyword": "ok",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual propriedade ajuda a validar sucesso rapido no fetch?"
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual acao devemos fazer antes de processar dados?"
+            }
+          ],
+          "learn": [
+            "Checar status evita mostrar dado inconsistente.",
+            "Validacao de resposta e boa pratica obrigatoria."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Query params na URL",
+          "objective": "Enviar filtros simples na requisicao.",
+          "teaching": "Parametros na URL ajudam a buscar dados especificos.",
+          "challenges": [
+            {
+              "keyword": "?",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual simbolo inicia query string na URL?"
+            },
+            {
+              "keyword": "&",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual simbolo separa varios parametros?"
+            },
+            {
+              "keyword": "filtro",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Query params normalmente servem para qual finalidade?"
+            }
+          ],
+          "learn": [
+            "Query params tornam busca mais precisa.",
+            "Voce pode montar telas com filtros dinamicos."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Enviando dados com POST",
+          "objective": "Entender envio de informacoes para API.",
+          "teaching": "POST e comum para criar novos registros em servicos.",
+          "challenges": [
+            {
+              "keyword": "POST",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual metodo HTTP geralmente cria recurso?"
+            },
+            {
+              "keyword": "body",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Onde vai o dado enviado na requisicao?"
+            },
+            {
+              "keyword": "JSON.stringify",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Qual recurso converte objeto para enviar no body JSON?"
+            }
+          ],
+          "learn": [
+            "POST completa fluxo de leitura e escrita.",
+            "Entender body e essencial para integracoes reais."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini projeto consumo de API",
+          "objective": "Consolidar fetch, parse, renderizacao e tratamento de erro.",
+          "teaching": "Um mini app de consulta integra requisicao, exibicao e feedback ao usuario.",
+          "challenges": [
+            {
+              "keyword": "fetch",
+              "distractors": [
+                "api",
+                "response",
+                "JavaScript"
+              ],
+              "hint": "Funcao central para buscar dados."
+            },
+            {
+              "keyword": "response.json",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Passo para ler retorno em JSON."
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "fetch",
+                "api",
+                "response"
+              ],
+              "hint": "Tratamento de falha da requisicao."
+            }
+          ],
+          "learn": [
+            "Consolidacao completa do card API e Fetch.",
+            "Base pronta para evoluir projetos JavaScript reais."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "js_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final JS (JavaScript)",
+      "subtitle": "10 missoes de projeto final js em JavaScript",
+      "file": "lang-module?lang=js&mod=12",
+      "missions": [
+        {
+          "title": "O que e um projeto final",
+          "objective": "Entender projeto final como combinacao dos conceitos aprendidos.",
+          "teaching": "Projeto final serve para unir sintaxe, variaveis, condicoes, loops e funcoes em um exemplo pratico.",
+          "challenges": [
+            {
+              "keyword": "projeto",
+              "distractors": [
+                "interface",
+                "validacao",
+                "JavaScript"
+              ],
+              "hint": "Qual palavra representa uma aplicacao mais completa?"
+            },
+            {
+              "keyword": "integracao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Projeto final junta varios conceitos em uma unica o que?"
+            },
+            {
+              "keyword": "pratica",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Projeto final deve aproximar o aprendizado de uma situacao mais como?"
+            }
+          ],
+          "learn": [
+            "Projeto final consolida o que foi estudado.",
+            "Ele transforma teoria em pratica simples."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Planejando entradas e saidas",
+          "objective": "Pensar no que o usuario informa e no que o sistema devolve.",
+          "teaching": "Todo projeto simples precisa definir entrada, processamento e saida.",
+          "challenges": [
+            {
+              "keyword": "entrada",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "O que o usuario informa ao sistema?"
+            },
+            {
+              "keyword": "saida",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "O que o sistema mostra como resultado?"
+            },
+            {
+              "keyword": "processamento",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "O que acontece entre entrada e saida?"
+            }
+          ],
+          "learn": [
+            "Projetos bons comecam com fluxo claro.",
+            "Entrada, processamento e saida formam a base do programa."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Validando dados do usuario",
+          "objective": "Usar condicoes para verificar informacoes recebidas.",
+          "teaching": "Validacao evita que dados invalidos sigam no programa.",
+          "challenges": [
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "JavaScript"
+              ],
+              "hint": "Como chamamos a verificacao dos dados informados?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Qual estrutura ajuda a validar regras?"
+            },
+            {
+              "keyword": "usuario",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Quem normalmente fornece os dados do projeto inicial?"
+            }
+          ],
+          "learn": [
+            "Validar entrada melhora a confiabilidade.",
+            "Mesmo projetos simples precisam de verificacao."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Organizando em funcoes",
+          "objective": "Separar partes do projeto em funcoes menores.",
+          "teaching": "Funcoes ajudam a dividir o projeto em tarefas simples e reutilizaveis.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Qual recurso ajuda a modularizar o projeto?"
+            },
+            {
+              "keyword": "organizacao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Qual ganho principal de dividir o projeto em funcoes?"
+            },
+            {
+              "keyword": "reutilizacao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Outra vantagem importante das funcoes."
+            }
+          ],
+          "learn": [
+            "Projeto organizado e mais facil de corrigir.",
+            "Funcoes pequenas ajudam no entendimento."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Trabalhando com arrays no projeto",
+          "objective": "Usar listas simples para guardar itens do sistema.",
+          "teaching": "Arrays ajudam a armazenar varios dados relacionados em um unico lugar.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Qual estrutura guarda varios itens no projeto?"
+            },
+            {
+              "keyword": "lista",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Outra forma simples de entender um array."
+            },
+            {
+              "keyword": "itens",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "O que normalmente colocamos dentro do array?"
+            }
+          ],
+          "learn": [
+            "Arrays sao comuns em mini cadastros e listas.",
+            "Eles ajudam a guardar varios valores de forma simples."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Interface simples com HTML",
+          "objective": "Relacionar JavaScript com uma interface inicial na pagina.",
+          "teaching": "Projetos iniciais em JS costumam interagir com campos, botoes e textos do HTML.",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "projeto",
+                "validacao",
+                "JavaScript"
+              ],
+              "hint": "Com o que o usuario interage visualmente?"
+            },
+            {
+              "keyword": "HTML",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Qual tecnologia forma a estrutura da pagina?"
+            },
+            {
+              "keyword": "botao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Elemento comum para disparar acao no projeto web simples."
+            }
+          ],
+          "learn": [
+            "JavaScript ganha vida quando conversa com a pagina.",
+            "Projetos iniciais costumam ter interface bem simples."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Evento de clique",
+          "objective": "Usar uma acao do usuario para disparar a logica do projeto.",
+          "teaching": "Clique em botao e um dos eventos mais comuns em projetos iniciantes.",
+          "challenges": [
+            {
+              "keyword": "click",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Qual evento basico costuma iniciar a acao do usuario?"
+            },
+            {
+              "keyword": "evento",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Como chamamos a acao capturada da interface?"
+            },
+            {
+              "keyword": "interacao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Clique faz parte de qual ideia no sistema?"
+            }
+          ],
+          "learn": [
+            "Eventos conectam usuario e codigo.",
+            "Clique e uma otima base para projetos iniciais."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Mostrar resultado na tela",
+          "objective": "Exibir resposta do projeto para o usuario.",
+          "teaching": "Depois de processar os dados, o sistema precisa mostrar um resultado claro.",
+          "challenges": [
+            {
+              "keyword": "resultado",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "O que o sistema deve apresentar ao final da acao?"
+            },
+            {
+              "keyword": "tela",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Onde o usuario normalmente enxerga a resposta?"
+            },
+            {
+              "keyword": "feedback",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Mostrar resposta ao usuario e dar qual tipo de retorno?"
+            }
+          ],
+          "learn": [
+            "Projeto precisa devolver algo compreensivel ao usuario.",
+            "Saida clara melhora a experiencia e o aprendizado."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Corrigindo erros simples",
+          "objective": "Revisar console, validacao e logica antes de concluir o projeto.",
+          "teaching": "Projetos finais melhoram muito quando voce testa e corrige pequenos problemas.",
+          "challenges": [
+            {
+              "keyword": "console.log",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "Qual recurso ajuda a investigar valores no projeto JS?"
+            },
+            {
+              "keyword": "teste",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "O que fazemos para verificar se o projeto esta funcionando?"
+            },
+            {
+              "keyword": "correcao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "validacao"
+              ],
+              "hint": "O que vem depois de identificar um problema?"
+            }
+          ],
+          "learn": [
+            "Projetos evoluem com teste e ajuste.",
+            "Erros simples devem ser corrigidos antes de concluir."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Mini projeto final JS",
+          "objective": "Consolidar interface, validacao, funcoes e exibicao de resultado.",
+          "teaching": "O foco do projeto final e combinar o essencial do JavaScript para resolver uma tarefa simples e util.",
+          "challenges": [
+            {
+              "keyword": "projeto",
+              "distractors": [
+                "interface",
+                "validacao",
+                "JavaScript"
+              ],
+              "hint": "Conceito central do modulo final."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "projeto",
+                "validacao",
+                "JavaScript"
+              ],
+              "hint": "Parte visivel do projeto para o usuario."
+            },
+            {
+              "keyword": "validacao",
+              "distractors": [
+                "projeto",
+                "interface",
+                "JavaScript"
+              ],
+              "hint": "Parte que confere se os dados estao corretos."
+            }
+          ],
+          "learn": [
+            "Consolidacao do modulo final de JavaScript.",
+            "Base pronta para criar pequenos projetos reais de iniciantes."
+          ],
+          "number": 10
+        }
+      ]
+    }
+  ]
+}

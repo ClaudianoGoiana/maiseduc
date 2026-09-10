@@ -1,0 +1,4688 @@
+{
+  "id": "java",
+  "name": "Java",
+  "icon": "☕",
+  "color": "from-orange-600 to-red-600",
+  "modules": [
+    {
+      "id": "java_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Fundamentos Java (Java)",
+      "subtitle": "10 missoes de fundamentos java em Java",
+      "file": "lang-module?lang=java&mod=1",
+      "missions": [
+        {
+          "title": "Definindo uma classe",
+          "objective": "Saber como definir uma classe em Java.",
+          "teaching": "Em Java, todo código deve estar dentro de uma classe.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic ________ MinhaClasse {\n    public static void main(String[] args) {\n        System.out.println(\"Olá, mundo!\");\n    }\n}\n"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Usa-se a palavra-chave class para definir uma classe."
+          ],
+          "number": 1
+        },
+        {
+          "title": "O Ponto de Entrada",
+          "objective": "Identificar a função principal do Java.",
+          "teaching": "O método main é por onde o programa começa a rodar.",
+          "challenges": [
+            {
+              "keyword": "main",
+              "distractors": [
+                "class",
+                "public",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class App {\n    public static void ________(String[] args) {\n        System.out.println(\"Iniciando...\");\n    }\n}\n"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "class",
+                "public",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O método main é o ponto de entrada do Java."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Visibilidade",
+          "objective": "Tornar a classe acessível.",
+          "teaching": "O modificador public permite que outras classes acessem o código.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\n________ class Programa {\n    public static void main(String[] args) {\n    }\n}\n"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "class",
+                "public",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "public torna a classe pública."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Imprimindo texto",
+          "objective": "Exibir texto no console.",
+          "teaching": "System.out.println é usado para imprimir e pular linha.",
+          "challenges": [
+            {
+              "keyword": "out",
+              "distractors": [
+                "main",
+                "class",
+                "public"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        System.________.println(\"Mensagem\");\n    }\n}\n"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "System.out.println imprime no console."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Imprimindo sem pular linha",
+          "objective": "Imprimir texto no console na mesma linha.",
+          "teaching": "System.out.print imprime sem adicionar uma quebra de linha no final.",
+          "challenges": [
+            {
+              "keyword": "print",
+              "distractors": [
+                "main",
+                "class",
+                "public"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        System.out.________(\"Tudo na mesma \");\n        System.out.println(\"linha.\");\n    }\n}\n"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "class",
+                "public",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "System.out.print imprime sem pular linha."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Ponto e vírgula",
+          "objective": "Saber finalizar uma instrução.",
+          "teaching": "Em Java, as instruções devem terminar com ponto e vírgula (;).",
+          "challenges": [
+            {
+              "keyword": ";",
+              "distractors": [
+                "main",
+                "class",
+                "public"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        System.out.println(\"Fim da instrução\")________\n    }\n}\n"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "class",
+                "public",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "As instruções em Java terminam com ;"
+          ],
+          "number": 6
+        },
+        {
+          "title": "Comentário de uma linha",
+          "objective": "Saber como fazer comentários.",
+          "teaching": "Usa-se // para adicionar comentários em uma única linha.",
+          "challenges": [
+            {
+              "keyword": "//",
+              "distractors": [
+                "main",
+                "class",
+                "public"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ Este é um comentário\n        System.out.println(\"Ok\");\n    }\n}\n"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "// é usado para comentários de uma linha."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Comentário de múltiplas linhas",
+          "objective": "Fazer comentários longos.",
+          "teaching": "Usa-se /* e */ para blocos de comentário.",
+          "challenges": [
+            {
+              "keyword": "/*",
+              "distractors": [
+                "main",
+                "class",
+                "public"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ Comentário longo\n        que ocupa mais de uma linha */\n    }\n}\n"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "class",
+                "public",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "/* */ é usado para blocos de comentários."
+          ],
+          "number": 8
+        },
+        {
+          "title": "O array args",
+          "objective": "Conhecer o parâmetro do main.",
+          "teaching": "O main recebe um array de strings chamado args.",
+          "challenges": [
+            {
+              "keyword": "String",
+              "distractors": [
+                "main",
+                "class",
+                "public"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(________[] args) {\n    }\n}\n"
+            },
+            {
+              "keyword": "main",
+              "distractors": [
+                "class",
+                "public",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O main recebe um array de String."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Método vazio",
+          "objective": "Identificar métodos que não retornam nada.",
+          "teaching": "A palavra void indica que o método não tem retorno.",
+          "challenges": [
+            {
+              "keyword": "void",
+              "distractors": [
+                "main",
+                "class",
+                "public"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static ________ main(String[] args) {\n    }\n}\n"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "main",
+                "public",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "main",
+                "class",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "void significa que o método não retorna valor."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Tipos e Variáveis (Java)",
+      "subtitle": "10 missoes de tipos e variáveis em Java",
+      "file": "lang-module?lang=java&mod=2",
+      "missions": [
+        {
+          "title": "Números inteiros",
+          "objective": "Declarar variáveis para números inteiros.",
+          "teaching": "O tipo int é usado para números inteiros sem casas decimais.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "String",
+                "double",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ idade = 25;\n    }\n}\n"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Usa-se int para números inteiros."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Números decimais",
+          "objective": "Declarar variáveis com casas decimais.",
+          "teaching": "O tipo double armazena números de ponto flutuante.",
+          "challenges": [
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ preco = 19.99;\n    }\n}\n"
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "String",
+                "double",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "double é usado para números decimais."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Textos longos",
+          "objective": "Armazenar palavras e frases.",
+          "teaching": "A classe String guarda sequências de caracteres (textos).",
+          "challenges": [
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ nome = \"Maria\";\n    }\n}\n"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "String",
+                "double",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "String é usada para textos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Caractere único",
+          "objective": "Armazenar uma única letra.",
+          "teaching": "O tipo char guarda apenas um caractere, entre aspas simples.",
+          "challenges": [
+            {
+              "keyword": "char",
+              "distractors": [
+                "int",
+                "String",
+                "double"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ letra = 'A';\n    }\n}\n"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "char armazena um caractere apenas."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Verdadeiro ou Falso",
+          "objective": "Declarar variáveis lógicas.",
+          "teaching": "O tipo boolean guarda os valores true ou false.",
+          "challenges": [
+            {
+              "keyword": "boolean",
+              "distractors": [
+                "int",
+                "String",
+                "double"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ estaChovendo = true;\n    }\n}\n"
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "String",
+                "double",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "boolean armazena valores lógicos."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Atribuição",
+          "objective": "Atribuir valor a uma variável.",
+          "teaching": "O sinal de igual (=) é usado para atribuir um valor.",
+          "challenges": [
+            {
+              "keyword": "=",
+              "distractors": [
+                "int",
+                "String",
+                "double"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int contador ________ 10;\n    }\n}\n"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "String",
+                "double",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "= atribui um valor."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Variável constante",
+          "objective": "Declarar um valor que não pode ser alterado.",
+          "teaching": "A palavra-chave final cria uma constante.",
+          "challenges": [
+            {
+              "keyword": "final",
+              "distractors": [
+                "int",
+                "String",
+                "double"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ double PI = 3.14159;\n    }\n}\n"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "final cria variáveis que não podem mudar."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Inferência de tipo",
+          "objective": "Deixar o Java descobrir o tipo (Java 10+).",
+          "teaching": "Com var, o Java infere o tipo pelo valor inicial.",
+          "challenges": [
+            {
+              "keyword": "var",
+              "distractors": [
+                "int",
+                "String",
+                "double"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ idade = 30; // o compilador saberá que é int\n    }\n}\n"
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "String",
+                "double",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "var infere o tipo da variável."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Aspas Duplas para Textos",
+          "objective": "Formatar strings corretamente.",
+          "teaching": "Os valores do tipo String devem estar entre aspas duplas.",
+          "challenges": [
+            {
+              "keyword": "\"",
+              "distractors": [
+                "int",
+                "String",
+                "double"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        String saudacao = ________Olá________;\n    }\n}\n"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "String",
+                "double",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Strings usam aspas duplas."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Aspas Simples",
+          "objective": "Formatar chars corretamente.",
+          "teaching": "Valores do tipo char usam aspas simples.",
+          "challenges": [
+            {
+              "keyword": "'",
+              "distractors": [
+                "int",
+                "String",
+                "double"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        char nota = ________A________;\n    }\n}\n"
+            },
+            {
+              "keyword": "String",
+              "distractors": [
+                "int",
+                "double",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "double",
+              "distractors": [
+                "int",
+                "String",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "char usa aspas simples."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (Java)",
+      "subtitle": "10 missoes de condicionais em Java",
+      "file": "lang-module?lang=java&mod=3",
+      "missions": [
+        {
+          "title": "Decisão simples",
+          "objective": "Executar código baseado em uma condição.",
+          "teaching": "O comando if avalia uma expressão; se for verdadeira, executa o bloco.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int idade = 18;\n        ________ (idade >= 18) {\n            System.out.println(\"Maior de idade\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "if é usado para testar condições."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Caso contrário",
+          "objective": "Executar um bloco caso a condição seja falsa.",
+          "teaching": "O else é executado quando a condição do if falha.",
+          "challenges": [
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int idade = 15;\n        if (idade >= 18) {\n            System.out.println(\"Maior\");\n        } ________ {\n            System.out.println(\"Menor\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "else trata o caminho alternativo."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Condição encadeada",
+          "objective": "Testar múltiplas condições.",
+          "teaching": "O else if permite avaliar uma nova condição se a anterior falhar.",
+          "challenges": [
+            {
+              "keyword": "else if",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int nota = 7;\n        if (nota == 10) {\n            System.out.println(\"Perfeito!\");\n        } ________ (nota >= 7) {\n            System.out.println(\"Passou!\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "else if encadeia condições."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Comparador de igualdade",
+          "objective": "Testar se dois valores são iguais.",
+          "teaching": "O operador == é usado para verificar a igualdade de primitivos.",
+          "challenges": [
+            {
+              "keyword": "==",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int x = 5;\n        if (x ________ 5) {\n            System.out.println(\"É cinco!\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "== compara se dois primitivos são iguais."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Diferente",
+          "objective": "Testar se dois valores são diferentes.",
+          "teaching": "O operador != verifica se os valores não são iguais.",
+          "challenges": [
+            {
+              "keyword": "!=",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int x = 5;\n        if (x ________ 10) {\n            System.out.println(\"Diferente de 10!\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "!= significa diferente."
+          ],
+          "number": 5
+        },
+        {
+          "title": "E lógico",
+          "objective": "Exigir que duas condições sejam verdadeiras.",
+          "teaching": "O operador && retorna true apenas se ambos os lados forem true.",
+          "challenges": [
+            {
+              "keyword": "&&",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int idade = 20;\n        boolean temCNH = true;\n        if (idade >= 18 ________ temCNH) {\n            System.out.println(\"Pode dirigir!\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "&& é o operador lógico E."
+          ],
+          "number": 6
+        },
+        {
+          "title": "OU lógico",
+          "objective": "Exigir que pelo menos uma condição seja verdadeira.",
+          "teaching": "O operador || retorna true se pelo menos uma condição for verdadeira.",
+          "challenges": [
+            {
+              "keyword": "||",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int idade = 16;\n        if (idade < 18 ________ idade > 65) {\n            System.out.println(\"Meia-entrada\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "|| é o operador lógico OU."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Escolhas Múltiplas",
+          "objective": "Usar o switch para múltiplas opções.",
+          "teaching": "O comando switch avalia uma variável e direciona para o case correspondente.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int dia = 2;\n        ________ (dia) {\n            case 1:\n                System.out.println(\"Domingo\");\n                break;\n            case 2:\n                System.out.println(\"Segunda\");\n                break;\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "switch é usado para controle de fluxo com múltiplas opções."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Parando o Switch",
+          "objective": "Evitar que o switch continue executando o próximo case.",
+          "teaching": "O comando break impede que os blocos abaixo também sejam executados.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int dia = 1;\n        switch (dia) {\n            case 1:\n                System.out.println(\"Domingo\");\n                ________;\n            case 2:\n                System.out.println(\"Segunda\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "else",
+                "switch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "break interrompe o fluxo do switch."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Caso padrão do Switch",
+          "objective": "Fornecer um bloco caso nenhuma opção corresponda.",
+          "teaching": "A cláusula default é executada quando nenhum case dá match.",
+          "challenges": [
+            {
+              "keyword": "default",
+              "distractors": [
+                "if",
+                "else",
+                "switch"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int dia = 99;\n        switch (dia) {\n            case 1:\n                System.out.println(\"Domingo\");\n                break;\n            ________:\n                System.out.println(\"Dia inválido\");\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "else",
+              "distractors": [
+                "if",
+                "switch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "else",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "default captura o cenário não previsto no switch."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (Java)",
+      "subtitle": "10 missoes de loops em Java",
+      "file": "lang-module?lang=java&mod=4",
+      "missions": [
+        {
+          "title": "Loop com contador",
+          "objective": "Executar um bloco um número específico de vezes.",
+          "teaching": "O loop for tem inicialização, condição e incremento no cabeçalho.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        ________ (int i = 0; i < 5; i++) {\n            System.out.println(i);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "for é usado para repetições definidas."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Condição no For",
+          "objective": "Determinar até quando o loop for deve rodar.",
+          "teaching": "A parte central do for deve ser uma expressão booleana que, enquanto for true, mantém o loop.",
+          "challenges": [
+            {
+              "keyword": "<",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        for (int i = 0; i ________ 5; i++) {\n            System.out.println(i);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A condição do for avalia se o loop continua."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Incremento",
+          "objective": "Aumentar a variável de controle do loop.",
+          "teaching": "O operador ++ adiciona 1 ao valor da variável.",
+          "challenges": [
+            {
+              "keyword": "++",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        for (int i = 0; i < 5; i________) {\n            System.out.println(i);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "++ incrementa a variável de controle."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Loop condicional",
+          "objective": "Repetir enquanto uma condição for verdadeira, sem inicialização no cabeçalho.",
+          "teaching": "O loop while testa a condição antes de cada execução.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int i = 0;\n        ________ (i < 5) {\n            System.out.println(i);\n            i++;\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "while repete baseado numa condição booleana."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Executar ao menos uma vez",
+          "objective": "Garantir que o bloco rode antes da primeira checagem.",
+          "teaching": "O loop do-while garante pelo menos uma execução do bloco.",
+          "challenges": [
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int i = 0;\n        ________ {\n            System.out.println(i);\n            i++;\n        } while (i < 5);\n    }\n}\n"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "do-while executa o bloco e depois testa a condição."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Final do Do-While",
+          "objective": "Concluir a estrutura do loop.",
+          "teaching": "O do precisa de um while ao final para avaliar a condição.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int i = 0;\n        do {\n            System.out.println(i);\n            i++;\n        } ________ (i < 5);\n    }\n}\n"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O while fecha a instrução do-while."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Saindo de um loop",
+          "objective": "Interromper a repetição antes da condição ser falsa.",
+          "teaching": "A instrução break força a saída do loop imediatamente.",
+          "challenges": [
+            {
+              "keyword": "break",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        for (int i = 0; i < 10; i++) {\n            if (i == 5) {\n                ________;\n            }\n            System.out.println(i);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "break termina o loop imediatamente."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Pulando iteração",
+          "objective": "Ignorar o resto do bloco e ir para a próxima repetição.",
+          "teaching": "A instrução continue pula para a próxima iteração do loop.",
+          "challenges": [
+            {
+              "keyword": "continue",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        for (int i = 0; i < 5; i++) {\n            if (i == 2) {\n                ________;\n            }\n            System.out.println(i);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "continue ignora o resto da repetição atual."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Loop aprimorado",
+          "objective": "Percorrer itens de uma coleção de forma simplificada.",
+          "teaching": "O for-each (ou for aprimorado) é ótimo para ler arrays iterando sobre cada item.",
+          "challenges": [
+            {
+              "keyword": ":",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] numeros = {1, 2, 3};\n        for (int num ________ numeros) {\n            System.out.println(num);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "do",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Usa-se : no for aprimorado do Java."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Iterável do For-each",
+          "objective": "Saber a ordem das declarações.",
+          "teaching": "No for-each, declara-se a variável, dois pontos, e depois a coleção.",
+          "challenges": [
+            {
+              "keyword": "numeros",
+              "distractors": [
+                "for",
+                "while",
+                "do"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] numeros = {10, 20, 30};\n        for (int num : ________) {\n            System.out.println(num);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "do",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "do",
+              "distractors": [
+                "for",
+                "while",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A coleção vem após os dois pontos."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Arrays (Java)",
+      "subtitle": "10 missoes de arrays em Java",
+      "file": "lang-module?lang=java&mod=5",
+      "missions": [
+        {
+          "title": "Declaração de Array",
+          "objective": "Criar um array de inteiros.",
+          "teaching": "Os colchetes [] indicam que a variável é um array.",
+          "challenges": [
+            {
+              "keyword": "[]",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int________ numeros = {1, 2, 3};\n    }\n}\n"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "length",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "[] na declaração indica um array."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Instanciando um Array",
+          "objective": "Criar um array vazio com tamanho definido.",
+          "teaching": "Usa-se a palavra-chave new para criar um array e instanciar sua memória.",
+          "challenges": [
+            {
+              "keyword": "new",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] numeros = ________ int[5];\n    }\n}\n"
+            },
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "length",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "new aloca memória para o array."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Acessando elementos",
+          "objective": "Pegar um item do array pelo índice.",
+          "teaching": "Usa-se os colchetes com o índice desejado.",
+          "challenges": [
+            {
+              "keyword": "[0]",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "Complete o código para acessar o primeiro elemento:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] num = {10, 20, 30};\n        int primeiro = num________;\n    }\n}\n"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "length",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "length",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Colchetes acessam o índice do array."
+          ],
+          "number": 3
+        },
+        {
+          "title": "O primeiro índice",
+          "objective": "Identificar onde os arrays começam.",
+          "teaching": "Em Java, o primeiro elemento de um array está no índice 0.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "Complete o código para imprimir \"Maçã\":\n\npublic class Teste {\n    public static void main(String[] args) {\n        String[] frutas = {\"Maçã\", \"Banana\"};\n        System.out.println(frutas[________]);\n    }\n}\n"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "length",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Arrays começam no índice 0."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Tamanho do array",
+          "objective": "Saber quantos itens cabem ou existem no array.",
+          "teaching": "A propriedade length retorna o tamanho do array.",
+          "challenges": [
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] numeros = {1, 2, 3};\n        System.out.println(\"Tamanho: \" + numeros.________);\n    }\n}\n"
+            },
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "length",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "length dá o número de elementos do array."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Atribuindo valores",
+          "objective": "Mudar um item do array.",
+          "teaching": "Você pode reatribuir um elemento informando o índice.",
+          "challenges": [
+            {
+              "keyword": "=",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] num = new int[3];\n        num[0] ________ 10;\n    }\n}\n"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "length",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "length",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Usa-se = para atribuir valor em uma posição."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Array Multidimensional",
+          "objective": "Criar uma matriz (array de arrays).",
+          "teaching": "Dois pares de colchetes indicam uma matriz 2D.",
+          "challenges": [
+            {
+              "keyword": "[][]",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "Complete o código para uma matriz:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int________ matriz = new int[3][3];\n    }\n}\n"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "length",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "[][] declara uma matriz 2D."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Último índice",
+          "objective": "Descobrir o limite do array.",
+          "teaching": "O último elemento está sempre na posição length - 1.",
+          "challenges": [
+            {
+              "keyword": "- 1",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "Complete o código para pegar o último item:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] num = {5, 10, 15};\n        int ultimo = num[num.length ________];\n    }\n}\n"
+            },
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "length",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "length - 1 é o índice final de um array."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Percorrendo com for tradicional",
+          "objective": "Usar o tamanho do array na condição do loop.",
+          "teaching": "Geralmente usamos a propriedade length para definir até onde o contador vai.",
+          "challenges": [
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] num = {1, 2, 3};\n        for (int i = 0; i < num.________; i++) {\n            System.out.println(num[i]);\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "length",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "length",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "length é usado no loop for para não extrapolar limites."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Valores iniciais",
+          "objective": "Entender como o Java inicializa os tipos.",
+          "teaching": "Arrays de inteiros não inicializados possuem seus valores zerados por padrão.",
+          "challenges": [
+            {
+              "keyword": "0",
+              "distractors": [
+                "array",
+                "indice",
+                "length"
+              ],
+              "hint": "O que o array de inteiros contém por padrão logo após o new?\n\npublic class Teste {\n    public static void main(String[] args) {\n        int[] num = new int[5];\n        System.out.println(num[0]); // Imprime ________\n    }\n}\n"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "length",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "length",
+              "distractors": [
+                "array",
+                "indice",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Tipos numéricos em arrays são inicializados com 0."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Métodos (Java)",
+      "subtitle": "10 missoes de métodos em Java",
+      "file": "lang-module?lang=java&mod=6",
+      "missions": [
+        {
+          "title": "Definindo um método",
+          "objective": "Criar uma função dentro da classe.",
+          "teaching": "Métodos determinam o comportamento dos objetos ou classes.",
+          "challenges": [
+            {
+              "keyword": "void",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Complete o código de um método que não retorna nada:\n\npublic class Tarefas {\n    public ________ saudacao() {\n        System.out.println(\"Olá!\");\n    }\n}\n"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "void indica ausência de retorno no método."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Retornando um valor",
+          "objective": "Fazer o método devolver um resultado.",
+          "teaching": "A palavra-chave return finaliza a execução do método e envia o valor.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Calculadora {\n    public int somar(int a, int b) {\n        ________ a + b;\n    }\n}\n"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "return envia um valor de volta para quem chamou o método."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Tipo de retorno",
+          "objective": "Informar o que o método vai devolver.",
+          "teaching": "Se o método retorna um número inteiro, a assinatura deve conter int.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Complete o código:\n\npublic class Calculadora {\n    public ________ somar(int a, int b) {\n        return a + b;\n    }\n}\n"
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O tipo na assinatura diz o que o método retorna."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Parâmetros do método",
+          "objective": "Receber valores externos.",
+          "teaching": "Os parâmetros precisam ter tipo e nome, separados por vírgula.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Complete o código do parâmetro:\n\npublic class App {\n    public void imprimirDobro(________ numero) {\n        System.out.println(numero * 2);\n    }\n}\n"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Parâmetros devem declarar seu tipo e nome."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Chamando um método",
+          "objective": "Usar o método que foi criado.",
+          "teaching": "Os parênteses são usados para chamar (executar) um método.",
+          "challenges": [
+            {
+              "keyword": "()",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Complete o código:\n\npublic class App {\n    public void saudacao() { System.out.println(\"Oi\"); }\n    \n    public static void main(String[] args) {\n        App app = new App();\n        app.saudacao________;\n    }\n}\n"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Parênteses indicam a chamada do método."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Métodos estáticos",
+          "objective": "Criar métodos atrelados à classe.",
+          "teaching": "A palavra static permite chamar o método sem instanciar a classe.",
+          "challenges": [
+            {
+              "keyword": "static",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Complete o código:\n\npublic class Util {\n    public ________ void msg() {\n        System.out.println(\"Aviso\");\n    }\n}\n// Usado como: Util.msg();\n"
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "static pertence à classe, não ao objeto."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Passando argumentos",
+          "objective": "Enviar valores para os parâmetros do método.",
+          "teaching": "Na chamada, os valores enviados devem corresponder aos tipos dos parâmetros.",
+          "challenges": [
+            {
+              "keyword": "5",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "O método exige um inteiro. Complete:\n\npublic class App {\n    public static void dobro(int x) { System.out.println(x*2); }\n    \n    public static void main(String[] args) {\n        dobro(________);\n    }\n}\n"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Argumentos são os valores passados na chamada do método."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Retornando booleano",
+          "objective": "Criar um método que checa uma condição.",
+          "teaching": "O método deve declarar boolean como tipo de retorno.",
+          "challenges": [
+            {
+              "keyword": "boolean",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Complete o código:\n\npublic class App {\n    public ________ ehMaiorDeIdade(int idade) {\n        return idade >= 18;\n    }\n}\n"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O tipo boolean é útil para métodos de checagem ou validação."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Sobrecarga de Métodos",
+          "objective": "Criar métodos com mesmo nome e parâmetros diferentes.",
+          "teaching": "A sobrecarga (overloading) baseia-se na diferença da lista de parâmetros.",
+          "challenges": [
+            {
+              "keyword": "double",
+              "distractors": [
+                "metodo",
+                "return",
+                "parametro"
+              ],
+              "hint": "Complete a sobrecarga do método somar:\n\npublic class Calc {\n    public int somar(int a, int b) { return a + b; }\n    public double somar(double a, ________ b) { return a + b; }\n}\n"
+            },
+            {
+              "keyword": "metodo",
+              "distractors": [
+                "return",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A sobrecarga permite ter o mesmo método com assinaturas diferentes."
+          ],
+          "number": 9
+        },
+        {
+          "title": "O Retorno Encerra o Método",
+          "objective": "Entender o fluxo após um return.",
+          "teaching": "O return não apenas devolve o valor, mas interrompe imediatamente a execução daquele método.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Complete para evitar executar o resto do código se não for válido:\n\npublic void processar(int val) {\n    if (val < 0) {\n        System.out.println(\"Inválido\");\n        ________; // Sai do método logo aqui\n    }\n    System.out.println(\"Processando...\");\n}\n"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "metodo",
+                "parametro",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "metodo",
+                "return",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O return sem valor pode ser usado para sair de métodos void antecipadamente."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. Classes e Objetos (Java)",
+      "subtitle": "10 missoes de classes e objetos em Java",
+      "file": "lang-module?lang=java&mod=7",
+      "missions": [
+        {
+          "title": "Criando a classe",
+          "objective": "Definir o molde do objeto.",
+          "teaching": "Uma classe agrupa atributos (variáveis) e métodos (comportamentos).",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "new",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic ________ Carro {\n    String cor;\n}\n"
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "new",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A classe é o modelo de um objeto."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Instanciando objetos",
+          "objective": "Criar um objeto real baseado na classe.",
+          "teaching": "A palavra-chave new aloca memória e cria o objeto.",
+          "challenges": [
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class App {\n    public static void main(String[] args) {\n        Carro meuCarro = ________ Carro();\n    }\n}\n"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "new",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "new",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "new cria a instância do objeto."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Acessando atributos",
+          "objective": "Modificar as variáveis do objeto.",
+          "teaching": "Usa-se o ponto (.) para acessar membros (atributos e métodos) do objeto.",
+          "challenges": [
+            {
+              "keyword": ".",
+              "distractors": [
+                "class",
+                "new",
+                "instancia"
+              ],
+              "hint": "Complete o código:\n\npublic class App {\n    public static void main(String[] args) {\n        Carro c1 = new Carro();\n        c1________cor = \"Vermelho\";\n    }\n}\n"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "new",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O operador ponto acessa atributos e métodos."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Chamando métodos do objeto",
+          "objective": "Executar comportamentos do objeto.",
+          "teaching": "Você invoca métodos através do operador ponto no objeto instanciado.",
+          "challenges": [
+            {
+              "keyword": "acelerar",
+              "distractors": [
+                "class",
+                "new",
+                "instancia"
+              ],
+              "hint": "Complete o código para invocar o método:\n\npublic class App {\n    public static void main(String[] args) {\n        Carro c1 = new Carro();\n        c1.________();\n    }\n}\n"
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "new",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Métodos são chamados a partir da referência do objeto."
+          ],
+          "number": 4
+        },
+        {
+          "title": "O Construtor",
+          "objective": "Identificar o bloco que inicializa o objeto.",
+          "teaching": "O construtor tem o mesmo nome da classe e não possui tipo de retorno.",
+          "challenges": [
+            {
+              "keyword": "Carro",
+              "distractors": [
+                "class",
+                "new",
+                "instancia"
+              ],
+              "hint": "Complete o construtor:\n\npublic class Carro {\n    public ________() {\n        System.out.println(\"Carro criado!\");\n    }\n}\n"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "new",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "new",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O construtor possui o mesmo nome da classe."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Parâmetros no Construtor",
+          "objective": "Enviar dados na criação do objeto.",
+          "teaching": "O construtor pode receber argumentos para preencher os atributos iniciais.",
+          "challenges": [
+            {
+              "keyword": "String",
+              "distractors": [
+                "class",
+                "new",
+                "instancia"
+              ],
+              "hint": "Complete a assinatura do construtor:\n\npublic class Carro {\n    String cor;\n    public Carro(________ corInicial) {\n        cor = corInicial;\n    }\n}\n"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "new",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O construtor parametrizado facilita a inicialização."
+          ],
+          "number": 6
+        },
+        {
+          "title": "A palavra-chave this",
+          "objective": "Referenciar o próprio objeto.",
+          "teaching": "O this ajuda a diferenciar atributos da classe de parâmetros com o mesmo nome.",
+          "challenges": [
+            {
+              "keyword": "this",
+              "distractors": [
+                "class",
+                "new",
+                "instancia"
+              ],
+              "hint": "Complete o código:\n\npublic class Carro {\n    String cor;\n    public Carro(String cor) {\n        ________.cor = cor;\n    }\n}\n"
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "new",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "this aponta para a instância atual do objeto."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Múltiplas instâncias",
+          "objective": "Reconhecer que objetos são independentes.",
+          "teaching": "Cada new cria um espaço de memória separado.",
+          "challenges": [
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Complete para criar o SEGUNDO carro:\n\npublic class App {\n    public static void main(String[] args) {\n        Carro c1 = new Carro();\n        Carro c2 = ________ Carro();\n    }\n}\n"
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "new",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "new",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Múltiplas chamadas de new criam objetos distintos."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Valor padrão de objetos",
+          "objective": "Saber o que objetos contêm quando não instanciados.",
+          "teaching": "Uma variável do tipo de uma classe não inicializada vale null.",
+          "challenges": [
+            {
+              "keyword": "null",
+              "distractors": [
+                "class",
+                "new",
+                "instancia"
+              ],
+              "hint": "O que a variável recebe antes do new?\n\npublic class App {\n    public static void main(String[] args) {\n        Carro c1 = ________;\n    }\n}\n"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "new",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Referências a objetos não instanciados são null."
+          ],
+          "number": 9
+        },
+        {
+          "title": "NullPointerException",
+          "objective": "Evitar erro ao usar objeto vazio.",
+          "teaching": "Se você chamar um método em uma variável null, o programa lançará um erro.",
+          "challenges": [
+            {
+              "keyword": "c1",
+              "distractors": [
+                "class",
+                "new",
+                "instancia"
+              ],
+              "hint": "Para que não dê erro, quem deve instanciar a classe?\n\npublic class App {\n    public static void main(String[] args) {\n        Carro c1 = new Carro(); // Precisa do new\n        ________.acelerar();\n    }\n}\n"
+            },
+            {
+              "keyword": "new",
+              "distractors": [
+                "class",
+                "instancia",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "instancia",
+              "distractors": [
+                "class",
+                "new",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Instancie o objeto para evitar NullPointerException."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Encapsulamento (Java)",
+      "subtitle": "10 missoes de encapsulamento em Java",
+      "file": "lang-module?lang=java&mod=8",
+      "missions": [
+        {
+          "title": "Protegendo o dado",
+          "objective": "Impedir acesso direto ao atributo.",
+          "teaching": "O modificador private faz o atributo ser visto só dentro de sua própria classe.",
+          "challenges": [
+            {
+              "keyword": "private",
+              "distractors": [
+                "getter",
+                "setter",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Conta {\n    ________ double saldo;\n}\n"
+            },
+            {
+              "keyword": "getter",
+              "distractors": [
+                "private",
+                "setter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "setter",
+              "distractors": [
+                "private",
+                "getter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "private restringe o acesso ao escopo da classe."
+          ],
+          "number": 1
+        },
+        {
+          "title": "O Getter",
+          "objective": "Recuperar o valor de forma controlada.",
+          "teaching": "Métodos iniciados em get costumam ser usados para ler atributos privados.",
+          "challenges": [
+            {
+              "keyword": "get",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete o nome padrão do método:\n\npublic class Conta {\n    private double saldo;\n    public double ________Saldo() {\n        return saldo;\n    }\n}\n"
+            },
+            {
+              "keyword": "setter",
+              "distractors": [
+                "private",
+                "getter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "getter",
+                "setter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Getters lêem os valores encapsulados."
+          ],
+          "number": 2
+        },
+        {
+          "title": "O Setter",
+          "objective": "Alterar o valor de forma controlada.",
+          "teaching": "Métodos iniciados em set recebem um parâmetro e atualizam o atributo privado.",
+          "challenges": [
+            {
+              "keyword": "set",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete o nome padrão do método:\n\npublic class Conta {\n    private double saldo;\n    public void ________Saldo(double novoSaldo) {\n        this.saldo = novoSaldo;\n    }\n}\n"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "getter",
+                "setter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "getter",
+              "distractors": [
+                "private",
+                "setter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Setters atualizam os valores de forma validada."
+          ],
+          "number": 3
+        },
+        {
+          "title": "O tipo de retorno do Getter",
+          "objective": "Garantir a consistência dos dados.",
+          "teaching": "Se o atributo é int, o getter deve retornar int.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete o código:\n\npublic class Pessoa {\n    private int idade;\n    public ________ getIdade() {\n        return idade;\n    }\n}\n"
+            },
+            {
+              "keyword": "getter",
+              "distractors": [
+                "private",
+                "setter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "setter",
+              "distractors": [
+                "private",
+                "getter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O getter retorna o mesmo tipo do atributo protegido."
+          ],
+          "number": 4
+        },
+        {
+          "title": "O tipo de retorno do Setter",
+          "objective": "Métodos de modificação normalmente não retornam nada.",
+          "teaching": "O setter recebe o valor, altera a variável e encerra; por isso é void.",
+          "challenges": [
+            {
+              "keyword": "void",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete o código:\n\npublic class Pessoa {\n    private int idade;\n    public ________ setIdade(int idade) {\n        this.idade = idade;\n    }\n}\n"
+            },
+            {
+              "keyword": "setter",
+              "distractors": [
+                "private",
+                "getter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "getter",
+                "setter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O setter na maioria das vezes retorna void."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Usando o This no Setter",
+          "objective": "Diferenciar o parâmetro do atributo da classe.",
+          "teaching": "Quando parâmetro e atributo têm o mesmo nome, usa-se this no atributo.",
+          "challenges": [
+            {
+              "keyword": "this",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete o código:\n\npublic class Pessoa {\n    private int idade;\n    public void setIdade(int idade) {\n        ________.idade = idade;\n    }\n}\n"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "getter",
+                "setter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "getter",
+              "distractors": [
+                "private",
+                "setter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "this.idade é a variável da classe; idade é o parâmetro do setter."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Validação no Setter",
+          "objective": "O real motivo de encapsular.",
+          "teaching": "O setter pode checar se a alteração faz sentido antes de aplicá-la.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete o código de validação:\n\npublic class Pessoa {\n    private int idade;\n    public void setIdade(int idade) {\n        ________ (idade >= 0) {\n            this.idade = idade;\n        }\n    }\n}\n"
+            },
+            {
+              "keyword": "getter",
+              "distractors": [
+                "private",
+                "setter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "setter",
+              "distractors": [
+                "private",
+                "getter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Setters permitem inserir lógica de validação de dados."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Uso do Encapsulamento",
+          "objective": "Como outra classe acessa o dado agora.",
+          "teaching": "O atributo está private, então você precisa chamar o método.",
+          "challenges": [
+            {
+              "keyword": "()",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete a chamada do getter:\n\npublic class App {\n    public static void main(String[] args) {\n        Pessoa p = new Pessoa();\n        System.out.println(p.getIdade________);\n    }\n}\n"
+            },
+            {
+              "keyword": "setter",
+              "distractors": [
+                "private",
+                "getter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "getter",
+                "setter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Os métodos getter usam os parênteses da invocação de método."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Pacotes (Packages)",
+          "objective": "Onde o encapsulamento ganha força.",
+          "teaching": "Modificadores de acesso também servem para limitar visibilidade entre diferentes pacotes.",
+          "challenges": [
+            {
+              "keyword": "package",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Complete a declaração no topo do arquivo:\n\n________ com.meuprojeto.modelos;\n\npublic class Cliente {\n}\n"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "getter",
+                "setter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "getter",
+              "distractors": [
+                "private",
+                "setter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Pacotes organizam as classes e afetam a visibilidade dos membros."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Acesso Padrão",
+          "objective": "O que acontece quando você não põe nem public nem private.",
+          "teaching": "Sem modificador, o atributo é visível apenas no mesmo pacote.",
+          "challenges": [
+            {
+              "keyword": "pacote",
+              "distractors": [
+                "private",
+                "getter",
+                "setter"
+              ],
+              "hint": "Quando você só escreve \"int idade;\", ela é visível para todo o ________.\n(Escolha a opção conceitual correta)"
+            },
+            {
+              "keyword": "getter",
+              "distractors": [
+                "private",
+                "setter",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "setter",
+              "distractors": [
+                "private",
+                "getter",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O modificador default (package-private) restringe acesso ao pacote."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Herança (Java)",
+      "subtitle": "10 missoes de herança em Java",
+      "file": "lang-module?lang=java&mod=9",
+      "missions": [
+        {
+          "title": "Herdando uma Classe",
+          "objective": "Criar uma classe filha.",
+          "teaching": "A palavra-chave extends indica que uma classe herda características de outra.",
+          "challenges": [
+            {
+              "keyword": "extends",
+              "distractors": [
+                "super",
+                "override",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Cachorro ________ Animal {\n}\n"
+            },
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "extends",
+                "super",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "extends cria a relação de herança."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Reutilização de Atributos",
+          "objective": "Acessar campos da classe pai.",
+          "teaching": "A classe filha ganha acesso aos atributos públicos e protegidos do pai.",
+          "challenges": [
+            {
+              "keyword": "peso",
+              "distractors": [
+                "extends",
+                "super",
+                "override"
+              ],
+              "hint": "Se Animal tem um int peso, como a filha atribui um valor no seu método?\n\npublic class Cachorro extends Animal {\n    public void engordar() {\n        this.________ = 10;\n    }\n}\n"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "extends",
+                "super",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "extends",
+              "distractors": [
+                "super",
+                "override",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Herança traz junto os atributos do pai."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Sobrescrita de Métodos",
+          "objective": "Modificar o comportamento da classe pai.",
+          "teaching": "O @Override assegura que a filha está reescrevendo o método corretamente.",
+          "challenges": [
+            {
+              "keyword": "@Override",
+              "distractors": [
+                "extends",
+                "super",
+                "override"
+              ],
+              "hint": "Complete a anotação:\n\npublic class Cachorro extends Animal {\n    ________\n    public void fazerSom() {\n        System.out.println(\"Au Au!\");\n    }\n}\n"
+            },
+            {
+              "keyword": "extends",
+              "distractors": [
+                "super",
+                "override",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "@Override indica sobrescrita de método."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Acessando o construtor do pai",
+          "objective": "Inicializar a classe base.",
+          "teaching": "O super() chama o construtor da superclasse e deve ser a primeira linha do construtor da filha.",
+          "challenges": [
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Cachorro extends Animal {\n    public Cachorro() {\n        ________();\n    }\n}\n"
+            },
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "extends",
+                "super",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "super() invoca o construtor da classe pai."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Acessando um método original do pai",
+          "objective": "Usar o comportamento original junto com o modificado.",
+          "teaching": "A palavra super serve também para invocar métodos da superclasse que foram sobrescritos.",
+          "challenges": [
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Cachorro extends Animal {\n    @Override\n    public void respirar() {\n        ________.respirar();\n        System.out.println(\"Cachorro ofegando.\");\n    }\n}\n"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "extends",
+                "super",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "extends",
+              "distractors": [
+                "super",
+                "override",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "super.metodo() chama a versão do pai."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Acesso Protegido",
+          "objective": "Dar acesso para filhos, mas esconder de fora.",
+          "teaching": "O protected libera o membro para classes do mesmo pacote e todas as classes filhas.",
+          "challenges": [
+            {
+              "keyword": "protected",
+              "distractors": [
+                "extends",
+                "super",
+                "override"
+              ],
+              "hint": "Complete o modificador para a filha acessar:\n\npublic class Animal {\n    ________ String raca;\n}\n"
+            },
+            {
+              "keyword": "extends",
+              "distractors": [
+                "super",
+                "override",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "protected fica entre private e public."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Hierarquia de classes (Object)",
+          "objective": "Saber a origem de tudo.",
+          "teaching": "Toda classe em Java herda, implícita ou explicitamente, da classe Object.",
+          "challenges": [
+            {
+              "keyword": "Object",
+              "distractors": [
+                "extends",
+                "super",
+                "override"
+              ],
+              "hint": "Qual classe é a mãe de todas as outras no Java?\n(Escolha a opção conceitual correta)"
+            },
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "extends",
+                "super",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Object é o topo da hierarquia em Java."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Impedindo a Herança",
+          "objective": "Travar uma classe para não ter filhas.",
+          "teaching": "O modificador final na classe impede que o extends seja usado contra ela.",
+          "challenges": [
+            {
+              "keyword": "final",
+              "distractors": [
+                "extends",
+                "super",
+                "override"
+              ],
+              "hint": "Complete o código:\n\npublic ________ class Matematica {\n}\n// Nenhuma classe poderá fazer extends Matematica\n"
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "extends",
+                "super",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "extends",
+              "distractors": [
+                "super",
+                "override",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Classes final não podem ser herdadas."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Classes Abstratas",
+          "objective": "Uma classe que só serve como modelo base.",
+          "teaching": "A abstract class não pode ser instanciada diretamente, apenas herdada.",
+          "challenges": [
+            {
+              "keyword": "abstract",
+              "distractors": [
+                "extends",
+                "super",
+                "override"
+              ],
+              "hint": "Complete o código:\n\npublic ________ class FormaGeometrica {\n}\n// FormaGeometrica f = new FormaGeometrica(); // Daria ERRO\n"
+            },
+            {
+              "keyword": "extends",
+              "distractors": [
+                "super",
+                "override",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "abstract class cria a base de herança que não aceita \"new\"."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Métodos Abstratos",
+          "objective": "Obrigar a filha a criar o método.",
+          "teaching": "Métodos abstract não tem corpo {} e forçam a classe filha a implementá-los.",
+          "challenges": [
+            {
+              "keyword": ";",
+              "distractors": [
+                "extends",
+                "super",
+                "override"
+              ],
+              "hint": "Complete a linha. Um método abstrato termina como?\n\npublic abstract class Animal {\n    public abstract void fazerSom()________\n}\n"
+            },
+            {
+              "keyword": "super",
+              "distractors": [
+                "extends",
+                "override",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "override",
+              "distractors": [
+                "extends",
+                "super",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Métodos abstratos terminam com ponto e vírgula."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Polimorfismo (Java)",
+      "subtitle": "10 missoes de polimorfismo em Java",
+      "file": "lang-module?lang=java&mod=10",
+      "missions": [
+        {
+          "title": "A essência do Polimorfismo",
+          "objective": "Entender a utilidade de referências mais genéricas.",
+          "teaching": "Uma variável do tipo \"Animal\" pode guardar um objeto \"Cachorro\". O objeto real define qual versão do método roda.",
+          "challenges": [
+            {
+              "keyword": "new Cachorro()",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "Complete o código:\n\nAnimal a = ________;\na.fazerSom(); // Vai rodar o do Cachorro\n"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A referência é Animal, mas o objeto de fato é Cachorro."
+          ],
+          "number": 1
+        },
+        {
+          "title": "O que é Interface",
+          "objective": "Criar um contrato puro.",
+          "teaching": "Uma interface obriga a implementação de métodos, servindo como molde garantido.",
+          "challenges": [
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic ________ Voador {\n    void voar();\n}\n"
+            },
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "polimorfismo",
+              "distractors": [
+                "interface",
+                "implements",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A palavra interface cria um contrato de métodos."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Implementando a Interface",
+          "objective": "Adquirir o contrato da interface na classe.",
+          "teaching": "A palavra-chave implements indica que a classe fará o que a interface exige.",
+          "challenges": [
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic class Passaro ________ Voador {\n    public void voar() {\n        System.out.println(\"Voando\");\n    }\n}\n"
+            },
+            {
+              "keyword": "polimorfismo",
+              "distractors": [
+                "interface",
+                "implements",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "implements traz o contrato de uma interface para a classe."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Múltiplas Interfaces",
+          "objective": "A vantagem sobre a herança simples.",
+          "teaching": "O Java não permite herança múltipla de classes, mas uma classe pode implementar VÁRIAS interfaces.",
+          "challenges": [
+            {
+              "keyword": ",",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "Complete o código:\n\npublic class Pato implements Voador________ Nadador {\n}\n"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A vírgula separa múltiplas interfaces."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Tudo é público",
+          "objective": "Conhecer as regras da interface clássica.",
+          "teaching": "Por padrão, todos os métodos de uma interface em Java são públicos e abstratos.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "Como a classe deve declarar o método imposto pela interface?\n\npublic class Aviao implements Voador {\n    ________ void voar() { }\n}\n"
+            },
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "polimorfismo",
+              "distractors": [
+                "interface",
+                "implements",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Implementações de interfaces sempre exigem métodos public."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Anotação útil",
+          "objective": "Garantir que a escrita do método não tem erro ortográfico.",
+          "teaching": "Assim como na herança de classes, ao implementar interfaces, é boa prática usar @Override.",
+          "challenges": [
+            {
+              "keyword": "@Override",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "Qual anotação colocar antes do método?\n\npublic class Passaro implements Voador {\n    ________\n    public void voar() {\n    }\n}\n"
+            },
+            {
+              "keyword": "polimorfismo",
+              "distractors": [
+                "interface",
+                "implements",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "@Override funciona tanto para extends quanto para implements."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Referência por Interface",
+          "objective": "O melhor uso do polimorfismo no mercado.",
+          "teaching": "Listas e referências muitas vezes são declaradas pelo tipo da Interface, não da Classe.",
+          "challenges": [
+            {
+              "keyword": "Voador",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "Complete o código com a Interface genérica:\n\n________ veiculo1 = new Aviao();\n________ veiculo2 = new Passaro();\n"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Usar interfaces como tipo de variável traz flexibilidade imensa."
+          ],
+          "number": 7
+        },
+        {
+          "title": "O operador instanceof",
+          "objective": "Descobrir se o objeto pertence a certa classe em tempo de execução.",
+          "teaching": "O instanceof verifica se a instância na variável é daquele tipo real.",
+          "challenges": [
+            {
+              "keyword": "instanceof",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "Complete o código:\n\nAnimal a = new Cachorro();\nif (a ________ Cachorro) {\n    System.out.println(\"É um cachorro!\");\n}\n"
+            },
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "polimorfismo",
+              "distractors": [
+                "interface",
+                "implements",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "instanceof checa o tipo da instância real."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Casting (Conversão de tipo)",
+          "objective": "Recuperar o tipo real para usar métodos específicos.",
+          "teaching": "Se você tem um Animal mas quer acessar coisas só do Cachorro, precisa fazer o cast.",
+          "challenges": [
+            {
+              "keyword": "(Cachorro)",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "Complete o código do casting:\n\nAnimal a = new Cachorro();\nCachorro c = ________ a;\nc.abanarRabo(); // Método específico do Cachorro\n"
+            },
+            {
+              "keyword": "polimorfismo",
+              "distractors": [
+                "interface",
+                "implements",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O Cast explícito com parênteses força a mudança de referência de volta ao filho."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Erro de Cast (ClassCastException)",
+          "objective": "Evitar crash no sistema.",
+          "teaching": "Se você fizer cast de um Gato para Cachorro, o Java lança um erro na hora que rodar.",
+          "challenges": [
+            {
+              "keyword": "Cachorro",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "implements"
+              ],
+              "hint": "O que a variável real é de verdade no erro abaixo?\n\nAnimal a = new Gato();\n// Vai dar erro se tentar fazer isso:\nCachorro c = (________) a;\n"
+            },
+            {
+              "keyword": "interface",
+              "distractors": [
+                "polimorfismo",
+                "implements",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "implements",
+              "distractors": [
+                "polimorfismo",
+                "interface",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O cast cego pode gerar ClassCastException. Use instanceof antes."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. Exceções (Java)",
+      "subtitle": "10 missoes de exceções em Java",
+      "file": "lang-module?lang=java&mod=11",
+      "missions": [
+        {
+          "title": "O bloco de risco",
+          "objective": "Testar um código que pode falhar.",
+          "teaching": "Código com chance de dar erro grave (abrir arquivos, rede, conta) fica dentro do try.",
+          "challenges": [
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\n________ {\n    int divisao = 10 / 0;\n} catch (Exception e) {\n}\n"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "try engloba o bloco de código perigoso."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Capturando a falha",
+          "objective": "Tratar o erro em vez de fechar o programa.",
+          "teaching": "O bloco catch executa só se algo no try lançar uma exceção.",
+          "challenges": [
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\ntry {\n    int divisao = 10 / 0;\n} ________ (Exception e) {\n    System.out.println(\"Erro matemático!\");\n}\n"
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "catch intercepta e trata a exceção."
+          ],
+          "number": 2
+        },
+        {
+          "title": "O objeto da Exceção",
+          "objective": "Ver os detalhes do problema ocorrido.",
+          "teaching": "Dentro do catch, a variável de exceção tem informações ricas. Imprimir e.getMessage() ajuda.",
+          "challenges": [
+            {
+              "keyword": "getMessage",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Complete o código:\n\ntry {\n} catch (Exception e) {\n    System.out.println(e.________());\n}\n"
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "getMessage() retorna a descrição curta do erro."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Garantindo a execução final",
+          "objective": "Rodar algo com ou sem erro.",
+          "teaching": "O finally executa SEMPRE, dando erro ou não (bom para fechar banco de dados).",
+          "challenges": [
+            {
+              "keyword": "finally",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Complete o código:\n\ntry {\n} catch (Exception e) {\n} ________ {\n    System.out.println(\"Fechando conexão\");\n}\n"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "finally é o bloco de limpeza garantida."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Lançando o seu erro",
+          "objective": "Avisar quem chamou que algo não faz sentido.",
+          "teaching": "Se um valor de regra de negócio falhar, use throw new.",
+          "challenges": [
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\npublic void sacar(double valor) {\n    if (valor > saldo) {\n        ________ new RuntimeException(\"Saldo insuficiente\");\n    }\n}\n"
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "throw dispara uma exceção do seu jeito."
+          ],
+          "number": 5
+        },
+        {
+          "title": "A classe mãe dos erros normais",
+          "objective": "O que instanciar num throw clássico.",
+          "teaching": "A Exception e suas filhas são objetos que englobam a pilha de erros do Java.",
+          "challenges": [
+            {
+              "keyword": "Exception",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Complete o código:\n\npublic void sacar(double valor) throws ________ {\n    // ...\n}\n"
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Exception é a classe principal das falhas contornáveis."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Avisando na Assinatura",
+          "objective": "Exceções verificadas (Checked Exceptions).",
+          "teaching": "O Java OBRIGA a tratar ou a relatar erros de classes como IOException usando o comando throws no método.",
+          "challenges": [
+            {
+              "keyword": "throws",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Complete a declaração do método:\n\npublic void lerArquivo() ________ IOException {\n}\n"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "throws delega a exceção para quem for chamar o método tratar."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Vários blocos Catch",
+          "objective": "Tratar erros de forma específica.",
+          "teaching": "Você pode ter um catch para erro de banco, outro para erro de matemática.",
+          "challenges": [
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Complete o código:\n\ntry {\n} catch (ArithmeticException e) {\n} ________ (NullPointerException e) {\n}\n"
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Múltiplos blocos catch garantem tratamentos diferentes."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Exceção não verificada",
+          "objective": "Erros de tempo de execução que não forçam try/catch do dev.",
+          "teaching": "Exceções como NullPointerException ou Divisão por Zero herdam de RuntimeException.",
+          "challenges": [
+            {
+              "keyword": "RuntimeException",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Qual classe engloba erros que o Java não te obriga a usar throws?\n(Escolha a opção conceitual correta)"
+            },
+            {
+              "keyword": "try",
+              "distractors": [
+                "catch",
+                "throw",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "RuntimeException representa os erros não-checados do Java (Unchecked)."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Lendo a Pilha",
+          "objective": "Descobrir as linhas onde tudo ocorreu no terminal.",
+          "teaching": "printStackTrace() imprime exatamente por quais métodos o código passou antes de quebrar.",
+          "challenges": [
+            {
+              "keyword": "printStackTrace",
+              "distractors": [
+                "try",
+                "catch",
+                "throw"
+              ],
+              "hint": "Complete o código:\n\ntry {\n} catch (Exception e) {\n    e.________();\n}\n"
+            },
+            {
+              "keyword": "catch",
+              "distractors": [
+                "try",
+                "throw",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "throw",
+              "distractors": [
+                "try",
+                "catch",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "printStackTrace() ajuda na depuração severa."
+          ],
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": "java_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Coleções (Java)",
+      "subtitle": "10 missoes de coleções em Java",
+      "file": "lang-module?lang=java&mod=12",
+      "missions": [
+        {
+          "title": "Listas flexíveis",
+          "objective": "Criar um array que cresce automaticamente.",
+          "teaching": "A interface List e a classe ArrayList formam o padrão do Java para listas dinâmicas.",
+          "challenges": [
+            {
+              "keyword": "List",
+              "distractors": [
+                "ArrayList",
+                "Map",
+                "Java"
+              ],
+              "hint": "Complete a declaração genérica:\n\n________<String> nomes = new ArrayList<>();\n"
+            },
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "List é a interface de listas no Java."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Instanciando a Lista",
+          "objective": "A implementação mais comum de List.",
+          "teaching": "A classe que de fato cria a lista na memória é geralmente o ArrayList.",
+          "challenges": [
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Complete a parte direita:\n\nList<String> nomes = new ________<>();\n"
+            },
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "ArrayList",
+                "Map",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "ArrayList é a classe que implementa List em array dinâmico."
+          ],
+          "number": 2
+        },
+        {
+          "title": "Adicionando item",
+          "objective": "Colocar elemento numa lista do Java.",
+          "teaching": "As coleções usam o método add(). O push do JS não existe aqui.",
+          "challenges": [
+            {
+              "keyword": "add",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Map"
+              ],
+              "hint": "Complete o código:\n\nList<String> nomes = new ArrayList<>();\nnomes.________(\"Lucas\");\n"
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "ArrayList",
+                "Map",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "add() adiciona o item."
+          ],
+          "number": 3
+        },
+        {
+          "title": "Pegando item da Lista",
+          "objective": "Ler baseado no índice (Lista, não Array!).",
+          "teaching": "Ao invés dos colchetes dos Arrays [], a lista usa o método get().",
+          "challenges": [
+            {
+              "keyword": "get",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Map"
+              ],
+              "hint": "Complete o código:\n\nList<String> nomes = new ArrayList<>();\nnomes.add(\"Lucas\");\nString nome = nomes.________(0);\n"
+            },
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "O método get(indice) pega o valor nas Collections de lista."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Tamanho da Lista",
+          "objective": "Quantos itens tem aí dentro?",
+          "teaching": "Ao contrário de array.length, listas usam um método.",
+          "challenges": [
+            {
+              "keyword": "size",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Map"
+              ],
+              "hint": "Complete o código:\n\nList<String> nomes = new ArrayList<>();\nint total = nomes.________();\n"
+            },
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "ArrayList",
+                "Map",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "Coleções usam size() para tamanho."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Removendo item",
+          "objective": "Tirar algo da lista.",
+          "teaching": "O método remove() funciona tanto passando o objeto (o que seria excluido) ou o índice.",
+          "challenges": [
+            {
+              "keyword": "remove",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Map"
+              ],
+              "hint": "Complete o código:\n\nList<String> nomes = new ArrayList<>();\nnomes.add(\"Lucas\");\nnomes.________(0);\n"
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "ArrayList",
+                "Map",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "remove() tira elementos da coleção."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Dicionários de chave e valor",
+          "objective": "Criar um mapa (tipo JSON).",
+          "teaching": "A interface Map liga chaves (ex: string \"Idade\") a Valores (ex: int 20).",
+          "challenges": [
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Complete a declaração da interface:\n\n________<String, String> capitais = new HashMap<>();\n"
+            },
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "A interface Map atua de dicionário ou hash map no Java."
+          ],
+          "number": 7
+        },
+        {
+          "title": "A implementação principal do Map",
+          "objective": "Criar a memória pro mapa.",
+          "teaching": "A classe clássica pra mapas eficientes é o HashMap.",
+          "challenges": [
+            {
+              "keyword": "HashMap",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Map"
+              ],
+              "hint": "Complete o código instanciando:\n\nMap<String, String> capitais = new ________<>();\n"
+            },
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "ArrayList",
+                "Map",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "HashMap salva chave/valor com eficiência de busca."
+          ],
+          "number": 8
+        },
+        {
+          "title": "Inserindo no Map",
+          "objective": "As coleções não usam \"add\" e sim \"put\".",
+          "teaching": "Colocar dados no dicionário demanda o método put(chave, valor).",
+          "challenges": [
+            {
+              "keyword": "put",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Map"
+              ],
+              "hint": "Complete o código:\n\nMap<String, String> cap = new HashMap<>();\ncap.________(\"SP\", \"São Paulo\");\n"
+            },
+            {
+              "keyword": "List",
+              "distractors": [
+                "ArrayList",
+                "Map",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "put() coloca a chave e o valor no Map."
+          ],
+          "number": 9
+        },
+        {
+          "title": "Lendo do Map",
+          "objective": "Dada uma chave, ache o valor.",
+          "teaching": "Para as listas ou mapas, o método de obter é parecido.",
+          "challenges": [
+            {
+              "keyword": "get",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Map"
+              ],
+              "hint": "Complete o código para obter o valor da chave \"SP\":\n\nMap<String, String> cap = new HashMap<>();\ncap.put(\"SP\", \"São Paulo\");\nString cidade = cap.________(\"SP\");\n"
+            },
+            {
+              "keyword": "ArrayList",
+              "distractors": [
+                "List",
+                "Map",
+                "Java"
+              ],
+              "hint": "Agora escolha o segundo conceito mais importante deste tema."
+            },
+            {
+              "keyword": "Map",
+              "distractors": [
+                "List",
+                "ArrayList",
+                "Java"
+              ],
+              "hint": "Finalize com um conceito complementar desta missao."
+            }
+          ],
+          "learn": [
+            "get(chave) retorna o valor mapeado."
+          ],
+          "number": 10
+        }
+      ]
+    }
+  ]
+}

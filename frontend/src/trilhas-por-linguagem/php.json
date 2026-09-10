@@ -1,0 +1,4808 @@
+{
+  "id": "php",
+  "name": "PHP",
+  "icon": "🐘",
+  "color": "from-indigo-400 to-purple-600",
+  "modules": [
+    {
+      "id": "php_algoritmos",
+      "icon": "🧠",
+      "color": "from-cyan-500 to-blue-600",
+      "name": "1. Base do PHP (PHP)",
+      "subtitle": "10 missoes de base do php em PHP",
+      "file": "lang-module?lang=php&mod=1",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Base do PHP",
+          "objective": "Entender a base de base do php em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como base do php aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar base do php com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar base do php.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre base do php.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar base do php em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "php",
+              "distractors": [
+                "echo",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "echo",
+              "distractors": [
+                "php",
+                "servidor",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "servidor",
+              "distractors": [
+                "php",
+                "echo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_variaveis",
+      "icon": "📦",
+      "color": "from-green-500 to-emerald-600",
+      "name": "2. Variaveis e Tipos (PHP)",
+      "subtitle": "10 missoes de variaveis e tipos em PHP",
+      "file": "lang-module?lang=php&mod=2",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Variaveis e Tipos",
+          "objective": "Entender a base de variaveis e tipos em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como variaveis e tipos aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar variaveis e tipos com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar variaveis e tipos.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre variaveis e tipos.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar variaveis e tipos em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "$variavel",
+              "distractors": [
+                "string",
+                "int",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "string",
+              "distractors": [
+                "$variavel",
+                "int",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "int",
+              "distractors": [
+                "$variavel",
+                "string",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_controle",
+      "icon": "🔀",
+      "color": "from-amber-500 to-orange-600",
+      "name": "3. Condicionais (PHP)",
+      "subtitle": "10 missoes de condicionais em PHP",
+      "file": "lang-module?lang=php&mod=3",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Condicionais",
+          "objective": "Entender a base de condicionais em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como condicionais aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar condicionais com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar condicionais.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre condicionais.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar condicionais em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "if",
+              "distractors": [
+                "elseif",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "elseif",
+              "distractors": [
+                "if",
+                "switch",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "switch",
+              "distractors": [
+                "if",
+                "elseif",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_loops",
+      "icon": "🔁",
+      "color": "from-fuchsia-500 to-pink-600",
+      "name": "4. Loops (PHP)",
+      "subtitle": "10 missoes de loops em PHP",
+      "file": "lang-module?lang=php&mod=4",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Loops",
+          "objective": "Entender a base de loops em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como loops aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar loops com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar loops.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre loops.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar loops em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "for",
+              "distractors": [
+                "while",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "while",
+              "distractors": [
+                "for",
+                "foreach",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "foreach",
+              "distractors": [
+                "for",
+                "while",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_vetores",
+      "icon": "🧮",
+      "color": "from-indigo-500 to-blue-600",
+      "name": "5. Arrays (PHP)",
+      "subtitle": "10 missoes de arrays em PHP",
+      "file": "lang-module?lang=php&mod=5",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Arrays",
+          "objective": "Entender a base de arrays em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como arrays aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar arrays com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar arrays.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre arrays.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar arrays em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "array",
+              "distractors": [
+                "indice",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "indice",
+              "distractors": [
+                "array",
+                "associativo",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "associativo",
+              "distractors": [
+                "array",
+                "indice",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_funcoes",
+      "icon": "🛠️",
+      "color": "from-teal-500 to-cyan-600",
+      "name": "6. Funcoes (PHP)",
+      "subtitle": "10 missoes de funcoes em PHP",
+      "file": "lang-module?lang=php&mod=6",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Funcoes",
+          "objective": "Entender a base de funcoes em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como funcoes aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar funcoes com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar funcoes.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre funcoes.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar funcoes em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "function",
+              "distractors": [
+                "parametro",
+                "return",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "parametro",
+              "distractors": [
+                "function",
+                "return",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "return",
+              "distractors": [
+                "function",
+                "parametro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_classe",
+      "icon": "🏗️",
+      "color": "from-violet-500 to-purple-600",
+      "name": "7. POO em PHP (PHP)",
+      "subtitle": "10 missoes de poo em php em PHP",
+      "file": "lang-module?lang=php&mod=7",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com POO em PHP",
+          "objective": "Entender a base de poo em php em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como poo em php aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar poo em php com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar poo em php.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre poo em php.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar poo em php em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "class",
+              "distractors": [
+                "public",
+                "private",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "public",
+              "distractors": [
+                "class",
+                "private",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "private",
+              "distractors": [
+                "class",
+                "public",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_objetos",
+      "icon": "🧩",
+      "color": "from-sky-500 to-cyan-600",
+      "name": "8. Formularios (PHP)",
+      "subtitle": "10 missoes de formularios em PHP",
+      "file": "lang-module?lang=php&mod=8",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Formularios",
+          "objective": "Entender a base de formularios em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como formularios aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar formularios com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar formularios.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre formularios.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar formularios em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "POST",
+              "distractors": [
+                "GET",
+                "input",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "GET",
+              "distractors": [
+                "POST",
+                "input",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "input",
+              "distractors": [
+                "POST",
+                "GET",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_heranca_abstracao",
+      "icon": "🌱",
+      "color": "from-lime-500 to-green-600",
+      "name": "9. Sessao e Cookie (PHP)",
+      "subtitle": "10 missoes de sessao e cookie em PHP",
+      "file": "lang-module?lang=php&mod=9",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Sessao e Cookie",
+          "objective": "Entender a base de sessao e cookie em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como sessao e cookie aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar sessao e cookie com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar sessao e cookie.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre sessao e cookie.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar sessao e cookie em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "session",
+              "distractors": [
+                "cookie",
+                "login",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "cookie",
+              "distractors": [
+                "session",
+                "login",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "login",
+              "distractors": [
+                "session",
+                "cookie",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_polimorfismo",
+      "icon": "🎭",
+      "color": "from-rose-500 to-red-600",
+      "name": "10. Banco de Dados (PHP)",
+      "subtitle": "10 missoes de banco de dados em PHP",
+      "file": "lang-module?lang=php&mod=10",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Banco de Dados",
+          "objective": "Entender a base de banco de dados em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como banco de dados aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar banco de dados com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar banco de dados.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre banco de dados.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar banco de dados em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "PDO",
+              "distractors": [
+                "mysql",
+                "query",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "mysql",
+              "distractors": [
+                "PDO",
+                "query",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "query",
+              "distractors": [
+                "PDO",
+                "mysql",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_colecoes",
+      "icon": "🗂️",
+      "color": "from-yellow-500 to-amber-600",
+      "name": "11. APIs em PHP (PHP)",
+      "subtitle": "10 missoes de apis em php em PHP",
+      "file": "lang-module?lang=php&mod=11",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com APIs em PHP",
+          "objective": "Entender a base de apis em php em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como apis em php aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar apis em php com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar apis em php.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre apis em php.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar apis em php em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "json",
+              "distractors": [
+                "header",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "header",
+              "distractors": [
+                "json",
+                "endpoint",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "endpoint",
+              "distractors": [
+                "json",
+                "header",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "php_excecoes",
+      "icon": "🛡️",
+      "color": "from-slate-500 to-gray-700",
+      "name": "12. Projeto Final PHP (PHP)",
+      "subtitle": "10 missoes de projeto final php em PHP",
+      "file": "lang-module?lang=php&mod=12",
+      "missions": [
+        {
+          "number": 1,
+          "title": "Primeiro contato com Projeto Final PHP",
+          "objective": "Entender a base de projeto final php em PHP.",
+          "teaching": "Nesta primeira missao, voce identifica a palavra-chave principal do tema e entende por que ela aparece logo nos exemplos iniciais.",
+          "challenges": [
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Comece pela palavra mais importante deste assunto."
+            },
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Se voce fosse montar um exemplo bem simples desse assunto, qual palavra provavelmente apareceria?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Entre as opcoes, qual combina mais com a explicacao que acabou de ser mostrada?"
+            }
+          ],
+          "learn": [
+            "Voce entende qual conceito abre este card.",
+            "A leitura dos proximos exemplos fica mais simples."
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Sintaxe basica do tema",
+          "objective": "Reconhecer como projeto final php aparece escrito no codigo.",
+          "teaching": "Toda linguagem tem uma forma correta de escrever comandos, estruturas ou marcacoes. Aprender essa base evita erros logo no inicio.",
+          "challenges": [
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Escolha o termo que representa a escrita correta do tema."
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica a sintaxe mais comum do card.",
+            "Fica mais facil evitar erros de escrita."
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Exemplo simples",
+          "objective": "Ver o tema funcionando em um exemplo pequeno e direto.",
+          "teaching": "Exemplos curtos ajudam a ligar teoria e pratica sem sobrecarregar quem esta comecando.",
+          "challenges": [
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Pense no elemento que faria sentido em um exemplo de iniciante."
+            },
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce associa o conteudo a um exemplo real.",
+            "O conceito deixa de parecer abstrato."
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Uso no fluxo do programa",
+          "objective": "Relacionar projeto final php com entrada, processamento ou saida.",
+          "teaching": "Mesmo um assunto simples faz parte do fluxo do programa: receber algo, tratar a informacao e mostrar resultado.",
+          "challenges": [
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que melhor combina com o uso do tema em um programa."
+            },
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conecta o card ao funcionamento de um programa real.",
+            "O estudo fica menos decorado e mais pratico."
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Erro comum de iniciante",
+          "objective": "Perceber um erro frequente ao estudar projeto final php.",
+          "teaching": "Quem esta aprendendo costuma confundir palavras-chave, simbolos ou o uso correto do recurso. Reconhecer isso cedo ajuda bastante.",
+          "challenges": [
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pense no erro que mais faria um iniciante travar neste assunto."
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce identifica um erro comum antes de cometelo varias vezes.",
+            "A pratica fica mais segura e consciente."
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Exercicio de fixacao",
+          "objective": "Reforcar o conteudo com uma pergunta curta e objetiva.",
+          "teaching": "Depois do primeiro contato, repetir a ideia principal em outro contexto ajuda a fixar melhor.",
+          "challenges": [
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Retome a palavra-chave principal do card para responder."
+            },
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "O conteudo foi reforcado por repeticao guiada.",
+            "Voce ganha confianca para seguir no card."
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Boa pratica essencial",
+          "objective": "Aprender um cuidado simples para escrever melhor sobre projeto final php.",
+          "teaching": "Boas praticas nao servem so para projetos grandes. Elas tambem ajudam iniciantes a organizar melhor o raciocinio.",
+          "challenges": [
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que deixa o codigo mais claro para estudar."
+            },
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce aprende uma boa pratica ligada ao tema.",
+            "O codigo fica mais facil de ler e revisar."
+          ]
+        },
+        {
+          "number": 8,
+          "title": "Mini problema guiado",
+          "objective": "Usar projeto final php em uma situacao simples de pratica.",
+          "teaching": "Um mini problema mostra que o tema nao existe isolado. Ele ajuda a resolver algo concreto, mesmo que pequeno.",
+          "challenges": [
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pense em qual termo melhor resolveria uma tarefa curta."
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce enxerga utilidade pratica no conteudo.",
+            "O card fica mais conectado com problemas reais."
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Revisao do card",
+          "objective": "Relembrar os pontos principais antes do encerramento do modulo.",
+          "teaching": "Revisar ajuda a perceber se voce realmente reconhece os termos centrais e o uso deles.",
+          "challenges": [
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Escolha a alternativa que resume melhor o que foi estudado."
+            },
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Os pontos principais do card ficam mais claros.",
+            "Voce fecha a revisao com mais seguranca."
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Mini projeto do tema",
+          "objective": "Fechar o card juntando o que foi visto em uma aplicacao simples.",
+          "teaching": "A ultima missao funciona como um fechamento: voce revisa a sintaxe, o uso pratico e a logica basica do tema.",
+          "challenges": [
+            {
+              "keyword": "crud",
+              "distractors": [
+                "painel",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Escolha a opcao que mais combina com um pequeno projeto de iniciante."
+            },
+            {
+              "keyword": "painel",
+              "distractors": [
+                "crud",
+                "cadastro",
+                "PHP"
+              ],
+              "hint": "Pensando no exemplo da missao, qual outra palavra faz mais sentido junto com a resposta certa?"
+            },
+            {
+              "keyword": "cadastro",
+              "distractors": [
+                "crud",
+                "painel",
+                "PHP"
+              ],
+              "hint": "Qual opcao parece mais natural quando voce pensa em como esse tema aparece no codigo?"
+            }
+          ],
+          "learn": [
+            "Voce conclui o card com visao mais pratica do tema.",
+            "A base fica pronta para o proximo modulo."
+          ]
+        }
+      ]
+    }
+  ]
+}
