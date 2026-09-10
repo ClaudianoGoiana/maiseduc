@@ -6,3 +6,6 @@ laravel-backend-deploy.zip
 .env
 .env.*
 !.env.example
+
+# Ignorar banco de dados
+database/
