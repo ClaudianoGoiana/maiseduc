@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "marked": "^18.0.12",
-    "md-to-pdf": "^5.2.5",
-    "puppeteer": "^25.10.0"
-  }
-}
